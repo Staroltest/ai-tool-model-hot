@@ -5614,5 +5614,29 @@
   "zh_oneliner": "Jeremy Howard 分享了 Answer.AI 团队为内部工作打造的工具，介绍它如何支撑日常开发流程。",
   "en_title": "Jeremy Howard: The tool we created to build our own internal work at Answer.AI",
   "en_oneliner": "Jeremy Howard shares the tool the Answer.AI team built for its own internal work and how it supports their daily development workflow."
+ },
+ "https://www.youtube.com/watch?v=oycBOHeu760": {
+  "zh_title": "应对 AI 的抑郁与无意义感 [视频]",
+  "zh_oneliner": "一段视频探讨当 AI 越来越像人时，我们如何面对它带来的抑郁感与意义追问。",
+  "en_title": "Dealing with AI Depression and Meaninglessness [video]",
+  "en_oneliner": "A video on how to face the feelings of depression and meaninglessness that arise as AI grows more human-like."
+ },
+ "https://www.npr.org/2026/11/17/nx-s1-6037556/medicine-ai-doctor-notetaker-scribe": {
+  "zh_title": "我是有人类智能的人类医生，但我确实喜欢我的 AI 记录员",
+  "zh_oneliner": "一位医生分享自己如何借助 AI 笔记工具记录诊疗，既保留人的判断，又省下写病历的时间。",
+  "en_title": "I'm a human doctor with human intelligence. But I sure do like my AI notetaker",
+  "en_oneliner": "A doctor shares how an AI notetaker helps with clinic notes while keeping human judgment at the center."
+ },
+ "https://mainstreetwealth.ai/ai-data-brokerage": {
+  "zh_title": "Show HN：AI 数据经纪",
+  "zh_oneliner": "一个新上线的 AI 数据经纪服务，把分散的数据供给方和需要训练数据的团队对接起来。",
+  "en_title": "Show HN: AI Data Brokerage",
+  "en_oneliner": "A new AI data brokerage service that connects scattered data providers with teams that need training data."
+ },
+ "https://www.science.org/content/article/did-ai-or-human-write-paper-new-detector-decides-examining-its-ideas": {
+  "zh_title": "这篇论文是 AI 写的还是人写的？新检测器从思想入手判断",
+  "zh_oneliner": "一款新的检测工具不再只看文字风格，而是通过分析论文的思想来判断作者是 AI 还是人类。",
+  "en_title": "Did an AI or a human write that paper? New detector decides by examining ideas",
+  "en_oneliner": "A new detector judges whether a paper was written by AI or a human by examining its ideas rather than just its writing style."
  }
 }
