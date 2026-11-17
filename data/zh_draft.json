@@ -5566,5 +5566,11 @@
   "zh_oneliner": "Courio 让 AI 智能体也能寄出实体信件，把数字助手的能力延伸到了现实邮政。",
   "en_title": "Courio – your AI agent can now send physical letters",
   "en_oneliner": "Courio lets your AI agent send real physical letters, extending a digital assistant's reach into the postal world."
+ },
+ "https://www.theguardian.com/technology/2026/nov/17/actors-uk-rights-digital-replicas-ai-protections": {
+  "zh_title": "英国演员将获得更多“数字替身”权利，AI 相关协议达成",
+  "zh_oneliner": "英国演员工会与相关方就 AI 达成协议，演员对其 AI 生成的数字替身将拥有更多控制权，这为影视行业使用 AI 复制表演者形象划出了新的权利边界。",
+  "en_title": "Actors in UK to get more rights over their 'digital replicas' in deal on AI",
+  "en_oneliner": "UK actors have reached a deal on AI that gives them greater control over AI-generated digital replicas of themselves, setting a new boundary for how the film and TV industry may use performers' likenesses."
  }
 }
