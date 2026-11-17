@@ -5530,5 +5530,23 @@
   "zh_oneliner": "文章主张把 AI 治理的重心从规则条文转移到支撑 AI 运行的基础设施层面。",
   "en_title": "Shifting AI Governance to Infrastructure",
   "en_oneliner": "The piece argues for moving the focus of AI governance from written rules to the infrastructure that AI actually runs on."
+ },
+ "https://thenextweb.com/news/dreamteam-ai-native-crm-53m-accel": {
+  "zh_title": "AI 原生 CRM Dreamteam 融资 5300 万美元，挑战 Salesforce 与 HubSpot",
+  "zh_oneliner": "AI 原生 CRM 创业公司 Dreamteam 完成 5300 万美元融资，正面挑战 Salesforce 与 HubSpot 的市场地位。",
+  "en_title": "AI-native CRM Dreamteam raises $53M to challenge Salesforce and HubSpot",
+  "en_oneliner": "AI-native CRM startup Dreamteam has raised $53M, taking direct aim at the market positions held by Salesforce and HubSpot."
+ },
+ "https://ai-race.eamag.me": {
+  "zh_title": "AI Race：把桌游 Magical Athlete 改编成 AI 竞赛",
+  "zh_oneliner": "AI Race 把桌游 Magical Athlete 改编成一场 AI 竞赛，让不同模型在同一棋盘上同场比拼。",
+  "en_title": "AI Race: an adaptation of Magical Athlete board game",
+  "en_oneliner": "AI Race turns the board game Magical Athlete into an AI contest, letting different models compete head to head on the same board."
+ },
+ "https://boldsign.com/blogs/ship-faster-with-ai-coding-agents": {
+  "zh_title": "交付提速 60%，靠的不是 AI 模型",
+  "zh_oneliner": "BoldSign 团队分享实战经验：交付速度提升 60% 的关键不在模型本身，而在于 AI 编程智能体的具体用法。",
+  "en_title": "We ship 60% faster now. It wasn't the AI model",
+  "en_oneliner": "The BoldSign team shares hands-on experience: shipping 60% faster came not from the model itself, but from how AI coding agents were actually used."
  }
 }
