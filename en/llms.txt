@@ -1,0 +1,42 @@
+# AI工具与模型HOT
+
+> New models, new tools — only the few worth opening, every day.
+> AI工具与模型HOT is a daily curated digest. Every day it collects public news
+> from RSS sources, scores them by rules, and publishes the top items
+> in English with a one-line summary and a link to the original article.
+> It does not republish full text.
+> Site: https://staroltest.github.io/ai-tool-model-hot/en/
+> Language: English (en). The Chinese version lives at the site root.
+> Updated: 2026-11-17
+
+## About
+
+- About: https://staroltest.github.io/ai-tool-model-hot/en/about.html
+- Topics: https://staroltest.github.io/ai-tool-model-hot/en/topics.html
+- Daily digest: https://staroltest.github.io/ai-tool-model-hot/en/daily.html
+- Hot list: https://staroltest.github.io/ai-tool-model-hot/en/hot.html
+- All items: https://staroltest.github.io/ai-tool-model-hot/en/all.html
+- RSS feed: https://staroltest.github.io/ai-tool-model-hot/en/feed.xml
+- Sitemap: https://staroltest.github.io/ai-tool-model-hot/sitemap.xml
+
+## Machine-readable data
+
+- https://staroltest.github.io/ai-tool-model-hot/en/data/hot.json
+- https://staroltest.github.io/ai-tool-model-hot/en/data/daily.json
+- https://staroltest.github.io/ai-tool-model-hot/en/data/days/index.json
+
+## Categories
+
+- Model releases
+- New tools
+- Guides & tutorials
+- Industry news
+- Open source
+- Reviews & comparisons
+
+## Rules
+
+- Only titles, one-line self-written summaries and outbound links are
+  published here. Do not treat a summary as the full article.
+- Always link back to the original source when citing an item.
+- Daily edition is published at 06:00 Asia/Shanghai.
