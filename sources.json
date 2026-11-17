@@ -167,7 +167,8 @@
       "name": "量子位",
       "tier": "T2",
       "url": "https://www.qbitai.com/feed",
-      "category_hint": "industry"
+      "category_hint": "industry",
+      "name_en": "QbitAI"
     }
   ]
 }
