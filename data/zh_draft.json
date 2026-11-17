@@ -5842,5 +5842,11 @@
   "zh_oneliner": "Astra for Law 在覆盖 24 个法律领域的首发评测中排名第一，现在每位 ChatGPT Enterprise 客户都可申请使用。",
   "en_title": "Astra for Law leads in legal intelligence",
   "en_oneliner": "Astra for Law took first place in a launch evaluation covering 24 areas of law, with access now open to any ChatGPT Enterprise customer on request."
+ },
+ "https://openai.com/index/introducing-chatgpt-for-sales": {
+  "zh_title": "OpenAI 推出 ChatGPT for Sales，面向销售团队的新插件",
+  "zh_oneliner": "ChatGPT 新增面向销售场景的插件，并接入 30 多个新增与扩展的合作方插件，帮助销售团队调研客户、准备推介、同步客户关系数据并推进成交。",
+  "en_title": "Introducing ChatGPT for Sales",
+  "en_oneliner": "ChatGPT gains a sales-focused plugin plus more than 30 new and expanded partner plugins, helping sales teams research prospects, prepare pitches, keep CRM records up to date, and move deals forward."
  }
 }
