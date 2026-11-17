@@ -5800,5 +5800,17 @@
   "zh_oneliner": "文章横评了 10 美元以内的 AI 编程套餐，覆盖 AI 编程助手、AI IDE、开源工具和多模型订阅，帮你挑个性价比最高的。",
   "en_title": "7 Best AI Coding Plans for $10 or Less in 2026",
   "en_oneliner": "The roundup weighs cheap plans under $10 for coding helpers, smart editors, free tools, and bundled model access, so you can find the best deal."
+ },
+ "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features": {
+  "zh_title": "让 Gemini 为你干活",
+  "zh_oneliner": "Gemini 应用上线免费任务功能，把想办的事交给它，它会在后台替你推进。",
+  "en_title": "Put Gemini to work for you",
+  "en_oneliner": "The Gemini app adds free task features: hand it something to get done, and it works on it in the background for you."
+ },
+ "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents": {
+  "zh_title": "构建主动式智能体的经验谈",
+  "zh_oneliner": "LangChain 复盘 GTM Agent 与 Robin 的开发经验：主动式智能体自行推进目标、只在需要时向人确认，记忆与交互体验是成败关键。",
+  "en_title": "What We've Learned Building Proactive Agents",
+  "en_oneliner": "LangChain reviews lessons from building GTM Agent and Robin: proactive agents push toward goals on their own and ask for input only when needed, with memory and interaction design deciding success."
  }
 }
