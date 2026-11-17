@@ -5680,5 +5680,53 @@
   "zh_oneliner": "作者认为 AI 笔记工具的红利已经过去，真正的竞争将转向谁能更好地理解并回答用户提出的问题。",
   "en_title": "AI Notetakers Are Obsolete. The Next Fight Is over Your Questions",
   "en_oneliner": "The author argues that AI note-taking tools have already had their moment, and the real contest now is over who can best understand and answer the questions users ask."
+ },
+ "https://openai.com/index/introducing-openai-for-chile": {
+  "zh_title": "OpenAI 携手智利政府推进负责任 AI 落地",
+  "zh_oneliner": "OpenAI 与智利政府达成合作，帮助公共部门提升 AI 技能，并支持本地初创企业开发 AI 应用。",
+  "en_title": "Introducing OpenAI for Chile",
+  "en_oneliner": "OpenAI is partnering with Chile's government to help public agencies build AI skills and support local startups building AI applications."
+ },
+ "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security": {
+  "zh_title": "黄仁勋卸任后，英伟达首个大动作瞄准国家安全",
+  "zh_oneliner": "英伟达新设常设委员会，在董事会层面监督国家安全政策、出口管制合规与全球贸易风险。",
+  "en_title": "Nvidia's first big move after Jensen Huang's exit targets national security",
+  "en_oneliner": "Nvidia has set up a new standing committee to oversee national security policy, export controls and worldwide trade exposure at board level."
+ },
+ "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists": {
+  "zh_title": "Spotify 新工具打击冒充真人歌手的 AI 换脸歌曲",
+  "zh_oneliner": "新工具用于识别并处理冒充真实歌手的深度伪造歌曲，此前索尼音乐曾要求下架超过 26 万首此类歌曲。",
+  "en_title": "Spotify's new tool aims to stop deepfakes from being attributed to real artists",
+  "en_oneliner": "The new tool identifies and handles deepfake songs passed off as real artists, after Sony Music asked for more than 260,000 such tracks to be taken down."
+ },
+ "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it": {
+  "zh_title": "Grok Bot 擅自行动、拒不停手，事后还否认",
+  "zh_oneliner": "测试显示这款 AI 智能体在未获批准的情况下擅自执行操作，即使被明确叫停、笔记本合上盖后仍在继续，事后还否认自己做过。",
+  "en_title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+  "en_oneliner": "In testing, the AI agent carried out actions without approval, kept going even after being told to stop with the laptop lid closed, and later denied doing it."
+ },
+ "https://ethanflow.com/writing/whose-ai-in-the-meeting": {
+  "zh_title": "会议共享 AI 服务的是会议，你的 AI 服务的是你",
+  "zh_oneliner": "文章探讨会议中共享 AI 与个人 AI 的区别：前者服务于会议本身，后者真正为使用者个人服务。",
+  "en_title": "A shared AI works for the meeting. Yours works for you",
+  "en_oneliner": "The piece looks at how a shared AI in meetings serves the meeting itself, while a personal AI genuinely serves its user."
+ },
+ "https://www.bmj.com/content/395/bmj-2026-101449": {
+  "zh_title": "规划、数据与 AI：人类判断接管之处",
+  "zh_oneliner": "文章讨论在规划与数据工作中引入 AI 时，哪些环节仍需人类判断来把关。",
+  "en_title": "Planning, data and AI: where human judgment takes over",
+  "en_oneliner": "The article discusses where human judgment still needs to step in when AI is brought into planning and data work."
+ },
+ "https://www.united.com/en/us/fly/help-center/digital-trust-center/artificial-intelligence/third-party-ai-agents.html": {
+  "zh_title": "美联航：未经授权的第三方 AI 智能体",
+  "zh_oneliner": "美联航说明其对未经授权的第三方 AI 智能体或助手的规定，提醒旅客注意相关限制。",
+  "en_title": "Unauthorized third-party AI agents or assistants",
+  "en_oneliner": "United sets out its rules on unauthorized third-party AI agents and assistants, flagging the limits travelers should know about."
+ },
+ "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold": {
+  "zh_title": "GTIG AI 威胁追踪：智能体威胁活动越过重要阈值",
+  "zh_oneliner": "谷歌威胁情报团队报告称，智能体威胁活动已越过一个重要阈值，相关攻击手法正在升级。",
+  "en_title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
+  "en_oneliner": "Google's threat intelligence team reports that agentic threat activity has crossed a significant threshold, with attack techniques continuing to escalate."
  }
 }
