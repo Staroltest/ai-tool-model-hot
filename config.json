@@ -340,8 +340,8 @@
     "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
     "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License.",
     "launch_date": "2026-11-17",
-    "mcp_url": "",
-    "mirror_url": "",
+    "mcp_url": "https://ai-tool-model-hot.pages.dev/mcp",
+    "mirror_url": "https://ai-tool-model-hot.pages.dev",
     "name": "AI工具与模型HOT",
     "repo": "https://github.com/Staroltest/ai-tool-model-hot",
     "slug": "ai-tool-model-hot",
@@ -365,6 +365,6 @@
     "title": "AI工具与模型HOT",
     "title_en": "AI Tools & Models HOT",
     "url": "https://staroltest.github.io/ai-tool-model-hot",
-    "web_analytics_token": ""
+    "web_analytics_token": "f0bab610a3824b98949f50ac199eb8be"
   }
 }

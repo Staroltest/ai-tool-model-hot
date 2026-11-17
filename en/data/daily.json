@@ -5,8 +5,8 @@
  "date": "November 17, 2026",
  "date_iso": "2026-11-17",
  "issue": 1,
- "generated_at": "2026-11-17T04:11:48.546411+00:00",
- "summary": "430 items collected in the past 24 hours, 10 picks (Model releases 3, New tools 7). Headline: NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance.",
+ "generated_at": "2026-11-17T05:33:18.780678+00:00",
+ "summary": "157 items collected in the past 24 hours, 10 picks (Model releases 4, New tools 6). Headline: NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance.",
  "items": [
   {
    "id": "0f2a855bc6a8fcf25d6065605b52cc9d13fe5cc6",
@@ -29,9 +29,9 @@
    "reason": "Official source · Covers inference and Agent · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 89.3,
-   "prev_rank": 2,
-   "prev_hot_score": 89.3
+   "hot_score": 88.2,
+   "prev_rank": 3,
+   "prev_hot_score": 88.2
   },
   {
    "id": "1742558d91d037f5dac22c418ea1ee9137d71f48",
@@ -53,9 +53,9 @@
    "reason": "Official source · Covers Agent and API · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 91.3,
+   "hot_score": 90.1,
    "prev_rank": 1,
-   "prev_hot_score": 91.3
+   "prev_hot_score": 90.1
   },
   {
    "id": "f891bd93f3d21469060271c5a85b2a7a2e8b4138",
@@ -77,7 +77,7 @@
    "reason": "Official source · Covers GPT and Workflow · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 77.4,
+   "hot_score": 76.4,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -101,7 +101,7 @@
    "reason": "Official source · Covers GPT and Agent · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 73.2,
+   "hot_score": 72.3,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -125,9 +125,9 @@
    "reason": "Official source · Covers Agent and Tools · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.4,
-   "prev_rank": 11,
-   "prev_hot_score": 80.4
+   "hot_score": 79.3,
+   "prev_rank": 12,
+   "prev_hot_score": 79.4
   },
   {
    "id": "6cab091c059af43fb71f81530930f3b85777319c",
@@ -149,32 +149,9 @@
    "reason": "Official source · Covers Agent and Workflow · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.4,
-   "prev_rank": 12,
-   "prev_hot_score": 80.4
-  },
-  {
-   "id": "d218f9a95b85493a3514327d4ce07ea6c3e70636",
-   "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
-   "link": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base",
-   "source": "AWS Machine Learning Blog",
-   "source_id": "aws-ml-blog",
-   "published": "2026-11-16T22:43:30+00:00",
-   "en_title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
-   "en_oneliner": "Bedrock now stores conversation history and extracted facts in one knowledge base, so an agent can answer with long-term memory in a single call.",
-   "category": "tools",
-   "category_label": "New tools",
-   "tier": "T1",
-   "tags": [
-    "Agent"
-   ],
-   "score": 90,
-   "reason": "Official source · Covers Agent · Published within 6 hours",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 85.5,
-   "prev_rank": 7,
-   "prev_hot_score": 85.5
+   "hot_score": 79.3,
+   "prev_rank": 13,
+   "prev_hot_score": 79.4
   },
   {
    "id": "cfa79461fd2cb8ae502f34b42790f5b5be9724cb",
@@ -195,9 +172,9 @@
    "reason": "Official source · Covers Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 86.5,
-   "prev_rank": 4,
-   "prev_hot_score": 86.5
+   "hot_score": 85.4,
+   "prev_rank": 5,
+   "prev_hot_score": 85.4
   },
   {
    "id": "b576b148cff59b595e9defbe6e267f2e2f5e4077",
@@ -218,9 +195,9 @@
    "reason": "Official source · Covers Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 86.5,
-   "prev_rank": 5,
-   "prev_hot_score": 86.5
+   "hot_score": 85.4,
+   "prev_rank": 6,
+   "prev_hot_score": 85.4
   },
   {
    "id": "7a45c5f6802d9361ea14bcb772f3dfc597c32e17",
@@ -241,9 +218,34 @@
    "reason": "Official source · Covers Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 86.5,
-   "prev_rank": 6,
-   "prev_hot_score": 86.5
+   "hot_score": 85.4,
+   "prev_rank": 7,
+   "prev_hot_score": 85.4
+  },
+  {
+   "id": "6081b5dff7bcafe1b366df0654695fa52d446be9",
+   "title": "An Illustrated Guide to AI Agents:Concepts and Code for Building Agents with LLM",
+   "link": "https://www.oreilly.com/library/view/an-illustrated-guide/9798341662681",
+   "source": "Hacker News AI (hnrss)",
+   "source_id": "hn-ai",
+   "published": "2026-11-17T02:18:46+00:00",
+   "en_title": "An Illustrated Guide to AI Agents:Concepts and Code for Building Agents with LLM",
+   "en_oneliner": "O'Reilly published an illustrated guide to AI agents that pairs concepts with code examples for building agents with LLMs.",
+   "category": "model",
+   "category_label": "Model releases",
+   "tier": "T2",
+   "tags": [
+    "LLM",
+    "Agent",
+    "Guide"
+   ],
+   "score": 90,
+   "reason": "Covers LLM and Agent · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 87.3,
+   "prev_rank": 4,
+   "prev_hot_score": 87.3
   }
  ]
 }
