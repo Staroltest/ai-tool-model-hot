@@ -5662,5 +5662,23 @@
   "zh_oneliner": "作者分享了自己从零打造 AI 智能体编排工具的实践，介绍了如何协调多个智能体协同完成任务。",
   "en_title": "I Built My Own AI Agent Orchestration Tool",
   "en_oneliner": "The author shares how they built an AI agent orchestration tool from scratch, and how it coordinates multiple agents to work together on a task."
+ },
+ "https://united24media.com/world/russian-speaking-hackers-launched-first-fully-automated-ai-cyberattack-google-says-24451": {
+  "zh_title": "俄语黑客发动首起全自动 AI 网络攻击，谷歌披露",
+  "zh_oneliner": "谷歌披露，俄语黑客组织发动了首起由 AI 全程自动执行的网络攻击，标志着 AI 驱动的攻击已从概念走进现实。",
+  "en_title": "Russian-Speaking Hackers Launched First Automated AI Cyberattack",
+  "en_oneliner": "Google says a Russian-speaking hacker group carried out the first fully automated AI cyberattack, a sign that AI-driven attacks have moved from theory into practice."
+ },
+ "https://proton.me/blog/lumo-desktop-features": {
+  "zh_title": "Proton 把隐私 AI 工具 Lumo 带到桌面端",
+  "zh_oneliner": "Proton 推出 Lumo 桌面版，让注重隐私的用户在电脑上也能直接使用其 AI 助手，无需再依赖网页。",
+  "en_title": "Bringing Proton's private AI tools to everyone with Lumo Desktop",
+  "en_oneliner": "Proton is bringing its privacy-focused AI assistant Lumo to the desktop, so users can work with it directly on their computers instead of through a browser."
+ },
+ "https://medium.com/@priyanshu.shekhar/ai-notetakers-are-already-obsolete-the-next-fight-is-over-your-questions-5a51e8db2d6b": {
+  "zh_title": "AI 笔记工具已过时，下一场争夺围绕你的问题展开",
+  "zh_oneliner": "作者认为 AI 笔记工具的红利已经过去，真正的竞争将转向谁能更好地理解并回答用户提出的问题。",
+  "en_title": "AI Notetakers Are Obsolete. The Next Fight Is over Your Questions",
+  "en_oneliner": "The author argues that AI note-taking tools have already had their moment, and the real contest now is over who can best understand and answer the questions users ask."
  }
 }
