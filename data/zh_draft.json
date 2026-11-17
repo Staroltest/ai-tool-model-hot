@@ -5638,5 +5638,29 @@
   "zh_oneliner": "一款新的检测工具不再只看文字风格，而是通过分析论文的思想来判断作者是 AI 还是人类。",
   "en_title": "Did an AI or a human write that paper? New detector decides by examining ideas",
   "en_oneliner": "A new detector judges whether a paper was written by AI or a human by examining its ideas rather than just its writing style."
+ },
+ "https://tobiasuhlig.medium.com/codebase-rag-vs-grep-for-ai-coding-agents-the-same-grep-hits-scored-10-30-or-34-of-40-5f8738c2e766": {
+  "zh_title": "代码库 RAG 对比 grep：同一批 grep 结果在 AI 编程智能体评测中得分 10、30 或 34（满分 40）",
+  "zh_oneliner": "同一份 grep 命中结果，换三种评分方式竟得出 10、30、34 分（满分 40）的悬殊结果，这篇实验揭示了 AI 编程智能体评测中检索方法与评分标准如何左右结论。",
+  "en_title": "Codebase RAG vs. grep for AI agents: the same grep hits scored 10, 30 or 34 of 40",
+  "en_oneliner": "Three scoring methods gave the identical grep result set marks of 10, 30, and 34 out of 40 — this experiment shows how retrieval approach and scoring criteria can swing AI coding-agent evaluations."
+ },
+ "https://www.searchagora.com/blog/how-we-built-jarvis-our-ai-team-member-for-every-department": {
+  "zh_title": "我们打造了 Jarvis：服务每个部门的 AI 团队成员",
+  "zh_oneliner": "Search Agora 分享了他们如何为每个部门打造 AI 团队成员 Jarvis，以及这套做法在实际工作中的落地经验。",
+  "en_title": "We built Jarvis, our AI team member for every department",
+  "en_oneliner": "Search Agora shares how it built Jarvis, an AI team member for every department, and what the rollout taught them in real work."
+ },
+ "https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market": {
+  "zh_title": "Anthropic 上市有望点燃伦敦高端房产市场的 AI 淘金热",
+  "zh_oneliner": "卫报报道称，Anthropic 上市造就的百万富翁群体可能推高伦敦高端房产需求，让 AI 热潮蔓延到房地产市场。",
+  "en_title": "Anthropic IPO set to fuel AI gold rush in London's high-end property market",
+  "en_oneliner": "The Guardian reports that the millionaires minted by Anthropic's IPO could push up demand for high-end London property, carrying the AI boom into the housing market."
+ },
+ "https://www.checklyhq.com/blog/agentic-crafting-table-ai-agent-orchestration": {
+  "zh_title": "我亲手打造了一个 AI 智能体编排工具",
+  "zh_oneliner": "作者分享了自己从零打造 AI 智能体编排工具的实践，介绍了如何协调多个智能体协同完成任务。",
+  "en_title": "I Built My Own AI Agent Orchestration Tool",
+  "en_oneliner": "The author shares how they built an AI agent orchestration tool from scratch, and how it coordinates multiple agents to work together on a task."
  }
 }
