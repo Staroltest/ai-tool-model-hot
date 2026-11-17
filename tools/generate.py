@@ -269,6 +269,19 @@ REASON_LABELS = {
     "经验": "经验教训", "教训": "经验教训", "lesson": "经验教训",
     "源码": "源码", "source code": "源码",
     "工作流": "工作流", "workflow": "工作流",
+    "模型": "模型", "model": "模型",
+    "大模型": "大模型", "LLM": "大模型",
+    "微调": "微调", "fine-tune": "微调",
+    "推理": "推理", "inference": "推理",
+    "多模态": "多模态", "multimodal": "多模态",
+    "智能体": "智能体", "Agent": "智能体",
+    "提示词": "提示词", "prompt": "提示词",
+    "基准": "基准", "benchmark": "基准",
+    "发布": "发布", "release": "发布",
+    "新品": "新品",
+    "本地部署": "本地部署", "部署": "本地部署", "deploy": "本地部署",
+    "评测": "评测", "review": "评测",
+    "对比": "对比", "comparison": "对比",
 }
 
 
@@ -289,6 +302,19 @@ REASON_LABELS_EN = {
     "经验": "Lessons Learned", "教训": "Lessons Learned", "lesson": "Lessons Learned",
     "源码": "Source Code", "source code": "Source Code",
     "工作流": "Workflow", "workflow": "Workflow",
+    "模型": "model", "model": "model",
+    "大模型": "LLM", "LLM": "LLM",
+    "微调": "fine-tune", "fine-tune": "fine-tune",
+    "推理": "inference", "inference": "inference",
+    "多模态": "multimodal", "multimodal": "multimodal",
+    "智能体": "Agent", "Agent": "Agent",
+    "提示词": "prompt", "prompt": "prompt",
+    "基准": "benchmark", "benchmark": "benchmark",
+    "发布": "release", "release": "release",
+    "新品": "New Release",
+    "本地部署": "deploy", "部署": "deploy", "deploy": "deploy",
+    "评测": "review", "review": "review",
+    "对比": "comparison", "comparison": "comparison",
 }
 
 
@@ -1014,6 +1040,26 @@ def _L(lang, zh, en):
     """双语渲染：lang=='en' 取英文，否则取中文。中文分支永远返回原文字面量，
     保证中文输出与单语版一字不差。"""
     return en if lang == "en" else zh
+
+
+_CJK_RE = re.compile(r"[\u4e00-\u9fff]")
+
+
+def _display_name(site, lang="zh"):
+    """站名：英文版用 title_en（无则回退中文名），中文版用 name。
+    英文树下任何可见位置都不得出现中文站名。"""
+    if lang == "en":
+        return site.get("title_en") or site["name"]
+    return site["name"]
+
+
+def _has_cjk(s):
+    return bool(s and _CJK_RE.search(s))
+
+
+# 来源英文名（main() 里从 sources.json 的 name_en 填充，无则用 name）；
+# 英文版渲染与数据一律用英文来源名，英文树下不出现中文来源名。
+SOURCE_NAME_EN = {}
 
 
 WEEKDAYS = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
@@ -2289,7 +2335,7 @@ def sidebar_html(site, active, prefix="", base="", lang="zh", alt_href=None):
         lang_link = (f'<a class="gh" href="{alt_href}" {_lang_onclick(site, other)}>'
                      f'{_L(lang, "English", "中文")}</a>')
     return (f'<aside class="sidebar"><a class="brand" href="{base}index.html">{_logo(32)}'
-            f'<span><b>{esc(site["name"])}</b><small>{esc(subtitle)}</small></span></a>'
+            f'<span><b>{esc(_display_name(site, lang))}</b><small>{esc(subtitle)}</small></span></a>'
             f'<nav aria-label="{_L(lang, "主导航", "Main navigation")}"><div class="nav-sec"><h3>{_L(lang, "内容", "Content")}</h3>{links}</div>'
             f'<div class="nav-sec"><h3>{_L(lang, "更多", "More")}</h3>{more_links}'
             f'</div></nav>'
@@ -2310,7 +2356,7 @@ def rail_html(site, active, prefix="", base="", lang="zh", alt_href=None):
     links += (f'<a class="rail-link{" on" if active == "more" else ""}" href="{base}more.html">'
               f'{icon("user", 20)}<span>{_L(lang, "我的", "My")}</span></a>')
     # 语言切换只放侧栏左下角（.side-foot，与 GitHub 仓库同排），窄栏不再重复放。
-    return (f'<aside class="rail"><a class="brand" href="{base}index.html" aria-label="{_L(lang, esc(site["name"]) + " 首页", esc(site["name"]) + " home")}">'
+    return (f'<aside class="rail"><a class="brand" href="{base}index.html" aria-label="{_L(lang, esc(_display_name(site, lang)) + " 首页", esc(_display_name(site, lang)) + " home")}">'
             f'{_logo(28)}</a><nav aria-label="{_L(lang, "主导航", "Main navigation")}">{links}</nav></aside>')
 
 
@@ -2335,7 +2381,7 @@ def topbar_html(site, active, prefix="", base="", lang="zh", alt_href=None):
                   f'<a class="{"on" if active == "featured" else ""}" href="{base}{root}">{_L(lang, "精选", "Featured")}</a>'
                   f'<a class="{"on" if active == "all" else ""}" href="{base}{all_page}">{_L(lang, "全部", "All")}</a></span>')
     # 语言切换只放侧栏左下角（.side-foot，与 GitHub 仓库同排），顶栏不再重复放。
-    return (f'<header class="topbar"><a class="brand" href="{base}index.html">{_logo(26)}<b>{site["name"]}</b></a>'
+    return (f'<header class="topbar"><a class="brand" href="{base}index.html">{_logo(26)}<b>{_display_name(site, lang)}</b></a>'
             f'{center}{_theme_btn(lang)}</header>')
 
 
@@ -2357,7 +2403,7 @@ def tabbar_html(active, prefix="", base="", lang="zh"):
 
 
 def footer_html(site, base="", lang="zh"):
-    name = esc(site["name"])
+    name = esc(_display_name(site, lang))
     repo = esc(site.get("repo", ""))
     if lang == "en":
         p1 = (f"{name} is an aggregator and reading index. Titles and summaries "
@@ -2431,7 +2477,7 @@ def page_open(site, active, title, description, prefix="", base="", canonical=""
           f'<meta name="twitter:description" content="{esc(description)}">\n'
           f'<meta name="twitter:image" content="{site_url}/favicon.svg">\n')
     ld = {"@context": "https://schema.org", "@type": "WebSite",
-          "name": site["name"],
+          "name": _display_name(site, lang),
           "url": site_url + "/en/" if lang == "en" else site_url,
           "inLanguage": "en" if lang == "en" else "zh-CN",
           "description": (site.get("description_en") or site.get("description", ""))
@@ -2459,7 +2505,7 @@ def page_open(site, active, title, description, prefix="", base="", canonical=""
             f'<link rel="canonical" href="{esc(canon)}">\n'
             f"{hreflang}"
             f'<meta name="robots" content="index, follow, max-image-preview:large">\n'
-            f'<link rel="alternate" type="application/rss+xml" title="{esc(site["name"])}" href="{feed_href}">\n'
+            f'<link rel="alternate" type="application/rss+xml" title="{esc(_display_name(site, lang))}" href="{feed_href}">\n'
             f"{extra_head}"
             f'<link rel="icon" type="image/svg+xml" href="{base}favicon.svg">\n'
             f"{og}"
@@ -2640,6 +2686,8 @@ def en_view(it):
         v["category_label"] = it["category_label_en"] or it.get("category", "")
     if "tags_en" in it:
         v["tags"] = it["tags_en"] or []
+    if it.get("source_id") in SOURCE_NAME_EN:
+        v["source"] = SOURCE_NAME_EN[it["source_id"]]
     return v
 
 
@@ -2919,13 +2967,13 @@ def render_period(site, kind, report, base="", prev=None, next_=None, canonical=
         f'<a href="{base}monthly.html">{_L(lang, "月报", "Monthly")}</a> · <a href="{base}daily/archive.html">{_L(lang, "往期存档", "Archive")}</a></p>')
     if rel_path is None:
         rel_path = kind + ".html"
-    brand = f'{esc(site["name"])} {name}' if lang == "en" else f'{esc(site["name"])}{name}'
+    brand = f'{esc(_display_name(site, lang))} {name}' if lang == "en" else f'{esc(_display_name(site, lang))}{name}'
     issue_txt = f'Issue No. {report["issue"]}' if lang == "en" else f'第 {report["issue"]} 期'
     meta = (f'{esc(report["date"])} {wd} · {sched_txt} · {len(items)} picks from the {window}'
             if lang == "en" else
             f'{esc(report["date"])} {wd} · {sched_txt} · {window}精选 {len(items)} 条')
-    page_title = (f'{site["name"]} {name} · {report["date"]}' if lang == "en"
-                  else f'{site["name"]}{name} · {report["date"]}')
+    page_title = (f'{_display_name(site, lang)} {name} · {report["date"]}' if lang == "en"
+                  else f'{_display_name(site, lang)}{name} · {report["date"]}')
     description = report.get("summary") or (site.get("description_en") or site["description"] if lang == "en" else site["description"])
     return (page_open(site, kind, page_title, description,
                       prefix="index.html", base=base,
@@ -3008,7 +3056,7 @@ def render_more(site, changelog_version, lang="zh"):
         f'<span class="m-arrow">›</span></a>')
     about_rows = (
         f'<a class="more-row" href="about.html">{icon("rss", 18)}'
-        f'<span class="m-label">{_L(lang, "关于 " + site["name"], "About " + site["name"])}</span><span class="m-arrow">›</span></a>'
+        f'<span class="m-label">{_L(lang, "关于 " + _display_name(site, lang), "About " + _display_name(site, lang))}</span><span class="m-arrow">›</span></a>'
         f'<a class="more-row" href="changelog.html">{icon("doc", 18)}'
         f'<span class="m-label">{_L(lang, "更新日志", "Changelog")}</span>'
         f'<span class="dot-red" id="changelogDot" data-changelog-version="{esc(changelog_version)}" hidden></span>'
@@ -3071,7 +3119,7 @@ def render_changelog(site, entries, lang="zh"):
                       lang=lang, rel_path="changelog.html")
             + f'<div class="m-title">{_L(lang, "更新日志", "Changelog")}</div>'
             + f'<h1>{_L(lang, "更新日志", "Changelog")}</h1>'
-            + f'<p class="lede">{_L(lang, site["name"] + " 每次改版都记在这里。", "Every " + site["name"] + " change is recorded here.")}</p>'
+            + f'<p class="lede">{_L(lang, _display_name(site, lang) + " 每次改版都记在这里。", "Every " + _display_name(site, lang) + " change is recorded here.")}</p>'
             + f'<div id="changelogPage" data-changelog-version="{esc(latest)}">{items_html}</div>'
             + page_close(site, "changelog", prefix="index.html", lang=lang))
 
@@ -3210,11 +3258,12 @@ def render_about(site, lang="zh"):
     """关于页：正文段落走 config.json 的 about_blocks / about_blocks_en
     （新站填自己的文案）；mcp_url 非空时追加 MCP 接入段（双语）。"""
     name = site.get("name", "HOT")
+    name_en = _display_name(site, "en")
     mcp_url = site.get("mcp_url", "")
     if lang == "en":
         audience_en = site.get("audience_en", "")
         blocks = site.get("about_blocks_en") or [
-            {"h": "About", "paras": [f"{name} is a hotspot site"
+            {"h": "About", "paras": [f"{name_en} is a hotspot site"
                                      + (f" for {audience_en}." if audience_en else ".")]},
             {"h": "How it works", "paras": [
                 "Collect — public RSS sources, fetched every 30 minutes.",
@@ -3231,7 +3280,7 @@ def render_about(site, lang="zh"):
                 "All three tools accept a lang argument: Chinese by default, lang=en returns the English version.",
                 "In Claude Desktop, for example, add an mcpServers entry to the config file with type http and the endpoint URL above."]))
         return render_simple_page(site, "about", "About",
-                                  f"What {name} is, how it works, and who makes it.",
+                                  f"What {name_en} is, how it works, and who makes it.",
                                   pairs, "about.html", lang=lang)
     audience = site.get("audience", "")
     blocks = site.get("about_blocks") or [
@@ -3293,6 +3342,9 @@ def render_item(site, it, related, is_selected, daily_issue, lang="zh"):
         title = it.get("zh_title") or it["title"]
         orig_title = it["title"] if (it.get("zh_title") and it["zh_title"] != it["title"]) else ""
         oneliner = it.get("zh_oneliner") or ""
+    if lang == "en" and _has_cjk(orig_title):
+        # 英文版不展示中文原文标题（原文仍可通过“打开原文”访问）
+        orig_title = ""
     desc = oneliner if oneliner else title
     pub = _pub_dt(it)
     domain = urllib.parse.urlparse(it["link"]).netloc
@@ -3309,7 +3361,7 @@ def render_item(site, it, related, is_selected, daily_issue, lang="zh"):
          "dateModified": pub.astimezone(timezone.utc).isoformat(),
          "inLanguage": "en" if lang == "en" else "zh-CN",
          "author": {"@type": "Organization", "name": it["source"]},
-         "publisher": {"@type": "Organization", "name": site["name"]},
+         "publisher": {"@type": "Organization", "name": _display_name(site, lang)},
          "mainEntityOfPage": canonical},
         {"@context": "https://schema.org", "@type": "BreadcrumbList",
          "itemListElement": [
@@ -3354,8 +3406,8 @@ def render_item(site, it, related, is_selected, daily_issue, lang="zh"):
     pub_iso = pub.astimezone(timezone.utc).isoformat()
     article_head = (f'<meta property="article:published_time" content="{pub_iso}">\n'
                     f'<meta property="article:modified_time" content="{pub_iso}">\n'
-                    f'<meta property="article:author" content="{esc(site["name"])}">\n')
-    return (page_open(site, "all", f"{title} · {site['name']}", desc,
+                    f'<meta property="article:author" content="{esc(_display_name(site, lang))}">\n')
+    return (page_open(site, "all", f"{title} · {_display_name(site, lang)}", desc,
                       prefix="index.html", base="../", canonical=canonical,
                       page_cls=" page-reading", ld_blocks=ld_blocks,
                       og_type="article", extra_head=article_head,
@@ -3397,7 +3449,7 @@ def render_404(site):
                 'document.documentElement.lang="zh-CN";}}catch(e){}})();</script>')
     return (f"<!DOCTYPE html>\n<html lang=\"en\"><head><meta charset=\"utf-8\">\n"
             f"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
-            f"<title>Page not found · {site['name']}</title>\n"
+            f"<title>Page not found · {_display_name(site, 'en')}</title>\n"
             f"<meta name=\"description\" content=\"The page you are looking for does not exist.\">\n"
             f'<link rel="icon" type="image/svg+xml" href="{site_url}/favicon.svg">\n'
             f"{theme_boot(site)}<link rel=\"stylesheet\" href=\"{site_url}/assets/site.css\"></head>\n<body>"
@@ -3962,6 +4014,8 @@ def main():
     root = args.root
     cfg = load_json(os.path.join(root, "config.json"))
     sources = load_json(os.path.join(root, "sources.json"))["sources"]
+    # 来源英文名：英文版渲染与数据一律用英文来源名
+    SOURCE_NAME_EN.update({s["id"]: s.get("name_en") or s["name"] for s in sources})
     site = cfg["site"]
     _crawler = site.get("crawler_name", "HOTBot/1.0")
     _repo = site.get("repo", "")
@@ -4181,7 +4235,7 @@ def main():
         """pub_item 的英文版：en_* 字段替代 zh_*，理由/分类/标签用英文版。
         公开数据文件里不带任何中文翻译字段。"""
         return {"id": it["id"], "title": it["title"], "link": it["link"],
-                "source": it["source"], "source_id": it["source_id"],
+                "source": SOURCE_NAME_EN.get(it.get("source_id"), it["source"]), "source_id": it["source_id"],
                 "published": it["published"],
                 "en_title": it.get("en_title", ""),
                 "en_oneliner": it.get("en_oneliner", ""),
@@ -4235,7 +4289,7 @@ def main():
         return {"id": it["id"], "title": it["title"],
                 "en_title": it.get("en_title", ""),
                 "en_oneliner": it.get("en_oneliner", ""),
-                "link": it["link"], "source": it["source"],
+                "link": it["link"], "source": SOURCE_NAME_EN.get(it.get("source_id"), it["source"]),
                 "source_id": it.get("source_id", ""),
                 "published": it["published"],
                 "score": it["score"], "tags": it.get("tags_en", []),
@@ -4559,6 +4613,7 @@ def main():
             for pit in rep["items"]:
                 tr = zh_map.get(norm_link(pit.get("link", ""))) or {}
                 it = dict(pit)
+                it["source"] = SOURCE_NAME_EN.get(pit.get("source_id"), pit.get("source", ""))
                 it.pop("zh_title", None)
                 it.pop("zh_oneliner", None)
                 it["en_title"] = tr.get("en_title", "")
