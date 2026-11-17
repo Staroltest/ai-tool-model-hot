@@ -1,6 +1,32 @@
 {
   "categories": [
     {
+      "key": "agent",
+      "label": "主流智能体",
+      "label_en": "Leading agents",
+      "keywords": [
+        "智能体",
+        "agent",
+        "Agent",
+        "Agentic",
+        "Claude Code",
+        "Codex",
+        "Copilot",
+        "Cursor",
+        "Devin",
+        "Jules",
+        "Gemini CLI",
+        "Manus",
+        "Windsurf",
+        "编程助手",
+        "coding agent",
+        "多智能体",
+        "multi-agent",
+        "助手",
+        "assistant"
+      ]
+    },
+    {
       "key": "model",
       "label": "模型发布",
       "label_en": "Model releases",
@@ -30,161 +56,6 @@
         "v1",
         "v2"
       ]
-    },
-    {
-      "key": "tools",
-      "label": "新工具",
-      "label_en": "New tools",
-      "keywords": [
-        "工具",
-        "tool",
-        "新品",
-        "上线",
-        "launch",
-        "应用",
-        "app",
-        "助手",
-        "assistant",
-        "Agent",
-        "智能体",
-        "Copilot",
-        "插件",
-        "plugin",
-        "API",
-        "平台",
-        "platform",
-        "产品",
-        "product",
-        "发布",
-        "release",
-        "免费",
-        "free",
-        "订阅",
-        "pricing"
-      ]
-    },
-    {
-      "key": "guide",
-      "label": "教程指南",
-      "label_en": "Guides & tutorials",
-      "keywords": [
-        "教程",
-        "tutorial",
-        "指南",
-        "guide",
-        "怎么做",
-        "how to",
-        "入门",
-        "getting started",
-        "实战",
-        "实践",
-        "hands-on",
-        "案例",
-        "case study",
-        "提示词",
-        "prompt",
-        "工作流",
-        "workflow",
-        "部署",
-        "deploy",
-        "训练",
-        "training",
-        "优化",
-        "optimization"
-      ]
-    },
-    {
-      "key": "industry",
-      "label": "行业动态",
-      "label_en": "Industry news",
-      "keywords": [
-        "行业",
-        "industry",
-        "融资",
-        "funding",
-        "收购",
-        "acquisition",
-        "估值",
-        "valuation",
-        "政策",
-        "policy",
-        "监管",
-        "regulation",
-        "诉讼",
-        "lawsuit",
-        "裁员",
-        "layoff",
-        "财报",
-        "earnings",
-        "芯片",
-        "chip",
-        "算力",
-        "compute",
-        "数据中心",
-        "data center",
-        "趋势",
-        "trend",
-        "市场",
-        "market"
-      ]
-    },
-    {
-      "key": "opensource",
-      "label": "开源",
-      "label_en": "Open source",
-      "keywords": [
-        "开源",
-        "open source",
-        "GitHub",
-        "仓库",
-        "repo",
-        "发布",
-        "release",
-        "版本",
-        "version",
-        "模型权重",
-        "weights",
-        "数据集",
-        "dataset",
-        "框架",
-        "framework",
-        "库",
-        "library",
-        "本地部署",
-        "local",
-        "Ollama",
-        "vLLM",
-        "Hugging Face"
-      ]
-    },
-    {
-      "key": "review",
-      "label": "评测对比",
-      "label_en": "Reviews & comparisons",
-      "keywords": [
-        "评测",
-        "review",
-        "对比",
-        "comparison",
-        "vs",
-        "哪个好",
-        "实测",
-        "测试",
-        "test",
-        "跑分",
-        "benchmark",
-        "排名",
-        "ranking",
-        "榜单",
-        "leaderboard",
-        "优缺点",
-        "pros and cons",
-        "横评",
-        "体验",
-        "hands-on",
-        "值不值得",
-        "选哪个"
-      ]
     }
   ],
   "scoring": {
@@ -212,8 +83,6 @@
       "multimodal",
       "Agent",
       "智能体",
-      "提示词",
-      "prompt",
       "基准",
       "benchmark",
       "发布",
@@ -222,23 +91,7 @@
       "工具",
       "tool",
       "API",
-      "本地部署",
-      "Ollama",
-      "Hugging Face",
-      "教程",
-      "tutorial",
-      "指南",
-      "guide",
-      "案例",
-      "case study",
-      "工作流",
-      "workflow",
-      "部署",
-      "deploy",
-      "评测",
-      "review",
-      "对比",
-      "comparison"
+      "Hugging Face"
     ],
     "history_days": 30,
     "hot_days": 7,
@@ -291,7 +144,7 @@
       {
         "h": "定位",
         "paras": [
-          "AI工具与模型HOT 是给关注 AI 的人看的热点站：新模型发布、新工具上线、教程、行业动态、开源项目、评测对比，每天精选 10 条。"
+          "AI工具与模型HOT 是给关注 AI 的人看的热点站：只收模型发布与主流智能体更新，不收新闻、教程与评测，每天精选 10 条。"
         ]
       },
       {
@@ -313,7 +166,7 @@
       {
         "h": "What it is",
         "paras": [
-          "AI Tools & Models HOT is a hotspot site for people following AI: new model releases, new tools, guides, industry news, open-source projects and reviews, 10 picks a day."
+          "AI Tools & Models HOT is a hotspot site for people following AI: only model releases and leading agent updates — no news, guides or reviews. 10 picks a day."
         ]
       },
       {
@@ -334,8 +187,8 @@
     "audience": "关注 AI 工具与新模型的开发者与使用者",
     "audience_en": "developers and users following new AI tools and models",
     "crawler_name": "ai-tool-model-hotBot/1.0",
-    "description": "每天从 21 个信源收 AI 工具与模型动态，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
-    "description_en": "Daily AI tools and models hot topics, scored by rules from 21 sources. Titles, one-line summaries and links only — no full text republished.",
+    "description": "每天从 6 个信源收 AI 模型发布与主流智能体更新，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
+    "description_en": "Daily AI model releases and leading agent updates, scored by rules from 6 sources. Titles, one-line summaries and links only — no full text republished.",
     "edition_time_cst": "06:00",
     "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
     "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License.",
@@ -345,10 +198,10 @@
     "name": "AI工具与模型HOT",
     "repo": "https://github.com/Staroltest/ai-tool-model-hot",
     "slug": "ai-tool-model-hot",
-    "subtitle": "每天精选 AI 工具与模型动态",
-    "subtitle_en": "Daily picks of new AI tools and models",
-    "tagline": "新模型、新工具，每天只给值得点开的那几条。",
-    "tagline_en": "New models, new tools — only the few worth opening, every day.",
+    "subtitle": "每天精选 AI 模型发布与主流智能体更新",
+    "subtitle_en": "Daily picks of AI model releases and leading agent updates",
+    "tagline": "新模型、新智能体，每天只给值得点开的那几条。",
+    "tagline_en": "New models, new agents — only the few worth opening, every day.",
     "timezone": "Asia/Shanghai",
     "tips": [
       {

@@ -1,6 +1,6 @@
 # AI工具与模型HOT
 
-> 新模型、新工具，每天只给值得点开的那几条。
+> 新模型、新智能体，每天只给值得点开的那几条。
 > AI工具与模型HOT is a daily curated digest. Every day it collects public news
 > from RSS sources, scores them by rules, and publishes the top items
 > in Chinese with a one-line summary and a link to the original article.
@@ -37,12 +37,8 @@
 
 ## Categories
 
+- Leading agents / 主流智能体
 - Model releases / 模型发布
-- New tools / 新工具
-- Guides & tutorials / 教程指南
-- Industry news / 行业动态
-- Open source / 开源
-- Reviews & comparisons / 评测对比
 
 ## Rules
 

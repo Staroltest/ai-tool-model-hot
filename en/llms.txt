@@ -1,6 +1,6 @@
 # AI工具与模型HOT
 
-> New models, new tools — only the few worth opening, every day.
+> New models, new agents — only the few worth opening, every day.
 > AI工具与模型HOT is a daily curated digest. Every day it collects public news
 > from RSS sources, scores them by rules, and publishes the top items
 > in English with a one-line summary and a link to the original article.
@@ -33,12 +33,8 @@
 
 ## Categories
 
+- Leading agents
 - Model releases
-- New tools
-- Guides & tutorials
-- Industry news
-- Open source
-- Reviews & comparisons
 
 ## Rules
 

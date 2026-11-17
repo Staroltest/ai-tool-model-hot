@@ -4142,7 +4142,7 @@ def main():
         it["tier"] = src_by_id.get(it.get("source_id", ""), {}).get("tier", "T2")
         it["category"] = classify(it, cats,
                                   src_by_id.get(it.get("source_id", ""), {}).get(
-                                      "category_hint", "industry"))
+                                      "category_hint", "model"))
         it["category_label"] = cat_label.get(it["category"], it["category"])
         it["tags"] = labels_for(it, cfg)[:3]
 
@@ -4219,7 +4219,7 @@ def main():
         item["_pub"] = pub
         item["_tier"] = it.get("tier") or src_by_id.get(it["source_id"], {}).get("tier", "T2")
         item["category"] = it.get("category") or classify(
-            item, cats, src_by_id.get(it["source_id"], {}).get("category_hint", "industry"))
+            item, cats, src_by_id.get(it["source_id"], {}).get("category_hint", "model"))
         item["category_label"] = cat_label.get(item["category"], item["category"])
         item["tags"] = it.get("tags") or labels_for(item, cfg)[:3]
         item["score"] = score(item, cfg, now)

@@ -1,5 +1,5 @@
 {
-  "comment": "格式：每条 {id, name, tier, url, category_hint}。tier: T1 官方一手，T2 媒体/社区，T3 综合媒体（降权，见 config.json tier_bonus）。收录标准：2026-11-17 逐个实测 HTTP 200 且能解析出条目；403、超时、空 feed 的不收。category_hint 须是 config.json 里 categories 的 key。注意：arXiv cs.AI 每天几十篇，靠打分限量截流；Anthropic/Meta/xAI 无官方 RSS，只用 1 条 Google News 补 Anthropic；review 分类暂无专属源，靠关键词筛。见 BOOTSTRAP.md 第 3 步。 InfoQ 中国（infoq-cn）已摘：2026-11-17 浏览器 UA 测 200，但生成器机器人 UA 测 404，属机器人墙，每轮都会失败，故摘掉不重试。 IT之家（ithome）与雷锋网（leiphone）已摘：2026-11-17 两者都是全站综合流、非 AI 专属，时间线会被散热器、鼠标垫、汽车等非 AI 条目淹没，模板不做源内关键词过滤，故摘掉不重试；其 AI 内容由 TechCrunch AI、The Verge AI、量子位等专属源覆盖。 Product Hunt（product-hunt）已摘：2026-11-17 全站综合产品流、非 AI 专属，新品标题与模型/工具无关，50 条 0 入选，故摘掉不重试。 Google News Anthropic（googlenews-anthropic）已摘：2026-11-17 约半数条目是 IPO/股价/市值等财经新闻，与模型/工具无关，且多源重复；Claude 模型动态由 The Decoder、TechCrunch AI、HN AI 等覆盖，故摘掉；若 Anthropic 日后开通官方 RSS 再以 T1 接入。 Google Research Blog（google-research-blog）已摘：2026-11-17 综合科研流，近半条目是可穿戴健康、语言学等非 AI 内容，模型相关内容由 Google AI Blog、DeepMind Blog 覆盖，故摘掉不重试。",
+  "comment": "格式：每条 {id, name, tier, url, category_hint}。tier: T1 官方一手，T2 媒体/社区，T3 综合媒体（降权，见 config.json tier_bonus）。收录标准：2026-11-17 逐个实测 HTTP 200 且能解析出条目；403、超时、空 feed 的不收。category_hint 须是 config.json 里 categories 的 key。注意：arXiv cs.AI 每天几十篇，靠打分限量截流；Anthropic/Meta/xAI 无官方 RSS，只用 1 条 Google News 补 Anthropic；review 分类暂无专属源，靠关键词筛。见 BOOTSTRAP.md 第 3 步。 InfoQ 中国（infoq-cn）已摘：2026-11-17 浏览器 UA 测 200，但生成器机器人 UA 测 404，属机器人墙，每轮都会失败，故摘掉不重试。 IT之家（ithome）与雷锋网（leiphone）已摘：2026-11-17 两者都是全站综合流、非 AI 专属，时间线会被散热器、鼠标垫、汽车等非 AI 条目淹没，模板不做源内关键词过滤，故摘掉不重试；其 AI 内容由 TechCrunch AI、The Verge AI、量子位等专属源覆盖。 Product Hunt（product-hunt）已摘：2026-11-17 全站综合产品流、非 AI 专属，新品标题与模型/工具无关，50 条 0 入选，故摘掉不重试。 Google News Anthropic（googlenews-anthropic）已摘：2026-11-17 约半数条目是 IPO/股价/市值等财经新闻，与模型/工具无关，且多源重复；Claude 模型动态由 The Decoder、TechCrunch AI、HN AI 等覆盖，故摘掉；若 Anthropic 日后开通官方 RSS 再以 T1 接入。 Google Research Blog（google-research-blog）已摘：2026-11-17 综合科研流，近半条目是可穿戴健康、语言学等非 AI 内容，模型相关内容由 Google AI Blog、DeepMind Blog 覆盖，故摘掉不重试。 2026-11-17 定位收窄（用户要求：不要新闻类，只要模型发布与主流智能体更新）：摘掉 15 个源，只留 6 个官方发布源。 摘掉：nvidia-blog（行业/基建新闻）、aws-ml-blog（教程）、techcrunch-ai / the-verge-ai / mit-tech-review-ai / ars-technica-ai / wired-ai / the-decoder / qbitai（新闻媒体）、simon-willison（个人博客，非发布源）、hn-ai（新闻聚合）、arxiv-cs-ai（学术论文，非产品发布）、kdnuggets / ml-mastery（教程）、ollama-releases（模型运行工具，非模型/智能体本身）。 保留 6 个：openai-news、deepmind-blog、google-ai-blog、mistral-news（模型发布）、huggingface-blog（模型发布，hint 改 model）、langchain-blog（智能体框架，hint 改 agent）。 注意：量子位摘掉后暂无中文源；Claude/Copilot/Cursor 暂无官方 RSS，待每日把关找新源补。",
   "sources": [
     {
       "id": "openai-news",
@@ -27,7 +27,7 @@
       "name": "Hugging Face Blog",
       "tier": "T1",
       "url": "https://huggingface.co/blog/feed.xml",
-      "category_hint": "opensource"
+      "category_hint": "model"
     },
     {
       "id": "mistral-news",
@@ -37,117 +37,11 @@
       "category_hint": "model"
     },
     {
-      "id": "nvidia-blog",
-      "name": "NVIDIA Blog",
-      "tier": "T1",
-      "url": "https://blogs.nvidia.com/feed/",
-      "category_hint": "industry"
-    },
-    {
-      "id": "aws-ml-blog",
-      "name": "AWS Machine Learning Blog",
-      "tier": "T1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-      "category_hint": "guide"
-    },
-    {
       "id": "langchain-blog",
       "name": "LangChain Blog",
       "tier": "T1",
       "url": "https://www.langchain.com/blog/rss.xml",
-      "category_hint": "tools"
-    },
-    {
-      "id": "techcrunch-ai",
-      "name": "TechCrunch AI",
-      "tier": "T2",
-      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "category_hint": "industry"
-    },
-    {
-      "id": "the-verge-ai",
-      "name": "The Verge AI",
-      "tier": "T2",
-      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "category_hint": "industry"
-    },
-    {
-      "id": "mit-tech-review-ai",
-      "name": "MIT Technology Review AI",
-      "tier": "T2",
-      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
-      "category_hint": "industry"
-    },
-    {
-      "id": "ars-technica-ai",
-      "name": "Ars Technica AI",
-      "tier": "T2",
-      "url": "https://arstechnica.com/ai/feed/",
-      "category_hint": "industry"
-    },
-    {
-      "id": "wired-ai",
-      "name": "Wired AI",
-      "tier": "T2",
-      "url": "https://www.wired.com/feed/category/artificial-intelligence/rss",
-      "category_hint": "industry"
-    },
-    {
-      "id": "the-decoder",
-      "name": "The Decoder",
-      "tier": "T2",
-      "url": "https://the-decoder.com/feed/",
-      "category_hint": "model"
-    },
-    {
-      "id": "simon-willison",
-      "name": "Simon Willison",
-      "tier": "T2",
-      "url": "https://simonwillison.net/atom/everything/",
-      "category_hint": "tools"
-    },
-    {
-      "id": "hn-ai",
-      "name": "Hacker News AI (hnrss)",
-      "tier": "T2",
-      "url": "https://hnrss.org/newest?q=AI",
-      "category_hint": "tools"
-    },
-    {
-      "id": "arxiv-cs-ai",
-      "name": "arXiv cs.AI",
-      "tier": "T2",
-      "url": "https://export.arxiv.org/rss/cs.AI",
-      "category_hint": "model"
-    },
-    {
-      "id": "kdnuggets",
-      "name": "KDnuggets",
-      "tier": "T2",
-      "url": "https://www.kdnuggets.com/feed",
-      "category_hint": "guide"
-    },
-    {
-      "id": "ml-mastery",
-      "name": "Machine Learning Mastery",
-      "tier": "T2",
-      "url": "https://machinelearningmastery.com/blog/feed/",
-      "category_hint": "guide"
-    },
-    {
-      "id": "ollama-releases",
-      "name": "Ollama Releases",
-      "tier": "T2",
-      "url": "https://github.com/ollama/ollama/releases.atom",
-      "category_hint": "opensource"
-    },
-    {
-      "id": "qbitai",
-      "name": "量子位",
-      "tier": "T2",
-      "url": "https://www.qbitai.com/feed",
-      "category_hint": "industry",
-      "name_en": "QbitAI"
+      "category_hint": "agent"
     }
   ]
 }

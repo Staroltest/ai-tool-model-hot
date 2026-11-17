@@ -16,7 +16,7 @@ const SITE_ORIGIN = "https://staroltest.github.io/ai-tool-model-hot";
 const SERVER_NAME = "ai-tool-model-hot";
 const SERVER_INFO = { name: SERVER_NAME, version: "1.1.0" };
 const KNOWN_PROTOCOLS = ["2025-06-18", "2025-03-26", "2024-11-05"];
-const CATEGORIES = ["model", "tools", "guide", "industry", "opensource", "review"];
+const CATEGORIES = ["agent", "model"];
 
 const TOOLS = [
   {
