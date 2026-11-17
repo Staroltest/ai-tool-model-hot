@@ -591,7 +591,7 @@
   "zh_title": "Tribe AI 入选 Anthropic Claude 合作伙伴网络首选合作伙伴",
   "zh_oneliner": "Tribe AI 成为 Anthropic Claude 合作伙伴网络的首选合作伙伴，意味着它在 Claude 生态的服务能力得到了官方认可。",
   "en_title": "Tribe AI Named a Preferred Partner in Anthropic’s Claude Partner Network - 01net",
-  "en_oneliner": "Tribe AI became a preferred partner in Anthropic's Claude Partner Network, a sign that its Claude-related service capabilities have earned official recognition."
+  "en_oneliner": "Tribe AI has joined Anthropic's Claude Partner Network as a preferred partner, a nod to the strength of its Claude-focused services."
  },
  "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten": {
   "zh_title": "Moonshot AI 让 Kimi 从编程转向科学研究",
@@ -1449,7 +1449,7 @@
   "zh_title": "用量子退火优化多材料结构钻孔轨迹",
   "zh_oneliner": "这项工作用量子混合优化方法规划多材料结构上的钻孔路径，目标是减少加工成本。",
   "en_title": "Optimizing Drilling Trajectories in Multi-Material Structures Using Quantum Annealers",
-  "en_oneliner": "This work uses a quantum-hybrid optimization approach to plan drilling trajectories on multi-material structures with the aim of cutting cost."
+  "en_oneliner": "The authors plan drilling paths through multi-material structures with a quantum-hybrid optimizer, aiming to cut machining costs."
  },
  "https://arxiv.org/abs/2611.18130": {
   "zh_title": "JFinBench：基于最新日本金融资格考试的持续刷新评测",
@@ -1659,7 +1659,7 @@
   "zh_title": "只与最弱的智能体一样安全：多智能体系统独有的突破口",
   "zh_oneliner": "这项研究发现，针对 Codex、Claude Code 这类多智能体系统的攻击在单模型上早已失效，却能在系统层面得手。",
   "en_title": "Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
-  "en_oneliner": "This study finds attacks that long failed against single frontier models can still break multi-agent systems like Codex and Claude Code at the system level."
+  "en_oneliner": "Attacks that stopped working against single frontier models long ago can still succeed at the system level against multi-agent setups such as Codex and Claude Code, the study finds."
  },
  "https://arxiv.org/abs/2611.17527": {
   "zh_title": "GraphScent：为有限上下文代码定位校准方向性相关信号",
@@ -2385,7 +2385,7 @@
   "zh_title": "ScrapeGraphAI-100k：面向模式约束 LLM 生成的数据集",
   "zh_oneliner": "这个 10 万条规模的数据集专门训练大模型按指定 JSON 模式输出，为工具调用、结构化抽取和知识库构建打基础。",
   "en_title": "ScrapeGraphAI-100k: Dataset for Schema-Constrained LLM Generation",
-  "en_oneliner": "This 100k-example dataset trains LLMs to output conforming to a specified JSON schema, supporting tool use, structured extraction, and knowledge-base construction."
+  "en_oneliner": "Built from 100,000 examples, the dataset teaches LLMs to emit output matching a given JSON schema — groundwork for tool calls, structured extraction, and knowledge-base building."
  },
  "https://arxiv.org/abs/2603.00496": {
   "zh_title": "ESENSC：SHAP 的多项式时间公理化替代方案",
@@ -2691,7 +2691,7 @@
   "zh_title": "CastWorld：超越预测精度的上下文感知智能体时间序列预测基准",
   "zh_oneliner": "CastWorld 把智能体时间序列预测从一次性数值预测扩展到自主的上下文感知交互，评测维度超越了单纯的预测精度。",
   "en_title": "CastWorld: Benchmarking Context-Aware Agentic Time Series Forecasting Beyond Predictive Accuracy",
-  "en_oneliner": "CastWorld extends agentic time series forecasting from one-shot numerical prediction toward autonomous context-aware interaction, evaluating beyond predictive accuracy alone."
+  "en_oneliner": "CastWorld moves agentic time-series forecasting beyond single-shot number prediction toward self-directed, context-aware interaction, and judges it on more than accuracy alone."
  },
  "https://arxiv.org/abs/2611.15360": {
   "zh_title": "CARE-Drive：面向自车轨迹的耦合交替精炼",
@@ -2709,7 +2709,7 @@
   "zh_title": "强化学习后印度语言任务的得与失",
   "zh_oneliner": "这项研究用 GRPO 在四个环境中对 30B-A3B 混合专家模型做强化学习，考察印度语言任务上哪些能力提升、哪些退化。",
   "en_title": "Indic-Task Gains and Regressions after Reinforcement Learning",
-  "en_oneliner": "This study runs GRPO reinforcement learning across four environments on a supervised fine-tuned 30B-A3B mixture-of-experts model, checking which Indic-language task abilities improve and which regress."
+  "en_oneliner": "The researchers apply GRPO reinforcement learning to a 30B-A3B mixture-of-experts model in four settings, tracking which abilities on Indic-language tasks get better and which get worse."
  },
  "https://arxiv.org/abs/2611.16265": {
   "zh_title": "修正循环 Transformer",
@@ -2853,7 +2853,7 @@
   "zh_title": "印度芯片初创 Bharat Semi 获 2400 万美元种子轮，瞄准全球 AI 传感器市场",
   "zh_oneliner": "印度芯片初创 Bharat Semi 完成 2400 万美元种子轮融资，其 AI 传感器技术已获得包括 General Atomics 在内的客户订单。",
   "en_title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-  "en_oneliner": "Indian chip startup Bharat Semi has landed a $24M seed round, with design wins for its AI-enabled sensor technology including General Atomics."
+  "en_oneliner": "The Indian chip startup closed a $24M seed round, and its AI-enabled sensors have already won orders from customers such as General Atomics."
  },
  "https://simonwillison.net/2026/Nov/15/datasette": {
   "zh_title": "datasette 1.0a43",
@@ -2913,7 +2913,7 @@
   "zh_title": "认识 Anthropic 最大爆款背后的味噌酿造工程师",
   "zh_oneliner": "这篇报道讲述了 Anthropic 最成功产品背后那位会做味噌的工程师的故事。",
   "en_title": "Meet the miso-making engineer behind Anthropic’s biggest hit - CNN",
-  "en_oneliner": "This report profiles the miso-making engineer behind Anthropic's biggest hit."
+  "en_oneliner": "A profile of the engineer who makes miso and helped build Anthropic's most successful product."
  },
  "https://news.google.com/rss/articles/CBMif0FVX3lxTE54MXBVUFZsLWJsQVpNTUtwZGxaZ09WTXRvMERYZVhLLXVsVzAyRE43OGZqNEtiQ0dVd3JGX3IyWTVCd3RGdDJjaklhNExSdU1Sbk9tVndvZXo3MThXRTdlSHQtdDd1RUIwODN2Y2tMM2pnUGZianM2RXRCRmxyVzQ?oc=5": {
   "zh_title": "Anthropic 新 Claude Sheets 在我的测试中四点胜过 Google Sheets 连接器",
@@ -2973,7 +2973,7 @@
   "zh_title": "你能买 Anthropic 股票，但依然掌控不了 Claude",
   "zh_oneliner": "这篇文章指出，就算能买到 Anthropic 的股票，投资者对 Claude 的实际控制权仍然有限。",
   "en_title": "You Can Buy Anthropic Stock. You Still Won’t Control Claude. | by Kumar Ankit | Nov, 2026 - Medium",
-  "en_oneliner": "This article argues that even if you can buy Anthropic stock, you still won't have real control over Claude."
+  "en_oneliner": "Even if you manage to buy Anthropic shares, the piece argues, that won't give you real control over Claude."
  },
  "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service": {
   "zh_title": "澳大利亚央行发现 AI 先冲击年轻员工，软件与客服行业最明显",
@@ -2991,13 +2991,13 @@
   "zh_title": "SpaceX 上市靠马斯克的明星光环，Anthropic 靠的是 FOMO",
   "zh_oneliner": "SpaceX 的 IPO 有马斯克的明星效应加持，而 Anthropic 的上市靠的是市场害怕错过的情绪。",
   "en_title": "The SpaceX IPO Had Musk’s Star Power. Anthropic’s Has FOMO. - WSJ",
-  "en_oneliner": "The SpaceX IPO had Musk's star power behind it; Anthropic's has FOMO."
+  "en_oneliner": "SpaceX went public on Musk's star power; Anthropic's listing, by contrast, rides on investors' fear of missing out."
  },
  "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu": {
   "zh_title": "美团发布 1.6 万亿参数智能体模型，全程未用英伟达 GPU",
   "zh_oneliner": "美团开源了 LongCat-2.5 的权重，这是一个 1.6 万亿参数的智能体模型，完全在国产硬件上训练，在 Terminal Bench 上拿到 88.4 分。",
   "en_title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-  "en_oneliner": "Meituan open-sourced the weights of LongCat-2.5, a 1.6-trillion-parameter agent model trained wholly on domestic hardware that scores 88.4 on Terminal Bench."
+  "en_oneliner": "The weights of Meituan's LongCat-2.5 are now open: the agent model has 1.6 trillion parameters, was trained wholly on domestic hardware, and scores 88.4 on Terminal Bench."
  },
  "https://www.producthunt.com/products/trusty-csv": {
   "zh_title": "Trusty CSV",
@@ -3177,7 +3177,7 @@
   "zh_title": "美国联邦航空局扩大 AI 建议范围，管理全美空域的空中交通拥堵",
   "zh_oneliner": "美国联邦航空局把 AI 建议推广到全美空域来缓解空中交通拥堵，航空公司表示认可，但空中交通管制员工会并未参与其中。",
   "en_title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-  "en_oneliner": "The FAA has expanded its AI advice to manage air traffic congestion across the entire US airspace; airlines praised the tool, but the air traffic controllers' union wasn't involved."
+  "en_oneliner": "Airlines welcome the FAA's nationwide rollout of AI advice for easing congestion, though the controllers' union was left out of the process."
  },
  "https://www.producthunt.com/products/blomma": {
   "zh_title": "Blomma for Organizations",
@@ -3303,7 +3303,7 @@
   "zh_title": "5 款免费开源的 Jev 替代品",
   "zh_oneliner": "想找 Jev 的免费替代？这里有 5 个能本地跑的开源决策模型，从高精度到轻量智能体款都有。",
   "en_title": "5 FREE Open-Source Alternatives to Jev",
-  "en_oneliner": "Five open-source decision models you can run locally as free alternatives to Jev, from high-accuracy options to lightweight ones for AI agents."
+  "en_oneliner": "Five free, open-source decision models that run locally as Jev substitutes, ranging from high-accuracy options to lightweight ones for AI agents."
  },
  "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcDBjX2hrQXlxUEV2Q3pZVUlzVUpPcTU1TFpiaGY4bEtualhpY2FWemdBQnlpclpESjlVSkxobHJ1NDJyZU9FZlJSQW9odU1zUmdvazJqUXV6YmxPYmRDc19HWnNBTDRwRHVGcWJLc1VGZDd4RWxHUTF0Z0lKd05vOA?oc=5": {
   "zh_title": "Claude 宕机：为什么它说无法验证代码身份",
@@ -3351,7 +3351,7 @@
   "zh_title": "llm-gemini 0.37",
   "zh_oneliner": "llm-gemini 0.37 跟进谷歌新出的 Gemini 4 Hydrogen，这是 Gemini 4 家族里成本最低的成员。",
   "en_title": "llm-gemini 0.37",
-  "en_oneliner": "llm-gemini 0.37 adds support for Gemini 4 Hydrogen, the lowest-cost member of the Gemini 4 family."
+  "en_oneliner": "Version 0.37 of llm-gemini adds Gemini 4 Hydrogen, the cheapest model in Google's new Gemini 4 lineup."
  },
  "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang": {
   "zh_title": "硅谷仍在为黄仁勋辩护",
@@ -3477,13 +3477,13 @@
   "zh_title": "Pixel Office",
   "zh_oneliner": "在一间像素风办公室里指挥一支 AI 智能体团队干活。",
   "en_title": "Pixel Office",
-  "en_oneliner": "Direct a crew of AI agents from a pixel-art office."
+  "en_oneliner": "Run your own crew of AI agents out of a pixel-art office."
  },
  "https://www.kdnuggets.com/building-graph-enhanced-genai-applications-with-graphrag-toolkit": {
   "zh_title": "用 graphrag-toolkit 搭建图增强的生成式 AI 应用",
   "zh_oneliner": "图增强检索能连起纯向量搜索漏掉的相关事实，这篇教程用 AWS Labs 的开源 graphrag-toolkit、Neo4j 和 pgvector 搭一个多跳研究助手。",
   "en_title": "Building Graph-Enhanced GenAI Applications with graphrag-toolkit",
-  "en_oneliner": "Graph-enhanced retrieval links related facts that plain vector search overlooks; this tutorial assembles a multi-hop research assistant from AWS Labs' open-source graphrag-toolkit, Neo4j, and pgvector."
+  "en_oneliner": "The tutorial shows how adding a knowledge graph to retrieval surfaces facts that vectors alone miss, then walks through building a research assistant that hops across sources using AWS Labs' graphrag-toolkit with Neo4j and pgvector."
  },
  "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395": {
   "zh_title": "谷歌 Gemini 智能眼镜亮相，395 美元起，主打隐私",
@@ -3561,7 +3561,7 @@
   "zh_title": "Gemini Decisions API",
   "zh_oneliner": "谷歌加入 Jev 和 OpenAI 所在的决策模型赛道，推出 Gemini Decision 1，接口设计与 Jev 几乎一致，支持三类问题。",
   "en_title": "Gemini Decisions API",
-  "en_oneliner": "Google joins Jev and OpenAI in the decision-model category with Gemini Decision 1, an API closely modeled on Jev's three question types."
+  "en_oneliner": "With Gemini Decision 1, Google enters the decision-model space alongside Jev and OpenAI; the API mirrors Jev's design and covers three question types."
  },
  "https://simonwillison.net/2026/Nov/11/aws-emulator": {
   "zh_title": "aws-emulator",
@@ -3597,7 +3597,7 @@
   "zh_title": "台积电拟向 Anthropic 与 OpenAI 各投 10 亿美元",
   "zh_oneliner": "AI 热潮里的循环融资又添一例，台积电计划向 Anthropic 和 OpenAI 各投资 10 亿美元。",
   "en_title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-  "en_oneliner": "TSMC plans to invest $1B each in Anthropic and OpenAI, the latest example of the AI boom's circular financing."
+  "en_oneliner": "TSMC is lining up $1B apiece for Anthropic and OpenAI, in a deal that shows how circular the AI boom's financing has become."
  },
  "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most": {
   "zh_title": "Abacus.AI 的 Smaug 模型在哪方面提升最大",
@@ -4215,7 +4215,7 @@
   "zh_title": "Zoom Slides",
   "zh_oneliner": "把 Zoom 会议一键转成可直接演示的幻灯片，省去会后整理的时间。",
   "en_title": "Zoom Slides",
-  "en_oneliner": "Turn your Zoom meetings into ready-to-present slides and skip the post-meeting cleanup."
+  "en_oneliner": "Turn Zoom calls into presentation-ready slides in one click, with no post-meeting cleanup needed."
  },
  "https://github.com/ollama/ollama/releases/tag/v0.40.15": {
   "zh_title": "Ollama v0.40.15：支持小米 MiMo V2.6 与 AutoTrust 决策模型",
@@ -4371,7 +4371,7 @@
   "zh_title": "为什么人类洞察是做好智能体的战略优势",
   "zh_oneliner": "文章给出三条有效人机协同原则，说明人工审核是生产级智能体不可或缺的一环。",
   "en_title": "Why human insight is a strategic advantage for building better agents",
-  "en_oneliner": "This post lays out three principles for effective human-in-the-loop workflows and explains why human review is a strategic imperative for production-ready agents."
+  "en_oneliner": "The post sets out three principles for human-in-the-loop work and argues that keeping people in the review loop is essential once agents run in production."
  },
  "https://simonwillison.net/2026/Nov/4/datasette-llm": {
   "zh_title": "datasette-llm 0.1a10 发布",
@@ -4383,7 +4383,7 @@
   "zh_title": "OpenAI 将收购 Pierre Computer Company",
   "zh_oneliner": "OpenAI 收购 Pierre Computer Company，扩展 Codex 在构建、理解与评审代码方面的工具能力。",
   "en_title": "OpenAI to acquire Pierre Computer Company, Inc.",
-  "en_oneliner": "OpenAI will acquire Pierre Computer Company, expanding Codex's tools for building, understanding, and reviewing code."
+  "en_oneliner": "OpenAI is buying Pierre Computer Company to give Codex stronger tooling for writing, reading, and reviewing code."
  },
  "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google": {
   "zh_title": "英国官员称 AI 将带来 4000 亿英镑经济增量，数字主要来自谷歌",
@@ -4491,7 +4491,7 @@
   "zh_title": "OpenAI 任命 Jill Hazelbaker 为首席企业事务官",
   "zh_oneliner": "Jill Hazelbaker 将加入 OpenAI 担任首席企业事务官，负责公司全球传播与企业定位。",
   "en_title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-  "en_oneliner": "Jill Hazelbaker is joining OpenAI as Chief Corporate Affairs Officer, taking charge of the company's global communications and corporate positioning."
+  "en_oneliner": "Jill Hazelbaker is taking over OpenAI's corporate affairs, running global communications and positioning."
  },
  "https://huggingface.co/blog/cwe-bench": {
   "zh_title": "CWE-bench v2：覆盖更广、质量更高、更透明",
@@ -4905,7 +4905,7 @@
   "zh_title": "用 Decisions API 搭建响应更快的 App",
   "zh_oneliner": "Decisions API 为各类应用提供快速、聚焦、低成本的决策能力。",
   "en_title": "Build more responsive apps with the Decisions API",
-  "en_oneliner": "The Decisions API offers fast, focused, low-cost decisions for any application."
+  "en_oneliner": "The Decisions API brings quick, focused, low-cost decision-making to any application."
  },
  "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types": {
   "zh_title": "不止于树木覆盖：绘制全球森林类型图",
@@ -5037,7 +5037,7 @@
   "zh_title": "pgvector 对比专用向量数据库：生产级基准",
   "zh_oneliner": "文章在普通笔记本上实测两者，延迟都在个位数到几十毫秒量级，具体数值取决于 CPU、内存等因素。",
   "en_title": "pgvector vs. Dedicated Vector Databases: A Production Benchmark",
-  "en_oneliner": "The article benchmarks both on an ordinary laptop: latencies sit in the single-digit to tens of milliseconds range, with exact figures hinging on CPU, memory, and workload."
+  "en_oneliner": "The piece runs both databases on an everyday laptop: response times land between a few milliseconds and a few dozen, with the precise numbers varying by CPU, memory, and workload."
  },
  "https://openai.com/index/ted-taylor-restaurant": {
   "zh_title": "加盟商用 ChatGPT Work 把对账时间缩短 94%",
@@ -5122,5 +5122,17 @@
   "zh_oneliner": "Pimco 认为随着数据中心建设热潮降温，AI 相关债券的利差可能收窄，提醒投资者重新评估这波基建热带来的信用风险。",
   "en_title": "Pimco Says AI Bond Spreads May Tighten as Data Center Boom Slows",
   "en_oneliner": "Pimco argues that as the data-center buildout cools, spreads on AI-related bonds may tighten, and investors should reassess the credit risk behind the infrastructure boom."
+ },
+ "https://openai.com/business/customer-stories/revolut": {
+  "zh_title": "Revolut 如何提高目标而不降低标准",
+  "zh_oneliner": "Revolut 用 OpenAI 模型和 Codex 把编码时间缩短三到六成，金融犯罪调查的规模随之扩大，安全标准丝毫不让。",
+  "en_title": "How Revolut raises ambition without lowering the bar",
+  "en_oneliner": "With OpenAI models and Codex, Revolut shortens coding time by 30-60%, scales up financial-crime investigations, and holds its security standards firm."
+ },
+ "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXlpTTA1dFBKTDdIVkE3ZFZ3S1NiZU84eWptRGZiczhhdC1LTDdEb0E3MFpMWTVNYm4zN2lvdW15QWR0NzRhLTZkTjE5SVdJaGtvYmpzN2tRZEVaMFRaeFVfY0xTcVc5dldoVVdxZEJKUE80WWNtOEoxQ0NzR3gtMkgwNWVidkxPNWx6NFVGTlQ2ZnBNRU5vdndmV2c5c2pMb0Z0NXFn?oc=5": {
+  "zh_title": "Claude 能定制小工具蓝图，但一致性仍是未知数",
+  "zh_oneliner": "这篇报道说 Claude 已经能按需求定制小工具的设计蓝图，不过生成结果是否稳定一致，目前还没有定论。",
+  "en_title": "Anthropic’s Claude builds custom gadget blueprints, but consistency stays hidden - CryptoSlate",
+  "en_oneliner": "The report says Claude can already draft custom blueprints for gadgets on demand, though whether the results stay consistent remains an open question."
  }
 }
