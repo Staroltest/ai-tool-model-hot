@@ -5572,5 +5572,47 @@
   "zh_oneliner": "英国演员工会与相关方就 AI 达成协议，演员对其 AI 生成的数字替身将拥有更多控制权，这为影视行业使用 AI 复制表演者形象划出了新的权利边界。",
   "en_title": "Actors in UK to get more rights over their 'digital replicas' in deal on AI",
   "en_oneliner": "UK actors have reached a deal on AI that gives them greater control over AI-generated digital replicas of themselves, setting a new boundary for how the film and TV industry may use performers' likenesses."
+ },
+ "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai": {
+  "zh_title": "AI 时代，“胶水工作”依然有害",
+  "zh_oneliner": "作者认为即便 AI 能分担杂务，那些维系团队运转却不被看见的“胶水工作”仍在拖累工程师的成长与产出。",
+  "en_title": "Glue work is still harmful in the age of AI",
+  "en_oneliner": "The author argues that even as AI takes on chores, the invisible work that keeps teams running still drags down engineers' growth and output."
+ },
+ "https://512pixels.net/2026/11/limits-coming-to-apple-intelligence-and-siri-ai-for-those-without-icloud": {
+  "zh_title": "未订阅 iCloud+ 的用户将面临 Apple Intelligence 与 Siri AI 功能限制",
+  "zh_oneliner": "报道称苹果计划对未订阅 iCloud+ 的用户限制 Apple Intelligence 和 Siri 的部分 AI 功能，订阅或成完整体验的门槛。",
+  "en_title": "Limits Coming to Apple Intelligence and Siri AI for Those Without iCloud+",
+  "en_oneliner": "Apple reportedly plans to limit some Apple Intelligence and Siri AI features for users without an iCloud+ subscription, making the subscription a gate to the full experience."
+ },
+ "https://agentsinthewild.co/mcp-server": {
+  "zh_title": "Show HN：可检索 71 个真实 AI 智能体落地案例的 MCP 服务器",
+  "zh_oneliner": "这个 MCP 服务器收录了 71 个有据可查的真实 AI 智能体部署案例，方便开发者按场景检索参考。",
+  "en_title": "Show HN: An MCP server for searching 71 real, sourced AI agent deployments",
+  "en_oneliner": "This MCP server indexes 71 real, sourced AI agent deployments so developers can search them by use case for reference."
+ },
+ "https://michaelhillaert1.substack.com/p/who-will-capture-ais-value": {
+  "zh_title": "AI 的价值最终会被谁攫取？",
+  "zh_oneliner": "文章探讨 AI 创造的价值会在产业链上下游如何分配，模型厂商、应用层与基础设施谁能拿到最大头。",
+  "en_title": "Who Will Capture AI's Value?",
+  "en_oneliner": "The piece examines how the value AI creates will be divided across the stack, and whether model makers, applications, or infrastructure will take the largest share."
+ },
+ "https://mainstreetwealth.ai/datasets": {
+  "zh_title": "Show HN：面向 AI 训练的数据授权数据集",
+  "zh_oneliner": "该项目提供可授权用于 AI 训练的数据集，帮数据方把内容变成合规收入，也让模型方拿到干净的训练数据。",
+  "en_title": "Show HN: AI Data Licensing Datasets",
+  "en_oneliner": "The project offers licensable datasets for AI training, helping data owners turn content into compliant revenue while giving model builders clean training data."
+ },
+ "https://toolmaker.io": {
+  "zh_title": "Show HN：Toolmaker Agent——面向人类与 AI 智能体的软件项目管理",
+  "zh_oneliner": "Toolmaker Agent 把项目管理做成人类与 AI 智能体共同参与的流程，让双方在同一套任务体系里协作推进软件开发。",
+  "en_title": "Show HN: Toolmaker Agent–Software project management for human and AI agent",
+  "en_oneliner": "Toolmaker Agent turns project management into a shared workflow where humans and AI agents collaborate on software development in one task system."
+ },
+ "https://twitter.com/jeremyphoward/status/2122487017137398256": {
+  "zh_title": "Jeremy Howard：我们在 Answer.AI 内部打造的自用工具",
+  "zh_oneliner": "Jeremy Howard 分享了 Answer.AI 团队为内部工作打造的工具，介绍它如何支撑日常开发流程。",
+  "en_title": "Jeremy Howard: The tool we created to build our own internal work at Answer.AI",
+  "en_oneliner": "Jeremy Howard shares the tool the Answer.AI team built for its own internal work and how it supports their daily development workflow."
  }
 }

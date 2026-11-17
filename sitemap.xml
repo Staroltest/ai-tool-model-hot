@@ -40,6 +40,7 @@
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/topics/fine-tune.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/topics/发布.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/topics/Ollama.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/topics/本地部署.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/topics/大模型.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/topics/基准.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/topics/评测.html</loc><lastmod>2026-11-17</lastmod></url>
@@ -755,6 +756,13 @@
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/items/e4e59f960ee245cbad0b8d96b302757c809975f9.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/items/cc0a2e7ace6df92308202687b198b8c35ceed801.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/items/696a1e498fca797f73c0beae53b27263126b650f.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/items/fe89aefddf1b6b2e046d05f5ab0d8d762517ed8a.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/items/a61856fa37c3e7c63705abb074c986a7d047d464.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/items/0a19b94fbb88ca5efa2327986aa24751b7a810d3.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/items/82d164a08e7084f5b35e0a135216ae413c03077c.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/items/afa6fab923cc8e070607245977c713faec9eaa50.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/items/61211c2bf82cd6ec56b83d0e3be3e4e527179c6b.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/items/bbe11c8a2745303a74969205e56e4e09ca539b03.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/daily/2026-11-17.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/weekly/2026-W47.html</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/monthly/2026-11.html</loc><lastmod>2026-11-01</lastmod></url>
@@ -784,8 +792,8 @@
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/Gemini.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/API.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/workflow.html</loc><lastmod>2026-11-17</lastmod></url>
-<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/Claude.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/deploy.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/Claude.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/review.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/multimodal.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/topics/guide.html</loc><lastmod>2026-11-17</lastmod></url>
@@ -1505,6 +1513,13 @@
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/e4e59f960ee245cbad0b8d96b302757c809975f9.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/cc0a2e7ace6df92308202687b198b8c35ceed801.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/696a1e498fca797f73c0beae53b27263126b650f.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/fe89aefddf1b6b2e046d05f5ab0d8d762517ed8a.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/a61856fa37c3e7c63705abb074c986a7d047d464.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/0a19b94fbb88ca5efa2327986aa24751b7a810d3.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/82d164a08e7084f5b35e0a135216ae413c03077c.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/afa6fab923cc8e070607245977c713faec9eaa50.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/61211c2bf82cd6ec56b83d0e3be3e4e527179c6b.html</loc><lastmod>2026-11-17</lastmod></url>
+<url><loc>https://staroltest.github.io/ai-tool-model-hot/en/items/bbe11c8a2745303a74969205e56e4e09ca539b03.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/daily/2026-11-17.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/weekly/2026-W47.html</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://staroltest.github.io/ai-tool-model-hot/en/monthly/2026-11.html</loc><lastmod>2026-11-01</lastmod></url>
