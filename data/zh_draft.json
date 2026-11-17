@@ -5158,5 +5158,11 @@
   "zh_oneliner": "微软研究院的 TokenEconomizer 让 AI 编程助手从过往经验中学习，用更少的 Token 完成同样的编码任务。",
   "en_title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents Efficient",
   "en_oneliner": "Microsoft Research's TokenEconomizer helps AI coding agents learn from experience so they can finish the same tasks with fewer tokens."
+ },
+ "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSkg3Ry1qdEQ2WjJyOHVqMTVDNGwwQUZTT2M0TU9fMktLZ3dLWVV0TjdvRVJ1QmdiQTQtTmFrSnJMRXRWNDhqMDNPLUprdEFWMFRyQ0xFOF9SeVlFZVZUX0dteUVDMmI2Y2tXdWxMMUQtQ0pEZkhEd3pyR19uam43OVRWdlVEZFVBdlh4a2xXM0x6ZVNJRGRCdmFrWWZlblU?oc=5": {
+  "zh_title": "Claude Fable 5.2：为什么 Anthropic 最贵的模型反而可能最便宜",
+  "zh_oneliner": "这篇文章算了一笔账：单价最高的 Claude Fable 5.2 凭借更少的调用次数与更高的任务完成率，在实际使用中反而可能比便宜模型更省钱。",
+  "en_title": "Claude Fable 5.2: Why Anthropic's Most Expensive Model Can End Up the Cheapest - HackerNoon",
+  "en_oneliner": "This piece does the math: despite the highest per-unit price, Claude Fable 5.2 can end up cheaper in real use thanks to fewer calls and a higher task-completion rate."
  }
 }
