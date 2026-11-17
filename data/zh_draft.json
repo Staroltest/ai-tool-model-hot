@@ -5470,5 +5470,23 @@
   "zh_oneliner": "保存网页时连同字体、配色和真实 CSS 一并留存，离线查看也能还原原始排版效果。",
   "en_title": "Skiss",
   "en_oneliner": "Archive web pages faithfully, keeping typefaces, palettes and genuine stylesheets intact for offline viewing."
+ },
+ "https://github.com/grfdsasdvef/awesome-ai-agent-infrastructure": {
+  "zh_title": "Show HN：AI 智能体基础设施与记忆压缩规范合集",
+  "zh_oneliner": "一份开源合集，汇总 AI 智能体基础设施与记忆压缩相关的规范资料，方便开发者系统查阅。",
+  "en_title": "Show HN: AI Agent Infrastructure and Memory Compaction Specifications",
+  "en_oneliner": "An open collection of specifications on AI agent infrastructure and memory compaction, gathered for developers to consult in one place."
+ },
+ "https://github.com/MobileReality/lantern": {
+  "zh_title": "Show HN：Lantern——梳理代码库并评审 AI 所写 PR 的桌面应用",
+  "zh_oneliner": "桌面应用 Lantern，能可视化梳理代码库结构，并帮你评审 AI 生成的 Pull Request。",
+  "en_title": "Show HN: Lantern – desktop app that maps your repo and reviews AI-written PRs",
+  "en_oneliner": "A desktop app that maps out your repository and reviews pull requests written by AI."
+ },
+ "https://github.com/directionally-local/autopilot": {
+  "zh_title": "Autopilot：一个编码智能体界面，随意切换 AI 模型",
+  "zh_oneliner": "用统一的编码智能体界面自由选用任意 AI 模型，不再被单一模型绑定。",
+  "en_title": "Autopilot: Use whichever AI model you want, with one coding-agent interface",
+  "en_oneliner": "One coding-agent interface that lets you use whichever AI model you want, without being locked to a single model."
  }
 }
