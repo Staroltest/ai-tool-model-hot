@@ -5506,5 +5506,29 @@
   "zh_oneliner": "来自苏黎世联邦理工学院医学 AI 实验室的开源项目，为 AI 智能体提供可视化界面，让人能实时观察并引导智能体的行动。",
   "en_title": "Agent GUI: a human-friendly interface for observing and steering AI agents",
   "en_oneliner": "An open-source project from ETH Zurich's medical AI lab that gives AI agents a visual interface, letting people watch and steer what the agents do in real time."
+ },
+ "https://eamag.me/2026/ai-travel-planning": {
+  "zh_title": "AI 终于能胜任旅行规划了",
+  "zh_oneliner": "作者实测后认为，AI 规划行程的能力已经跨过实用门槛，值得认真一试。",
+  "en_title": "AI Is Finally Good Enough for Travel Planning",
+  "en_oneliner": "After hands-on testing, the author argues AI trip planning has crossed the threshold into genuinely useful territory."
+ },
+ "https://github.com/orpheic/orpheic-decoders": {
+  "zh_title": "Show HN：让 AI 写 FLAC/MP3/DST 解码器，比 FFmpeg 快约 2 倍",
+  "zh_oneliner": "作者让 AI 从零写出三种音频格式的解码器，实测速度约为 FFmpeg 的两倍，并开源了代码与详细数据。",
+  "en_title": "Show HN: I told AI to write FLAC/MP3/DST decoders, got ~2x faster than FFmpeg",
+  "en_oneliner": "The author had AI write decoders for three audio formats from scratch, measured them at roughly twice FFmpeg's speed, and open-sourced the code with detailed benchmarks."
+ },
+ "https://dbohdan.com/verb": {
+  "zh_title": "你真的“做”了它吗？谈谈 AI 项目该用什么词",
+  "zh_oneliner": "当 AI 代劳了大部分工作，我们该如何描述自己的贡献？作者探讨了谈论 AI 项目时的措辞选择。",
+  "en_title": "Did you \"make\" it? What words to use for AI projects",
+  "en_oneliner": "When AI does most of the work, how should we describe our own contribution? The author explores the right words for talking about AI-built projects."
+ },
+ "https://vidai.si": {
+  "zh_title": "把 AI 治理转向基础设施",
+  "zh_oneliner": "文章主张把 AI 治理的重心从规则条文转移到支撑 AI 运行的基础设施层面。",
+  "en_title": "Shifting AI Governance to Infrastructure",
+  "en_oneliner": "The piece argues for moving the focus of AI governance from written rules to the infrastructure that AI actually runs on."
  }
 }
