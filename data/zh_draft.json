@@ -5728,5 +5728,77 @@
   "zh_oneliner": "谷歌威胁情报团队报告称，智能体威胁活动已越过一个重要阈值，相关攻击手法正在升级。",
   "en_title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
   "en_oneliner": "Google's threat intelligence team reports that agentic threat activity has crossed a significant threshold, with attack techniques continuing to escalate."
+ },
+ "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding": {
+  "zh_title": "脑机接口公司 Science Corp 完成 4 亿美元 D 轮融资，估值 35 亿美元",
+  "zh_oneliner": "这家脑机接口公司拿到 4 亿美元新融资，将把抗失明业务推向规模化，估值达到 35 亿美元。",
+  "en_title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+  "en_oneliner": "The brain-computer interface company raised $400 million in new funding to scale its anti-blindness business, reaching a $3.5 billion valuation."
+ },
+ "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns": {
+  "zh_title": "百度、小米 CEO 警示 AI 热潮与回报之间的差距正在拉大",
+  "zh_oneliner": "两家大厂掌门人公开提醒，行业对 AI 的热情与实际回报之间正在出现落差，值得从业者冷静看待。",
+  "en_title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+  "en_oneliner": "The heads of both tech giants warned publicly that enthusiasm for AI is pulling away from the returns it actually delivers, a gap worth taking seriously."
+ },
+ "https://www.cycletime.com/writing/every-role-but-author": {
+  "zh_title": "在关键基础设施上指挥 AI 智能体：除作者之外的每个角色都要有人来担",
+  "zh_oneliner": "这篇文章探讨在关键基础设施场景里如何指挥 AI 智能体，强调人要在除内容创作之外的每个环节里承担责任。",
+  "en_title": "Every Role but Author: Directing AI Agents on Mission-Critical Infrastructure",
+  "en_oneliner": "The piece looks at how to direct AI agents on mission-critical infrastructure, arguing that humans must own every role except authorship."
+ },
+ "https://opensource-analytics.com/ai-crawlers-in-access-logs": {
+  "zh_title": "AI 爬虫访问我的网站比谷歌还多，三分之一的 Googlebot 是假的",
+  "zh_oneliner": "作者分析自家网站的访问日志发现，AI 爬虫的抓取量已经超过谷歌，而且三分之一自称 Googlebot 的请求其实是冒牌货。",
+  "en_title": "AI crawlers read my site more than Google does. A third of Googlebots were fake",
+  "en_oneliner": "Digging through his own access logs, the author found AI crawlers now hit his site more than Google does, and a third of supposed Googlebot requests are fakes."
+ },
+ "https://www.revix.ai": {
+  "zh_title": "Revix AI：按你仓库自己的规范来做 PR 评审",
+  "zh_oneliner": "这款工具对照仓库已有的规范来评审 PR，而不是套用通用规则，帮助团队把代码审查标准落到实处。",
+  "en_title": "Show HN: Revix AI – PR review against the standards your repo follows",
+  "en_oneliner": "The tool reviews pull requests against the standards your own repository already follows, rather than generic rules, so teams can actually enforce their own review bar."
+ },
+ "https://solve.it.com": {
+  "zh_title": "Solveit：把主动权从 AI 手里拿回来（fast.ai 出品）",
+  "zh_oneliner": "fast.ai 推出的这款工具想帮使用者在 AI 协作中守住自己的主动权，而不是被动接受模型的安排。",
+  "en_title": "Solveit: Take back your agency. (from fast.ai)",
+  "en_oneliner": "From fast.ai, this tool aims to help users keep control of their own agency while working with AI, instead of passively following the model's lead."
+ },
+ "https://www.qbitai.com/2026/11/510688.html": {
+  "zh_title": "李沐加盟的 Aimotion，是一家什么 AI 公司？",
+  "zh_oneliner": "知名 AI 学者李沐加入的这家新公司瞄准产业级世界模型，文章介绍了它的来头与方向。",
+  "en_title": "What kind of AI company is Aimotion, the startup Li Mu joined?",
+  "en_oneliner": "The piece introduces the new company that well-known AI researcher Li Mu joined, which is aiming at industrial-grade world models."
+ },
+ "https://www.qbitai.com/2026/11/510652.html": {
+  "zh_title": "材料科学智能体 MatOS 正式开源，大幅提高材料研发任务成功率",
+  "zh_oneliner": "这个面向材料科学的智能体已经开源，能帮研究者筛选材料、寻找配方并开发新模型，多项科研任务的成功率明显提升。",
+  "en_title": "MatOS, an agent for materials science, is now open source, sharply raising success rates on research tasks",
+  "en_oneliner": "The open-sourced agent for materials science helps researchers screen materials, find formulations, and build new models, with clearly higher success rates across research tasks."
+ },
+ "https://www.qbitai.com/2026/11/510610.html": {
+  "zh_title": "00 后团队 48 小时从零手搓数据，拿下具身挑战赛冠军",
+  "zh_oneliner": "一支 00 后团队只用 48 小时从零准备数据就参加具身挑战赛并夺得冠军，还拿到了 8 万元奖金。",
+  "en_title": "A Gen Z team built its data from scratch in 48 hours and won an embodied AI challenge",
+  "en_oneliner": "A team of post-2000s builders prepared all their data from scratch in just 48 hours, won an embodied AI challenge, and took home 80,000 yuan in prize money."
+ },
+ "https://www.qbitai.com/2026/11/510592.html": {
+  "zh_title": "奥特曼谈黄仁勋离职：英雄也有缺陷，支持他重返英伟达 CEO",
+  "zh_oneliner": "奥特曼首次公开谈及黄仁勋的离职传闻，表达了理解与同情，并表态支持他重回英伟达 CEO 的位置。",
+  "en_title": "Altman on Huang's departure: even heroes have flaws, and he backs his return as Nvidia CEO",
+  "en_oneliner": "Altman spoke publicly for the first time about Jensen Huang's reported departure, expressing empathy and backing his return to the Nvidia CEO role."
+ },
+ "https://www.qbitai.com/2026/11/510561.html": {
+  "zh_title": "物理 AI 强化学习仿真环境来了，光轮智能推出 RoboFinals RL Envs",
+  "zh_oneliner": "光轮智能发布了面向物理 AI 的强化学习仿真环境 RoboFinals RL Envs，为机器人智能体的训练提供新工具。",
+  "en_title": "A reinforcement learning simulation environment for physical AI arrives as LightWheel Intelligence launches RoboFinals RL Envs",
+  "en_oneliner": "LightWheel Intelligence has released RoboFinals RL Envs, a reinforcement learning simulation environment for physical AI that gives robot-agent training a new tool."
+ },
+ "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026": {
+  "zh_title": "2026 年 10 美元以内最值得买的 7 个 AI 编程套餐",
+  "zh_oneliner": "文章横评了 10 美元以内的 AI 编程套餐，覆盖 AI 编程助手、AI IDE、开源工具和多模型订阅，帮你挑个性价比最高的。",
+  "en_title": "7 Best AI Coding Plans for $10 or Less in 2026",
+  "en_oneliner": "The roundup weighs cheap plans under $10 for coding helpers, smart editors, free tools, and bundled model access, so you can find the best deal."
  }
 }
