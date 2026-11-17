@@ -5812,5 +5812,35 @@
   "zh_oneliner": "LangChain 复盘 GTM Agent 与 Robin 的开发经验：主动式智能体自行推进目标、只在需要时向人确认，记忆与交互体验是成败关键。",
   "en_title": "What We've Learned Building Proactive Agents",
   "en_oneliner": "LangChain reviews lessons from building GTM Agent and Robin: proactive agents push toward goals on their own and ask for input only when needed, with memory and interaction design deciding success."
+ },
+ "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence": {
+  "zh_title": "ChatGPT 广告在 44 个国家扩大市场覆盖",
+  "zh_oneliner": "OpenAI 选定 Aleph 为 ChatGPT 广告在 44 个国家的独家经销商，为品牌和代理机构提供本地开票、面对面支持与本地市场经验。",
+  "en_title": "ChatGPT Ads increases its market presence in 44 countries",
+  "en_oneliner": "OpenAI has named Aleph the exclusive reseller for ChatGPT Ads across 44 countries, giving brands and agencies local billing, hands-on help, and on-the-ground market know-how."
+ },
+ "https://openai.com/ads/customers/vistaprint": {
+  "zh_title": "VistaPrint 如何借助 ChatGPT 广告帮小企业发声",
+  "zh_oneliner": "小企业主筹备发布或活动时，往往先有目标、后想印什么，VistaPrint 用 ChatGPT 广告展示招牌与品牌物料等产品如何帮他们把想法落地。",
+  "en_title": "How VistaPrint helps small businesses get the word out",
+  "en_oneliner": "Owners of small firms getting ready for a product launch or a big event usually settle the goal first and work out the printing later, and VistaPrint shows how signs and branded goods help them put that plan into practice with ChatGPT Ads."
+ },
+ "https://www.langchain.com/blog/protect-sensitive-data-in-your-traces-new-controls-in-langsmith": {
+  "zh_title": "LangSmith 新增追踪数据敏感信息保护控制",
+  "zh_oneliner": "LangSmith 上线新的访问控制，帮助团队管好追踪数据里的敏感信息，让不同成员只能看到自己权限范围内的内容。",
+  "en_title": "Protect sensitive data in your traces: new controls in LangSmith",
+  "en_oneliner": "LangSmith has added new access controls that help teams manage sensitive information inside trace data, so each member only sees what their permissions allow."
+ },
+ "https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+  "zh_title": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+  "zh_oneliner": "GPT-6.2 Astra 与 Sol 在专业输出、编程、电脑操作与成本效率上都有提升，已覆盖 ChatGPT Work、Codex 与 API。",
+  "en_title": "Introducing GPT-6.2 Astra and Sol",
+  "en_oneliner": "The new Astra and Sol variants of GPT-6.2 deliver better professional output, coding, and computer use at lower cost, now live across the API, Codex, and ChatGPT Work."
+ },
+ "https://openai.com/index/astra-law-6-2": {
+  "zh_title": "Astra for Law 在法律智能评测中领先",
+  "zh_oneliner": "Astra for Law 在覆盖 24 个法律领域的首发评测中排名第一，现在每位 ChatGPT Enterprise 客户都可申请使用。",
+  "en_title": "Astra for Law leads in legal intelligence",
+  "en_oneliner": "Astra for Law took first place in a launch evaluation covering 24 areas of law, with access now open to any ChatGPT Enterprise customer on request."
  }
 }
