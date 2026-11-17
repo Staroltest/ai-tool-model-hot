@@ -1,24 +1,72 @@
 {
   "categories": [
     {
-      "key": "news",
+      "key": "model",
+      "label": "模型发布",
+      "label_en": "Model releases",
       "keywords": [
-        "新闻",
-        "news",
+        "模型",
+        "model",
         "发布",
         "release",
-        "公告",
-        "announcement",
+        "大模型",
+        "LLM",
+        "GPT",
+        "Gemini",
+        "Claude",
+        "开源模型",
+        "open-weight",
+        "微调",
+        "fine-tune",
+        "基准",
+        "benchmark",
+        "参数",
+        "parameters",
+        "推理",
+        "inference",
+        "多模态",
+        "multimodal",
+        "新版本",
+        "v1",
+        "v2"
+      ]
+    },
+    {
+      "key": "tools",
+      "label": "新工具",
+      "label_en": "New tools",
+      "keywords": [
+        "工具",
+        "tool",
+        "新品",
         "上线",
         "launch",
-        "更新",
-        "update"
-      ],
-      "label": "新闻动态",
-      "label_en": "News"
+        "应用",
+        "app",
+        "助手",
+        "assistant",
+        "Agent",
+        "智能体",
+        "Copilot",
+        "插件",
+        "plugin",
+        "API",
+        "平台",
+        "platform",
+        "产品",
+        "product",
+        "发布",
+        "release",
+        "免费",
+        "free",
+        "订阅",
+        "pricing"
+      ]
     },
     {
       "key": "guide",
+      "label": "教程指南",
+      "label_en": "Guides & tutorials",
       "keywords": [
         "教程",
         "tutorial",
@@ -28,33 +76,115 @@
         "how to",
         "入门",
         "getting started",
+        "实战",
         "实践",
+        "hands-on",
         "案例",
-        "case study"
-      ],
-      "label": "教程指南",
-      "label_en": "Guides & tutorials"
+        "case study",
+        "提示词",
+        "prompt",
+        "工作流",
+        "workflow",
+        "部署",
+        "deploy",
+        "训练",
+        "training",
+        "优化",
+        "optimization"
+      ]
     },
     {
-      "key": "opinion",
+      "key": "industry",
+      "label": "行业动态",
+      "label_en": "Industry news",
       "keywords": [
-        "观点",
-        "opinion",
-        "分析",
-        "analysis",
-        "洞察",
-        "insight",
+        "行业",
+        "industry",
+        "融资",
+        "funding",
+        "收购",
+        "acquisition",
+        "估值",
+        "valuation",
+        "政策",
+        "policy",
+        "监管",
+        "regulation",
+        "诉讼",
+        "lawsuit",
+        "裁员",
+        "layoff",
+        "财报",
+        "earnings",
+        "芯片",
+        "chip",
+        "算力",
+        "compute",
+        "数据中心",
+        "data center",
         "趋势",
         "trend",
-        "复盘",
-        "postmortem",
-        "思考",
-        "观察",
-        "评论",
-        "commentary"
-      ],
-      "label": "观点洞察",
-      "label_en": "Opinion & analysis"
+        "市场",
+        "market"
+      ]
+    },
+    {
+      "key": "opensource",
+      "label": "开源",
+      "label_en": "Open source",
+      "keywords": [
+        "开源",
+        "open source",
+        "GitHub",
+        "仓库",
+        "repo",
+        "发布",
+        "release",
+        "版本",
+        "version",
+        "模型权重",
+        "weights",
+        "数据集",
+        "dataset",
+        "框架",
+        "framework",
+        "库",
+        "library",
+        "本地部署",
+        "local",
+        "Ollama",
+        "vLLM",
+        "Hugging Face"
+      ]
+    },
+    {
+      "key": "review",
+      "label": "评测对比",
+      "label_en": "Reviews & comparisons",
+      "keywords": [
+        "评测",
+        "review",
+        "对比",
+        "comparison",
+        "vs",
+        "哪个好",
+        "实测",
+        "测试",
+        "test",
+        "跑分",
+        "benchmark",
+        "排名",
+        "ranking",
+        "榜单",
+        "leaderboard",
+        "优缺点",
+        "pros and cons",
+        "横评",
+        "体验",
+        "hands-on",
+        "值不值得",
+        "选哪个"
+      ]
     }
   ],
   "scoring": {
@@ -65,37 +195,50 @@
     "dev_keyword_bonus": 5,
     "dev_keyword_cap": 25,
     "dev_keywords": [
-      "教程",
-      "tutorial",
-      "工具",
-      "tool",
-      "数据",
-      "data",
-      "案例",
-      "case study",
+      "模型",
+      "model",
+      "大模型",
+      "LLM",
+      "GPT",
+      "Claude",
+      "Gemini",
       "开源",
       "open source",
+      "微调",
+      "fine-tune",
+      "推理",
+      "inference",
+      "多模态",
+      "multimodal",
+      "Agent",
+      "智能体",
+      "提示词",
+      "prompt",
+      "基准",
+      "benchmark",
+      "发布",
+      "release",
+      "新品",
+      "工具",
+      "tool",
+      "API",
+      "本地部署",
+      "Ollama",
+      "Hugging Face",
+      "教程",
+      "tutorial",
       "指南",
       "guide",
-      "复盘",
-      "postmortem",
-      "引擎",
-      "engine",
-      "优化",
-      "optimization",
-      "性能",
-      "performance",
-      "收入",
-      "revenue",
-      "销量",
-      "sales",
-      "经验",
-      "教训",
-      "lesson",
-      "源码",
-      "source code",
+      "案例",
+      "case study",
       "工作流",
-      "workflow"
+      "workflow",
+      "部署",
+      "deploy",
+      "评测",
+      "review",
+      "对比",
+      "comparison"
     ],
     "history_days": 30,
     "hot_days": 7,
@@ -103,16 +246,21 @@
     "noise_keyword_floor": -15,
     "noise_keyword_penalty": -5,
     "noise_keywords": [
+      "抽奖",
+      "红包",
+      "返利",
+      "代购",
+      "空投",
+      "炒币",
+      "币价",
+      "破解版",
       "免费领取",
-      "free",
-      "速通",
-      "speedrun",
-      "彩蛋",
-      "easter egg",
+      "壁纸",
       "cosplay",
       "mod",
-      "壁纸",
-      "wallpaper"
+      "速通",
+      "彩蛋",
+      "壁纸"
     ],
     "recency": [
       {
@@ -143,7 +291,7 @@
       {
         "h": "定位",
         "paras": [
-          "HOT 是给读者看的热点站。（示例文字，搭建新站时改成新站的定位。）"
+          "AI工具与模型HOT 是给关注 AI 的人看的热点站：新模型发布、新工具上线、教程、行业动态、开源项目、评测对比，每天精选 10 条。"
         ]
       },
       {
@@ -157,7 +305,7 @@
       {
         "h": "制作人",
         "paras": [
-          "XXX。（示例文字，搭建新站时改。）"
+          "Staroltest。"
         ]
       }
     ],
@@ -165,7 +313,7 @@
       {
         "h": "What it is",
         "paras": [
-          "HOT is a hotspot site for readers. (Example text — replace it with your new site's positioning.)"
+          "AI Tools & Models HOT is a hotspot site for people following AI: new model releases, new tools, guides, industry news, open-source projects and reviews, 10 picks a day."
         ]
       },
       {
@@ -179,28 +327,28 @@
       {
         "h": "Made by",
         "paras": [
-          "XXX. (Example text — replace it when setting up a new site.)"
+          "Staroltest."
         ]
       }
     ],
-    "audience": "读者",
-    "audience_en": "readers",
-    "crawler_name": "HOTBot/1.0",
-    "description": "示例描述：每天从一批信源里收动态，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
-    "description_en": "Example description: HOT collects updates from a set of sources every day, scores them by rules, and shows only the title, a one-line summary and a link to the original — no full text republished.",
+    "audience": "关注 AI 工具与新模型的开发者与使用者",
+    "audience_en": "developers and users following new AI tools and models",
+    "crawler_name": "ai-tool-model-hotBot/1.0",
+    "description": "每天从 27 个信源收 AI 工具与模型动态，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
+    "description_en": "Daily AI tools and models hot topics, scored by rules from 27 sources. Titles, one-line summaries and links only — no full text republished.",
     "edition_time_cst": "06:00",
     "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
     "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License.",
-    "launch_date": "",
+    "launch_date": "2026-11-17",
     "mcp_url": "",
     "mirror_url": "",
-    "name": "HOT",
-    "repo": "https://github.com/EXAMPLE/REPO",
-    "slug": "hot",
-    "subtitle": "示例副标题",
-    "subtitle_en": "Example subtitle",
-    "tagline": "示例 tagline：换成你自己的一句话。",
-    "tagline_en": "Example tagline: replace it with your own one-liner.",
+    "name": "AI工具与模型HOT",
+    "repo": "https://github.com/Staroltest/ai-tool-model-hot",
+    "slug": "ai-tool-model-hot",
+    "subtitle": "每天精选 AI 工具与模型动态",
+    "subtitle_en": "Daily picks of new AI tools and models",
+    "tagline": "新模型、新工具，每天只给值得点开的那几条。",
+    "tagline_en": "New models, new tools — only the few worth opening, every day.",
     "timezone": "Asia/Shanghai",
     "tips": [
       {
@@ -214,9 +362,9 @@
         "label": "USDT · Solana"
       }
     ],
-    "title": "HOT 热点",
-    "title_en": "HOT News",
-    "url": "https://EXAMPLE.github.io/REPO",
+    "title": "AI工具与模型HOT",
+    "title_en": "AI Tools & Models HOT",
+    "url": "https://staroltest.github.io/ai-tool-model-hot",
     "web_analytics_token": ""
   }
 }

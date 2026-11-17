@@ -1,0 +1,320 @@
+{
+ "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base": {
+  "zh_title": "Bedrock 新增 Agentic Retrieve，让 AI 智能体带上长期记忆",
+  "zh_oneliner": "Bedrock 把对话记录和提炼出的事实统一存进知识库，智能体一次调用就能带上长期记忆来回答。",
+  "en_title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
+  "en_oneliner": "Bedrock now stores conversation history and extracted facts in one knowledge base, so an agent can answer with long-term memory in a single call."
+ },
+ "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore": {
+  "zh_title": "Duco 用 Bedrock AgentCore 重做金融数据自动化",
+  "zh_oneliner": "这家服务头部银行的数据平台把智能体栈搬上 Bedrock，用多模型策略和严格的租户隔离来处理金融数据。",
+  "en_title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+  "en_oneliner": "The data platform serving top-tier banks moved its agent stack onto Bedrock, using a multi-model setup with strict tenant isolation for financial data."
+ },
+ "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing": {
+  "zh_title": "多智能体设计模式与反模式分类：来自制造业的经验",
+  "zh_oneliner": "文章把多智能体协作当成分布式系统问题来拆解，给出一套实战验证过的模式、反模式和取舍框架。",
+  "en_title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
+  "en_oneliner": "The post treats multi-agent coordination as a distributed-systems problem and lays out a field-tested set of patterns, anti-patterns and trade-off rules."
+ },
+ "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery": {
+  "zh_title": "NVIDIA CUDA-X 扩展库，让智能体加速科学发现",
+  "zh_oneliner": "新扩的 CUDA-X 库帮研究者在天体物理、材料科学等领域更快地筛海量数据，智能体也能直接调用这些工具。",
+  "en_title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+  "en_oneliner": "The expanded CUDA-X libraries help researchers sift through massive datasets faster in fields like astrophysics and materials science, and agents can call these tools directly."
+ },
+ "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26": {
+  "zh_title": "NVIDIA DGX Spark HPC 开发套件：把桌面变成超算实验室",
+  "zh_oneliner": "英伟达在 SC26 上拿出四节点套件，让研究者和开发者在办公桌上就能跑高性能计算实验。",
+  "en_title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+  "en_oneliner": "At SC26 NVIDIA introduced a four-node kit that lets researchers and developers run high-performance computing experiments from their desks."
+ },
+ "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin": {
+  "zh_title": "NVIDIA Vera Rubin 平台 MLPerf 首秀，训练与推理全面领先",
+  "zh_oneliner": "Vera Rubin 平台首次参加 MLPerf 就在训练、后训练和智能体推理上拿下领先成绩，英伟达包揽了全部项目。",
+  "en_title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+  "en_oneliner": "In its MLPerf debut the Vera Rubin platform led across training, post-training and agentic inference, with NVIDIA sweeping every category."
+ },
+ "https://blogs.nvidia.com/blog/rubin-hpc": {
+  "zh_title": "NVIDIA 发布 Rubin HPC GPU，为科学、工程与分析加速智能体",
+  "zh_oneliner": "这款 Vera Rubin 平台的新 GPU 面向仿真和数据处理，意在让智能体在科研和工程流程里跑得更快。",
+  "en_title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+  "en_oneliner": "The new GPU in the Vera Rubin platform targets simulation and data processing, aiming to make agents faster in science and engineering workflows."
+ },
+ "https://cacm.acm.org/blogcacm/ai-agents-cant-talk": {
+  "zh_title": "AI 智能体还不会好好“说话”",
+  "zh_oneliner": "这篇文章指出智能体之间缺乏有效的沟通方式，协作瓶颈不在模型能力，而在它们如何对话。",
+  "en_title": "AI Agents Can't Talk",
+  "en_oneliner": "The piece argues that agents still lack an effective way to talk to each other, and the collaboration bottleneck is communication, not model capability."
+ },
+ "https://news.google.com/rss/articles/CBMipAFBVV95cUxQODgyWkVORThzWDc2MHlkVEdCZkJMSWlCY2wyNVRxUVFyNXVvNEp0RmlpRTAtUUhRT1lES2Q3aGFtV0VxY0wxVVdpRGVHRVFBRXp3QlZvOURIRXI4eFpHS2ZVZHNVS29WRnB6aUVnYWpsZDFmRENaTndBVnNNQlY1TWpXY2VUb1hGOFAtamJKMktJS01CTDlDU3loYWNSYmtZT01fcA?oc=5": {
+  "zh_title": "Anthropic 给 Claude 模型加强网络安全能力",
+  "zh_oneliner": "Claude 模型新增了网络安全方面的能力，面向需要用 AI 做安全防护的团队。",
+  "en_title": "Anthropic updates Claude models with enhanced cybersecurity capabilities - SC Media",
+  "en_oneliner": "Claude models gained stronger cybersecurity capabilities, aimed at teams that want to use AI for security work."
+ },
+ "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare": {
+  "zh_title": "ChatGPT 医疗版再升级：电脑操作智能体与新插件",
+  "zh_oneliner": "新版本加入能操作电脑的智能体、更准确的临床回答和一批医疗软件插件，让 ChatGPT 能在医疗流程里干实活。",
+  "en_title": "More ways to move care forward with ChatGPT for Healthcare",
+  "en_oneliner": "The update adds computer-use agents, better clinical answers and new healthcare plugins so ChatGPT can do real work inside medical workflows."
+ },
+ "https://openai.com/index/science-at-the-frontier": {
+  "zh_title": "前沿科学：1800 多位科学家怎么用 ChatGPT 做研究",
+  "zh_oneliner": "OpenAI 调查了 1800 多位科学家的日常用法，展示 AI 如何改变研究流程、效率和对发现的期待。",
+  "en_title": "Science at the Frontier: How scientists use ChatGPT",
+  "en_oneliner": "OpenAI surveyed more than 1,800 scientists about their daily use, showing how AI is changing research workflows, productivity and expectations for discovery."
+ },
+ "https://simonwillison.net/2026/Nov/16/llm": {
+  "zh_title": "llm 0.37.3 发布：修复 Homebrew 打包问题",
+  "zh_oneliner": "这是一次修 bug 的小版本更新，主要解决新版 Homebrew 自带 SQLite 升级带来的兼容问题。",
+  "en_title": "llm 0.37.3",
+  "en_oneliner": "This is a small bug-fix release, mainly addressing a compatibility issue caused by the newer SQLite shipped with Homebrew."
+ },
+ "https://studio.sinapsdata.com.br": {
+  "zh_title": "免费互动课：AI 智能体治理入门",
+  "zh_oneliner": "一门免费的互动课程，教开发者如何给智能体定规矩、管风险，适合刚开始做智能体治理的人。",
+  "en_title": "Show HN: A free interactive course on AI agent governance",
+  "en_oneliner": "A free interactive course that teaches developers how to set rules and manage risks for AI agents, aimed at people new to agent governance."
+ },
+ "https://www.ithome.com/1/028/058.htm": {
+  "zh_title": "谷歌 Pics 升级 Nano Banana 2.1 模型，生图更细改图更准",
+  "zh_oneliner": "Google Pics 换上新版生图模型，生成和编辑图片的效果都更好，未来几天内推送给 Workspace 订阅用户。",
+  "en_title": "Google Pics Upgrades to Nano Banana 2.1: Finer Image Generation and More Accurate Editing",
+  "en_oneliner": "Google Pics moves to the new image model for better generation and editing, rolling out to Workspace subscribers over the next few days."
+ },
+ "https://www.ithome.com/1/028/065.htm": {
+  "zh_title": "谷歌第七代 Ironwood TPU 交卷：8192 颗集群约 102 秒完成 DeepSeek-V3 预训练",
+  "zh_oneliner": "谷歌在 MLPerf 新一轮测试里用 8192 颗 Ironwood TPU 集群跑通 DeepSeek-V3 预训练，只用了约 102 秒。",
+  "en_title": "Google's Seventh-Gen Ironwood TPU: An 8,192-Chip Cluster Hits DeepSeek-V3 Pretraining in About 102 Seconds",
+  "en_oneliner": "Google ran DeepSeek-V3 pretraining on an 8,192-chip Ironwood TPU cluster in the latest MLPerf round, finishing in about 102 seconds."
+ },
+ "https://www.ithome.com/1/028/106.htm": {
+  "zh_title": "微软产品为何总差点打磨？Azure 负责人称大客户需求优先",
+  "zh_oneliner": "微软 Azure 一位工程负责人坦言，产品体验不够精致是因为大客户的需求排在了前面。",
+  "en_title": "Why Do Some Microsoft Products Feel Unpolished? An Azure Engineering Lead Says Big-Customer Needs Come First",
+  "en_oneliner": "A Microsoft Azure engineering lead admitted that product polish suffers because large customers' needs take priority."
+ },
+ "https://www.ithome.com/1/028/107.htm": {
+  "zh_title": "九州风神预热阿萨辛 5 散热器：320W 解热，即将登场",
+  "zh_oneliner": "九州风神的旗舰风冷散热器即将上市，解热能力达到 320W，面向高功耗处理器用户。",
+  "en_title": "DeepCool Teases Assassin V CPU Air Cooler: 320W Cooling Capacity, Coming Soon",
+  "en_oneliner": "DeepCool's flagship air cooler is about to launch, handling up to 320W of heat for high-power processors."
+ },
+ "https://www.ithome.com/1/028/108.htm": {
+  "zh_title": "日本最尖端超算“富岳”遭非法访问暂停运行，用户数据或泄露",
+  "zh_oneliner": "理化学研究所称“富岳”的运维系统被人从公开的状态仪表板攻入，已暂停运行，用户信息和 SSH 密钥可能外泄。",
+  "en_title": "Japan's Flagship Fugaku Supercomputer Halted After Unauthorized Access; User Data May Have Leaked",
+  "en_oneliner": "RIKEN said attackers broke into Fugaku's operations system through a public status dashboard, halting the supercomputer, with user data and SSH keys possibly exposed."
+ },
+ "https://www.ithome.com/1/028/109.htm": {
+  "zh_title": "开发者把一加折叠手机改成原生 Win11，已实现触控",
+  "zh_oneliner": "一位开发者在一加折叠屏手机上直接装了 Windows 11 on ARM64，不用虚拟机，触控已经能用。",
+  "en_title": "Developer Puts Native Windows 11 on a OnePlus Foldable Phone, With Touch Working",
+  "en_oneliner": "A developer installed Windows 11 on ARM64 directly on a OnePlus foldable phone, no virtual machine needed, and touch already works."
+ },
+ "https://www.ithome.com/1/028/111.htm": {
+  "zh_title": "微软为 Xbox Series X|S 测试 ACO 着色器编译器，性能提升 2% 至 16%",
+  "zh_oneliner": "微软正在 Xbox 上试一款源自 Valve 开源项目的着色器编译器，游戏运行性能有望提升 2% 到 16%。",
+  "en_title": "Microsoft Tests ACO Shader Compiler for Xbox Series X|S, Boosting Performance by 2% to 16%",
+  "en_oneliner": "Microsoft is testing a shader compiler on Xbox, derived from Valve's open-source project, that could lift game performance by 2% to 16%."
+ },
+ "https://www.ithome.com/1/028/112.htm": {
+  "zh_title": "哈工大破解热电器件“长寿”难题，让热能变电能更耐用",
+  "zh_oneliner": "哈工大团队用一种新型超稳定阻挡层解决了热电发电器件长期使用的界面老化问题，让废热发电更实用。",
+  "en_title": "Harbin Institute of Technology Solves the 'Longevity' Problem of Thermoelectric Devices, Making Heat-to-Electricity Conversion More Durable",
+  "en_oneliner": "A Harbin Institute of Technology team used a new ultra-stable barrier layer to solve the interface aging problem in thermoelectric generators, making waste-heat power more practical."
+ },
+ "https://www.ithome.com/1/028/113.htm": {
+  "zh_title": "七工匠 AF 18mm F2 X 卡口银色镜头开售：约 109 克，749 元",
+  "zh_oneliner": "七工匠推出轻便的广角定焦镜头，金属机身约 109 克，首发价 749 元，适合 APS-C 相机用户。",
+  "en_title": "7artisans AF 18mm F2 X-Mount Silver Lens on Sale: About 109g, 749 Yuan",
+  "en_oneliner": "7artisans launched a lightweight wide-angle prime lens with a metal body at about 109g, priced at 749 yuan for APS-C camera users."
+ },
+ "https://www.ithome.com/1/028/114.htm": {
+  "zh_title": "OpenAI 奥尔特曼重申：希望所有人都能有大量内存",
+  "zh_oneliner": "奥尔特曼在峰会上再次呼吁每个人都给电脑配足内存，认为自己动手折腾硬件是件好事。",
+  "en_title": "OpenAI's Altman Repeats: He Hopes Everyone Can Have Plenty of Memory",
+  "en_oneliner": "At a summit Altman repeated his call for everyone to equip their computers with plenty of memory, saying that tinkering with hardware at home is a good thing."
+ },
+ "https://www.ithome.com/1/028/115.htm": {
+  "zh_title": "宁德时代曾毓群：循环经济决定电池未来，电动化将走向海洋与天空",
+  "zh_oneliner": "曾毓群在 APEC 峰会上表示，电池回收会改变钴等材料的用量，电动化应用将从陆地扩展到海洋和天空。",
+  "en_title": "CATL's Zeng Yuqun: Circular Economy Will Decide the Future of Batteries, and Electrification Will Reach Sea and Sky",
+  "en_oneliner": "At the APEC summit Zeng Yuqun said battery recycling will change how materials like cobalt are used, and electrification will expand from land to sea and sky."
+ },
+ "https://www.ithome.com/1/028/116.htm": {
+  "zh_title": "苹果新规遏制 AI 应用“全盘接管”Mac，提前为自家 AI 智能体铺路",
+  "zh_oneliner": "从 macOS 27.3 Beta 2 起，苹果收紧了 AI 应用对磁盘和设备的访问权限，防止它们过度读取用户数据或操控系统。",
+  "en_title": "Apple's New Rules Stop AI Apps From Taking Over the Mac, Paving the Way for Its Own AI Agent",
+  "en_oneliner": "Starting with macOS 27.3 Beta 2, Apple tightened how much disk and device access AI apps can get, to stop them over-reading user data or controlling the system."
+ },
+ "https://www.ithome.com/1/028/117.htm": {
+  "zh_title": "赛睿 T1 战队联名 QcK 鼠标垫预售，后续还有主题键帽",
+  "zh_oneliner": "赛睿推出 T1 战队联名的大尺寸鼠标垫，红白黑配色，售价 399 元，之后还会出同主题键帽。",
+  "en_title": "SteelSeries T1 Team-Branded QcK Mouse Pad on Presale, With Themed Keycaps to Follow",
+  "en_oneliner": "SteelSeries launched a large T1 team-branded mouse pad in red, white and black for 399 yuan, with matching keycaps to follow."
+ },
+ "https://www.ithome.com/1/028/133.htm": {
+  "zh_title": "中国 AI 旗舰模型集体收紧网络攻击能力，加强出口管制",
+  "zh_oneliner": "阿里、腾讯、月之暗面等的新一代旗舰模型普遍限制了网络进攻能力，只保留漏洞检测等防御功能，权重也不再公开。",
+  "en_title": "China's AI Flagship Models Tighten Cyberattack Capabilities and Strengthen Export Controls",
+  "en_oneliner": "New flagship models from Alibaba, Tencent, Moonshot and others broadly restrict offensive cyber capabilities, keeping only defensive features like vulnerability detection, with weights no longer public."
+ },
+ "https://www.ithome.com/1/028/144.htm": {
+  "zh_title": "小米汽车打假：网传“11 月 15 日开始召回”是诈骗短信",
+  "zh_oneliner": "小米官方辟谣称，网传召回短信纯属虚构，是骗子冒充官方索要个人信息，提醒车主不要点链接。",
+  "en_title": "Xiaomi Auto Debunks the Viral 'Recall Starting November 15' Scam Text Message",
+  "en_oneliner": "Xiaomi's official account debunked a viral recall text message as a scam, warning owners not to click links or share personal information."
+ },
+ "https://www.ithome.com/1/028/146.htm": {
+  "zh_title": "摩根大通发生重大系统故障，称并非网络攻击所致",
+  "zh_oneliner": "摩根大通周一出现大规模技术故障，多家银行和 Zelle 服务受影响，官方称是本地硬件的软件漏洞，不是攻击。",
+  "en_title": "JPMorgan Suffers Major System Outage, Says It Was Not a Cyberattack",
+  "en_oneliner": "JPMorgan suffered a major technical outage on Monday affecting several banks and Zelle, which the bank blamed on a software bug in local hardware, not an attack."
+ },
+ "https://www.ithome.com/1/028/153.htm": {
+  "zh_title": "微软 Win11 27H2 首个内部踪迹曝光，3 年来最大升级蓄势待发",
+  "zh_oneliner": "开发者在新版 Windows 11 预览版里挖到了 27H2 的版本标识，这是三年来最大的一次系统升级信号。",
+  "en_title": "First Internal Traces of Windows 11 27H2 Surface, the Biggest Upgrade in Three Years in the Works",
+  "en_oneliner": "Developers spotted the first traces of Windows 11 27H2 in a new preview build, signaling the biggest upgrade in three years."
+ },
+ "https://www.ithome.com/1/028/154.htm": {
+  "zh_title": "Meta 内测预测市场应用 Takes，员工用虚拟“信用点”投注",
+  "zh_oneliner": "Meta 正在内部测试一款预测市场应用，员工用虚拟积分而非真钱下注，试水年轻人爱玩的预测玩法。",
+  "en_title": "Meta Internally Tests Prediction-Market App Takes, With Employees Betting Virtual 'Credits'",
+  "en_oneliner": "Meta is internally testing a prediction-market app where employees bet with virtual credits instead of real money, trying out a format popular with younger users."
+ },
+ "https://www.ithome.com/1/028/156.htm": {
+  "zh_title": "赛昉 RISC-V 服务器 BMC 芯片昉·惊鸿-B100 量产交付",
+  "zh_oneliner": "赛昉基于 RISC-V 的服务器管理芯片已量产交付，搭载它的服务器产品即将进入量产阶段。",
+  "en_title": "StarFive's RISC-V Server BMC Chip JH-B100 Enters Mass Production and Delivery",
+  "en_oneliner": "StarFive's RISC-V-based server management chip has entered mass production and delivery, with servers carrying it about to follow."
+ },
+ "https://www.ithome.com/1/028/158.htm": {
+  "zh_title": "苹果中国区 App Store 新增 AIGC 合规入口，现有应用须在 2027 年 1 月 31 日前补备案",
+  "zh_oneliner": "苹果要求在中国大陆上架的 AIGC 应用补交备案信息和安全评估证明，否则可能影响后续版本提交。",
+  "en_title": "Apple Adds AIGC Compliance Entry to China's App Store; Existing Apps Must Complete Filing by January 31, 2027",
+  "en_oneliner": "Apple now requires AIGC apps distributed in mainland China to submit filing information and safety assessment proof, or risk blocking future updates."
+ },
+ "https://www.langchain.com/blog/context-engineering-challenges-late-2026": {
+  "zh_title": "LangChain 谈 2026 年末上下文工程的新挑战",
+  "zh_oneliner": "LangChain 的 CEO 分享了主动式智能体出现后，工程上在上下文管理方面遇到的最大难题。",
+  "en_title": "New context engineering challenges in late 2026",
+  "en_oneliner": "LangChain's CEO shares the biggest engineering challenges in context management as proactive agents emerge."
+ },
+ "https://www.langchain.com/blog/from-tasks-to-goals": {
+  "zh_title": "LangChain：从任务型智能体走向目标型智能体",
+  "zh_oneliner": "LangChain 正在把智能体从只做指定任务，转向能自己朝着开放目标推进的形态。",
+  "en_title": "From tasks to goals",
+  "en_oneliner": "LangChain is moving agents from doing only assigned tasks toward pursuing open-ended goals on their own."
+ },
+ "https://www.langchain.com/blog/goal-engineering": {
+  "zh_title": "LangChain 提出目标工程：让智能体自己达成开放目标",
+  "zh_oneliner": "未来的智能体要接手开放式目标并一路推进到底，LangChain 把这套做法叫做目标工程。",
+  "en_title": "Goal Engineering",
+  "en_oneliner": "Future agents should take on open-ended goals and drive them to completion, and LangChain calls this approach goal engineering."
+ },
+ "https://www.langchain.com/blog/series-c": {
+  "zh_title": "LangChain 完成 3 亿美元 C 轮融资，估值 30 亿美元",
+  "zh_oneliner": "LangChain 拿到 3 亿美元新融资，用来帮企业用 LangSmith 掌握自己的智能体能力。",
+  "en_title": "LangChain Raises $300M Series C at $3B Valuation",
+  "en_oneliner": "LangChain raised $300M in new funding to help companies own their agent capabilities through LangSmith."
+ },
+ "https://www.langchain.com/blog/we-rebuilt-langsmith-around-the-agent": {
+  "zh_title": "LangChain 围绕智能体重建 LangSmith：一个记录管全部",
+  "zh_oneliner": "LangSmith 现在以单个智能体记录为中心，开发、运行、改进和治理都能在一个地方完成。",
+  "en_title": "Why we rebuilt LangSmith around the agent",
+  "en_oneliner": "LangSmith now centers on a single agent record, so building, running, improving and governing agents all happen in one place."
+ },
+ "https://www.macrumors.com/2026/11/16/apple-icloud-paid-siri-ai-upgrade": {
+  "zh_title": "iOS 27.3 测试版给 Siri AI 加每日用量限制，iCloud+ 可升级",
+  "zh_oneliner": "苹果在新测试版里给 Siri 的 AI 功能设了每日使用上限，付费 iCloud+ 用户可以解锁更高额度。",
+  "en_title": "iOS 27.3 Beta Adds Daily Siri AI Limits and iCloud+ Upgrades",
+  "en_oneliner": "Apple's new beta caps daily Siri AI usage, with paid iCloud+ subscribers able to unlock higher limits."
+ },
+ "https://www.oreilly.com/library/view/an-illustrated-guide/9798341662681": {
+  "zh_title": "图解 AI 智能体新书：概念与代码，教你用 LLM 搭建智能体",
+  "zh_oneliner": "O'Reilly 出了一本图文并茂的智能体指南，用概念讲解加代码示例带读者上手搭建 LLM 智能体。",
+  "en_title": "An Illustrated Guide to AI Agents:Concepts and Code for Building Agents with LLM",
+  "en_oneliner": "O'Reilly published an illustrated guide to AI agents that pairs concepts with code examples for building agents with LLMs."
+ },
+ "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore": {
+  "zh_title": "MoEngage 用 Amazon Bedrock AgentCore 搭建智能体客户运营",
+  "zh_oneliner": "MoEngage 把营销和产品团队的活动起草、分析和调整都收进一次对话里，用 Bedrock 上的智能体来跑客户运营。",
+  "en_title": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore",
+  "en_oneliner": "MoEngage now runs customer engagement through AI agents on Bedrock, letting marketing and product teams draft, analyze, and adjust campaigns from a single conversation."
+ },
+ "https://echo.ls/posts/gemini-decision-ai-voices": {
+  "zh_title": "Gemini Decision 1 辨不出 2024 年之后生成的 AI 语音",
+  "zh_oneliner": "一项测试发现，Gemini 的这项判断能力对 2024 年之后合成的 AI 语音失灵，暴露了语音鉴别的时效短板。",
+  "en_title": "Gemini Decision 1 can't separate AI voices made after 2024",
+  "en_oneliner": "A test found Gemini's decision capability fails on AI voices synthesized after 2024, exposing how quickly voice detection goes stale."
+ },
+ "https://grok.com/share/bGVnYWN5_4f06d401-90e9-4ed4-bad8-89e3b4fadde2": {
+  "zh_title": "到 2027 年 AI 算力电力缺口将达 15 吉瓦",
+  "zh_oneliner": "预测指出 AI 数据中心到 2027 年将面临 15 吉瓦的供电缺口，电力正在成为制约 AI 扩张的硬瓶颈。",
+  "en_title": "2027 AI Power Shortfall of 15 GW",
+  "en_oneliner": "Projections point to a 15 GW power shortfall for AI data centers by 2027, making electricity a hard bottleneck for AI expansion."
+ },
+ "https://hep-open-release.org": {
+  "zh_title": "理论物理学界就 AI 公司研究成果共享发表声明",
+  "zh_oneliner": "一份声明呼吁规范 AI 公司产出的理论物理研究成果如何公开分享，涉及学界与产业界的成果归属问题。",
+  "en_title": "Statement on Sharing Research Produced by AI Companies in Theoretical Physics",
+  "en_oneliner": "A statement calls for norms on how theoretical physics research produced by AI companies should be shared, touching on credit between academia and industry."
+ },
+ "https://medium.com/@chipmunkworks/the-helicopter-problem-9bfec2cfdfab": {
+  "zh_title": "AI 的攀升之路",
+  "zh_oneliner": "这篇文章借直升机问题聊 AI 能力的爬坡过程，提醒读者别只盯着单点突破，要看系统性的上升曲线。",
+  "en_title": "The AI Ascent",
+  "en_oneliner": "This essay uses the helicopter problem to talk about AI's climb, urging readers to look at the systemic curve rather than single breakthroughs."
+ },
+ "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQUcwN0NqMUVpQnhmU2xfcnEzTFpZRTQ5QXNRRDY0VUg1NTdVNGVtY0FVTlBZUGRSdjJKUzc1MzhHU1NaZ1dhWWoxdER0MXJwMUNYN3B0UnNEdXZIb0hNN1V1LUZmWXhSZnpyLWxNbGZPMWIzZklNVTZoOVhNSDNLbkpKME5mNGc4MDFvcEdBQmwxZUxGTlp0ZDdR?oc=5": {
+  "zh_title": "Anthropic 上市超额认购 7 倍，但纪录背后有 260 亿美元来自自家供应商",
+  "zh_oneliner": "Anthropic 的 IPO 认购火爆，但报道指出其业绩有 260 亿美元依赖自家供应商的资金，投资者得把这层关系看清楚。",
+  "en_title": "Anthropic's IPO Is 7x Oversubscribed, but Its Record Depends on $26 Billion From Its Own Suppliers - Memeburn",
+  "en_oneliner": "Anthropic's IPO was heavily oversubscribed, but the report notes its record depends on $26 billion from its own suppliers, a relationship investors should look at closely."
+ },
+ "https://robert-mcdermott.github.io/astrum": {
+  "zh_title": "Astrum：带 AI 助手的终端复用器",
+  "zh_oneliner": "Astrum 把 AI 助手直接集成进终端复用器，让开发者在命令行里就能边分屏边问 AI。",
+  "en_title": "Show HN: Astrum – a terminal multiplexer with integrated AI assistant",
+  "en_oneliner": "Astrum integrates an AI assistant directly into a terminal multiplexer, so developers can split screens and ask AI without leaving the command line."
+ },
+ "https://www.ailivesdontmatter.com": {
+  "zh_title": "AI 的生命并不重要？",
+  "zh_oneliner": "这篇短文以挑衅的标题讨论 AI 是否配得上所谓生命待遇，观点犀利但更像一则思辨小品。",
+  "en_title": "AI Lives Don't Matter",
+  "en_oneliner": "This short piece provocatively asks whether AI deserves anything like the treatment of living things, more a thought experiment than a technical argument."
+ },
+ "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html": {
+  "zh_title": "Aschenbrenner 的《Situational Awareness》在 10 月暴跌前又押注了 AI",
+  "zh_oneliner": "曾因《Situational Awareness》出圈的 Aschenbrenner 在 10 月市场大跌前再度押注 AI，显示他对 AI 长期趋势的判断没有动摇。",
+  "en_title": "Aschenbrenner's Situational Awareness made AI bets again before October rout",
+  "en_oneliner": "Aschenbrenner, known for \"Situational Awareness,\" placed fresh AI bets before October's market rout, showing his long-term AI conviction had not wavered."
+ },
+ "https://www.dialogkey.com/careers/119ce7f304": {
+  "zh_title": "DialogKey 招聘 AI/ML 与数据科学前线部署工程师",
+  "zh_oneliner": "DialogKey 在招一名深入客户现场的 AI/ML 工程师，负责把模型和数据科学方案落地到实际业务中。",
+  "en_title": "Forward Deployed Engineer – AI/ML and Data Science",
+  "en_oneliner": "DialogKey is hiring a forward deployed engineer to take AI/ML and data science solutions into real customer operations on site."
+ },
+ "https://www.ycombinator.com/launches/XcZ-rightnow-own-your-ai-at-full-speed": {
+  "zh_title": "掌控你自己的 AI，全速运行",
+  "zh_oneliner": "RightNow 想让用户在本地全速跑自己的 AI，强调自主可控而不是把一切都交给云端大模型。",
+  "en_title": "Own your AI, at full speed",
+  "en_oneliner": "RightNow wants users to run their own AI at full speed locally, emphasizing self-control over handing everything to cloud models."
+ },
+ "https://arxiv.org/abs/2609.04043": {
+  "zh_title": "用 AI 智能体验证 xv6 内核：把分离逻辑扩展到 RISC-V",
+  "zh_oneliner": "研究者用 AI 智能体把分离逻辑验证扩展到 RISC-V 上的 xv6 内核，让操作系统内核的形式化验证走得更远。",
+  "en_title": "Extending separation logic to verify the xv6 OS kernel on RISC-V with AI agents",
+  "en_oneliner": "Researchers used AI agents to extend separation-logic verification to the xv6 kernel on RISC-V, pushing formal verification of OS kernels further."
+ },
+ "https://usewoolly.com": {
+  "zh_title": "Show HN：Woolly，本地跑的 mem0 兼容记忆 API",
+  "zh_oneliner": "Woolly 是一个本地运行的记忆 API，兼容 mem0，给 AI 智能体配上可自托管的长期记忆。",
+  "en_title": "Show HN: Woolly, a local mem0-compatible memory API for AI agents",
+  "en_oneliner": "Woolly is a locally run memory API compatible with mem0, giving AI agents a self-hosted long-term memory."
+ }
+}
