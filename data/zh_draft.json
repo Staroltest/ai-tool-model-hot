@@ -5494,5 +5494,17 @@
   "zh_oneliner": "Call Nara 是一款面向老年人的 AI 语音陪伴应用，点一下就能开口聊天，无需打字，适合独居或长时间独处的人随时找人说说话。",
   "en_title": "Show HN: Call Nara. An AI voice companion built with older people in mind",
   "en_oneliner": "Call Nara is an AI voice companion app made for older adults: one tap starts a spoken chat with no typing, giving people who live alone someone to talk to whenever they want."
+ },
+ "https://www.reuters.com/world/china/china-taps-us-ai-models-train-homegrown-rivals-chip-curbs-bite-2026-11-17": {
+  "zh_title": "中国借美国 AI 模型训练本土竞品，芯片管制下另辟蹊径",
+  "zh_oneliner": "路透社报道称，在芯片出口管制收紧的背景下，中国团队正利用美国模型输出来训练本土模型，折射出算力受限下的新训练路径。",
+  "en_title": "China taps US AI models to train homegrown rivals as chip curbs bite",
+  "en_oneliner": "Reuters reports that, as chip export controls tighten, Chinese teams are using outputs from US models to train homegrown rivals, pointing to a new training route under compute constraints."
+ },
+ "https://github.com/eth-medical-ai-lab/agent-gui": {
+  "zh_title": "Agent GUI：面向人类观察与引导 AI 智能体的友好界面",
+  "zh_oneliner": "来自苏黎世联邦理工学院医学 AI 实验室的开源项目，为 AI 智能体提供可视化界面，让人能实时观察并引导智能体的行动。",
+  "en_title": "Agent GUI: a human-friendly interface for observing and steering AI agents",
+  "en_oneliner": "An open-source project from ETH Zurich's medical AI lab that gives AI agents a visual interface, letting people watch and steer what the agents do in real time."
  }
 }
