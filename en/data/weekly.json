@@ -5,8 +5,8 @@
  "date": "November 17, 2026",
  "date_iso": "2026-11-17",
  "issue": 1,
- "generated_at": "2026-11-17T05:53:14.506940+00:00",
- "summary": "625 items collected in the past 7 days, 10 picks (Model releases 4, New tools 6). Headline: NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance.",
+ "generated_at": "2026-11-17T06:24:25.993517+00:00",
+ "summary": "628 items collected in the past 7 days, 10 picks (Model releases 6, New tools 4). Headline: NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance.",
  "items": [
   {
    "id": "0f2a855bc6a8fcf25d6065605b52cc9d13fe5cc6",
@@ -29,33 +29,9 @@
    "reason": "Official source · Covers inference and Agent · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 87.9,
-   "prev_rank": 3,
-   "prev_hot_score": 87.9
-  },
-  {
-   "id": "1742558d91d037f5dac22c418ea1ee9137d71f48",
-   "title": "LangChain Raises $300M Series C at $3B Valuation",
-   "link": "https://www.langchain.com/blog/series-c",
-   "source": "LangChain Blog",
-   "source_id": "langchain-blog",
-   "published": "2026-11-16T23:53:29+00:00",
-   "en_title": "LangChain Raises $300M Series C at $3B Valuation",
-   "en_oneliner": "LangChain raised $300M in new funding to help companies own their agent capabilities through LangSmith.",
-   "category": "tools",
-   "category_label": "New tools",
-   "tier": "T1",
-   "tags": [
-    "Agent",
-    "API"
-   ],
-   "score": 95,
-   "reason": "Official source · Covers Agent and API · Published within 6 hours",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 89.8,
-   "prev_rank": 1,
-   "prev_hot_score": 89.9
+   "hot_score": 87.5,
+   "prev_rank": 2,
+   "prev_hot_score": 87.5
   },
   {
    "id": "f891bd93f3d21469060271c5a85b2a7a2e8b4138",
@@ -77,31 +53,7 @@
    "reason": "Official source · Covers GPT and Workflow · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 76.2,
-   "prev_rank": null,
-   "prev_hot_score": null
-  },
-  {
-   "id": "cfcc7acb02e9ca7944d1e900e1dedbf4b8c78667",
-   "title": "More ways to move care forward with ChatGPT for Healthcare",
-   "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-   "source": "OpenAI News",
-   "source_id": "openai-news",
-   "published": "2026-11-16T06:00:00+00:00",
-   "en_title": "More ways to move care forward with ChatGPT for Healthcare",
-   "en_oneliner": "The update adds computer-use agents, better clinical answers and new healthcare plugins so ChatGPT can do real work inside medical workflows.",
-   "category": "model",
-   "category_label": "Model releases",
-   "tier": "T1",
-   "tags": [
-    "GPT",
-    "Agent"
-   ],
-   "score": 90,
-   "reason": "Official source · Covers GPT and Agent · Published within 24 hours",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 72.1,
+   "hot_score": 75.8,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -125,9 +77,9 @@
    "reason": "Official source · Covers Agent and Tools · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.1,
+   "hot_score": 78.7,
    "prev_rank": 12,
-   "prev_hot_score": 79.1
+   "prev_hot_score": 78.7
   },
   {
    "id": "6cab091c059af43fb71f81530930f3b85777319c",
@@ -149,78 +101,33 @@
    "reason": "Official source · Covers Agent and Workflow · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.1,
+   "hot_score": 78.7,
    "prev_rank": 13,
-   "prev_hot_score": 79.1
+   "prev_hot_score": 78.7
   },
   {
-   "id": "cfa79461fd2cb8ae502f34b42790f5b5be9724cb",
-   "title": "From tasks to goals",
-   "link": "https://www.langchain.com/blog/from-tasks-to-goals",
+   "id": "1742558d91d037f5dac22c418ea1ee9137d71f48",
+   "title": "LangChain Raises $300M Series C at $3B Valuation",
+   "link": "https://www.langchain.com/blog/series-c",
    "source": "LangChain Blog",
    "source_id": "langchain-blog",
    "published": "2026-11-16T23:53:29+00:00",
-   "en_title": "From tasks to goals",
-   "en_oneliner": "LangChain is moving agents from doing only assigned tasks toward pursuing open-ended goals on their own.",
+   "en_title": "LangChain Raises $300M Series C at $3B Valuation",
+   "en_oneliner": "LangChain raised $300M in new funding to help companies own their agent capabilities through LangSmith.",
    "category": "tools",
    "category_label": "New tools",
    "tier": "T1",
    "tags": [
-    "Agent"
+    "Agent",
+    "API"
    ],
    "score": 90,
-   "reason": "Official source · Covers Agent · Published within 6 hours",
+   "reason": "Official source · Covers Agent and API · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 85.1,
-   "prev_rank": 5,
-   "prev_hot_score": 85.1
-  },
-  {
-   "id": "b576b148cff59b595e9defbe6e267f2e2f5e4077",
-   "title": "Goal Engineering",
-   "link": "https://www.langchain.com/blog/goal-engineering",
-   "source": "LangChain Blog",
-   "source_id": "langchain-blog",
-   "published": "2026-11-16T23:53:29+00:00",
-   "en_title": "Goal Engineering",
-   "en_oneliner": "Future agents should take on open-ended goals and drive them to completion, and LangChain calls this approach goal engineering.",
-   "category": "tools",
-   "category_label": "New tools",
-   "tier": "T1",
-   "tags": [
-    "Agent"
-   ],
-   "score": 90,
-   "reason": "Official source · Covers Agent · Published within 6 hours",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 85.1,
-   "prev_rank": 6,
-   "prev_hot_score": 85.1
-  },
-  {
-   "id": "7a45c5f6802d9361ea14bcb772f3dfc597c32e17",
-   "title": "New context engineering challenges in late 2026",
-   "link": "https://www.langchain.com/blog/context-engineering-challenges-late-2026",
-   "source": "LangChain Blog",
-   "source_id": "langchain-blog",
-   "published": "2026-11-16T23:53:29+00:00",
-   "en_title": "New context engineering challenges in late 2026",
-   "en_oneliner": "LangChain's CEO shares the biggest engineering challenges in context management as proactive agents emerge.",
-   "category": "tools",
-   "category_label": "New tools",
-   "tier": "T1",
-   "tags": [
-    "Agent"
-   ],
-   "score": 90,
-   "reason": "Official source · Covers Agent · Published within 6 hours",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 85.1,
-   "prev_rank": 7,
-   "prev_hot_score": 85.1
+   "hot_score": 84.7,
+   "prev_rank": 4,
+   "prev_hot_score": 84.7
   },
   {
    "id": "6081b5dff7bcafe1b366df0654695fa52d446be9",
@@ -243,9 +150,106 @@
    "reason": "Covers LLM and Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 87.1,
-   "prev_rank": 4,
-   "prev_hot_score": 87.1
+   "hot_score": 86.6,
+   "prev_rank": 3,
+   "prev_hot_score": 86.6
+  },
+  {
+   "id": "93489cde676affd2210914427a15b2ecb369c374",
+   "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+   "link": "https://www.qbitai.com/2026/11/510486.html",
+   "source": "QbitAI",
+   "source_id": "qbitai",
+   "published": "2026-11-16T07:51:57+00:00",
+   "en_title": "Alibaba Officially Launches Qwen4, With Stronger Agent and Coding Capabilities Toward Real-World, All-Scenario Use",
+   "en_oneliner": "Alibaba officially launched its new-generation foundation model Qwen4-Max on November 16, with stronger agent and coding capabilities moving toward real-world, all-scenario applications.",
+   "category": "model",
+   "category_label": "Model releases",
+   "tier": "T2",
+   "tags": [
+    "model",
+    "LLM",
+    "Agent"
+   ],
+   "score": 90,
+   "reason": "Covers model and LLM · Published within 24 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 73.0,
+   "prev_rank": null,
+   "prev_hot_score": null
+  },
+  {
+   "id": "108eb1846adc3e7fb1c6049ad560ce29769ff878",
+   "title": "Ask HN: Where are you on the spectrum of AI/LLM adoption?",
+   "link": "https://news.ycombinator.com/item?id=50527647",
+   "source": "Hacker News AI (hnrss)",
+   "source_id": "hn-ai",
+   "published": "2026-11-17T05:00:16+00:00",
+   "en_title": "Ask HN: Where are you on the spectrum of AI/LLM adoption?",
+   "en_oneliner": "This Hacker News thread asks developers to place themselves on a scale from autocomplete-only use to fully hands-off agents, and share how far they have actually gone with AI coding.",
+   "category": "model",
+   "category_label": "Model releases",
+   "tier": "T2",
+   "tags": [
+    "LLM",
+    "Agent",
+    "review"
+   ],
+   "score": 90,
+   "reason": "Covers LLM and Agent · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 88.8,
+   "prev_rank": 1,
+   "prev_hot_score": 88.8
+  },
+  {
+   "id": "f26f2a4dfd6b9b957c1544d02f570339b8f668d2",
+   "title": "Broadening access to AI for scientists",
+   "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "source": "OpenAI News",
+   "source_id": "openai-news",
+   "published": "2026-11-16T17:00:00+00:00",
+   "en_title": "Broadening access to AI for scientists",
+   "en_oneliner": "OpenAI expanded its ChatGPT for Academic Researchers program, giving 200,000 researchers worldwide free access to its frontier models.",
+   "category": "model",
+   "category_label": "Model releases",
+   "tier": "T1",
+   "tags": [
+    "model",
+    "GPT"
+   ],
+   "score": 85,
+   "reason": "Official source · Covers model and GPT · Published within 24 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 75.0,
+   "prev_rank": null,
+   "prev_hot_score": null
+  },
+  {
+   "id": "b1c71d07875ac772d826f89afdf2886a79e196cc",
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "link": "https://openai.com/index/strengthening-online-child-safety",
+   "source": "OpenAI News",
+   "source_id": "openai-news",
+   "published": "2026-11-16T17:00:00+00:00",
+   "en_title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "en_oneliner": "To fight online child sexual exploitation and abuse, OpenAI introduced new tooling, hands-on guidance, and partner programs aimed at prevention, detection, and response.",
+   "category": "tools",
+   "category_label": "New tools",
+   "tier": "T1",
+   "tags": [
+    "Tools"
+   ],
+   "score": 85,
+   "reason": "Official source · Covers Tools · Published within 24 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 75.0,
+   "prev_rank": null,
+   "prev_hot_score": null
   }
  ]
 }

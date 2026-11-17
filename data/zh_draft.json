@@ -5110,5 +5110,17 @@
   "zh_oneliner": "作者指出，大模型写普通程序得心应手，一旦要设计用到大模型本身的系统，却常绕远路搞复杂的符号推理而不直接调用模型，并分析了训练数据与强化学习环境等可能原因。",
   "en_title": "LLMs are terrible at designing AI systems",
   "en_oneliner": "The author argues that while LLMs write ordinary programs with ease, they often take a roundabout route — building complex symbolic reasoning instead of simply calling another model — when designing systems that use LLMs themselves, and explores possible causes in training data and RL environments."
+ },
+ "https://simonwillison.net/2026/Nov/17/go-proverbs": {
+  "zh_title": "摘引 Go 语言箴言",
+  "zh_oneliner": "作者摘录了几条 Go 语言的经典箴言，比如宁可复制一小段代码也不要引入一个小依赖，适合写 Go 的人收藏对照。",
+  "en_title": "Quoting Go Proverbs",
+  "en_oneliner": "The post collects a few classic Go proverbs, such as preferring a little copying over a little dependency — a handy reference for Go programmers."
+ },
+ "https://www.bloomberg.com/news/articles/2026-11-17/pimco-says-ai-bond-spreads-may-tighten-as-data-center-boom-slows": {
+  "zh_title": "Pimco：数据中心热潮放缓，AI 债券利差或收窄",
+  "zh_oneliner": "Pimco 认为随着数据中心建设热潮降温，AI 相关债券的利差可能收窄，提醒投资者重新评估这波基建热带来的信用风险。",
+  "en_title": "Pimco Says AI Bond Spreads May Tighten as Data Center Boom Slows",
+  "en_oneliner": "Pimco argues that as the data-center buildout cools, spreads on AI-related bonds may tighten, and investors should reassess the credit risk behind the infrastructure boom."
  }
 }

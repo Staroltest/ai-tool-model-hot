@@ -88,7 +88,10 @@ function shapeItem(item, lang) {
     score: item.score,
   };
   if (item[titleKey] && item.title && item[titleKey] !== item.title) {
-    out.original_title = item.title;
+    // 英文版不回传中文原文标题（与详情页一致）
+    if (lang !== "en" || !/[\u4e00-\u9fff]/.test(item.title)) {
+      out.original_title = item.title;
+    }
   }
   return out;
 }
