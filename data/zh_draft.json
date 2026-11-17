@@ -5194,5 +5194,281 @@
   "zh_oneliner": "Claude Code 模拟器新增 iPhone 双机型，开发者可用三种姿态测试移动端体验。",
   "en_title": "iPhone Duo Arrives in the Claude Code Simulator, With Three Poses to Test - Pasquale Pillitteri",
   "en_oneliner": "The Claude Code simulator now includes an iPhone duo, letting developers test the mobile experience in three poses."
+ },
+ "https://www.cmu-agents.com": {
+  "zh_title": "CMU 11-768：AI 智能体课程",
+  "zh_oneliner": "卡内基梅隆大学开设的 11-768 课程，系统讲 AI 智能体的原理与实践。",
+  "en_title": "CMU 11-768: AI Agents",
+  "en_oneliner": "CMU's 11-768 course teaches the principles and practice of building AI agents."
+ },
+ "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkNnck9VQ2VHNjdybmxuM1p4V1pBYmVpcEdHOW9TS1lCaGlsUmhMc3hVZHZoU3pBWFRhVkRPYjFncFRWXzJIazRJRlJhMG9yeG90X3YxYzJzWENldEVJRnBxbFZXMTZMMU4tS3NLSm9TczBqRUFpdHJ3cDdRSkRXb0RKd0ZoSEZEQzNGd1NqTVpLNjdJTm45MEoyWlE?oc=5": {
+  "zh_title": "Tribe AI 入选 Anthropic Claude 合作伙伴网络优选合作伙伴",
+  "zh_oneliner": "Tribe AI 成为 Anthropic Claude 合作伙伴网络的优选成员，借 Claude 能力为企业落地 AI 方案。",
+  "en_title": "Tribe AI Named a Preferred Partner in Anthropic’s Claude Partner Network - Yahoo Finance",
+  "en_oneliner": "Tribe AI joins Anthropic's Claude Partner Network as a preferred partner, helping enterprises deploy AI solutions built on Claude."
+ },
+ "https://news.google.com/rss/articles/CBMijgJBVV95cUxPMHBabVNmaHZkNDdMWkZPZFpDR2FHUDBDbDluM3lwQkdHcjlONnNjOE1xUWVXRWFGdGM0Tk1ub0FXVmh0RUxfdE5ncWhtVUx3dGN4ajY4WnExRGJ4TlhGRmVzQ1ZSS1NQWUtjS0FPWmtKZU5MYTYwUVVLTUJMUjNtc0hJSUYzcUp1ZHJxaHpKZnJfd3NQUExMX3lhYjdac2FwNGNnSmlrdUNrR1NUeVpFR3JrWmJDY0tXM0wtd3lxR1RUMk1JUzRiNjRRTzdfemI3a3hhc3BsNFRIenN5RHNMeVJwcHloaTIweElseTQ0ZXM1MHZ3MFFCbGZiNm1RRHplZGNpckNqQzdWdnV5a1E?oc=5": {
+  "zh_title": "Anthropic 上市传闻令 SpaceX 成焦点，ARK 认为这家 AI 实验室可能为算力向马斯克支付天价",
+  "zh_oneliner": "围绕 Anthropic 可能上市的讨论升温，ARK 认为它为争夺算力或向 SpaceX 支付高昂费用。",
+  "en_title": "Anthropic IPO Puts SpaceX In Spotlight — Why Cathie Wood’s ARK Thinks The AI Lab Could Pay Musk ‘Obscene’ Prices For Compute - TradingView",
+  "en_oneliner": "Talk of a possible Anthropic IPO puts SpaceX in focus, as ARK suggests the AI lab may pay steep prices for compute."
+ },
+ "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YWTVIaHFBZGp2SnNxSDM2TEU1YUdzZGZ1Zk5DUUtWTVJPTDFmZno5b0hKX0ZKZkJ3SU5EV212c0RXV0V6U3k1endpYUR3ZWJwR1ZDNDJILXJ2em1MWjdFQXdDaDdEenFj?oc=5": {
+  "zh_title": "Anthropic 允许自托管 Claude 托管智能体，但安全风险须在 8 小时内处理",
+  "zh_oneliner": "Anthropic 开放 Claude 托管智能体的自托管选项，附带条件是发现软件安全风险后须在 8 小时内采取行动。",
+  "en_title": "Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk in the software - The New Stack",
+  "en_oneliner": "Anthropic now allows self-hosting of Claude Managed Agents, with one condition: act within 8 hours if a safety risk is flagged in the software."
+ },
+ "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTU9hUDh0eDV0TVp0VV9Vd3pncFduU0NXNUNjWVNRU3dUSkFYLWR3RVVnUmVaekI1RUJCLTR3bUl3NDVJaHE3SF9IWUt2WEdtM1BZNG5waHB3RzAxVHdyUmRSc1B0Z1ZiQWpuQk1CTkgzSzRBVjJoVFZVWXNPb3hHa1d0RXlGZUlxbFNEemEzNFY0bk5fSDIwZUZtalNGQVNHUnJaVk85cHJMMU5FLW1GaUJvbVFmVzhpTVhCTE1QWDBsaDF0SGJaU3lxY2pPYU9UQWlQUHVrU2hIMllh0gHiAUFVX3lxTE1jU29qZ2ZEa0VKeDBiWktUdFZva3VkZkoxM3ZqeFZzZ0pSSkphTXAxNF9ldkF0VWFteG9SUVhpY0NrMDFOemROTW5CZEZ6U3BPNkYwWTFtNUJEYVBQRzl1LS1Fdks0aDVDV3Z1Y3J3SFhrdERqNWJfdklHOHpFTDBuR1JIYkN0ekJ2RmhFaUdZNlRma1ZvMHhvUjhfaVIxdDNnOHhZdDFyMjkzLTNxc3pubVItMkxJeV8tamVEOVV1d01uVmxXZnVENEdraUtoUWxwMldDTzktYTlMUUVLd21fdVE?oc=5": {
+  "zh_title": "Anthropic 有望冲击史上最大 IPO，300 名投资者或将获利",
+  "zh_oneliner": "报道称 Anthropic 正筹备可能是全球规模最大的 IPO，约 300 名早期投资者有望从中获益。",
+  "en_title": "Anthropic eyes world's biggest IPO: Who are the 300 investors set to reap a windfall? - Moneycontrol.com",
+  "en_oneliner": "Anthropic is reportedly preparing what could be the world's biggest IPO, with around 300 early investors set to benefit."
+ },
+ "https://www.producthunt.com/products/trulata": {
+  "zh_title": "TruLata AI Visibility：检测品牌是否被 ChatGPT 提及",
+  "zh_oneliner": "帮企业查清买家向 ChatGPT 提问时是否会提到自家品牌，把 AI 搜索曝光变成可衡量的指标。",
+  "en_title": "AI Visibility by TruLata",
+  "en_oneliner": "It checks whether ChatGPT mentions your business when buyers ask, turning AI search visibility into something measurable."
+ },
+ "https://www.producthunt.com/products/continuo-4": {
+  "zh_title": "Continuo：一套键鼠操控多台 Mac",
+  "zh_oneliner": "用一套键盘鼠标跨多台 Mac 操作，无需登录 Apple 账号，适合多设备办公场景。",
+  "en_title": "Continuo",
+  "en_oneliner": "One keyboard and mouse to control several Macs, with no Apple Account sign-in needed — handy for multi-device setups."
+ },
+ "https://www.producthunt.com/products/lampa-camera": {
+  "zh_title": "Lampa Camera：主打自然成像与胶片感的 iPhone 相机",
+  "zh_oneliner": "为 iPhone 打造的相机应用，以自然的后期处理和胶片质感区别于系统相机。",
+  "en_title": "Lampa Camera",
+  "en_oneliner": "An iPhone camera app that stands out with natural-looking processing and an analog, film-like feel."
+ },
+ "https://www.producthunt.com/products/stencil-by-superhands": {
+  "zh_title": "Superhands：设计系统而非逐个打磨输出",
+  "zh_oneliner": "面向设计师的工具，强调用一套系统生成一致的设计成果，而不是逐个手工调整。",
+  "en_title": "Superhands",
+  "en_oneliner": "A design tool built around systems: define the system once and get consistent outputs, instead of polishing each one by hand."
+ },
+ "https://www.producthunt.com/products/extradock": {
+  "zh_title": "ExtraDock 5：让 Mac Dock 出现在每一块屏幕上",
+  "zh_oneliner": "把 Mac 的 Dock 扩展到所有外接显示器上，多屏工作时切换应用更顺手。",
+  "en_title": "ExtraDock 5",
+  "en_oneliner": "It puts your Mac Dock on every connected display, so switching apps across screens feels smoother."
+ },
+ "https://www.producthunt.com/products/rootkey-platform": {
+  "zh_title": "ROOTKey Platform：可验证的数据变更与恢复",
+  "zh_oneliner": "记录数据每一次变化并给出可验证的证明，出了问题能按证据把数据恢复到可信状态。",
+  "en_title": "ROOTKey Platform",
+  "en_oneliner": "It tracks what changed in your data and backs it with proof, so you can restore it to a verifiable state when things go wrong."
+ },
+ "https://www.producthunt.com/products/onlinecompiler-io": {
+  "zh_title": "OnlineCompiler.io：支持 46 种语言的在线代码运行与评分",
+  "zh_oneliner": "在线编译器，支持 46 种编程语言的代码运行与自动评分，可通过 API 或嵌入方式接入。",
+  "en_title": "OnlineCompiler.io",
+  "en_oneliner": "An online compiler that runs and grades code in 46 languages, available through an API or as an embed."
+ },
+ "https://www.producthunt.com/products/base-studio": {
+  "zh_title": "BASE Studio：产品照片一键转 3D 与 AR",
+  "zh_oneliner": "把普通产品照片自动转换成 3D 模型和 AR 展示，省去建模环节，适合电商与营销场景。",
+  "en_title": "BASE Studio",
+  "en_oneliner": "It converts plain product shots into interactive 3D and AR presentations automatically, cutting out manual modeling for online stores and marketers."
+ },
+ "https://www.producthunt.com/products/retriever-4": {
+  "zh_title": "Retriever：本地私有搜索手机照片与文档",
+  "zh_oneliner": "在手机本地搜索照片、文档和视频，内容不出设备，兼顾检索便利与隐私。",
+  "en_title": "Retriever",
+  "en_oneliner": "Find photos, files and clips stored on your handset without sending anything to the cloud, so retrieval stays both handy and private."
+ },
+ "https://www.producthunt.com/products/gatherhq-agent-research": {
+  "zh_title": "GatherHQ Agent Research：让 AI 智能体替你做问卷调研",
+  "zh_oneliner": "把问卷调研交给 AI 智能体代劳，自动收集反馈，适合需要快速做用户研究的团队。",
+  "en_title": "GatherHQ Agent Research",
+  "en_oneliner": "It hands survey research over to AI agents that collect responses for you — a faster route to user feedback."
+ },
+ "https://www.producthunt.com/products/hako": {
+  "zh_title": "Hako：手机管理每台 Mac 上的编码智能体",
+  "zh_oneliner": "在手机上集中管理运行在各台 Mac 上的编码智能体，随时查看与调度开发任务。",
+  "en_title": "Hako",
+  "en_oneliner": "Manage coding agents running on all your Macs from your pocket, keeping tabs on development tasks wherever you are."
+ },
+ "https://www.producthunt.com/products/superlog": {
+  "zh_title": "superlog：揪出监控漏掉的生产环境 Bug",
+  "zh_oneliner": "深挖生产日志，找出常规监控发现不了的隐患，帮助团队在用户察觉之前修复问题。",
+  "en_title": "superlog",
+  "en_oneliner": "It digs into production logs to surface the bugs your monitoring misses, so teams can fix issues before users notice."
+ },
+ "https://www.producthunt.com/products/versine": {
+  "zh_title": "Versine：让 AI 智能体收付款",
+  "zh_oneliner": "为 AI 智能体提供收付款能力，让智能体能在交易场景里自主完成资金往来。",
+  "en_title": "Versine",
+  "en_oneliner": "It gives AI agents the ability to send and receive payments, so they can handle money movement on their own in transactions."
+ },
+ "https://www.producthunt.com/products/3bcad": {
+  "zh_title": "3BCAD：开源参数化 CAD，内置 3D 打印准备",
+  "zh_oneliner": "开源参数化 CAD 工具，自带 3D 打印前处理功能，从设计到打印一站式完成。",
+  "en_title": "3BCAD",
+  "en_oneliner": "An open-source parametric CAD tool with 3D print preparation built in, taking a design from modeling to printing in one place."
+ },
+ "https://www.producthunt.com/products/link-bio": {
+  "zh_title": "Link.bio：粘贴链接，AI 帮你建站并运营",
+  "zh_oneliner": "粘贴一个链接就能生成个人主页，并由 AI 持续打理页面内容，适合创作者快速上线。",
+  "en_title": "Link.bio",
+  "en_oneliner": "Paste a link and get a personal page built for you, with AI looking after it afterwards — a quick launchpad for creators."
+ },
+ "https://www.producthunt.com/products/vinc": {
+  "zh_title": "VINC：把影视创意变成现实",
+  "zh_oneliner": "面向影视创作者的 AI 工具，帮助把脑海中的画面与构想落实为可呈现的影像。",
+  "en_title": "VINC",
+  "en_oneliner": "An AI tool for filmmakers that turns a creative vision into finished visuals you can actually show."
+ },
+ "https://www.producthunt.com/products/lfm2": {
+  "zh_title": "Liquid d1.2：输出校准概率的决策模型",
+  "zh_oneliner": "新一代 Liquid 决策模型，输出经过校准的概率，适合需要量化不确定性的判断场景。",
+  "en_title": "Liquid d1.2",
+  "en_oneliner": "A new Liquid decision model that returns calibrated probabilities, suited to judgments where uncertainty needs quantifying."
+ },
+ "https://www.producthunt.com/products/ekline": {
+  "zh_title": "EkLine：让 API 被 AI 智能体发现与调用",
+  "zh_oneliner": "帮助 API 进入 AI 智能体的视野并被推荐调用，让开发者的接口在智能体生态里获得流量。",
+  "en_title": "EkLine",
+  "en_oneliner": "It puts your API in front of AI agents so it gets picked up and called, bringing traffic to your interface from the agent ecosystem."
+ },
+ "https://www.producthunt.com/products/pinecall": {
+  "zh_title": "Pinecall：面向语音 AI 智能体的开源平台",
+  "zh_oneliner": "开源语音 AI 智能体平台，提供搭建语音助手所需的基础能力，开发者可自由部署与扩展。",
+  "en_title": "Pinecall",
+  "en_oneliner": "A freely available platform for voice-driven AI agents, with the pieces developers need to roll out and grow their own assistants."
+ },
+ "https://www.producthunt.com/products/inbox-hero-2": {
+  "zh_title": "Inbox Hero：按你的语气起草回复，隔离诈骗邮件",
+  "zh_oneliner": "用你的口吻自动起草邮件回复，同时把诈骗邮件隔离出去，让收件箱处理更省心。",
+  "en_title": "Inbox Hero",
+  "en_oneliner": "It drafts email replies in your own voice while quarantining scam messages, making the inbox easier to manage."
+ },
+ "https://www.producthunt.com/products/creatify": {
+  "zh_title": "Creatify Max：从策略到上线的广告 AI 搭档",
+  "zh_oneliner": "覆盖广告全流程的 AI 助手，从策略制定到素材制作再到投放上线一手包办。",
+  "en_title": "Creatify Max",
+  "en_oneliner": "An AI teammate for advertising that covers the whole flow, from strategy and creative work through to launch."
+ },
+ "https://www.producthunt.com/products/recall-ai": {
+  "zh_title": "Recall.ai Agents API：派智能体去开会",
+  "zh_oneliner": "把 AI 智能体派进线上会议，代你参会并记录要点，适合会议密集的团队。",
+  "en_title": "Agents API by Recall.ai",
+  "en_oneliner": "Send your AI agent into meetings on your behalf, so it can attend and capture the key points for you."
+ },
+ "https://www.producthunt.com/products/lasso-11": {
+  "zh_title": "Lasso：在 Mac 屏幕上画圈，让 AI 智能体看见",
+  "zh_oneliner": "在 Mac 屏幕上圈出内容，AI 智能体就能看到你指的部分，沟通需求时不用再截图加文字说明。",
+  "en_title": "Lasso",
+  "en_oneliner": "Draw on your Mac screen and let AI agents see exactly what you mean — no more screenshots plus written explanations."
+ },
+ "https://www.producthunt.com/products/infaiw": {
+  "zh_title": "infaiw：把工作交给带审批脚本的副手智能体",
+  "zh_oneliner": "把任务委派给配有审批脚本的副手智能体，关键步骤先过审再执行，兼顾效率与可控性。",
+  "en_title": "infaiw",
+  "en_oneliner": "Delegate work to sidecar agents that run an approval script first, so key steps get checked before they execute."
+ },
+ "https://www.producthunt.com/products/glisstouch": {
+  "zh_title": "GlissTouch：Mac 自定义触控板手势",
+  "zh_oneliner": "为 Mac 触控板定制手势操作，把常用功能绑定到顺手的手势上，提升操作效率。",
+  "en_title": "GlissTouch",
+  "en_oneliner": "Custom trackpad gestures for your Mac, binding everyday actions to gestures that feel natural."
+ },
+ "https://www.producthunt.com/products/rankspot": {
+  "zh_title": "RankSpot：按需付费的 SEO 与 AI 搜索执行层",
+  "zh_oneliner": "面向智能体的 SEO 与 AI 搜索执行工具，按使用量付费，帮内容在搜索与 AI 问答中获得曝光。",
+  "en_title": "RankSpot",
+  "en_oneliner": "An execution layer that helps agents improve search and AI-answer visibility, billed only for what you use."
+ },
+ "https://www.producthunt.com/products/aws": {
+  "zh_title": "AWS Emulator：本地搭建测试 AWS 应用",
+  "zh_oneliner": "在本地模拟 AWS 环境来构建与测试应用，不用每次都部署到云端，调试迭代更快。",
+  "en_title": "AWS Emulator",
+  "en_oneliner": "Build and test AWS applications locally in a simulated environment, so you can iterate without deploying to the cloud each time."
+ },
+ "https://www.producthunt.com/products/clamor-2": {
+  "zh_title": "Clamor：把社交信号变成可执行的洞察",
+  "zh_oneliner": "从社交媒体信号中提炼可落地的洞察，帮团队抓住值得跟进的舆情与机会。",
+  "en_title": "Clamor",
+  "en_oneliner": "It turns social signals into insights you can act on, helping teams spot the conversations and opportunities worth following up."
+ },
+ "https://www.producthunt.com/products/ballet": {
+  "zh_title": "Ballet：面向运营团队的确定性 AI 工作流自动化",
+  "zh_oneliner": "为运营团队打造的 AI 工作流自动化工具，强调确定性的执行结果，减少流程中的不确定性。",
+  "en_title": "Ballet",
+  "en_oneliner": "Workflow automation for operations teams that prizes predictable, repeatable AI-driven outcomes."
+ },
+ "https://www.producthunt.com/products/glass-page": {
+  "zh_title": "Glass Page：公开点评智能体的工作成果",
+  "zh_oneliner": "提供一个公开场所，让人们查看并评价智能体完成的工作，推动智能体质量透明化。",
+  "en_title": "Glass Page",
+  "en_oneliner": "An open forum for assessing what agents produce, so their work quality is visible to everyone."
+ },
+ "https://www.producthunt.com/products/wispos": {
+  "zh_title": "WispOS：免费 AI 游戏制作器，附带应用商店",
+  "zh_oneliner": "免费的 AI 游戏制作工具，内置应用商店，普通人也能做出游戏并分享给他人游玩。",
+  "en_title": "WispOS",
+  "en_oneliner": "A no-cost tool for creating games with AI, complete with a storefront where your creations can reach players."
+ },
+ "https://www.producthunt.com/products/dearinside": {
+  "zh_title": "DearInside：身体也有社交网络，而你是唯一的人类",
+  "zh_oneliner": "一款脑洞颇大的应用，把身体比作社交网络，探索人与自身健康数据之间的趣味关系。",
+  "en_title": "DearInside",
+  "en_oneliner": "A playful app that treats your body as a social network where you are the only human — a fresh take on health data."
+ },
+ "https://www.producthunt.com/products/trellus": {
+  "zh_title": "Trellus：直接用 CRM 名单并行外呼",
+  "zh_oneliner": "销售外呼工具，直接调用 CRM 里已有的客户名单并行拨打，提升成单前的触达效率。",
+  "en_title": "Trellus",
+  "en_oneliner": "A power dialer that pulls prospects from your CRM and calls them in parallel, so sales teams reach more people faster."
+ },
+ "https://www.producthunt.com/products/dialect": {
+  "zh_title": "Dialect：给物理世界一个 API",
+  "zh_oneliner": "把现实世界的设备与场景接入 API，让开发者能像调用软件接口一样操控物理世界。",
+  "en_title": "Dialect",
+  "en_oneliner": "It gives the physical world an API, letting developers control real-world devices and spaces like software interfaces."
+ },
+ "https://www.producthunt.com/products/appxiom": {
+  "zh_title": "Appxiom：帮 AI 编码智能体发现并修复 Bug 的上下文层",
+  "zh_oneliner": "为 AI 编码智能体提供上下文层，帮助它们更快定位并修复代码中的问题。",
+  "en_title": "Appxiom",
+  "en_oneliner": "A context layer that helps AI coding agents spot and fix bugs faster by giving them the background they need."
+ },
+ "https://www.producthunt.com/products/seshka": {
+  "zh_title": "seshka：清理 Claude Code 残留的进程",
+  "zh_oneliner": "帮你关掉 Claude Code 用完后留在后台的残留进程，保持开发环境干净整洁。",
+  "en_title": "seshka",
+  "en_oneliner": "It kills the leftover processes Claude Code leaves behind, keeping your development environment tidy."
+ },
+ "https://www.producthunt.com/products/pushr": {
+  "zh_title": "pushr：从任意脚本、服务器或 AI 智能体发 iPhone 推送",
+  "zh_oneliner": "让脚本、服务器或 AI 智能体随时向你的 iPhone 发送推送提醒，监控与自动化场景都用得上。",
+  "en_title": "pushr",
+  "en_oneliner": "A lightweight way to ping your iPhone from scripts, servers and agents whenever something needs your attention."
+ },
+ "https://www.producthunt.com/products/ridian": {
+  "zh_title": "Ridian：围绕会议的一站式 AI 日程套件",
+  "zh_oneliner": "以会议为中心的 AI 日程管理套件，统筹会前准备、会中记录与会后跟进等全部环节。",
+  "en_title": "Ridian",
+  "en_oneliner": "A meeting-centred scheduling toolkit powered by AI, handling prep, notes and follow-ups in one place."
+ },
+ "https://www.producthunt.com/products/bezzle": {
+  "zh_title": "Bezzle：免费的整套设计工作室，支持 Mac 与 PC",
+  "zh_oneliner": "免费的设计工作室软件，在 Mac 和 PC 上都能用，个人创作者不用付费也能获得专业设计工具。",
+  "en_title": "Bezzle",
+  "en_oneliner": "A whole design studio that is free on both Mac and PC, giving individual creators professional tools at no cost."
+ },
+ "https://www.producthunt.com/products/polyroom": {
+  "zh_title": "polyroom：AI 智能体协同工作，团队做决策",
+  "zh_oneliner": "多个 AI 智能体在同一空间里协作，人类团队保留最终决策权，适合复杂的多智能体任务。",
+  "en_title": "polyroom",
+  "en_oneliner": "A shared space where AI agents work together while your team keeps the final say — built for complex multi-agent tasks."
+ },
+ "https://www.producthunt.com/products/skiss": {
+  "zh_title": "Skiss：连字体、配色与真实 CSS 一起保存网页",
+  "zh_oneliner": "保存网页时连同字体、配色和真实 CSS 一并留存，离线查看也能还原原始排版效果。",
+  "en_title": "Skiss",
+  "en_oneliner": "Archive web pages faithfully, keeping typefaces, palettes and genuine stylesheets intact for offline viewing."
  }
 }
