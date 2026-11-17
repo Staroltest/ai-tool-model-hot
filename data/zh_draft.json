@@ -5134,5 +5134,29 @@
   "zh_oneliner": "这篇报道说 Claude 已经能按需求定制小工具的设计蓝图，不过生成结果是否稳定一致，目前还没有定论。",
   "en_title": "Anthropic’s Claude builds custom gadget blueprints, but consistency stays hidden - CryptoSlate",
   "en_oneliner": "The report says Claude can already draft custom blueprints for gadgets on demand, though whether the results stay consistent remains an open question."
+ },
+ "https://www.nature.com/articles/s41591-026-04808-6": {
+  "zh_title": "OpenScientist：自动化生物医学研究的开放 AI 系统",
+  "zh_oneliner": "OpenScientist 是一个开放的 AI 系统，能自动完成生物医学研究流程，论文登上了《自然·医学》。",
+  "en_title": "OpenScientist: An Open AI System That Automates Biomedical Research",
+  "en_oneliner": "OpenScientist is an open AI system that automates biomedical research workflows, published in Nature Medicine."
+ },
+ "https://backplaneworks.com": {
+  "zh_title": "Backplane：面向硬件开发的 AI 环境",
+  "zh_oneliner": "Backplane 把 KiCad 和 Claude Code、Codex 等 AI 编程助手接进硬件开发流程，让电气工程师真正用 AI 加速设计。",
+  "en_title": "Show HN: Backplane – An AI Development Environment for Hardware",
+  "en_oneliner": "Backplane plugs KiCad and AI coding assistants like Claude Code and Codex into hardware development, so electrical engineers can actually design with AI."
+ },
+ "https://mizan.techforpalestine.org/hostage-or-detainee": {
+  "zh_title": "Mizan 偏见基准：测试 AI 模型",
+  "zh_oneliner": "Mizan 是一个偏见测试基准，用来检验 AI 模型在敏感议题上的表述是否存在双重标准。",
+  "en_title": "Mizan bias benchmark: testing AI models",
+  "en_oneliner": "Mizan is a bias benchmark that tests whether AI models apply double standards on sensitive topics."
+ },
+ "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient": {
+  "zh_title": "TokenEconomizer：让 AI 编程助手从经验中学会省 Token",
+  "zh_oneliner": "微软研究院的 TokenEconomizer 让 AI 编程助手从过往经验中学习，用更少的 Token 完成同样的编码任务。",
+  "en_title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents Efficient",
+  "en_oneliner": "Microsoft Research's TokenEconomizer helps AI coding agents learn from experience so they can finish the same tasks with fewer tokens."
  }
 }
