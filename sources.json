@@ -1,1 +1,173 @@
-{"comment":"格式：每条 {id, name, tier, url, category_hint}。tier: T1 官方一手，T2 媒体/社区，T3 综合媒体（降权，见 config.json tier_bonus）。收录标准：逐个实测 HTTP 200 且能解析出条目；403、超时、空 feed 的不收。category_hint 须是 config.json 里 categories 的 key。见 BOOTSTRAP.md 第 3 步。","sources":[{"category_hint":"guide","id":"example-devto","name":"示例：Dev.to","tier":"T2","url":"https://dev.to/feed"},{"category_hint":"news","id":"example-hn","name":"示例：Hacker News 首页","tier":"T2","url":"https://hnrss.org/frontpage"}]}
+{
+  "comment": "格式：每条 {id, name, tier, url, category_hint}。tier: T1 官方一手，T2 媒体/社区，T3 综合媒体（降权，见 config.json tier_bonus）。收录标准：2026-11-17 逐个实测 HTTP 200 且能解析出条目；403、超时、空 feed 的不收。category_hint 须是 config.json 里 categories 的 key。注意：arXiv cs.AI 每天几十篇，靠打分限量截流；Anthropic/Meta/xAI 无官方 RSS，只用 1 条 Google News 补 Anthropic；review 分类暂无专属源，靠关键词筛。见 BOOTSTRAP.md 第 3 步。 InfoQ 中国（infoq-cn）已摘：2026-11-17 浏览器 UA 测 200，但生成器机器人 UA 测 404，属机器人墙，每轮都会失败，故摘掉不重试。 IT之家（ithome）与雷锋网（leiphone）已摘：2026-11-17 两者都是全站综合流、非 AI 专属，时间线会被散热器、鼠标垫、汽车等非 AI 条目淹没，模板不做源内关键词过滤，故摘掉不重试；其 AI 内容由 TechCrunch AI、The Verge AI、量子位等专属源覆盖。",
+  "sources": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "tier": "T1",
+      "url": "https://openai.com/news/rss.xml",
+      "category_hint": "model"
+    },
+    {
+      "id": "deepmind-blog",
+      "name": "Google DeepMind Blog",
+      "tier": "T1",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "category_hint": "model"
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "tier": "T1",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "category_hint": "model"
+    },
+    {
+      "id": "google-research-blog",
+      "name": "Google Research Blog",
+      "tier": "T1",
+      "url": "https://research.google/blog/rss/",
+      "category_hint": "model"
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "tier": "T1",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "category_hint": "opensource"
+    },
+    {
+      "id": "mistral-news",
+      "name": "Mistral News",
+      "tier": "T1",
+      "url": "https://mistral.ai/news/rss",
+      "category_hint": "model"
+    },
+    {
+      "id": "nvidia-blog",
+      "name": "NVIDIA Blog",
+      "tier": "T1",
+      "url": "https://blogs.nvidia.com/feed/",
+      "category_hint": "industry"
+    },
+    {
+      "id": "aws-ml-blog",
+      "name": "AWS Machine Learning Blog",
+      "tier": "T1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "category_hint": "guide"
+    },
+    {
+      "id": "langchain-blog",
+      "name": "LangChain Blog",
+      "tier": "T1",
+      "url": "https://www.langchain.com/blog/rss.xml",
+      "category_hint": "tools"
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "tier": "T2",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "category_hint": "industry"
+    },
+    {
+      "id": "the-verge-ai",
+      "name": "The Verge AI",
+      "tier": "T2",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "category_hint": "industry"
+    },
+    {
+      "id": "mit-tech-review-ai",
+      "name": "MIT Technology Review AI",
+      "tier": "T2",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+      "category_hint": "industry"
+    },
+    {
+      "id": "ars-technica-ai",
+      "name": "Ars Technica AI",
+      "tier": "T2",
+      "url": "https://arstechnica.com/ai/feed/",
+      "category_hint": "industry"
+    },
+    {
+      "id": "wired-ai",
+      "name": "Wired AI",
+      "tier": "T2",
+      "url": "https://www.wired.com/feed/category/artificial-intelligence/rss",
+      "category_hint": "industry"
+    },
+    {
+      "id": "the-decoder",
+      "name": "The Decoder",
+      "tier": "T2",
+      "url": "https://the-decoder.com/feed/",
+      "category_hint": "model"
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "tier": "T2",
+      "url": "https://simonwillison.net/atom/everything/",
+      "category_hint": "tools"
+    },
+    {
+      "id": "hn-ai",
+      "name": "Hacker News AI (hnrss)",
+      "tier": "T2",
+      "url": "https://hnrss.org/newest?q=AI",
+      "category_hint": "tools"
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI",
+      "tier": "T2",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "category_hint": "model"
+    },
+    {
+      "id": "googlenews-anthropic",
+      "name": "Google News: Anthropic Claude",
+      "tier": "T2",
+      "url": "https://news.google.com/rss/search?q=Anthropic%20Claude&hl=en-US&gl=US&ceid=US:en",
+      "category_hint": "model"
+    },
+    {
+      "id": "kdnuggets",
+      "name": "KDnuggets",
+      "tier": "T2",
+      "url": "https://www.kdnuggets.com/feed",
+      "category_hint": "guide"
+    },
+    {
+      "id": "ml-mastery",
+      "name": "Machine Learning Mastery",
+      "tier": "T2",
+      "url": "https://machinelearningmastery.com/blog/feed/",
+      "category_hint": "guide"
+    },
+    {
+      "id": "product-hunt",
+      "name": "Product Hunt",
+      "tier": "T2",
+      "url": "https://www.producthunt.com/feed",
+      "category_hint": "tools"
+    },
+    {
+      "id": "ollama-releases",
+      "name": "Ollama Releases",
+      "tier": "T2",
+      "url": "https://github.com/ollama/ollama/releases.atom",
+      "category_hint": "opensource"
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "tier": "T2",
+      "url": "https://www.qbitai.com/feed",
+      "category_hint": "industry"
+    }
+  ]
+}
