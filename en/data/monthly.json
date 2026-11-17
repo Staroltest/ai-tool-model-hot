@@ -5,7 +5,7 @@
  "date": "November 17, 2026",
  "date_iso": "2026-11-17",
  "issue": 1,
- "generated_at": "2026-11-17T05:33:18.780678+00:00",
+ "generated_at": "2026-11-17T05:53:14.506940+00:00",
  "summary": "831 items collected in the past 30 days, 10 picks (Model releases 4, New tools 6). Headline: NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance.",
  "items": [
   {
@@ -29,9 +29,9 @@
    "reason": "Official source · Covers inference and Agent · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 88.2,
+   "hot_score": 87.9,
    "prev_rank": 3,
-   "prev_hot_score": 88.2
+   "prev_hot_score": 87.9
   },
   {
    "id": "1742558d91d037f5dac22c418ea1ee9137d71f48",
@@ -53,9 +53,9 @@
    "reason": "Official source · Covers Agent and API · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 90.1,
+   "hot_score": 89.8,
    "prev_rank": 1,
-   "prev_hot_score": 90.1
+   "prev_hot_score": 89.9
   },
   {
    "id": "f891bd93f3d21469060271c5a85b2a7a2e8b4138",
@@ -77,7 +77,7 @@
    "reason": "Official source · Covers GPT and Workflow · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 76.4,
+   "hot_score": 76.2,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -101,7 +101,7 @@
    "reason": "Official source · Covers GPT and Agent · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 72.3,
+   "hot_score": 72.1,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -125,9 +125,9 @@
    "reason": "Official source · Covers Agent and Tools · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.3,
+   "hot_score": 79.1,
    "prev_rank": 12,
-   "prev_hot_score": 79.4
+   "prev_hot_score": 79.1
   },
   {
    "id": "6cab091c059af43fb71f81530930f3b85777319c",
@@ -149,9 +149,9 @@
    "reason": "Official source · Covers Agent and Workflow · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.3,
+   "hot_score": 79.1,
    "prev_rank": 13,
-   "prev_hot_score": 79.4
+   "prev_hot_score": 79.1
   },
   {
    "id": "cfa79461fd2cb8ae502f34b42790f5b5be9724cb",
@@ -172,9 +172,9 @@
    "reason": "Official source · Covers Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 85.4,
+   "hot_score": 85.1,
    "prev_rank": 5,
-   "prev_hot_score": 85.4
+   "prev_hot_score": 85.1
   },
   {
    "id": "b576b148cff59b595e9defbe6e267f2e2f5e4077",
@@ -195,9 +195,9 @@
    "reason": "Official source · Covers Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 85.4,
+   "hot_score": 85.1,
    "prev_rank": 6,
-   "prev_hot_score": 85.4
+   "prev_hot_score": 85.1
   },
   {
    "id": "7a45c5f6802d9361ea14bcb772f3dfc597c32e17",
@@ -218,9 +218,9 @@
    "reason": "Official source · Covers Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 85.4,
+   "hot_score": 85.1,
    "prev_rank": 7,
-   "prev_hot_score": 85.4
+   "prev_hot_score": 85.1
   },
   {
    "id": "6081b5dff7bcafe1b366df0654695fa52d446be9",
@@ -243,9 +243,9 @@
    "reason": "Covers LLM and Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 87.3,
+   "hot_score": 87.1,
    "prev_rank": 4,
-   "prev_hot_score": 87.3
+   "prev_hot_score": 87.1
   }
  ]
 }
