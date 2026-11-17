@@ -5488,5 +5488,11 @@
   "zh_oneliner": "用统一的编码智能体界面自由选用任意 AI 模型，不再被单一模型绑定。",
   "en_title": "Autopilot: Use whichever AI model you want, with one coding-agent interface",
   "en_oneliner": "One coding-agent interface that lets you use whichever AI model you want, without being locked to a single model."
+ },
+ "https://apps.apple.com/au/app/call-nara/id6794990805": {
+  "zh_title": "Show HN：Call Nara，为老年人打造的 AI 语音陪伴",
+  "zh_oneliner": "Call Nara 是一款面向老年人的 AI 语音陪伴应用，点一下就能开口聊天，无需打字，适合独居或长时间独处的人随时找人说说话。",
+  "en_title": "Show HN: Call Nara. An AI voice companion built with older people in mind",
+  "en_oneliner": "Call Nara is an AI voice companion app made for older adults: one tap starts a spoken chat with no typing, giving people who live alone someone to talk to whenever they want."
  }
 }
