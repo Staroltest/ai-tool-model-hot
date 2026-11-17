@@ -5164,5 +5164,35 @@
   "zh_oneliner": "这篇文章算了一笔账：单价最高的 Claude Fable 5.2 凭借更少的调用次数与更高的任务完成率，在实际使用中反而可能比便宜模型更省钱。",
   "en_title": "Claude Fable 5.2: Why Anthropic's Most Expensive Model Can End Up the Cheapest - HackerNoon",
   "en_oneliner": "This piece does the math: despite the highest per-unit price, Claude Fable 5.2 can end up cheaper in real use thanks to fewer calls and a higher task-completion rate."
+ },
+ "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": {
+  "zh_title": "OpenAI 携手北约及盟国网络机构，用 AI 强化网络防御",
+  "zh_oneliner": "OpenAI 与北约及盟国网络安全机构合作，帮助可信防御方发现漏洞、验证修复方案，守护关键系统。",
+  "en_title": "Strengthening NATO and allied cyber defenses with AI",
+  "en_oneliner": "OpenAI will work alongside NATO and allied cyber teams, giving vetted defenders a hand in hunting flaws, checking patches, and keeping critical infrastructure safe."
+ },
+ "https://zimmergren.net/ai-and-compliance": {
+  "zh_title": "在必须通过合规审计的组织内部落地 AI",
+  "zh_oneliner": "一篇实践分享，讲组织在合规审计压力下如何引入 AI，既满足审计要求又不拖慢日常工作。",
+  "en_title": "Adopting AI inside an organization that has to pass a compliance audit",
+  "en_oneliner": "A hands-on account of bringing AI into an organization that must clear compliance audits, meeting the audit bar without slowing everyday work."
+ },
+ "https://nolanfrausto.com/posts/ai-slop-spiral": {
+  "zh_title": "AI 劣质内容螺旋",
+  "zh_oneliner": "探讨 AI 生成的低质内容如何自我循环、越滚越多，以及这种“劣质螺旋”对信息环境的侵蚀。",
+  "en_title": "AI Slop Spiral",
+  "en_oneliner": "An essay on how low-quality AI-generated content feeds on itself and keeps multiplying, eroding the information environment as the loop tightens."
+ },
+ "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkYU9XWGFxa01oMi15bkJNRDVnSGZFaklUQXRZUHB3bkp6UDdWbmdTcEtRQXJ6RmZXT3BkdC00eFdmdG5yTmdOLXFsaTZmYk5UZW5YdV9kZk8zb0FncWsta2ZubkpGWkdIOEpUY2gtTXk3dzdQaVE?oc=5": {
+  "zh_title": "Dataiku 把企业 AI 治理接入 Claude Code 与 Codex",
+  "zh_oneliner": "Dataiku 将企业级 AI 治理能力连接到 Claude Code 和 Codex，让编码智能体在受控合规的框架内工作。",
+  "en_title": "Dataiku Connects Enterprise AI Governance to Claude Code and Codex - BigGo Finance",
+  "en_oneliner": "Dataiku is wiring its enterprise AI governance into Claude Code and Codex, so coding agents operate inside a controlled, compliant framework."
+ },
+ "https://news.google.com/rss/articles/CBMikgFBVV95cUxPenIxZkppS0lEX1dvcjhSZTQ1eWlqWlhha1ljRC1rc0w4dmdFZzdTZEp6eUNTeFhIVlVUZEdMT0s0RVpYWFNvTVhhQ1FKSzREODlwZURJSlI2RVlYVzhscUFxSldOSUVQQmNmV3RSX3BTSzZZU3VFV1gtQzVSQlpzRnBkM0JCaWhob09QNi0zaXV1dw?oc=5": {
+  "zh_title": "iPhone 双机型登陆 Claude Code 模拟器，支持三种姿态测试",
+  "zh_oneliner": "Claude Code 模拟器新增 iPhone 双机型，开发者可用三种姿态测试移动端体验。",
+  "en_title": "iPhone Duo Arrives in the Claude Code Simulator, With Three Poses to Test - Pasquale Pillitteri",
+  "en_oneliner": "The Claude Code simulator now includes an iPhone duo, letting developers test the mobile experience in three poses."
  }
 }
