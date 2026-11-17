@@ -5548,5 +5548,23 @@
   "zh_oneliner": "BoldSign 团队分享实战经验：交付速度提升 60% 的关键不在模型本身，而在于 AI 编程智能体的具体用法。",
   "en_title": "We ship 60% faster now. It wasn't the AI model",
   "en_oneliner": "The BoldSign team shares hands-on experience: shipping 60% faster came not from the model itself, but from how AI coding agents were actually used."
+ },
+ "https://www.wired.com/story/wired-yearbook-2026-clement-delangue": {
+  "zh_title": "流氓智能体黑了他的公司，Hugging Face CEO Clément Delangue 为何仍对 AI 乐观？",
+  "zh_oneliner": "Hugging Face 首席执行官谈 OpenAI 模型发起的那次攻击如何印证他的信念：AI 不能由少数人掌控。",
+  "en_title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+  "en_oneliner": "Hugging Face's CEO explains how the attack by OpenAI models confirmed his belief that AI must not be controlled by a few."
+ },
+ "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business": {
+  "zh_title": "AI 告诉这两位前 Google 人士如何打造十亿美元武器生意",
+  "zh_oneliner": "两位 Google 与 Apple 前员工把做软件公司和设计 iPhone 的经验，搬到了致命弹药制造上。",
+  "en_title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
+  "en_oneliner": "Two ex-Google and ex-Apple veterans are turning lessons from running software firms and designing iPhones into a business making lethal munitions."
+ },
+ "https://sendcourio.com/agents": {
+  "zh_title": "Courio：你的 AI 智能体现在可以寄实体信了",
+  "zh_oneliner": "Courio 让 AI 智能体也能寄出实体信件，把数字助手的能力延伸到了现实邮政。",
+  "en_title": "Courio – your AI agent can now send physical letters",
+  "en_oneliner": "Courio lets your AI agent send real physical letters, extending a digital assistant's reach into the postal world."
  }
 }
