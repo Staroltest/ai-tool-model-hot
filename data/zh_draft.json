@@ -6526,5 +6526,11 @@
   "zh_oneliner": "OpenAI 介绍了如何从模型对齐、沙箱隔离到拦截防护与持续监控，全流程管控前沿模型从训练到上线的风险。",
   "en_title": "Managing frontier AI risk: From training to deployment",
   "en_oneliner": "OpenAI walks through how it controls frontier-model risk across the full pipeline — from alignment and sandboxing to blocking safeguards and ongoing monitoring — between training and deployment."
+ },
+ "https://deepmind.google/blog/introducing-gemini-4-neon": {
+  "zh_title": "Gemini 4 Neon 发布：前沿能力与执行速度兼顾的新成员",
+  "zh_oneliner": "Gemini 4 家族的新成员，主打复杂编程、知识工作与科学任务的快速端到端完成，定位在 Carbon 与 Hydrogen 之间，兼顾前沿能力与成本效率，已在 Gemini API 与 AI Studio 上线。",
+  "en_title": "Introducing Gemini 4 Neon",
+  "en_oneliner": "The newest member of the Gemini 4 family, built for fast end-to-end completion of complex coding, knowledge work, and science tasks — positioned between Carbon and Hydrogen to balance frontier capability with cost efficiency, now available in the Gemini API and AI Studio."
  }
 }
