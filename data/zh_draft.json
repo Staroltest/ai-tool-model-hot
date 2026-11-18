@@ -6496,5 +6496,17 @@
   "zh_oneliner": "DeepMind 的交互式世界模型 Genie 4 正式开放，可由文字或图像提示生成能够实时探索的互动世界。",
   "en_title": "Genie 4 is now available",
   "en_oneliner": "DeepMind's interactive world model Genie 4 is now open, turning text or image prompts into explorable worlds you can move through in real time."
+ },
+ "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time": {
+  "zh_title": "为什么你的微调任务比 FLOPs 测算的更耗时",
+  "zh_oneliner": "一篇来自 Hugging Face 的实测分析，解释微调耗时为何常超出算力估算，并给出更靠谱的时间预测思路。",
+  "en_title": "Why your fine-tuning job takes longer than the FLOPs say",
+  "en_oneliner": "A hands-on analysis from Hugging Face explains why fine-tuning often runs longer than FLOPs estimates suggest, and how to predict its time more reliably."
+ },
+ "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team": {
+  "zh_title": "为你的团队定制 GitHub Copilot",
+  "zh_oneliner": "团队定制功能正式面向组织团队开放，成员无需各自重复配置，即可共享团队常用的 Copilot 插件。",
+  "en_title": "Customize GitHub Copilot for your team",
+  "en_oneliner": "Team customizations are now generally available for organization teams, letting members share the Copilot plugins the team relies on without repeating the same setup individually."
  }
 }
