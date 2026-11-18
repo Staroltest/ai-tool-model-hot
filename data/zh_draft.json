@@ -5886,7 +5886,7 @@
   "zh_title": "Copilot 活动可接入 Microsoft Agent 365 监控"
  },
  "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview": {
-  "en_oneliner": "GitHub Copilot Evals is now in public preview, so you can keep tuning Copilot as prompts, models, skills, and tools evolve.",
+  "en_oneliner": "Copilot Evals has opened to everyone in preview, so you can keep refining Copilot's real-world performance as your prompts, models, and skills change.",
   "en_title": "GitHub Copilot Evals is now in public preview",
   "zh_oneliner": "GitHub Copilot Evals 开放公开预览，帮你根据提示词、模型与技能的变化持续调优 Copilot 的实际表现。",
   "zh_title": "GitHub Copilot Evals 开放公开预览"
@@ -6345,7 +6345,7 @@
   "zh_title": "给语义代码搜索搭 RAG 管道（开发手记）",
   "zh_oneliner": "JetBrains 分享搭建 Air Context 的经验：一个生产级 RAG 系统怎么存、怎么搜、怎么给智能体当工具。",
   "en_title": "Building a RAG Pipeline for Semantic Code Search: A Developer Diary and Field Notes",
-  "en_oneliner": "JetBrains shares lessons from building Air Context, a production-grade RAG system for semantic code search, covering storage, search, and agent tooling."
+  "en_oneliner": "JetBrains walks through what it learned building Air Context: how a production RAG setup stores code, finds it, and serves agents."
  },
  "https://blog.jetbrains.com/ai/2026/11/livestream-scaling-agentic-development-with-air-governance": {
   "zh_title": "直播：用 Air Governance 规模化智能体开发",
