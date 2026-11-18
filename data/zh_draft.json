@@ -6436,5 +6436,11 @@
   "zh_oneliner": "Cline 的每日构建版把界面验证交给子智能体做，同时保留了委派工具的审批策略和子任务身份。",
   "en_title": "desktop-nightly-20261104233655: feat(core): delegate UX verification to subagents (#15523)",
   "en_oneliner": "A nightly Cline build that hands UX verification to a subagent while keeping delegated tool approval policies and worker identity intact."
+ },
+ "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": {
+  "zh_title": "OpenAI 与法国费加罗集团合作，将《费加罗报》新闻带入 ChatGPT",
+  "zh_oneliner": "OpenAI 与法国费加罗集团达成合作，ChatGPT 将引用《费加罗报》的报道内容并附上原文链接。",
+  "en_title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+  "en_oneliner": "OpenAI has partnered with French media group Le Figaro, bringing the newspaper's journalism into ChatGPT with links back to the original stories."
  }
 }
