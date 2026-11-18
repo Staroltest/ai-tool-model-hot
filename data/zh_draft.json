@@ -6508,5 +6508,11 @@
   "zh_oneliner": "团队定制功能正式面向组织团队开放，成员无需各自重复配置，即可共享团队常用的 Copilot 插件。",
   "en_title": "Customize GitHub Copilot for your team",
   "en_oneliner": "Team customizations are now generally available for organization teams, letting members share the Copilot plugins the team relies on without repeating the same setup individually."
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0": {
+  "zh_title": "OpenAI Agents SDK v0.24.0",
+  "zh_oneliner": "Agents SDK 发布 0.24.0 版，统一运行级函数错误格式并新增 MCP 发现标注，同时改进故障恢复、沙箱安全与链路追踪。",
+  "en_title": "v0.24.0",
+  "en_oneliner": "The Agents SDK ships version 0.24.0, unifying run-wide function error formatting and adding MCP discovery annotations, while improving recovery, sandbox safety, and tracing."
  }
 }
