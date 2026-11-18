@@ -6520,5 +6520,11 @@
   "zh_oneliner": "RadixArk 发布 27B 参数模型 DaisyRose，探索用更少的后训练投入换取更强的模型表现。",
   "en_title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
   "en_oneliner": "RadixArk's 27B-parameter DaisyRose explores getting stronger model performance from less post-training effort."
+ },
+ "https://openai.com/index/managing-frontier-ai-risk": {
+  "zh_title": "管理前沿 AI 风险：从训练到部署",
+  "zh_oneliner": "OpenAI 介绍了如何从模型对齐、沙箱隔离到拦截防护与持续监控，全流程管控前沿模型从训练到上线的风险。",
+  "en_title": "Managing frontier AI risk: From training to deployment",
+  "en_oneliner": "OpenAI walks through how it controls frontier-model risk across the full pipeline — from alignment and sandboxing to blocking safeguards and ongoing monitoring — between training and deployment."
  }
 }
