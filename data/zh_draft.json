@@ -6442,5 +6442,23 @@
   "zh_oneliner": "OpenAI 与法国费加罗集团达成合作，ChatGPT 将引用《费加罗报》的报道内容并附上原文链接。",
   "en_title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
   "en_oneliner": "OpenAI has partnered with French media group Le Figaro, bringing the newspaper's journalism into ChatGPT with links back to the original stories."
+ },
+ "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse": {
+  "zh_title": "Streamhouse 中的时间序列模型：新前沿与应用场景",
+  "zh_oneliner": "IBM Research 介绍了把时间序列模型放进 Streamhouse 的做法，面向实时数据流场景的预测与分析需求。",
+  "en_title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+  "en_oneliner": "IBM Research shows how time-series models run inside Streamhouse, aimed at forecasting and analysis over live data streams."
+ },
+ "https://huggingface.co/blog/rumble-2-flash": {
+  "zh_title": "Rumble-2-Flash：覆盖 40 多种语言的开源 0.5B 语音模型",
+  "zh_oneliner": "一个仅 0.5B 参数的开源语音模型，支持 40 多种语言，适合在资源有限的设备上做语音处理。",
+  "en_title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+  "en_oneliner": "A compact open speech model with just 0.5B parameters, covering 40+ languages for speech tasks on resource-constrained devices."
+ },
+ "https://www.langchain.com/blog/langsmith-coding-agents-roi": {
+  "zh_title": "LangSmith 面向编码智能体：按成果追踪花费",
+  "zh_oneliner": "LangSmith 为编码智能体新增报表能力，把智能体的花费与它产出的拉取请求挂钩，方便团队按实际成果衡量投入。",
+  "en_title": "LangSmith for Coding Agents: Now track spend by outcome",
+  "en_oneliner": "LangSmith adds reporting for coding agents that ties their spending to the pull requests they ship, letting teams weigh the investment by actual results."
  }
 }
