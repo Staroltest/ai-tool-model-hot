@@ -1,5 +1,5 @@
 {
-  "comment": "格式：每条 {id, name, tier, url, category_hint}。tier: T1 官方一手，T2 媒体/社区，T3 综合媒体（降权，见 config.json tier_bonus）。收录标准：2026-11-17 逐个实测 HTTP 200 且能解析出条目；403、超时、空 feed 的不收。category_hint 须是 config.json 里 categories 的 key。注意：arXiv cs.AI 每天几十篇，靠打分限量截流；Anthropic/Meta/xAI 无官方 RSS，只用 1 条 Google News 补 Anthropic；review 分类暂无专属源，靠关键词筛。见 BOOTSTRAP.md 第 3 步。 InfoQ 中国（infoq-cn）已摘：2026-11-17 浏览器 UA 测 200，但生成器机器人 UA 测 404，属机器人墙，每轮都会失败，故摘掉不重试。 IT之家（ithome）与雷锋网（leiphone）已摘：2026-11-17 两者都是全站综合流、非 AI 专属，时间线会被散热器、鼠标垫、汽车等非 AI 条目淹没，模板不做源内关键词过滤，故摘掉不重试；其 AI 内容由 TechCrunch AI、The Verge AI、量子位等专属源覆盖。 Product Hunt（product-hunt）已摘：2026-11-17 全站综合产品流、非 AI 专属，新品标题与模型/工具无关，50 条 0 入选，故摘掉不重试。 Google News Anthropic（googlenews-anthropic）已摘：2026-11-17 约半数条目是 IPO/股价/市值等财经新闻，与模型/工具无关，且多源重复；Claude 模型动态由 The Decoder、TechCrunch AI、HN AI 等覆盖，故摘掉；若 Anthropic 日后开通官方 RSS 再以 T1 接入。 Google Research Blog（google-research-blog）已摘：2026-11-17 综合科研流，近半条目是可穿戴健康、语言学等非 AI 内容，模型相关内容由 Google AI Blog、DeepMind Blog 覆盖，故摘掉不重试。 2026-11-17 定位收窄（用户要求：不要新闻类，只要模型发布与主流智能体更新）：摘掉 15 个源，只留 6 个官方发布源。 摘掉：nvidia-blog（行业/基建新闻）、aws-ml-blog（教程）、techcrunch-ai / the-verge-ai / mit-tech-review-ai / ars-technica-ai / wired-ai / the-decoder / qbitai（新闻媒体）、simon-willison（个人博客，非发布源）、hn-ai（新闻聚合）、arxiv-cs-ai（学术论文，非产品发布）、kdnuggets / ml-mastery（教程）、ollama-releases（模型运行工具，非模型/智能体本身）。 保留 6 个：openai-news、deepmind-blog、google-ai-blog、mistral-news（模型发布）、huggingface-blog（模型发布，hint 改 model）、langchain-blog（智能体框架，hint 改 agent）。 2026-11-18 每日把关新增 4 个智能体官方源（逐个实测）：claude-code-changelog（T1，版本更新日志，标题为版本号、正文在 content:encoded，近 7 天 5 条）、github-copilot-changelog（T1，Copilot 专属 label feed，近 10 条全是 Copilot；注意 feed 只保留最新 10 条）、devin-blog（T1，30 天 13 条、近 7 天 7 条）、cursor-changelog（T2 观察：最新一条 11-06，已 11 天未更新，若两周内无更新则摘掉）。同日测过未收：Anthropic News（/news/rss.xml 与 /rss.xml 均 404，无官方 RSS）、Qwen 博客（qwenlm.github.io/blog/feed.xml 与 atom.xml 404，qwen.ai/blog/rss.xml 返回 SPA 空壳）、DeepSeek（deepseek.com 与 api-docs.deepseek.com/news 均无 RSS 链接）、Kimi/Moonshot（moonshot.ai/blog/rss.xml 返回 SPA 空壳）、Meta AI Blog（ai.meta.com/blog 返回 400）、xAI News（x.ai/news 返回 403 机器人墙）、Cognition Blog（/blog/rss.xml 404；Devin 官方博客在 devin.ai，已收）。仍缺：中文模型官方源（Qwen/DeepSeek/Kimi 均无 RSS）、Claude 模型发布官方源（Anthropic 无 RSS）。Mistral 近 12 天无更新（最新 11-05），feed 200 正常，属低频发布，暂保留观察。 2026-11-18 用户批准加源：Qwen Code（阿里 Qwen 的 agent CLI）GitHub Releases Atom 已实测 200 + 可解析（最新 v0.28.1-preview.0，2026-11-17），T1，hint agent；版本多、含 nightly 构建，靠打分过滤。注：Cursor 与 Claude Code 已由当日把关以 changelog  feed 形式接入（cursor-changelog = cursor.com/changelog/rss.xml；claude-code-changelog = code.claude.com/docs/en/changelog/rss.xml），不再重复加 release-notes RSS / Releases Atom。",
+  "comment": "格式：每条 {id, name, tier, url, category_hint}。tier: T1 官方一手，T2 媒体/社区，T3 综合媒体（降权，见 config.json tier_bonus）。收录标准：2026-11-17 逐个实测 HTTP 200 且能解析出条目；403、超时、空 feed 的不收。category_hint 须是 config.json 里 categories 的 key。注意：arXiv cs.AI 每天几十篇，靠打分限量截流；Anthropic/Meta/xAI 无官方 RSS，只用 1 条 Google News 补 Anthropic；review 分类暂无专属源，靠关键词筛。见 BOOTSTRAP.md 第 3 步。 InfoQ 中国（infoq-cn）已摘：2026-11-17 浏览器 UA 测 200，但生成器机器人 UA 测 404，属机器人墙，每轮都会失败，故摘掉不重试。 IT之家（ithome）与雷锋网（leiphone）已摘：2026-11-17 两者都是全站综合流、非 AI 专属，时间线会被散热器、鼠标垫、汽车等非 AI 条目淹没，模板不做源内关键词过滤，故摘掉不重试；其 AI 内容由 TechCrunch AI、The Verge AI、量子位等专属源覆盖。 Product Hunt（product-hunt）已摘：2026-11-17 全站综合产品流、非 AI 专属，新品标题与模型/工具无关，50 条 0 入选，故摘掉不重试。 Google News Anthropic（googlenews-anthropic）已摘：2026-11-17 约半数条目是 IPO/股价/市值等财经新闻，与模型/工具无关，且多源重复；Claude 模型动态由 The Decoder、TechCrunch AI、HN AI 等覆盖，故摘掉；若 Anthropic 日后开通官方 RSS 再以 T1 接入。 Google Research Blog（google-research-blog）已摘：2026-11-17 综合科研流，近半条目是可穿戴健康、语言学等非 AI 内容，模型相关内容由 Google AI Blog、DeepMind Blog 覆盖，故摘掉不重试。 2026-11-17 定位收窄（用户要求：不要新闻类，只要模型发布与主流智能体更新）：摘掉 15 个源，只留 6 个官方发布源。 摘掉：nvidia-blog（行业/基建新闻）、aws-ml-blog（教程）、techcrunch-ai / the-verge-ai / mit-tech-review-ai / ars-technica-ai / wired-ai / the-decoder / qbitai（新闻媒体）、simon-willison（个人博客，非发布源）、hn-ai（新闻聚合）、arxiv-cs-ai（学术论文，非产品发布）、kdnuggets / ml-mastery（教程）、ollama-releases（模型运行工具，非模型/智能体本身）。 保留 6 个：openai-news、deepmind-blog、google-ai-blog、mistral-news（模型发布）、huggingface-blog（模型发布，hint 改 model）、langchain-blog（智能体框架，hint 改 agent）。 2026-11-18 每日把关新增 4 个智能体官方源（逐个实测）：claude-code-changelog（T1，版本更新日志，标题为版本号、正文在 content:encoded，近 7 天 5 条）、github-copilot-changelog（T1，Copilot 专属 label feed，近 10 条全是 Copilot；注意 feed 只保留最新 10 条）、devin-blog（T1，30 天 13 条、近 7 天 7 条）、cursor-changelog（T2 观察：最新一条 11-06，已 11 天未更新，若两周内无更新则摘掉）。同日测过未收：Anthropic News（/news/rss.xml 与 /rss.xml 均 404，无官方 RSS）、Qwen 博客（qwenlm.github.io/blog/feed.xml 与 atom.xml 404，qwen.ai/blog/rss.xml 返回 SPA 空壳）、DeepSeek（deepseek.com 与 api-docs.deepseek.com/news 均无 RSS 链接）、Kimi/Moonshot（moonshot.ai/blog/rss.xml 返回 SPA 空壳）、Meta AI Blog（ai.meta.com/blog 返回 400）、xAI News（x.ai/news 返回 403 机器人墙）、Cognition Blog（/blog/rss.xml 404；Devin 官方博客在 devin.ai，已收）。仍缺：中文模型官方源（Qwen/DeepSeek/Kimi 均无 RSS）、Claude 模型发布官方源（Anthropic 无 RSS）。Mistral 近 12 天无更新（最新 11-05），feed 200 正常，属低频发布，暂保留观察。 2026-11-18 用户批准加源：Qwen Code（阿里 Qwen 的 agent CLI）GitHub Releases Atom 已实测 200 + 可解析（最新 v0.28.1-preview.0，2026-11-17），T1，hint agent；版本多、含 nightly 构建，靠打分过滤。注：Cursor 与 Claude Code 已由当日把关以 changelog  feed 形式接入（cursor-changelog = cursor.com/changelog/rss.xml；claude-code-changelog = code.claude.com/docs/en/changelog/rss.xml），不再重复加 release-notes RSS / Releases Atom。 2026-11-18 用户要求多找源（主流 agent 与模型动态）：新增 5 个——OpenAI Agents SDK（官方 agent 框架，v0.25.0 2026-11-18）、Cline（主流 VS Code 智能体，含 nightly 构建，靠打分过滤）、Kiro（AWS 的 agent IDE，Grok 4.7 接入等）、JetBrains AI Blog（Junie/Air 智能体更新 + 模型评测，内容混杂故 T2）、Pydantic AI（主流 Python agent 框架，近乎日更故 T2）。测过未收的：Manus/Windsurf/Cohere/Cerebras/CrewAI/OpenRouter/Groq/LlamaIndex/Qwen 博客均无可用 RSS；xAI 403；Zed/Augment/AutoGen/Continue/Roo/Aider 近 6 周以上未更新；Mastra 版本碎片太多；SambaNova/Together/Sourcegraph 为云厂商/工程博客或 Cody 已停更，不符定位。",
   "sources": [
     {
       "id": "openai-news",
@@ -76,6 +76,41 @@
       "name": "Qwen Code Releases",
       "url": "https://github.com/QwenLM/qwen-code/releases.atom",
       "tier": "T1",
+      "category_hint": "agent"
+    },
+    {
+      "id": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK Releases",
+      "url": "https://github.com/openai/openai-agents-python/releases.atom",
+      "tier": "T1",
+      "category_hint": "agent"
+    },
+    {
+      "id": "cline-releases",
+      "name": "Cline Releases",
+      "url": "https://github.com/cline/cline/releases.atom",
+      "tier": "T1",
+      "category_hint": "agent"
+    },
+    {
+      "id": "kiro-blog",
+      "name": "Kiro Blog",
+      "url": "https://kiro.dev/blog/feed.rss",
+      "tier": "T1",
+      "category_hint": "agent"
+    },
+    {
+      "id": "jetbrains-ai-blog",
+      "name": "JetBrains AI Blog",
+      "url": "https://blog.jetbrains.com/ai/feed/",
+      "tier": "T2",
+      "category_hint": "agent"
+    },
+    {
+      "id": "pydantic-ai-releases",
+      "name": "Pydantic AI Releases",
+      "url": "https://github.com/pydantic/pydantic-ai/releases.atom",
+      "tier": "T2",
       "category_hint": "agent"
     }
   ]

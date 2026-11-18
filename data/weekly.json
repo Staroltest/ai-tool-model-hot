@@ -5,8 +5,8 @@
  "date": "2026年11月18日",
  "date_iso": "2026-11-18",
  "issue": 1,
- "generated_at": "2026-11-18T00:58:25.525008+00:00",
- "summary": "过去 7 天共收录 81 条动态，精选 10 条（模型发布 5 条、主流智能体 5 条）。头条：GPT-6.2 Astra 与 Sol 接入 GitHub Copilot。",
+ "generated_at": "2026-11-18T01:37:16.637021+00:00",
+ "summary": "过去 7 天共收录 92 条动态，精选 10 条（模型发布 5 条、主流智能体 5 条）。头条：GPT-6.2 Astra 与 Sol 接入 GitHub Copilot。",
  "items": [
   {
    "id": "96ff71f54c6e7b4da47668acaa4a513b0085cd1a",
@@ -29,9 +29,9 @@
    "reason": "官方来源 · 涉及模型与GPT · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 91.0,
+   "hot_score": 90.4,
    "prev_rank": 1,
-   "prev_hot_score": 91.0
+   "prev_hot_score": 90.5
   },
   {
    "id": "564aa296ded401b85b17beac2a3926158ef632e6",
@@ -53,9 +53,9 @@
    "reason": "官方来源 · 涉及智能体与发布 · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 90.7,
+   "hot_score": 90.1,
    "prev_rank": 2,
-   "prev_hot_score": 90.7
+   "prev_hot_score": 90.2
   },
   {
    "id": "549a77347d5e1e5f25e081258d641a2b8758c868",
@@ -77,9 +77,9 @@
    "reason": "官方来源 · 涉及GPT与API · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 84.2,
-   "prev_rank": 5,
-   "prev_hot_score": 84.2
+   "hot_score": 83.6,
+   "prev_rank": 7,
+   "prev_hot_score": 83.7
   },
   {
    "id": "2b7a7366c72677641c0dd7f4007e9797114b8bbe",
@@ -100,9 +100,9 @@
    "reason": "官方来源 · 涉及Claude · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 88.7,
+   "hot_score": 88.1,
    "prev_rank": 3,
-   "prev_hot_score": 88.7
+   "prev_hot_score": 88.2
   },
   {
    "id": "4dbe53199800181e733570ebf4916f9070758469",
@@ -124,9 +124,9 @@
    "reason": "官方来源 · 涉及大模型与发布 · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.3,
-   "prev_rank": 12,
-   "prev_hot_score": 79.3
+   "hot_score": 78.8,
+   "prev_rank": 16,
+   "prev_hot_score": 78.8
   },
   {
    "id": "788442c73cbb02e0640f1da56367227ad53ee20b",
@@ -148,9 +148,32 @@
    "reason": "官方来源 · 涉及大模型与智能体 · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.2,
-   "prev_rank": 6,
-   "prev_hot_score": 80.2
+   "hot_score": 79.7,
+   "prev_rank": 8,
+   "prev_hot_score": 79.7
+  },
+  {
+   "id": "ec14445f64bf30917f80b0bde0881a0c97f851cb",
+   "title": "Lessons learned from one million evaluations",
+   "link": "https://kiro.dev/blog/1m-evals-lessons",
+   "source": "Kiro Blog",
+   "source_id": "kiro-blog",
+   "published": "2026-11-17T20:30:00+00:00",
+   "zh_title": "从一百万次评测里学到的经验",
+   "zh_oneliner": "Kiro 团队复盘了一百万次评测，指出固定题库加二元通过率的评测方式容易失真，并分享了更靠谱的做法。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T1",
+   "tags": [
+    "智能体"
+   ],
+   "score": 90,
+   "reason": "官方来源 · 涉及智能体 · 6 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 85.8,
+   "prev_rank": 4,
+   "prev_hot_score": 85.8
   },
   {
    "id": "cb1d8f8bc84f7e6afbd259b401364decf6841b22",
@@ -171,9 +194,9 @@
    "reason": "官方来源 · 涉及Gemini · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 78.9,
-   "prev_rank": 13,
-   "prev_hot_score": 79.0
+   "hot_score": 78.5,
+   "prev_rank": 17,
+   "prev_hot_score": 78.5
   },
   {
    "id": "08a8dbd9f09af5b3a4c178912de142cc1667d198",
@@ -195,9 +218,9 @@
    "reason": "官方来源 · 涉及模型与基准 · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.7,
-   "prev_rank": 7,
-   "prev_hot_score": 79.8
+   "hot_score": 79.2,
+   "prev_rank": 9,
+   "prev_hot_score": 79.3
   },
   {
    "id": "0fb6d41b1c23d94f5d1f27772feaf7c313b07988",
@@ -218,32 +241,9 @@
    "reason": "官方来源 · 涉及发布 · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.7,
-   "prev_rank": 8,
-   "prev_hot_score": 79.7
-  },
-  {
-   "id": "16585d72ac903443120b9e0cd31ebffc48669ef9",
-   "title": "GitHub Copilot in JetBrains, Ignite releases",
-   "link": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
-   "source": "GitHub Copilot Changelog",
-   "source_id": "github-copilot-changelog",
-   "published": "2026-11-17T18:00:59+00:00",
-   "zh_title": "GitHub Copilot for JetBrains 迎来 Ignite 更新",
-   "zh_oneliner": "JetBrains 版 GitHub Copilot 新增远程访问、本地语音输入与浏览器使用控制，还补了上下文用量快捷方式与历史差异查看。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "发布"
-   ],
-   "score": 85,
-   "reason": "官方来源 · 涉及发布 · 24 小时内发布",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 79.7,
-   "prev_rank": 9,
-   "prev_hot_score": 79.7
+   "hot_score": 79.2,
+   "prev_rank": 10,
+   "prev_hot_score": 79.3
   }
  ]
 }
