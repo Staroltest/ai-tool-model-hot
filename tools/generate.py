@@ -114,8 +114,10 @@ def complete_para(text, limit=1500):
 
 
 def norm_link(link):
-    """去 fragment 与 utm_* 追踪参数，供去重用。"""
-    link = (link or "").strip().split("#")[0]
+    """去 utm_* 追踪参数，供去重用。fragment 保留：同一页面不同锚点是不同内容
+    （如 Claude Code 更新日志每版一条，链接只差 #2-1-327 锚点；去掉锚点会把
+    15 条压成 1 条，且新版永远无法入库，2026-11-18 把关发现）。"""
+    link = (link or "").strip()
     if "?" in link:
         base, qs = link.split("?", 1)
         kept = [p for p in qs.split("&") if p and not p.lower().startswith("utm_")]
