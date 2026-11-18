@@ -5,8 +5,8 @@
  "date": "November 18, 2026",
  "date_iso": "2026-11-18",
  "issue": 1,
- "generated_at": "2026-11-18T00:13:34.250556+00:00",
- "summary": "235 items collected in the past 30 days, 10 picks (Leading agents 8, Model releases 2). Headline: OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available.",
+ "generated_at": "2026-11-18T00:58:25.525008+00:00",
+ "summary": "244 items collected in the past 30 days, 10 picks (Model releases 5, Leading agents 5). Headline: OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available.",
  "items": [
   {
    "id": "96ff71f54c6e7b4da47668acaa4a513b0085cd1a",
@@ -16,9 +16,9 @@
    "source_id": "github-copilot-changelog",
    "published": "2026-11-17T20:20:29+00:00",
    "en_title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-   "en_oneliner": "GitHub Copilot now offers the new GPT-6.2 Astra and Sol from OpenAI, two models built for agentic coding and code review whose coding judgment beats earlier models.",
-   "category": "agent",
-   "category_label": "Leading agents",
+   "en_oneliner": "GitHub Copilot now offers GPT-6.2 Astra and Sol, OpenAI's newest models built for agentic coding and code review.",
+   "category": "model",
+   "category_label": "Model releases",
    "tier": "T1",
    "tags": [
     "model",
@@ -29,9 +29,33 @@
    "reason": "Official source · Covers model and GPT · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 91.6,
+   "hot_score": 91.0,
    "prev_rank": 1,
-   "prev_hot_score": 91.7
+   "prev_hot_score": 91.0
+  },
+  {
+   "id": "564aa296ded401b85b17beac2a3926158ef632e6",
+   "title": "Release v0.28.1-preview.0",
+   "link": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.1-preview.0",
+   "source": "Qwen Code Releases",
+   "source_id": "qwen-code-releases",
+   "published": "2026-11-17T19:56:30+00:00",
+   "en_title": "Release v0.28.1-preview.0",
+   "en_oneliner": "A Qwen Code preview update that verifies scheduled triggers for managed agents and hardens state checks and container setup.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T1",
+   "tags": [
+    "Agent",
+    "release"
+   ],
+   "score": 95,
+   "reason": "Official source · Covers Agent and release · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 90.7,
+   "prev_rank": 2,
+   "prev_hot_score": 90.7
   },
   {
    "id": "549a77347d5e1e5f25e081258d641a2b8758c868",
@@ -42,8 +66,8 @@
    "published": "2026-11-17T17:45:00+00:00",
    "en_title": "Introducing GPT-6.2 Astra and Sol",
    "en_oneliner": "The new Astra and Sol variants of GPT-6.2 deliver better professional output, coding, and computer use at lower cost, now live across the API, Codex, and ChatGPT Work.",
-   "category": "agent",
-   "category_label": "Leading agents",
+   "category": "model",
+   "category_label": "Model releases",
    "tier": "T1",
    "tags": [
     "GPT",
@@ -53,9 +77,9 @@
    "reason": "Official source · Covers GPT and API · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 84.7,
-   "prev_rank": 3,
-   "prev_hot_score": 84.8
+   "hot_score": 84.2,
+   "prev_rank": 5,
+   "prev_hot_score": 84.2
   },
   {
    "id": "2b7a7366c72677641c0dd7f4007e9797114b8bbe",
@@ -65,7 +89,7 @@
    "source_id": "claude-code-changelog",
    "published": "2026-11-17T23:22:59+00:00",
    "en_title": "2.1.327",
-   "en_oneliner": "This release is mostly experience polish: a confirmation step before installing the GitHub app, a /status listing for broken configuration files, a /config note when settings get overridden, and a way to feed MCP server JSON via stdin.",
+   "en_oneliner": "Claude Code 2.1.327 now confirms before /install-github-app touches a repository, and claude mcp add-json can take server JSON from stdin so tokens stay off the command line.",
    "category": "model",
    "category_label": "Model releases",
    "tier": "T1",
@@ -76,9 +100,57 @@
    "reason": "Official source · Covers Claude · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 89.3,
-   "prev_rank": 2,
-   "prev_hot_score": 89.3
+   "hot_score": 88.7,
+   "prev_rank": 3,
+   "prev_hot_score": 88.7
+  },
+  {
+   "id": "4dbe53199800181e733570ebf4916f9070758469",
+   "title": "Release v0.28.0",
+   "link": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0",
+   "source": "Qwen Code Releases",
+   "source_id": "qwen-code-releases",
+   "published": "2026-11-17T11:20:07+00:00",
+   "en_title": "Release v0.28.0",
+   "en_oneliner": "Qwen Code 0.28.0 adds a workspace filter to the web shell and a DingTalk adapter for managed agents, with no known breaking changes.",
+   "category": "model",
+   "category_label": "Model releases",
+   "tier": "T1",
+   "tags": [
+    "LLM",
+    "release"
+   ],
+   "score": 90,
+   "reason": "Official source · Covers LLM and release · Published within 24 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 79.3,
+   "prev_rank": 12,
+   "prev_hot_score": 79.3
+  },
+  {
+   "id": "788442c73cbb02e0640f1da56367227ad53ee20b",
+   "title": "Qwen Code Desktop v0.28.0",
+   "link": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.0",
+   "source": "Qwen Code Releases",
+   "source_id": "qwen-code-releases",
+   "published": "2026-11-17T12:31:07+00:00",
+   "en_title": "Qwen Code Desktop v0.28.0",
+   "en_oneliner": "Qwen Code Desktop reaches 0.28.0 with a web-shell workspace filter and a DingTalk adapter for managed agents.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T1",
+   "tags": [
+    "LLM",
+    "Agent"
+   ],
+   "score": 90,
+   "reason": "Official source · Covers LLM and Agent · Published within 24 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 80.2,
+   "prev_rank": 6,
+   "prev_hot_score": 80.2
   },
   {
    "id": "cb1d8f8bc84f7e6afbd259b401364decf6841b22",
@@ -99,9 +171,9 @@
    "reason": "Official source · Covers Gemini · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.5,
-   "prev_rank": 9,
-   "prev_hot_score": 79.5
+   "hot_score": 78.9,
+   "prev_rank": 13,
+   "prev_hot_score": 79.0
   },
   {
    "id": "08a8dbd9f09af5b3a4c178912de142cc1667d198",
@@ -111,7 +183,7 @@
    "source_id": "github-copilot-changelog",
    "published": "2026-11-17T18:04:48+00:00",
    "en_title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
-   "en_oneliner": "Copilot Fusion gains new models, reaches more Copilot surfaces, and posts scores on two public Terminal-Bench leaderboards, making it easier to pick and compare.",
+   "en_oneliner": "GitHub Copilot Fusion now ships with more models on more Copilot surfaces, plus results on two public Terminal-Bench leaderboards.",
    "category": "agent",
    "category_label": "Leading agents",
    "tier": "T1",
@@ -123,9 +195,9 @@
    "reason": "Official source · Covers model and benchmark · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.3,
-   "prev_rank": 4,
-   "prev_hot_score": 80.3
+   "hot_score": 79.7,
+   "prev_rank": 7,
+   "prev_hot_score": 79.8
   },
   {
    "id": "0fb6d41b1c23d94f5d1f27772feaf7c313b07988",
@@ -135,7 +207,7 @@
    "source_id": "github-copilot-changelog",
    "published": "2026-11-17T18:03:42+00:00",
    "en_title": "GitHub Copilot app, Microsoft Ignite releases",
-   "en_oneliner": "The Copilot app now works with Azure DevOps repositories and GitHub Enterprise Server instances, and runs in the browser too, meeting users where they work.",
+   "en_oneliner": "The GitHub Copilot app now works with Azure DevOps repositories, GitHub Enterprise Server instances, and the browser, as part of a batch of Ignite releases.",
    "category": "agent",
    "category_label": "Leading agents",
    "tier": "T1",
@@ -146,9 +218,9 @@
    "reason": "Official source · Covers release · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.3,
-   "prev_rank": 5,
-   "prev_hot_score": 80.3
+   "hot_score": 79.7,
+   "prev_rank": 8,
+   "prev_hot_score": 79.7
   },
   {
    "id": "16585d72ac903443120b9e0cd31ebffc48669ef9",
@@ -158,7 +230,7 @@
    "source_id": "github-copilot-changelog",
    "published": "2026-11-17T18:00:59+00:00",
    "en_title": "GitHub Copilot in JetBrains, Ignite releases",
-   "en_oneliner": "Copilot for JetBrains now lets you work remotely, dictate by voice on-device, and set browser use controls, with shortcuts for context usage and a look back at historical diffs.",
+   "en_oneliner": "The JetBrains edition of GitHub Copilot now offers remote access, voice dictation that runs on your machine, and controls for browser use, alongside context usage shortcuts and a way to review past diffs.",
    "category": "agent",
    "category_label": "Leading agents",
    "tier": "T1",
@@ -169,80 +241,9 @@
    "reason": "Official source · Covers release · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.2,
-   "prev_rank": 6,
-   "prev_hot_score": 80.3
-  },
-  {
-   "id": "f7d1e15580c30d5475426e0b5c9e181d61e9bef0",
-   "title": "Monitor GitHub Copilot activity through Microsoft Agent 365",
-   "link": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
-   "source": "GitHub Copilot Changelog",
-   "source_id": "github-copilot-changelog",
-   "published": "2026-11-17T18:00:59+00:00",
-   "en_title": "Monitor GitHub Copilot activity through Microsoft Agent 365",
-   "en_oneliner": "Enterprises can now pipe agent activity from every Copilot client straight into Microsoft Agent 365, so audit trails sit in one control plane.",
-   "category": "agent",
-   "category_label": "Leading agents",
-   "tier": "T1",
-   "tags": [
-    "Agent"
-   ],
-   "score": 85,
-   "reason": "Official source · Covers Agent · Published within 24 hours",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 80.2,
-   "prev_rank": 7,
-   "prev_hot_score": 80.3
-  },
-  {
-   "id": "2b90807377a92d888efb0c2284fe1d56f6fdbdc3",
-   "title": "GitHub Copilot Evals is now in public preview",
-   "link": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
-   "source": "GitHub Copilot Changelog",
-   "source_id": "github-copilot-changelog",
-   "published": "2026-11-17T18:00:33+00:00",
-   "en_title": "GitHub Copilot Evals is now in public preview",
-   "en_oneliner": "Copilot Evals is in public preview: after prompts, models, skills, or tools change, it checks whether Copilot is still performing at its best.",
-   "category": "agent",
-   "category_label": "Leading agents",
-   "tier": "T1",
-   "tags": [
-    "model",
-    "Tools"
-   ],
-   "score": 85,
-   "reason": "Official source · Covers model and Tools · Published within 24 hours",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 80.2,
-   "prev_rank": 8,
-   "prev_hot_score": 80.3
-  },
-  {
-   "id": "cfcc7acb02e9ca7944d1e900e1dedbf4b8c78667",
-   "title": "More ways to move care forward with ChatGPT for Healthcare",
-   "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-   "source": "OpenAI News",
-   "source_id": "openai-news",
-   "published": "2026-11-16T06:00:00+00:00",
-   "en_title": "More ways to move care forward with ChatGPT for Healthcare",
-   "en_oneliner": "The update adds computer-use agents, better clinical answers and new healthcare plugins so ChatGPT can do real work inside medical workflows.",
-   "category": "agent",
-   "category_label": "Leading agents",
-   "tier": "T1",
-   "tags": [
-    "GPT",
-    "Agent"
-   ],
-   "score": 80,
-   "reason": "Official source · Covers GPT and Agent",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 54.0,
-   "prev_rank": null,
-   "prev_hot_score": null
+   "hot_score": 79.7,
+   "prev_rank": 9,
+   "prev_hot_score": 79.7
   }
  ]
 }

@@ -228,13 +228,46 @@ def parse_feed(body, source):
 
 # ---------------------------------------------------------------- 分类与打分
 
+# 模型发布标题优先规则（2026-11-18，GPT-6.2 被分到 agent 的教训）：
+# 标题里出现“模型家族名 + 版本号”（如 GPT-6.2、Claude Fable 5.2、Gemini 4、Qwen4-Max）
+# 且标题本身不含智能体产品名时，直接归 model，不再看摘要里顺带提到的 Codex/Copilot
+# （模型发布文案常写“available across ChatGPT Work, Codex, and the API”，
+#  摘要里的 agent 词只是可用范围，不是内容本身）。
+_MODEL_RELEASE_RE = re.compile(
+    r"(gpt|claude|gemini|qwen|deepseek|llama|mistral|grok|glm|kimi|phi|command)"
+    r"[\s\-_]*v?\d",
+    re.IGNORECASE)
+_AGENT_PRODUCT_NAMES = [
+    "claude code", "codex", "copilot", "cursor", "gemini cli", "jules",
+    "devin", "manus", "windsurf", "qwen code",
+]
+
+
 def classify(item, categories, fallback):
+    title_l = (item.get("title") or "").lower()
+    if (not any(name in title_l for name in _AGENT_PRODUCT_NAMES)
+            and _MODEL_RELEASE_RE.search(item.get("title") or "")):
+        for cat in categories:
+            if cat["key"] == "model":
+                return "model"
     text = (item["title"] + " " + item["summary"]).lower()
     for cat in categories:
         for kw in cat["keywords"]:
             if kw.lower() in text:
                 return cat["key"]
     return fallback
+
+
+def _is_excluded(item, cfg):
+    """硬排除：标题/摘要命中 scoring.exclude_keywords 的条目不进库。
+    与 noise_keywords 的降权不同——命中即丢弃，下一轮也不会再收录。
+    （2026-11-18：广告业务动态用此机制，降权拦不住——源站 feed 里一直有，
+    只降权的话删库后下一轮又会重新收进来。）"""
+    terms = cfg.get("scoring", {}).get("exclude_keywords") or []
+    if not terms:
+        return False
+    text = ((item.get("title") or "") + " " + (item.get("summary") or "")).lower()
+    return any(t.lower() in text for t in terms)
 
 
 def score(item, cfg, now):
@@ -1062,6 +1095,20 @@ def _has_cjk(s):
 # 来源英文名（main() 里从 sources.json 的 name_en 填充，无则用 name）；
 # 英文版渲染与数据一律用英文来源名，英文树下不出现中文来源名。
 SOURCE_NAME_EN = {}
+
+# 已摘来源的英文名兜底（2026-11-17 定位收窄摘掉的源）：存档报告（日报/周报/月报）
+# 仍引用这些源，en_report 转英文时 sources.json 里已无它们，靠这里兜底，
+# 否则会回落到中文源名（如量子位）漏进英文树。
+LEGACY_SOURCE_NAME_EN = {"qbitai": "QbitAI"}
+
+# 已摘分类的英文标签兜底：存档报告里的旧分类键（如 tools）在当前 config 里
+# 已不存在，cat_label_en 查不到时会回落到中文标签（如新工具），靠这里兜底。
+LEGACY_CAT_LABEL_EN = {
+    "新工具": "New tools", "教程指南": "Guides & tutorials",
+    "行业动态": "Industry news", "开源": "Open source",
+    "评测对比": "Reviews & comparisons", "模型发布": "Model releases",
+    "主流智能体": "Leading agents",
+}
 
 
 WEEKDAYS = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
@@ -4195,6 +4242,8 @@ def main():
             it["id"] = hashlib.sha1(norm_link(it["link"]).encode()).hexdigest()
             if it["id"] in history:
                 continue  # 已收录：去重
+            if _is_excluded(it, cfg):
+                continue  # 命中排除词：不进库
             entry = {
                 "id": it["id"], "title": it["title"], "link": it["link"],
                 "source": it["source"], "source_id": it["source_id"],
@@ -4683,13 +4732,17 @@ def main():
             for pit in rep["items"]:
                 tr = zh_map.get(norm_link(pit.get("link", ""))) or {}
                 it = dict(pit)
-                it["source"] = SOURCE_NAME_EN.get(pit.get("source_id"), pit.get("source", ""))
+                it["source"] = (SOURCE_NAME_EN.get(pit.get("source_id"))
+                                or LEGACY_SOURCE_NAME_EN.get(pit.get("source_id"))
+                                or pit.get("source", ""))
                 it.pop("zh_title", None)
                 it.pop("zh_oneliner", None)
                 it["en_title"] = tr.get("en_title", "")
                 it["en_oneliner"] = tr.get("en_oneliner", "")
-                it["category_label"] = cat_label_en.get(
-                    pit.get("category"), pit.get("category_label", ""))
+                it["category_label"] = (
+                    cat_label_en.get(pit.get("category"))
+                    or LEGACY_CAT_LABEL_EN.get(pit.get("category_label"), "")
+                    or pit.get("category_label", ""))
                 it["tags"] = [TAG_LABELS_EN.get(t, t) for t in pit.get("tags", [])][:3]
                 try:
                     _pub = datetime.fromisoformat(pit["published"])

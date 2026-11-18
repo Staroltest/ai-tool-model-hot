@@ -6094,5 +6094,71 @@
   "en_title": "Fixing Critical Node & PHP Flaws",
   "zh_oneliner": "Node.js 与 PHP 曝出可远程执行代码的严重漏洞，Devin 把自己内部的修复流程打包成可复用的工作流。",
   "zh_title": "Devin 打包修复 Node 与 PHP 严重漏洞的工作流"
+ },
+ "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent": {
+  "zh_title": "如何为 AI 智能体选择合适的沙箱",
+  "zh_oneliner": "LangChain 讲清楚怎么给智能体挑沙箱，从文件隔离、网络访问、资源限制到微虚拟机，帮你在安全和好用之间找到平衡。",
+  "en_title": "How to Choose the Right Sandbox for AI Agents",
+  "en_oneliner": "LangChain explains how to pick a sandbox for AI agents, weighing isolation, networking, and resource caps so safety does not get in the way of getting work done."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.1-preview.0": {
+  "zh_title": "Qwen Code v0.28.1 预览版",
+  "zh_oneliner": "Qwen Code 的预览更新，验证了托管智能体的定时任务触发，并加固了状态检查与容器配置。",
+  "en_title": "Release v0.28.1-preview.0",
+  "en_oneliner": "A Qwen Code preview update that verifies scheduled triggers for managed agents and hardens state checks and container setup."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0": {
+  "zh_title": "Qwen Code v0.28.0",
+  "zh_oneliner": "Qwen Code 发布 0.28.0，网页端加了工作区筛选，托管智能体新增钉钉适配，没有已知破坏性改动。",
+  "en_title": "Release v0.28.0",
+  "en_oneliner": "Qwen Code 0.28.0 adds a workspace filter to the web shell and a DingTalk adapter for managed agents, with no known breaking changes."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.35": {
+  "zh_title": "Qwen Code TypeScript SDK v0.1.35",
+  "zh_oneliner": "Qwen Code 的 TypeScript 软件包更新到 0.1.35，捆绑的命令行版本同步到 0.28.0。",
+  "en_title": "SDK TypeScript Release v0.1.35",
+  "en_oneliner": "The Qwen Code TypeScript SDK moves to 0.1.35, bundling CLI version 0.28.0."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.0": {
+  "zh_title": "Qwen Code 桌面版 v0.28.0",
+  "zh_oneliner": "Qwen Code 桌面版同步到 0.28.0，网页端支持工作区筛选，托管智能体新增钉钉适配。",
+  "en_title": "Qwen Code Desktop v0.28.0",
+  "en_oneliner": "Qwen Code Desktop reaches 0.28.0 with a web-shell workspace filter and a DingTalk adapter for managed agents."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4-nightly.20261116.eb3a599ef3": {
+  "zh_title": "Qwen Code v0.27.4 每日构建版（11 月 16 日）",
+  "zh_oneliner": "Qwen Code 的每日构建版，包含网页端工作区筛选和托管智能体的钉钉适配等最新改动。",
+  "en_title": "Release v0.27.4-nightly.20261116.eb3a599ef3",
+  "en_oneliner": "A nightly Qwen Code build with the latest changes, including the web-shell workspace filter and the DingTalk adapter for managed agents."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4": {
+  "zh_title": "Qwen Code v0.27.4",
+  "zh_oneliner": "Qwen Code 发布 0.27.4，托管智能体会话可以访问授权的本地目录，还能打开不保存凭据的交互式网页终端，输出可发到飞书。",
+  "en_title": "Release v0.27.4",
+  "en_oneliner": "In Qwen Code 0.27.4, managed agents can reach approved folders on your machine and launch a web terminal that keeps no credentials, and results can go to Feishu."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3-nightly.20261115.6e3b2dcc19": {
+  "zh_title": "Qwen Code v0.27.3 每日构建版（11 月 15 日）",
+  "zh_oneliner": "Qwen Code 的每日构建版，包含网页端工作区筛选和托管智能体的钉钉适配等最新改动。",
+  "en_title": "Release v0.27.3-nightly.20261115.6e3b2dcc19",
+  "en_oneliner": "A nightly Qwen Code build with the latest changes, including the web-shell workspace filter and the DingTalk adapter for managed agents."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.34": {
+  "zh_title": "Qwen Code TypeScript SDK v0.1.34",
+  "zh_oneliner": "Qwen Code 的 TypeScript 软件包更新到 0.1.34，捆绑的命令行版本同步到 0.27.4。",
+  "en_title": "SDK TypeScript Release v0.1.34",
+  "en_oneliner": "The Qwen Code TypeScript SDK moves to 0.1.34, bundling CLI version 0.27.4."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.4": {
+  "zh_title": "Qwen Code 桌面版 v0.27.4",
+  "zh_oneliner": "Qwen Code 桌面版同步到 0.27.4，托管智能体会话可以访问授权的本地目录，并支持从底部入口打开总览。",
+  "en_title": "Qwen Code Desktop v0.27.4",
+  "en_oneliner": "Qwen Code Desktop reaches 0.27.4, letting managed agent sessions access granted local directories and open the overview from the footer."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2-nightly.20261113.6f754be654": {
+  "zh_title": "Qwen Code v0.27.2 每日构建版（11 月 13 日）",
+  "zh_oneliner": "Qwen Code 的每日构建版，包含托管智能体会话的本地目录注册等最新改动。",
+  "en_title": "Release v0.27.2-nightly.20261113.6f754be654",
+  "en_oneliner": "A nightly Qwen Code build with the latest changes, including local directory registration for managed agent sessions."
  }
 }

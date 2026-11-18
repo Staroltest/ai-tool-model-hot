@@ -5,8 +5,8 @@
  "date": "2026年11月18日",
  "date_iso": "2026-11-18",
  "issue": 1,
- "generated_at": "2026-11-18T00:13:34.250556+00:00",
- "summary": "过去 30 天共收录 235 条动态，精选 10 条（主流智能体 8 条、模型发布 2 条）。头条：GPT-6.2 Astra 与 Sol 上线 GitHub Copilot。",
+ "generated_at": "2026-11-18T00:58:25.525008+00:00",
+ "summary": "过去 30 天共收录 244 条动态，精选 10 条（模型发布 5 条、主流智能体 5 条）。头条：GPT-6.2 Astra 与 Sol 接入 GitHub Copilot。",
  "items": [
   {
    "id": "96ff71f54c6e7b4da47668acaa4a513b0085cd1a",
@@ -15,10 +15,10 @@
    "source": "GitHub Copilot Changelog",
    "source_id": "github-copilot-changelog",
    "published": "2026-11-17T20:20:29+00:00",
-   "zh_title": "GPT-6.2 Astra 与 Sol 上线 GitHub Copilot",
-   "zh_oneliner": "Copilot 即日起可用 OpenAI 的 GPT-6.2 Astra 与 Sol，两款模型面向智能体编程与代码评审，编码判断力比上一代更强。",
-   "category": "agent",
-   "category_label": "主流智能体",
+   "zh_title": "GPT-6.2 Astra 与 Sol 接入 GitHub Copilot",
+   "zh_oneliner": "OpenAI 的 GPT-6.2 Astra 与 Sol 已在 GitHub Copilot 全面可用，面向智能体编程与代码评审做了强化。",
+   "category": "model",
+   "category_label": "模型发布",
    "tier": "T1",
    "tags": [
     "模型",
@@ -29,9 +29,33 @@
    "reason": "官方来源 · 涉及模型与GPT · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 91.6,
+   "hot_score": 91.0,
    "prev_rank": 1,
-   "prev_hot_score": 91.7
+   "prev_hot_score": 91.0
+  },
+  {
+   "id": "564aa296ded401b85b17beac2a3926158ef632e6",
+   "title": "Release v0.28.1-preview.0",
+   "link": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.1-preview.0",
+   "source": "Qwen Code Releases",
+   "source_id": "qwen-code-releases",
+   "published": "2026-11-17T19:56:30+00:00",
+   "zh_title": "Qwen Code v0.28.1 预览版",
+   "zh_oneliner": "Qwen Code 的预览更新，验证了托管智能体的定时任务触发，并加固了状态检查与容器配置。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T1",
+   "tags": [
+    "智能体",
+    "发布"
+   ],
+   "score": 95,
+   "reason": "官方来源 · 涉及智能体与发布 · 6 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 90.7,
+   "prev_rank": 2,
+   "prev_hot_score": 90.7
   },
   {
    "id": "549a77347d5e1e5f25e081258d641a2b8758c868",
@@ -42,8 +66,8 @@
    "published": "2026-11-17T17:45:00+00:00",
    "zh_title": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
    "zh_oneliner": "GPT-6.2 Astra 与 Sol 在专业输出、编程、电脑操作与成本效率上都有提升，已覆盖 ChatGPT Work、Codex 与 API。",
-   "category": "agent",
-   "category_label": "主流智能体",
+   "category": "model",
+   "category_label": "模型发布",
    "tier": "T1",
    "tags": [
     "GPT",
@@ -53,9 +77,9 @@
    "reason": "官方来源 · 涉及GPT与API · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 84.7,
-   "prev_rank": 3,
-   "prev_hot_score": 84.8
+   "hot_score": 84.2,
+   "prev_rank": 5,
+   "prev_hot_score": 84.2
   },
   {
    "id": "2b7a7366c72677641c0dd7f4007e9797114b8bbe",
@@ -64,8 +88,8 @@
    "source": "Claude Code Changelog",
    "source_id": "claude-code-changelog",
    "published": "2026-11-17T23:22:59+00:00",
-   "zh_title": "Claude Code 2.1.327 更新",
-   "zh_oneliner": "这版主要是体验修补：装 GitHub 应用前多一道确认，/status 能列出失效的配置，/config 会提示被覆盖的设置，MCP 加了从标准输入读 JSON 的方式。",
+   "zh_title": "Claude Code 2.1.327 发布",
+   "zh_oneliner": "Claude Code 2.1.327 在安装 GitHub 应用改动仓库前先征求确认，并让 MCP 服务器配置可从标准输入读取 JSON。",
    "category": "model",
    "category_label": "模型发布",
    "tier": "T1",
@@ -76,9 +100,57 @@
    "reason": "官方来源 · 涉及Claude · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 89.3,
-   "prev_rank": 2,
-   "prev_hot_score": 89.3
+   "hot_score": 88.7,
+   "prev_rank": 3,
+   "prev_hot_score": 88.7
+  },
+  {
+   "id": "4dbe53199800181e733570ebf4916f9070758469",
+   "title": "Release v0.28.0",
+   "link": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0",
+   "source": "Qwen Code Releases",
+   "source_id": "qwen-code-releases",
+   "published": "2026-11-17T11:20:07+00:00",
+   "zh_title": "Qwen Code v0.28.0",
+   "zh_oneliner": "Qwen Code 发布 0.28.0，网页端加了工作区筛选，托管智能体新增钉钉适配，没有已知破坏性改动。",
+   "category": "model",
+   "category_label": "模型发布",
+   "tier": "T1",
+   "tags": [
+    "大模型",
+    "发布"
+   ],
+   "score": 90,
+   "reason": "官方来源 · 涉及大模型与发布 · 24 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 79.3,
+   "prev_rank": 12,
+   "prev_hot_score": 79.3
+  },
+  {
+   "id": "788442c73cbb02e0640f1da56367227ad53ee20b",
+   "title": "Qwen Code Desktop v0.28.0",
+   "link": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.0",
+   "source": "Qwen Code Releases",
+   "source_id": "qwen-code-releases",
+   "published": "2026-11-17T12:31:07+00:00",
+   "zh_title": "Qwen Code 桌面版 v0.28.0",
+   "zh_oneliner": "Qwen Code 桌面版同步到 0.28.0，网页端支持工作区筛选，托管智能体新增钉钉适配。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T1",
+   "tags": [
+    "大模型",
+    "智能体"
+   ],
+   "score": 90,
+   "reason": "官方来源 · 涉及大模型与智能体 · 24 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 80.2,
+   "prev_rank": 6,
+   "prev_hot_score": 80.2
   },
   {
    "id": "cb1d8f8bc84f7e6afbd259b401364decf6841b22",
@@ -99,9 +171,9 @@
    "reason": "官方来源 · 涉及Gemini · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 79.5,
-   "prev_rank": 9,
-   "prev_hot_score": 79.5
+   "hot_score": 78.9,
+   "prev_rank": 13,
+   "prev_hot_score": 79.0
   },
   {
    "id": "08a8dbd9f09af5b3a4c178912de142cc1667d198",
@@ -110,8 +182,8 @@
    "source": "GitHub Copilot Changelog",
    "source_id": "github-copilot-changelog",
    "published": "2026-11-17T18:04:48+00:00",
-   "zh_title": "GitHub Copilot Fusion 扩展：新模型、更多入口与基准成绩",
-   "zh_oneliner": "Copilot Fusion 增加了新模型、覆盖了更多 Copilot 入口，还公布了两份 Terminal-Bench 公开榜单成绩，方便用户选用与横向比较。",
+   "zh_title": "GitHub Copilot Fusion 扩展模型与覆盖面",
+   "zh_oneliner": "GitHub Copilot Fusion 新增模型、覆盖更多 Copilot 入口，并在两份公开 Terminal-Bench 榜单上公布了成绩。",
    "category": "agent",
    "category_label": "主流智能体",
    "tier": "T1",
@@ -123,9 +195,9 @@
    "reason": "官方来源 · 涉及模型与基准 · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.3,
-   "prev_rank": 4,
-   "prev_hot_score": 80.3
+   "hot_score": 79.7,
+   "prev_rank": 7,
+   "prev_hot_score": 79.8
   },
   {
    "id": "0fb6d41b1c23d94f5d1f27772feaf7c313b07988",
@@ -134,8 +206,8 @@
    "source": "GitHub Copilot Changelog",
    "source_id": "github-copilot-changelog",
    "published": "2026-11-17T18:03:42+00:00",
-   "zh_title": "GitHub Copilot 应用更新：支持 Azure DevOps 与企业版 Server",
-   "zh_oneliner": "Copilot 应用现在能接 Azure DevOps 仓库、GitHub Enterprise Server 实例，还能在浏览器里用，走到用户干活的地方去。",
+   "zh_title": "GitHub Copilot 应用登陆更多平台",
+   "zh_oneliner": "GitHub Copilot 应用现已支持 Azure DevOps 仓库、GitHub Enterprise Server 实例与浏览器场景，Ignite 大会带来一批更新。",
    "category": "agent",
    "category_label": "主流智能体",
    "tier": "T1",
@@ -146,9 +218,9 @@
    "reason": "官方来源 · 涉及发布 · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.3,
-   "prev_rank": 5,
-   "prev_hot_score": 80.3
+   "hot_score": 79.7,
+   "prev_rank": 8,
+   "prev_hot_score": 79.7
   },
   {
    "id": "16585d72ac903443120b9e0cd31ebffc48669ef9",
@@ -157,8 +229,8 @@
    "source": "GitHub Copilot Changelog",
    "source_id": "github-copilot-changelog",
    "published": "2026-11-17T18:00:59+00:00",
-   "zh_title": "JetBrains 版 Copilot 更新：远程访问与端侧语音输入",
-   "zh_oneliner": "JetBrains 里的 Copilot 新增远程访问、设备端语音听写和浏览器使用控制，还有上下文用量快捷方式与历史差异对比。",
+   "zh_title": "GitHub Copilot for JetBrains 迎来 Ignite 更新",
+   "zh_oneliner": "JetBrains 版 GitHub Copilot 新增远程访问、本地语音输入与浏览器使用控制，还补了上下文用量快捷方式与历史差异查看。",
    "category": "agent",
    "category_label": "主流智能体",
    "tier": "T1",
@@ -169,80 +241,9 @@
    "reason": "官方来源 · 涉及发布 · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.2,
-   "prev_rank": 6,
-   "prev_hot_score": 80.3
-  },
-  {
-   "id": "f7d1e15580c30d5475426e0b5c9e181d61e9bef0",
-   "title": "Monitor GitHub Copilot activity through Microsoft Agent 365",
-   "link": "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
-   "source": "GitHub Copilot Changelog",
-   "source_id": "github-copilot-changelog",
-   "published": "2026-11-17T18:00:59+00:00",
-   "zh_title": "Copilot 智能体活动可接入 Microsoft Agent 365 监控",
-   "zh_oneliner": "企业现在能把各 Copilot 客户端的智能体活动直接推送到 Microsoft Agent 365，在微软的智能体管控平面里统一审计。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "智能体"
-   ],
-   "score": 85,
-   "reason": "官方来源 · 涉及智能体 · 24 小时内发布",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 80.2,
-   "prev_rank": 7,
-   "prev_hot_score": 80.3
-  },
-  {
-   "id": "2b90807377a92d888efb0c2284fe1d56f6fdbdc3",
-   "title": "GitHub Copilot Evals is now in public preview",
-   "link": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
-   "source": "GitHub Copilot Changelog",
-   "source_id": "github-copilot-changelog",
-   "published": "2026-11-17T18:00:33+00:00",
-   "zh_title": "GitHub Copilot Evals 公开预览：给 Copilot 做评测调优",
-   "zh_oneliner": "Copilot Evals 进入公开预览：提示词、模型、技能或工具变了之后，可以用它检验 Copilot 是不是还在最佳状态。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "模型",
-    "工具"
-   ],
-   "score": 85,
-   "reason": "官方来源 · 涉及模型与工具 · 24 小时内发布",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 80.2,
-   "prev_rank": 8,
-   "prev_hot_score": 80.3
-  },
-  {
-   "id": "cfcc7acb02e9ca7944d1e900e1dedbf4b8c78667",
-   "title": "More ways to move care forward with ChatGPT for Healthcare",
-   "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-   "source": "OpenAI News",
-   "source_id": "openai-news",
-   "published": "2026-11-16T06:00:00+00:00",
-   "zh_title": "ChatGPT 医疗版再升级：电脑操作智能体与新插件",
-   "zh_oneliner": "新版本加入能操作电脑的智能体、更准确的临床回答和一批医疗软件插件，让 ChatGPT 能在医疗流程里干实活。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "GPT",
-    "Agent"
-   ],
-   "score": 80,
-   "reason": "官方来源 · 涉及GPT与智能体",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 54.0,
-   "prev_rank": null,
-   "prev_hot_score": null
+   "hot_score": 79.7,
+   "prev_rank": 9,
+   "prev_hot_score": 79.7
   }
  ]
 }
