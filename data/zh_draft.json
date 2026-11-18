@@ -5850,75 +5850,249 @@
   "en_oneliner": "ChatGPT gains a sales-focused plugin plus more than 30 new and expanded partner plugins, helping sales teams research prospects, prepare pitches, keep CRM records up to date, and move deals forward."
  },
  "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available": {
-  "zh_title": "GPT-6.2 Astra 与 Sol 上线 GitHub Copilot",
-  "zh_oneliner": "Copilot 即日起可用 OpenAI 的 GPT-6.2 Astra 与 Sol，两款模型面向智能体编程与代码评审，编码判断力比上一代更强。",
+  "en_oneliner": "GitHub Copilot now offers GPT-6.2 Astra and Sol, OpenAI's newest models built for agentic coding and code review.",
   "en_title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-  "en_oneliner": "GitHub Copilot now offers the new GPT-6.2 Astra and Sol from OpenAI, two models built for agentic coding and code review whose coding judgment beats earlier models."
+  "zh_oneliner": "OpenAI 的 GPT-6.2 Astra 与 Sol 已在 GitHub Copilot 全面可用，面向智能体编程与代码评审做了强化。",
+  "zh_title": "GPT-6.2 Astra 与 Sol 接入 GitHub Copilot"
  },
  "https://code.claude.com/docs/en/changelog#2-1-327": {
-  "zh_title": "Claude Code 2.1.327 更新",
-  "zh_oneliner": "这版主要是体验修补：装 GitHub 应用前多一道确认，/status 能列出失效的配置，/config 会提示被覆盖的设置，MCP 加了从标准输入读 JSON 的方式。",
+  "en_oneliner": "Claude Code 2.1.327 now confirms before /install-github-app touches a repository, and claude mcp add-json can take server JSON from stdin so tokens stay off the command line.",
   "en_title": "2.1.327",
-  "en_oneliner": "This release is mostly experience polish: a confirmation step before installing the GitHub app, a /status listing for broken configuration files, a /config note when settings get overridden, and a way to feed MCP server JSON via stdin."
+  "zh_oneliner": "Claude Code 2.1.327 在安装 GitHub 应用改动仓库前先征求确认，并让 MCP 服务器配置可从标准输入读取 JSON。",
+  "zh_title": "Claude Code 2.1.327 发布"
  },
  "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models": {
-  "zh_title": "GitHub Copilot Fusion 扩展：新模型、更多入口与基准成绩",
-  "zh_oneliner": "Copilot Fusion 增加了新模型、覆盖了更多 Copilot 入口，还公布了两份 Terminal-Bench 公开榜单成绩，方便用户选用与横向比较。",
+  "en_oneliner": "GitHub Copilot Fusion now ships with more models on more Copilot surfaces, plus results on two public Terminal-Bench leaderboards.",
   "en_title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
-  "en_oneliner": "Copilot Fusion gains new models, reaches more Copilot surfaces, and posts scores on two public Terminal-Bench leaderboards, making it easier to pick and compare."
+  "zh_oneliner": "GitHub Copilot Fusion 新增模型、覆盖更多 Copilot 入口，并在两份公开 Terminal-Bench 榜单上公布了成绩。",
+  "zh_title": "GitHub Copilot Fusion 扩展模型与覆盖面"
  },
  "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases": {
-  "zh_title": "GitHub Copilot 应用更新：支持 Azure DevOps 与企业版 Server",
-  "zh_oneliner": "Copilot 应用现在能接 Azure DevOps 仓库、GitHub Enterprise Server 实例，还能在浏览器里用，走到用户干活的地方去。",
+  "en_oneliner": "The GitHub Copilot app now works with Azure DevOps repositories, GitHub Enterprise Server instances, and the browser, as part of a batch of Ignite releases.",
   "en_title": "GitHub Copilot app, Microsoft Ignite releases",
-  "en_oneliner": "The Copilot app now works with Azure DevOps repositories and GitHub Enterprise Server instances, and runs in the browser too, meeting users where they work."
+  "zh_oneliner": "GitHub Copilot 应用现已支持 Azure DevOps 仓库、GitHub Enterprise Server 实例与浏览器场景，Ignite 大会带来一批更新。",
+  "zh_title": "GitHub Copilot 应用登陆更多平台"
  },
  "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases": {
-  "zh_title": "JetBrains 版 Copilot 更新：远程访问与端侧语音输入",
-  "zh_oneliner": "JetBrains 里的 Copilot 新增远程访问、设备端语音听写和浏览器使用控制，还有上下文用量快捷方式与历史差异对比。",
+  "en_oneliner": "The JetBrains edition of GitHub Copilot now offers remote access, voice dictation that runs on your machine, and controls for browser use, alongside context usage shortcuts and a way to review past diffs.",
   "en_title": "GitHub Copilot in JetBrains, Ignite releases",
-  "en_oneliner": "Copilot for JetBrains now lets you work remotely, dictate by voice on-device, and set browser use controls, with shortcuts for context usage and a look back at historical diffs."
+  "zh_oneliner": "JetBrains 版 GitHub Copilot 新增远程访问、本地语音输入与浏览器使用控制，还补了上下文用量快捷方式与历史差异查看。",
+  "zh_title": "GitHub Copilot for JetBrains 迎来 Ignite 更新"
  },
  "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365": {
-  "zh_title": "Copilot 智能体活动可接入 Microsoft Agent 365 监控",
-  "zh_oneliner": "企业现在能把各 Copilot 客户端的智能体活动直接推送到 Microsoft Agent 365，在微软的智能体管控平面里统一审计。",
+  "en_oneliner": "Companies can now pipe GitHub Copilot agent activity into Microsoft Agent 365 for unified auditing inside Microsoft's agent control plane.",
   "en_title": "Monitor GitHub Copilot activity through Microsoft Agent 365",
-  "en_oneliner": "Enterprises can now pipe agent activity from every Copilot client straight into Microsoft Agent 365, so audit trails sit in one control plane."
+  "zh_oneliner": "企业现可把 GitHub Copilot 的智能体活动流式传输到 Microsoft Agent 365，在微软的智能体管控平面里统一审计。",
+  "zh_title": "Copilot 活动可接入 Microsoft Agent 365 监控"
  },
  "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview": {
-  "zh_title": "GitHub Copilot Evals 公开预览：给 Copilot 做评测调优",
-  "zh_oneliner": "Copilot Evals 进入公开预览：提示词、模型、技能或工具变了之后，可以用它检验 Copilot 是不是还在最佳状态。",
+  "en_oneliner": "GitHub Copilot Evals is now in public preview, so you can keep tuning Copilot as prompts, models, skills, and tools evolve.",
   "en_title": "GitHub Copilot Evals is now in public preview",
-  "en_oneliner": "Copilot Evals is in public preview: after prompts, models, skills, or tools change, it checks whether Copilot is still performing at its best."
+  "zh_oneliner": "GitHub Copilot Evals 开放公开预览，帮你根据提示词、模型与技能的变化持续调优 Copilot 的实际表现。",
+  "zh_title": "GitHub Copilot Evals 开放公开预览"
  },
  "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more": {
-  "zh_title": "Copilot 代码评审升级：自适应深度与密钥检测",
-  "zh_oneliner": "Copilot 代码评审新增自适应评审深度：常规改动快速过一遍，复杂改动再深挖，还能检测泄露的密钥。",
+  "en_oneliner": "GitHub Copilot code review now scales its effort to each pull request — light for routine changes, deeper for complex ones — and catches leaked secrets more reliably.",
   "en_title": "Copilot code review: Adaptive effort, secret detection, and more",
-  "en_oneliner": "Copilot code review now adapts its depth to each pull request, giving routine changes a quick pass and digging deeper where it matters, plus detection for leaked secrets."
+  "zh_oneliner": "GitHub Copilot 代码评审新增自适应力度，按拉取请求的复杂程度调整评审深度，并加强了密钥泄露检测。",
+  "zh_title": "Copilot 代码评审：自适应力度与密钥检测"
  },
  "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot": {
-  "zh_title": "微软 MAI Code 2 与 MAI Code 2 Flash 上线 Copilot",
-  "zh_oneliner": "微软新一代 AI 编程模型 MAI Code 2 与轻量版 MAI Code 2 Flash 正式进入 Copilot。",
+  "en_oneliner": "Microsoft's newest AI coding models, MAI Code 2 and its lighter sibling MAI Code 2 Flash, have landed in GitHub Copilot.",
   "en_title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
-  "en_oneliner": "Microsoft's new generation of AI coding models, MAI Code 2 and the lighter MAI Code 2 Flash, are now live in Copilot."
+  "zh_oneliner": "微软新一代 AI 编程模型 MAI Code 2 与轻量版 MAI Code 2 Flash 已接入 GitHub Copilot。",
+  "zh_title": "MAI Code 2 与 MAI Code 2 Flash 接入 GitHub Copilot"
  },
  "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview": {
-  "zh_title": "Copilot CLI 预览支持 Microsoft Entra 登录",
-  "zh_oneliner": "Copilot 命令行工具开始公开预览 Microsoft Entra 登录，用微软账号即可静默认证关联的企业托管用户。",
+  "en_oneliner": "The GitHub Copilot CLI now lets you sign in with Microsoft Entra in public preview, quietly authenticating a linked GitHub Enterprise Managed User.",
   "en_title": "GitHub Copilot CLI adds Microsoft Entra sign-in as a preview",
-  "en_oneliner": "The Copilot CLI now offers Microsoft Entra sign-in in public preview, letting you authenticate silently with a Microsoft account linked to a managed enterprise user."
+  "zh_oneliner": "GitHub Copilot 命令行现已支持 Microsoft Entra 账号登录预览，可静默认证到关联的 GitHub Enterprise 托管用户。",
+  "zh_title": "GitHub Copilot CLI 支持 Microsoft Entra 登录预览"
  },
  "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights": {
-  "zh_title": "Copilot 代码评审效果可在仓库洞察里查看",
-  "zh_oneliner": "仓库新增洞察页面，可以看到 Copilot 代码评审的反馈在各个仓库里的实际采纳情况。",
+  "en_oneliner": "GitHub's new Repository insights page tracks what happens to Copilot code review feedback in each repo, starting with review outcomes.",
   "en_title": "Track Copilot code review outcomes in Repository insights",
-  "en_oneliner": "A new Repository insights page shows how Copilot code review feedback actually lands across each repository."
+  "zh_oneliner": "GitHub 新增仓库洞察页面，可以看到 Copilot 代码评审的反馈在每个仓库里的实际采纳情况。",
+  "zh_title": "Copilot 代码评审结果可在仓库洞察中追踪"
  },
  "https://devin.ai/blog/introducing-devin-bots": {
-  "zh_title": "Devin 推出 Devin Bots：为目标负责的工程队友",
-  "zh_oneliner": "Devin Bots 是能为目标负责的工程队友，可以带领一组 Devin 去交付成果。",
+  "en_oneliner": "Devin Bots act as engineering teammates accountable for outcomes, directing squads of Devins to finish the job.",
   "en_title": "Introducing Devin Bots: from tasks to outcomes",
-  "en_oneliner": "Devin Bots are engineering teammates that take ownership of a goal and lead a team of Devins to deliver it."
+  "zh_oneliner": "Devin Bots 是能为目标负责的工程队友，会带领一队 Devin 去交付成果，而不只是接单做任务。",
+  "zh_title": "Devin 推出 Devin Bots"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-309": {
+  "en_oneliner": "Claude Code 2.1.309 improves the VS Code warning shown when certificate checks fail, spelling out what to do behind a TLS-inspecting proxy.",
+  "en_title": "2.1.309",
+  "zh_oneliner": "Claude Code 2.1.309 改进了 VS Code 里的证书校验失败提示，在 TLS 检测代理后给出明确的处理建议。",
+  "zh_title": "Claude Code 2.1.309 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-310": {
+  "en_oneliner": "Claude Code 2.1.310 adds a Monitor tool and plugin monitors for Bedrock, Vertex, and Foundry, and blocks long foreground sleeps once telemetry is switched off.",
+  "en_title": "2.1.310",
+  "zh_oneliner": "Claude Code 2.1.310 新增 Monitor 工具与插件监控，覆盖 Bedrock、Vertex 与 Foundry，并在关闭遥测时拦截长时间前台休眠。",
+  "zh_title": "Claude Code 2.1.310 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-311": {
+  "en_oneliner": "Claude Code 2.1.311 lets self-hosted runners hold idle sessions while the host still reports leftover processes, and surfaces a hint for the explanatory output style.",
+  "en_title": "2.1.311",
+  "zh_oneliner": "Claude Code 2.1.311 给自托管 Runner 加了空闲会话保持选项，并为解释型输出样式补了提示。",
+  "zh_title": "Claude Code 2.1.311 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-312": {
+  "en_oneliner": "Claude Code 2.1.312 lets the apps gateway recognize users through a different id_token claim, such as Entra ID's oid, and adds click-to-send in fullscreen.",
+  "en_title": "2.1.312",
+  "zh_oneliner": "Claude Code 2.1.312 让应用网关支持用 id_token 的其他声明识别用户，并给全屏模式加了点击发送。",
+  "zh_title": "Claude Code 2.1.312 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-314": {
+  "en_oneliner": "Claude Code 2.1.314 adds a permission that refuses writes outside the working directories in every mode, plus an optional groups list for the apps gateway.",
+  "en_title": "2.1.314",
+  "zh_oneliner": "Claude Code 2.1.314 新增权限项，禁止向工作目录之外写文件，并给应用网关加了可选分组。",
+  "zh_title": "Claude Code 2.1.314 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-316": {
+  "en_oneliner": "Claude Code 2.1.316 adds a switch to turn off the ultrathink keyword and pooled monthly budgets that a gateway group's members share.",
+  "en_title": "2.1.316",
+  "zh_oneliner": "Claude Code 2.1.316 允许关闭 ultrathink 关键词，并给应用网关加了多人共享的分组月度预算。",
+  "zh_title": "Claude Code 2.1.316 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-317": {
+  "en_oneliner": "Claude Code 2.1.317 warns when a new cloud scheduled task gains connectors you never asked for, and asks first before a web or shell call sends your account details out.",
+  "en_title": "2.1.317",
+  "zh_oneliner": "Claude Code 2.1.317 在定时任务被悄悄加上连接器时给出警告，并在联网或 shell 调用可能外发账号信息前先征求确认。",
+  "zh_title": "Claude Code 2.1.317 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-318": {
+  "en_oneliner": "Claude Code 2.1.318 now records your answer when it asks to switch on mods written in a session, and adds assume-role support on the gateway's mantle upstreams.",
+  "en_title": "2.1.318",
+  "zh_oneliner": "Claude Code 2.1.318 会记录你对会话内开启 Mod 的答复，并给应用网关的上游加了跨 AWS 账号代入角色。",
+  "zh_title": "Claude Code 2.1.318 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-319": {
+  "en_oneliner": "Claude Code 2.1.319 moves MCP tasks in the terminal to the background as soon as they start, then reports the result to Claude when they finish.",
+  "en_title": "2.1.319",
+  "zh_oneliner": "Claude Code 2.1.319 让终端里的 MCP 任务自动转入后台，完成后把结果回传给 Claude。",
+  "zh_title": "Claude Code 2.1.319 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-321": {
+  "en_oneliner": "Claude Code 2.1.321 makes Claude Fable 5.2 the default model with 1M context, and adds a settings-file option to remote control.",
+  "en_title": "2.1.321",
+  "zh_oneliner": "Claude Code 2.1.321 把 Claude Fable 5.2 设为默认模型，上下文达 100 万 token，并给远程控制加了配置文件选项。",
+  "zh_title": "Claude Code 2.1.321 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-322": {
+  "en_oneliner": "Claude Code 2.1.322 switches on fast mode for Vertex across its global, US, and EU regions, with an automatic drop to standard speed when a request is declined.",
+  "en_title": "2.1.322",
+  "zh_oneliner": "Claude Code 2.1.322 在 Vertex 的全球、美国与欧洲区域上线快速模式，被拒时自动回落到标准速度。",
+  "zh_title": "Claude Code 2.1.322 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-323": {
+  "en_oneliner": "Claude Code 2.1.323 adds an experimental Code Mode that has Claude invoke tools by writing JavaScript.",
+  "en_title": "2.1.323",
+  "zh_oneliner": "Claude Code 2.1.323 推出实验性 Code Mode，让 Claude 用 JavaScript 代码直接调用工具。",
+  "zh_title": "Claude Code 2.1.323 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-325": {
+  "en_oneliner": "Claude Code 2.1.325 adds a terminal hint for re-running notebook cells after Claude touches a Jupyter notebook, and improves the helper text shown beneath error messages.",
+  "en_title": "2.1.325",
+  "zh_oneliner": "Claude Code 2.1.325 在 VS Code 等集成终端里加了笔记本单元格重跑提示，并优化了报错信息的展示。",
+  "zh_title": "Claude Code 2.1.325 发布"
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-326": {
+  "en_oneliner": "Claude Code 2.1.326 makes Code Mode work alongside agent teams, and adds a startup warning for risky allowed-tools settings.",
+  "en_title": "2.1.326",
+  "zh_oneliner": "Claude Code 2.1.326 让 Code Mode 能与智能体团队功能同时开启，并在启动时对工具白名单配置给出警告。",
+  "zh_title": "Claude Code 2.1.326 发布"
+ },
+ "https://cursor.com/changelog/agent-sdk": {
+  "en_oneliner": "Cursor's Agent SDK turns an agent into a folder of code you can evaluate and then ship inside Cursor or on infrastructure you run yourself.",
+  "en_title": "Agent SDK",
+  "zh_oneliner": "Cursor 推出 Agent SDK：把智能体写成一文件夹代码，用评估测试后部署到 Cursor 或自己的基础设施。",
+  "zh_title": "Cursor 推出 Agent SDK"
+ },
+ "https://cursor.com/changelog/build-live-apps": {
+  "en_oneliner": "Cursor's Live Apps let cloud agents build and deploy web apps right inside the editor, taking care of hosting, database, auth, and deployment.",
+  "en_title": "Build Live Apps in Cursor",
+  "zh_oneliner": "Cursor 推出 Live Apps：云端智能体在编辑器里直接把网页应用做出来，连托管、数据库、鉴权与部署一起包办。",
+  "zh_title": "Cursor 支持直接构建并部署实时应用"
+ },
+ "https://cursor.com/changelog/voice-chat": {
+  "en_oneliner": "Cursor agents now support live voice conversations across desktop, web, and iOS.",
+  "en_title": "Voice Chat with Agents",
+  "zh_oneliner": "Cursor 的智能体现在支持实时语音通话，在桌面、网页与 iOS 上都能边说边让智能体干活。",
+  "zh_title": "Cursor 智能体支持语音对话"
+ },
+ "https://devin.ai/blog/claude-fable-5-2": {
+  "en_oneliner": "Devin now runs Claude Fable 5.2, which leads FrontierCode 2.0 with 49.1%, a big jump from Fable 5.1's 32.4%.",
+  "en_title": "Claude Fable 5.2 is now available in Devin",
+  "zh_oneliner": "Claude Fable 5.2 已接入 Devin，在 FrontierCode 2.0 上拿到 49.1%，比上一代高出一大截。",
+  "zh_title": "Claude Fable 5.2 接入 Devin"
+ },
+ "https://devin.ai/blog/claude-mythos-5-2-security": {
+  "en_oneliner": "Devin Security now offers Claude Mythos 5.2 to customers with frontier cyber model access.",
+  "en_title": "Claude Mythos 5.2 is now available in Devin Security",
+  "zh_oneliner": "Claude Mythos 5.2 已接入 Devin Security，面向拥有前沿网络安全模型权限的客户开放。",
+  "zh_title": "Claude Mythos 5.2 接入 Devin Security"
+ },
+ "https://devin.ai/blog/cognition-mckinsey-alliance": {
+  "en_oneliner": "Cognition and McKinsey are joining forces so enterprises can connect Devin-driven engineering capacity with measurable business outcomes.",
+  "en_title": "Cognition and McKinsey form an alliance to help enterprises prove the value of AI in software engineering",
+  "zh_oneliner": "Cognition 与麦肯锡结盟，把 Devin 与麦肯锡的运营模式结合，帮企业把 AI 带来的研发产能提升落到可衡量的业务结果上。",
+  "zh_title": "Cognition 与麦肯锡结盟"
+ },
+ "https://devin.ai/blog/devin-apps": {
+  "en_oneliner": "Devin Apps are private web applications hosted on Devin's cloud computer, ready to create, share, and update.",
+  "en_title": "Introducing Devin Apps",
+  "zh_oneliner": "Devin Apps 是托管在 Devin 云端电脑上的私有网页应用，可以直接创建、分享与更新。",
+  "zh_title": "Devin 推出 Devin Apps"
+ },
+ "https://devin.ai/blog/devin-review-2": {
+  "en_oneliner": "Devin Review 2.0 now reviews pull requests at 82% lower cost than before, so teams can afford to run it on every PR.",
+  "en_title": "Devin Review 2.0",
+  "zh_oneliner": "Devin Review 2.0 把单次 PR 评审成本压低了 82%，便宜到可以给每个拉取请求都跑一遍评审。",
+  "zh_title": "Devin Review 2.0：评审成本下降 82%"
+ },
+ "https://devin.ai/blog/devin-security-2": {
+  "en_oneliner": "Devin Security 2.0 scans code with frontier models, ranks findings against your real environment, and turns them into fix pull requests on its own.",
+  "en_title": "Devin Security 2.0: Built for the new threat landscape",
+  "zh_oneliner": "Devin Security 2.0 用前沿模型扫描代码，按你的实际环境排优先级，并把安全发现自动变成修复拉取请求。",
+  "zh_title": "Devin Security 2.0 发布"
+ },
+ "https://devin.ai/blog/devin-teams-plan": {
+  "en_oneliner": "Devin's new Teams plan bundles Devin Desktop for everyone, with complimentary sessions, single sign-on, spending controls, and a standard BAA.",
+  "en_title": "Devin's new Teams plan",
+  "zh_oneliner": "Devin 新的 Teams 套餐给每位用户都配 Devin Desktop，含免费会话、单点登录、成本管控与标准版 BAA。",
+  "zh_title": "Devin 推出 Teams 套餐"
+ },
+ "https://devin.ai/blog/efficiency-based-cost-controls": {
+  "en_oneliner": "Devin now scores engineering efficiency and coaches teams on it, so companies can fund AI usage where it pays off instead of capping everyone the same way.",
+  "en_title": "A smarter approach to AI cost controls: allocating spend by efficiency",
+  "zh_oneliner": "Devin 推出效率分与教练机制，让企业按工程师的实际效率分配 AI 开支，而不是一刀切设上限。",
+  "zh_title": "Devin 推出按效率分配 AI 成本的管控方式"
+ },
+ "https://devin.ai/blog/gemini-4-carbon": {
+  "en_oneliner": "Gemini 4 Carbon now runs in Devin Desktop and Devin CLI, reaching 40.0% on FrontierCode 2.0 — better than Gemini 4 Argon's 26.3% and cheaper per task.",
+  "en_title": "Gemini 4 Carbon is now available in Devin",
+  "zh_oneliner": "Gemini 4 Carbon 已接入 Devin 桌面与命令行版，FrontierCode 2.0 得分 40.0%，比上一代更高且单任务成本更低。",
+  "zh_title": "Gemini 4 Carbon 接入 Devin"
+ },
+ "https://devin.ai/blog/gemini-4-hydrogen": {
+  "en_oneliner": "Gemini 4 Hydrogen has arrived in Devin Desktop and Devin CLI, scoring 38.2% on FrontierCode 2.0 — nearly matching GPT-6.1 Sol while running about 40% cheaper per task than Gemini 4 Carbon.",
+  "en_title": "Gemini 4 Hydrogen is now available in Devin",
+  "zh_oneliner": "Gemini 4 Hydrogen 已接入 Devin，FrontierCode 2.0 得分 38.2%，与 GPT-6.1 Sol 接近，单任务成本却低约四成。",
+  "zh_title": "Gemini 4 Hydrogen 接入 Devin"
+ },
+ "https://devin.ai/blog/hierarchical-budgets": {
+  "en_oneliner": "Devin's hierarchical budgets let enterprise admins hand ACU budgets to department leaders, who then pass limits down to their teams, projects, and people.",
+  "en_title": "Hierarchical budgets: manage AI spend the way your company is organized",
+  "zh_oneliner": "Devin 的分层预算让企业管理员按部门分配额度，各级负责人再往下分给自己的团队、项目与成员。",
+  "zh_title": "Devin 推出分层预算管理 AI 开支"
+ },
+ "https://devin.ai/blog/vulnerability-fixes-plugin": {
+  "en_oneliner": "After critical remote-code-execution flaws hit Node.js and PHP, Devin packaged the remediation workflow it used internally so other teams can reuse it.",
+  "en_title": "Fixing Critical Node & PHP Flaws",
+  "zh_oneliner": "Node.js 与 PHP 曝出可远程执行代码的严重漏洞，Devin 把自己内部的修复流程打包成可复用的工作流。",
+  "zh_title": "Devin 打包修复 Node 与 PHP 严重漏洞的工作流"
  }
 }
