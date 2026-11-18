@@ -6550,5 +6550,11 @@
   "zh_oneliner": "Qwen Code 发布新一期每夜构建，改进托管智能体的定时循环测试，并加固 PR 校验的状态守卫与容器逻辑。",
   "en_title": "Release v0.28.0-nightly.20261118.d9ac287c9f",
   "en_oneliner": "Qwen Code ships a new nightly build improving scheduled-loop tests for managed agents and hardening PR verification guards and container logic."
+ },
+ "https://openai.com/index/research-acceleration-jagged-frontier": {
+  "zh_title": "研究加速：参差不齐的 AI 前沿",
+  "zh_oneliner": "OpenAI 通过实测评估编程智能体对 AI 研究的加速作用，发现其能力提升并不均匀，并讨论了这种趋势对研究自我加速的意义。",
+  "en_title": "Research acceleration: The jagged frontier",
+  "en_oneliner": "OpenAI ran hands-on tests to gauge how much coding agents speed up AI research, finding uneven gains across tasks, and discusses what that trend means for research accelerating itself."
  }
 }
