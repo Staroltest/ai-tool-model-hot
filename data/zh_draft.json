@@ -6478,5 +6478,23 @@
   "zh_oneliner": "OpenAI 的模型参与优化了 Jalapeño 芯片电路与 RISC-V 核心设计，展现了 AI 辅助芯片设计的实际进展。",
   "en_title": "Advancing chip design with OpenAI models",
   "en_oneliner": "OpenAI's models helped optimize circuits for Jalapeño silicon and RISC-V core designs, a concrete step forward for AI-assisted chip design."
+ },
+ "https://openai.com/index/inside-the-codex-sandbox": {
+  "zh_title": "走进 Codex 沙箱",
+  "zh_oneliner": "OpenAI 介绍 Codex 如何在 macOS、Linux 与 Windows 上执行本地命令，同时按用户设定的文件系统与网络边界加以约束。",
+  "en_title": "Inside the Codex sandbox",
+  "en_oneliner": "OpenAI explains how Codex runs local commands while staying inside the filesystem and network limits you set, across macOS, Linux, and Windows."
+ },
+ "https://openai.com/index/the-silent-consensus": {
+  "zh_title": "沉默的共识",
+  "zh_oneliner": "OpenAI 战略未来负责人 Dean Ball 探讨更强大的 AI 将如何重塑社会，以及人们怎样守住对自身制度的掌控。",
+  "en_title": "The Silent Consensus",
+  "en_oneliner": "OpenAI's strategic futures chief Dean Ball asks what increasingly powerful AI means for society and for keeping institutions under human control."
+ },
+ "https://deepmind.google/blog/genie-4-is-now-available": {
+  "zh_title": "Genie 4 现已上线",
+  "zh_oneliner": "DeepMind 的交互式世界模型 Genie 4 正式开放，可由文字或图像提示生成能够实时探索的互动世界。",
+  "en_title": "Genie 4 is now available",
+  "en_oneliner": "DeepMind's interactive world model Genie 4 is now open, turning text or image prompts into explorable worlds you can move through in real time."
  }
 }
