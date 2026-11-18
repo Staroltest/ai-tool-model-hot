@@ -6460,5 +6460,23 @@
   "zh_oneliner": "LangSmith 为编码智能体新增报表能力，把智能体的花费与它产出的拉取请求挂钩，方便团队按实际成果衡量投入。",
   "en_title": "LangSmith for Coding Agents: Now track spend by outcome",
   "en_oneliner": "LangSmith adds reporting for coding agents that ties their spending to the pull requests they ship, letting teams weigh the investment by actual results."
+ },
+ "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices": {
+  "zh_title": "Gemini 应用现已支持低内存安卓设备",
+  "zh_oneliner": "Gemini 应用放宽了安卓设备的内存门槛，低内存手机也能用上 Gemini Live 和自定义图片生成功能。",
+  "en_title": "The Gemini app is now available on lower-memory Android devices.",
+  "en_oneliner": "The Gemini app has lowered the memory bar for Android devices, so phones with less memory can now use Gemini Live and custom image creation."
+ },
+ "https://huggingface.co/blog/moe-expert-streaming": {
+  "zh_title": "180B 参数、32GB 内存：用 Transformers 把 MoE 推理推向极限",
+  "zh_oneliner": "仅用 32GB 内存就能跑起 180B 参数的 MoE 模型，Transformers 借助专家流式加载，让大模型推理对普通硬件更友好。",
+  "en_title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+  "en_oneliner": "A 180B-parameter MoE model can now run on just 32GB of RAM, as Transformers streams experts on demand to make large-model inference friendlier to ordinary hardware."
+ },
+ "https://openai.com/index/advancing-chip-design-with-our-models": {
+  "zh_title": "OpenAI 模型助力芯片设计取得进展",
+  "zh_oneliner": "OpenAI 的模型参与优化了 Jalapeño 芯片电路与 RISC-V 核心设计，展现了 AI 辅助芯片设计的实际进展。",
+  "en_title": "Advancing chip design with OpenAI models",
+  "en_oneliner": "OpenAI's models helped optimize circuits for Jalapeño silicon and RISC-V core designs, a concrete step forward for AI-assisted chip design."
  }
 }
