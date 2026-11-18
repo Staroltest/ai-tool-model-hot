@@ -353,6 +353,11 @@ REASON_LABELS_EN = {
 }
 
 
+# 英文版 ihConfig 只留 ASCII 关键词：中文键在英文树里永远匹配不上英文正文，
+# 留着只会让 en 页面混进中文字符（2026-11-19 修复）
+REASON_LABELS_EN_ASCII = {k: v for k, v in REASON_LABELS_EN.items() if k.isascii()}
+
+
 # 中文标签 -> 主题页 slug（B11/B16；与 REASON_LABELS 的值一一对应）
 TAG_SLUGS = {
     "教程": "tutorial", "工具": "tools", "数据": "data", "案例": "case-study",
@@ -2798,8 +2803,8 @@ def render_index(site, cats, cfg, src_by_id, selected, hot, timeline, generated_
         "tierBonus": sc["tier_bonus"],
         "devBonus": sc["dev_keyword_bonus"],
         "devCap": sc["dev_keyword_cap"],
-        "devLabels": REASON_LABELS_EN if lang == "en" else REASON_LABELS,
-        "noiseKw": sc["noise_keywords"],
+        "devLabels": REASON_LABELS_EN_ASCII if lang == "en" else REASON_LABELS,
+        "noiseKw": [kw for kw in sc["noise_keywords"] if kw.isascii()] if lang == "en" else sc["noise_keywords"],
         "noisePenalty": sc["noise_keyword_penalty"],
         "noiseFloor": sc["noise_keyword_floor"],
         "tagSlugs": TAG_SLUGS_EN if lang == "en" else TAG_SLUGS,
@@ -2907,8 +2912,8 @@ def render_all(site, cats, cfg, src_by_id, selected, hot, pool, generated_at, la
         "tierBonus": sc["tier_bonus"],
         "devBonus": sc["dev_keyword_bonus"],
         "devCap": sc["dev_keyword_cap"],
-        "devLabels": REASON_LABELS_EN if lang == "en" else REASON_LABELS,
-        "noiseKw": sc["noise_keywords"],
+        "devLabels": REASON_LABELS_EN_ASCII if lang == "en" else REASON_LABELS,
+        "noiseKw": [kw for kw in sc["noise_keywords"] if kw.isascii()] if lang == "en" else sc["noise_keywords"],
         "noisePenalty": sc["noise_keyword_penalty"],
         "noiseFloor": sc["noise_keyword_floor"],
         "tagSlugs": TAG_SLUGS_EN if lang == "en" else TAG_SLUGS,
