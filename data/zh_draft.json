@@ -6514,5 +6514,11 @@
   "zh_oneliner": "Agents SDK 发布 0.24.0 版，统一运行级函数错误格式并新增 MCP 发现标注，同时改进故障恢复、沙箱安全与链路追踪。",
   "en_title": "v0.24.0",
   "en_oneliner": "The Agents SDK ships version 0.24.0, unifying run-wide function error formatting and adding MCP discovery annotations, while improving recovery, sandbox safety, and tracing."
+ },
+ "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin": {
+  "zh_title": "DaisyRose-27B：推进后训练效率的前沿",
+  "zh_oneliner": "RadixArk 发布 27B 参数模型 DaisyRose，探索用更少的后训练投入换取更强的模型表现。",
+  "en_title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+  "en_oneliner": "RadixArk's 27B-parameter DaisyRose explores getting stronger model performance from less post-training effort."
  }
 }
