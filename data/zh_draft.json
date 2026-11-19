@@ -6604,5 +6604,17 @@
   "zh_oneliner": "用 LangSmith 的数据标注队列审阅日志、标注数据并沉淀数据集，让大模型应用从原型稳步走向生产。",
   "en_title": "Announcing Data Annotation Queues",
   "en_oneliner": "Use LangSmith’s Data Annotation Queues to review logs, label data, and build datasets that take LLM apps from prototype to production."
+ },
+ "https://www.langchain.com/blog/langsmith-tool-gateway": {
+  "zh_title": "LangSmith Tool Gateway：为智能体提供安全、受治理的工具调用",
+  "zh_oneliner": "LangSmith 推出工具网关公开测试版，统一管理智能体每次工具调用的凭证、身份与权限，支持策略、审批与全链路追踪。",
+  "en_title": "LangSmith Tool Gateway: Secure, governed tool use for agents",
+  "en_oneliner": "Now in public beta, LangSmith's Tool Gateway centralizes credential, identity, and access handling for agent tool calls, adding policy controls, approval flows, and trace visibility."
+ },
+ "https://devin.ai/blog/devin-for-databricks-migrations": {
+  "zh_title": "Devin 面向 Databricks 迁移：少花时间迁移，多花时间构建",
+  "zh_oneliner": "Devin 与 Databricks 合作，帮助企业更快地从传统数据平台迁移出来，让工程团队把更多时间花在用数据做开发上。",
+  "en_title": "Devin for Databricks Migrations: Less time migrating, more time building",
+  "en_oneliner": "A new Devin–Databricks collaboration speeds enterprise migrations away from legacy data platforms, so engineers can focus their time on building with data."
  }
 }

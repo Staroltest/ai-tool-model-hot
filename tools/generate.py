@@ -4679,6 +4679,11 @@ def main():
                "terms.html", "privacy.html", "topics.html",
                "daily/archive.html", "feed.xml", "geo-audit.html"]:
         _add_sitemap(_p, today_iso)
+    # 根目录站长验证文件等静态 HTML（如 google*.html）也要入 sitemap，
+    # 否则 geo-audit 的磁盘扫描会报漏页
+    for _fn in sorted(os.listdir(root)):
+        if _fn.endswith(".html") and _fn != "404.html":
+            _add_sitemap(_fn, today_iso)
     for _l, slug, _n in tag_counts:
         _add_sitemap("topics/" + slug + ".html", today_iso)
     _pub_dates = {}
