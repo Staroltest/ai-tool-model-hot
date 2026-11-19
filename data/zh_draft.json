@@ -6634,5 +6634,11 @@
   "zh_oneliner": "Google 在 Gemini API 中推出 Tool Retrieval 预览版，让智能体把庞大工具库留在待命状态、只在需要时加载参数结构，从而省下输入 token 并保持工具选择的准确性。",
   "en_title": "Introducing Tool Retrieval in the Gemini API",
   "en_oneliner": "Google has added Tool Retrieval to the Gemini API in preview, letting agents keep a large tool library on standby and load parameter schemas only when needed, cutting input tokens while keeping tool selection accurate."
+ },
+ "https://devin.ai/blog/nginx2root-java4shell-threats": {
+  "zh_title": "用 Devin Security 的 Threats 功能排查 NGINX2Root 与 Java4Shell 漏洞",
+  "zh_oneliner": "Devin Security 新增漏洞扫描能力，可帮客户发现并修补近期披露的 NGINX2Root 与 Java4Shell 两个高危漏洞。",
+  "en_title": "Checking for NGINX2Root and Java4Shell with Threats in Devin Security",
+  "en_oneliner": "Devin Security's Threats feature now checks customer code for the newly disclosed NGINX2Root and Java4Shell flaws and helps patch them."
  }
 }
