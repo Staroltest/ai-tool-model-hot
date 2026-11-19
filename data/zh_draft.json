@@ -6652,5 +6652,23 @@
   "zh_oneliner": "Devin 桌面版与命令行版现已支持 Gemini 4 Neon，该模型在 FrontierCode 2.0 基准上取得 46.2% 的成绩，是谷歌模型中的最佳表现，成本约为 Claude Opus 5.5 的三分之一。",
   "en_title": "Gemini 4 Neon is now available in Devin",
   "en_oneliner": "Devin's desktop and command-line apps now support Gemini 4 Neon, which posts a 46.2% score on the FrontierCode 2.0 benchmark — the strongest showing yet from a Google model, at roughly a third of Claude Opus 5.5's cost."
+ },
+ "https://openai.com/business/learn/codex-security-plugin-demo": {
+  "zh_title": "探索 Codex 安全插件",
+  "zh_oneliner": "OpenAI 演示 Codex 安全插件的完整工作流，从上手配置到查看扫描结果。",
+  "en_title": "Explore the Codex Security Plugin",
+  "en_oneliner": "OpenAI demos the full Codex Security Plugin workflow, from setup to reviewing scan results."
+ },
+ "https://openai.com/business/learn/pr-scans-demo": {
+  "zh_title": "PR 扫描实战演示",
+  "zh_oneliner": "OpenAI 通过演示展示 PR 扫描如何融入拉取请求流程并呈现扫描结果。",
+  "en_title": "See PR scans in action",
+  "en_oneliner": "OpenAI shows how PR scans fit into the pull request workflow and present their findings."
+ },
+ "https://openai.com/business/learn/daybreak-blue-onboarding-demo": {
+  "zh_title": "Daybreak Blue 上手指南",
+  "zh_oneliner": "OpenAI 演示 Daybreak Blue 的注册与配置过程，帮助新用户快速开始使用。",
+  "en_title": "Get started with Daybreak Blue",
+  "en_oneliner": "OpenAI walks through signing up for Daybreak Blue and configuring it so new users can start quickly."
  }
 }
