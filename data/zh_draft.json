@@ -6574,5 +6574,11 @@
   "zh_oneliner": "DeepSeek V4.1-Flash 的 10 月修订版，推理、编程与智能体任务都有提升，Hugging Face 下载近 50 万次。",
   "en_title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
   "en_oneliner": "The October revision of DeepSeek V4.1-Flash, improving reasoning, coding and agent tasks, with nearly 500,000 downloads on Hugging Face."
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-328": {
+  "zh_title": "Claude Code 2.1.328 发布",
+  "zh_oneliner": "Claude Code 2.1.328 为 Opus 4.6 与 Sonnet 4.6 在 Bedrock、Google Cloud、Foundry 及应用网关上启用自动模式，免权限交互会话默认进入该模式。",
+  "en_title": "2.1.328",
+  "en_oneliner": "In Claude Code 2.1.328, Opus 4.6 and Sonnet 4.6 gain an automatic mode across Bedrock, Google Cloud, Foundry, and the apps gateway, and interactive sessions that skip permission prompts now begin there."
  }
 }
