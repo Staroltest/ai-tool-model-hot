@@ -6622,5 +6622,11 @@
   "zh_oneliner": "传记作家 Walter Isaacson 做客谷歌访谈，回顾历史上伟大创新者的经验，探讨在 AI 不断发展的时代如何保持创造力、做出人类判断。",
   "en_title": "Walter Isaacson on curiosity and creativity in the AI age.",
   "en_oneliner": "Biographer Walter Isaacson joins Google to reflect on lessons from history's great innovators for staying creative and exercising judgment as AI advances."
+ },
+ "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast": {
+  "zh_title": "OpenAI 性能工厂如何让 ChatGPT 保持快速",
+  "zh_oneliner": "OpenAI 公开其内部性能保障体系：用 Codex 驱动的工作流持续发现并修复性能问题，让 ChatGPT 在规模增长下依然保持响应速度。",
+  "en_title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+  "en_oneliner": "OpenAI explains its internal performance system: Codex-powered workflows that continuously surface and fix performance issues so ChatGPT stays responsive as it scales."
  }
 }
