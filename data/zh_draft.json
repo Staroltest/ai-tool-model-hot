@@ -6586,5 +6586,23 @@
   "zh_oneliner": "Pydantic AI 2.71.0 版上线，改动集中在多智能体对等网络的连接方式与接口命名，并接入新的模型服务商 Stav。",
   "en_title": "v2.71.0 (2026-11-18)",
   "en_oneliner": "Pydantic AI 2.71.0 is out, with changes to how multi-agent peer networks connect and how their interfaces are named, plus support for a new model provider, Stav."
+ },
+ "https://www.langchain.com/blog/langsmith-alerts": {
+  "zh_title": "用 LangSmith Alerts 提前发现生产故障",
+  "zh_oneliner": "为错误率、运行延迟和反馈评分设置实时通知，在用户察觉之前发现生产问题。",
+  "en_title": "Catch production failures early with LangSmith Alerts",
+  "en_oneliner": "Set up real-time alerts on error rates, latency, and feedback scores to catch production issues before users notice."
+ },
+ "https://www.langchain.com/blog/fix-your-coding-agent-bill": {
+  "zh_title": "编程智能体账单翻倍了？这样控制成本",
+  "zh_oneliner": "账单失控往往源于用量不可见，把 Claude Code、Cursor、Copilot 等多款工具的开销放在一处追踪、对比与管控。",
+  "en_title": "Your coding agent bill doubled. Here’s how to fix it.",
+  "en_oneliner": "Bills spiral when usage stays invisible — bring Claude Code, Cursor, Copilot, and other tools’ spend into one view to trace, compare, and control it."
+ },
+ "https://www.langchain.com/blog/announcing-data-annotation-queue": {
+  "zh_title": "发布数据标注队列",
+  "zh_oneliner": "用 LangSmith 的数据标注队列审阅日志、标注数据并沉淀数据集，让大模型应用从原型稳步走向生产。",
+  "en_title": "Announcing Data Annotation Queues",
+  "en_oneliner": "Use LangSmith’s Data Annotation Queues to review logs, label data, and build datasets that take LLM apps from prototype to production."
  }
 }
