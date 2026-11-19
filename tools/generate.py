@@ -3974,7 +3974,8 @@ def build_geo_audit(site, root, site_url, today_iso):
         _check("robots", "robots.txt 点名放行 AI 爬虫", "fail", "robots.txt 不存在")
 
     sitemap = _read_text(os.path.join(root, "sitemap.xml"))
-    sm_locs = set(re.findall(r"<loc>([^<]+)</loc>", sitemap)) if sitemap else set()
+    # sitemap 里的 <loc> 是百分号编码过的，比较前先解码回磁盘路径
+    sm_locs = set(urllib.parse.unquote(u) for u in re.findall(r"<loc>([^<]+)</loc>", sitemap)) if sitemap else set()
     html_files = set()
     for _base, _dirs, _files in os.walk(root):
         rel = os.path.relpath(_base, root)
@@ -4731,7 +4732,9 @@ def main():
     sm = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
           "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"]
     for _p, _lm in sitemap_entries.items():
-        sm.append(f"<url><loc>{site_url}/{_p}</loc><lastmod>{_lm}</lastmod></url>")
+        # sitemap 的 <loc> 必须是合法 URL：路径里的空格、中文等要做百分号编码，
+        # 否则 Google Search Console 会报 sitemap“无法抓取”（见 2026-11-19 muse-5 通报）
+        sm.append(f"<url><loc>{site_url}/{urllib.parse.quote(_p, safe='/')}</loc><lastmod>{_lm}</lastmod></url>")
     sm.append("</urlset>")
     with open(os.path.join(root, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(sm) + "\n")
