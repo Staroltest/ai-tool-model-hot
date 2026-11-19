@@ -1,270 +1,281 @@
 {
-  "categories": [
-    {
-      "key": "agent",
-      "label": "主流智能体",
-      "label_en": "Leading agents",
-      "keywords": [
-        "智能体",
-        "agent",
-        "Agent",
-        "Agentic",
-        "Claude Code",
-        "Codex",
-        "Copilot",
-        "Cursor",
-        "Devin",
-        "Jules",
-        "Gemini CLI",
-        "Manus",
-        "Windsurf",
-        "编程助手",
-        "coding agent",
-        "多智能体",
-        "multi-agent",
-        "助手",
-        "assistant"
-      ]
+    "categories": [
+        {
+            "key": "agent",
+            "label": "主流智能体",
+            "label_en": "Leading agents",
+            "keywords": [
+                "智能体",
+                "agent",
+                "Agent",
+                "Agentic",
+                "Claude Code",
+                "Codex",
+                "Copilot",
+                "Cursor",
+                "Devin",
+                "Jules",
+                "Gemini CLI",
+                "Manus",
+                "Windsurf",
+                "编程助手",
+                "coding agent",
+                "多智能体",
+                "multi-agent",
+                "助手",
+                "assistant"
+            ]
+        },
+        {
+            "key": "model",
+            "label": "模型发布",
+            "label_en": "Model releases",
+            "keywords": [
+                "模型",
+                "model",
+                "发布",
+                "release",
+                "大模型",
+                "LLM",
+                "GPT",
+                "Gemini",
+                "Claude",
+                "开源模型",
+                "open-weight",
+                "微调",
+                "fine-tune",
+                "基准",
+                "benchmark",
+                "参数",
+                "parameters",
+                "推理",
+                "inference",
+                "多模态",
+                "multimodal",
+                "新版本",
+                "v1",
+                "v2"
+            ]
+        }
+    ],
+    "scoring": {
+        "base": 50,
+        "daily_hours": 24,
+        "daily_top": 10,
+        "decay_base": 0.8,
+        "dev_keyword_bonus": 5,
+        "dev_keyword_cap": 25,
+        "dev_keywords": [
+            "模型",
+            "model",
+            "大模型",
+            "LLM",
+            "GPT",
+            "Claude",
+            "Gemini",
+            "开源",
+            "open source",
+            "微调",
+            "fine-tune",
+            "推理",
+            "inference",
+            "多模态",
+            "multimodal",
+            "Agent",
+            "智能体",
+            "基准",
+            "benchmark",
+            "发布",
+            "release",
+            "新品",
+            "工具",
+            "tool",
+            "API",
+            "Hugging Face"
+        ],
+        "history_days": 30,
+        "hot_days": 7,
+        "hot_top": 20,
+        "noise_keyword_floor": -30,
+        "noise_keyword_penalty": -10,
+        "noise_keywords": [
+            "抽奖",
+            "红包",
+            "返利",
+            "代购",
+            "空投",
+            "炒币",
+            "币价",
+            "破解版",
+            "免费领取",
+            "壁纸",
+            "cosplay",
+            "mod",
+            "速通",
+            "彩蛋",
+            "壁纸",
+            "raises",
+            "raises $",
+            "series a",
+            "series b",
+            "series c",
+            "funding",
+            "financing",
+            "partner",
+            "alliance",
+            "allied",
+            "how to",
+            "what we've learned",
+            "why ",
+            "risk",
+            "interview",
+            "tutorial",
+            "review",
+            "roundup",
+            "outlook",
+            "nightly",
+            "-daily",
+            "devices",
+            "为什么",
+            "如何",
+            "怎么",
+            "合作",
+            "助力",
+            "专访",
+            "展望",
+            "盘点",
+            "指南",
+            "教程",
+            "评测",
+            "详解",
+            "风险",
+            "融资",
+            "估值",
+            "learn how",
+            "walkthrough",
+            "watch a",
+            "in action",
+            "get started",
+            "discuss",
+            "episode",
+            "dialogue",
+            "how ",
+            "watch the"
+        ],
+        "recency": [
+            {
+                "bonus": 25,
+                "max_hours": 6
+            },
+            {
+                "bonus": 20,
+                "max_hours": 24
+            },
+            {
+                "bonus": 10,
+                "max_hours": 72
+            }
+        ],
+        "release_title_bonus": 10,
+        "selected_hours": 48,
+        "selected_min": 70,
+        "tier_bonus": {
+            "T1": 10,
+            "T2": 0,
+            "T3": -15
+        },
+        "timeline_days": 7,
+        "timeline_max": 100,
+        "exclude_keywords": [
+            "chatgpt ads",
+            "advertiser",
+            "advertisers",
+            "reseller",
+            "resellers",
+            "广告",
+            "nightly"
+        ]
     },
-    {
-      "key": "model",
-      "label": "模型发布",
-      "label_en": "Model releases",
-      "keywords": [
-        "模型",
-        "model",
-        "发布",
-        "release",
-        "大模型",
-        "LLM",
-        "GPT",
-        "Gemini",
-        "Claude",
-        "开源模型",
-        "open-weight",
-        "微调",
-        "fine-tune",
-        "基准",
-        "benchmark",
-        "参数",
-        "parameters",
-        "推理",
-        "inference",
-        "多模态",
-        "multimodal",
-        "新版本",
-        "v1",
-        "v2"
-      ]
+    "site": {
+        "about_blocks": [
+            {
+                "h": "定位",
+                "paras": [
+                    "AI工具与模型HOT 是给关注 AI 的人看的热点站：只收模型发布与主流智能体更新，不收新闻、教程与评测，每天精选 10 条。"
+                ]
+            },
+            {
+                "h": "怎么做",
+                "paras": [
+                    "采集——公开 RSS 信源，每半小时拉一次。",
+                    "打分——规则打分（时效、相关度、来源），不是 AI 打分。",
+                    "出报——只展示标题、摘要与原文链接，不转载全文。"
+                ]
+            },
+            {
+                "h": "制作人",
+                "paras": [
+                    "Staroltest。"
+                ]
+            }
+        ],
+        "about_blocks_en": [
+            {
+                "h": "What it is",
+                "paras": [
+                    "AI Tools & Models HOT is a hotspot site for people following AI: only model releases and leading agent updates — no news, guides or reviews. 10 picks a day."
+                ]
+            },
+            {
+                "h": "How it works",
+                "paras": [
+                    "Collect — public RSS sources, fetched every 30 minutes.",
+                    "Score — rule-based scoring (recency, relevance, source), not AI scoring.",
+                    "Publish — only titles, summaries and links to the originals, no full text republished."
+                ]
+            },
+            {
+                "h": "Made by",
+                "paras": [
+                    "Staroltest."
+                ]
+            }
+        ],
+        "audience": "关注 AI 工具与新模型的开发者与使用者",
+        "audience_en": "developers and users following new AI tools and models",
+        "crawler_name": "ai-tool-model-hotBot/1.0",
+        "description": "每天从 19 个信源（16 个 RSS + 3 个 Hugging Face 组织页）收 AI 模型发布与主流智能体更新，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
+        "description_en": "Daily AI model releases and leading agent updates, scored by rules from 19 sources (16 RSS feeds + 3 Hugging Face org pages). Titles, one-line summaries and links only — no full text republished.",
+        "edition_time_cst": "06:00",
+        "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
+        "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License.",
+        "launch_date": "2026-11-17",
+        "mcp_url": "https://ai-tool-model-hot.pages.dev/mcp",
+        "mirror_url": "https://ai-tool-model-hot.pages.dev",
+        "name": "AI工具与模型HOT",
+        "repo": "https://github.com/Staroltest/ai-tool-model-hot",
+        "slug": "ai-tool-model-hot",
+        "subtitle": "每天精选 AI 模型发布与主流智能体更新",
+        "subtitle_en": "Daily picks of AI model releases and leading agent updates",
+        "tagline": "新模型、新智能体，每天只给值得点开的那几条。",
+        "tagline_en": "New models, new agents — only the few worth opening, every day.",
+        "timezone": "Asia/Shanghai",
+        "tips": [
+            {
+                "address": "TBH8fAi6Vbr9G4VW3PDm3DugZU6fknr6na",
+                "image": "assets/tip-usdt.png",
+                "label": "USDT · TRC20"
+            },
+            {
+                "address": "7pitxN5xECR2NH2qdhFiSRC3fDdMsmVczqFSY4Zz4v5H",
+                "image": "assets/tip-usdt-sol.png",
+                "label": "USDT · Solana"
+            }
+        ],
+        "title": "AI工具与模型HOT",
+        "title_en": "AI Tools & Models HOT",
+        "url": "https://ai-tool-model-hot.pages.dev",
+        "web_analytics_token": "f0bab610a3824b98949f50ac199eb8be",
+        "clarity_id": "zfuk6aju7z"
     }
-  ],
-  "scoring": {
-    "base": 50,
-    "daily_hours": 24,
-    "daily_top": 10,
-    "decay_base": 0.8,
-    "dev_keyword_bonus": 5,
-    "dev_keyword_cap": 25,
-    "dev_keywords": [
-      "模型",
-      "model",
-      "大模型",
-      "LLM",
-      "GPT",
-      "Claude",
-      "Gemini",
-      "开源",
-      "open source",
-      "微调",
-      "fine-tune",
-      "推理",
-      "inference",
-      "多模态",
-      "multimodal",
-      "Agent",
-      "智能体",
-      "基准",
-      "benchmark",
-      "发布",
-      "release",
-      "新品",
-      "工具",
-      "tool",
-      "API",
-      "Hugging Face"
-    ],
-    "history_days": 30,
-    "hot_days": 7,
-    "hot_top": 20,
-    "noise_keyword_floor": -15,
-    "noise_keyword_penalty": -5,
-    "noise_keywords": [
-      "抽奖",
-      "红包",
-      "返利",
-      "代购",
-      "空投",
-      "炒币",
-      "币价",
-      "破解版",
-      "免费领取",
-      "壁纸",
-      "cosplay",
-      "mod",
-      "速通",
-      "彩蛋",
-      "壁纸",
-      "raises",
-      "raises $",
-      "series a",
-      "series b",
-      "series c",
-      "funding",
-      "financing",
-      "partner",
-      "alliance",
-      "allied",
-      "how to",
-      "what we've learned",
-      "why ",
-      "risk",
-      "interview",
-      "tutorial",
-      "review",
-      "roundup",
-      "outlook",
-      "nightly",
-      "-daily",
-      "devices",
-      "为什么",
-      "如何",
-      "怎么",
-      "合作",
-      "助力",
-      "专访",
-      "展望",
-      "盘点",
-      "指南",
-      "教程",
-      "评测",
-      "详解",
-      "风险",
-      "融资",
-      "估值"
-    ],
-    "recency": [
-      {
-        "bonus": 25,
-        "max_hours": 6
-      },
-      {
-        "bonus": 20,
-        "max_hours": 24
-      },
-      {
-        "bonus": 10,
-        "max_hours": 72
-      }
-    ],
-    "release_title_bonus": 10,
-    "selected_hours": 48,
-    "selected_min": 65,
-    "tier_bonus": {
-      "T1": 10,
-      "T2": 0,
-      "T3": -15
-    },
-    "timeline_days": 7,
-    "timeline_max": 100,
-    "exclude_keywords": [
-      "chatgpt ads",
-      "advertiser",
-      "advertisers",
-      "reseller",
-      "resellers",
-      "广告"
-    ]
-  },
-  "site": {
-    "about_blocks": [
-      {
-        "h": "定位",
-        "paras": [
-          "AI工具与模型HOT 是给关注 AI 的人看的热点站：只收模型发布与主流智能体更新，不收新闻、教程与评测，每天精选 10 条。"
-        ]
-      },
-      {
-        "h": "怎么做",
-        "paras": [
-          "采集——公开 RSS 信源，每半小时拉一次。",
-          "打分——规则打分（时效、相关度、来源），不是 AI 打分。",
-          "出报——只展示标题、摘要与原文链接，不转载全文。"
-        ]
-      },
-      {
-        "h": "制作人",
-        "paras": [
-          "Staroltest。"
-        ]
-      }
-    ],
-    "about_blocks_en": [
-      {
-        "h": "What it is",
-        "paras": [
-          "AI Tools & Models HOT is a hotspot site for people following AI: only model releases and leading agent updates — no news, guides or reviews. 10 picks a day."
-        ]
-      },
-      {
-        "h": "How it works",
-        "paras": [
-          "Collect — public RSS sources, fetched every 30 minutes.",
-          "Score — rule-based scoring (recency, relevance, source), not AI scoring.",
-          "Publish — only titles, summaries and links to the originals, no full text republished."
-        ]
-      },
-      {
-        "h": "Made by",
-        "paras": [
-          "Staroltest."
-        ]
-      }
-    ],
-    "audience": "关注 AI 工具与新模型的开发者与使用者",
-    "audience_en": "developers and users following new AI tools and models",
-    "crawler_name": "ai-tool-model-hotBot/1.0",
-    "description": "每天从 19 个信源（16 个 RSS + 3 个 Hugging Face 组织页）收 AI 模型发布与主流智能体更新，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
-    "description_en": "Daily AI model releases and leading agent updates, scored by rules from 19 sources (16 RSS feeds + 3 Hugging Face org pages). Titles, one-line summaries and links only — no full text republished.",
-    "edition_time_cst": "06:00",
-    "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
-    "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License.",
-    "launch_date": "2026-11-17",
-    "mcp_url": "https://ai-tool-model-hot.pages.dev/mcp",
-    "mirror_url": "https://ai-tool-model-hot.pages.dev",
-    "name": "AI工具与模型HOT",
-    "repo": "https://github.com/Staroltest/ai-tool-model-hot",
-    "slug": "ai-tool-model-hot",
-    "subtitle": "每天精选 AI 模型发布与主流智能体更新",
-    "subtitle_en": "Daily picks of AI model releases and leading agent updates",
-    "tagline": "新模型、新智能体，每天只给值得点开的那几条。",
-    "tagline_en": "New models, new agents — only the few worth opening, every day.",
-    "timezone": "Asia/Shanghai",
-    "tips": [
-      {
-        "address": "TBH8fAi6Vbr9G4VW3PDm3DugZU6fknr6na",
-        "image": "assets/tip-usdt.png",
-        "label": "USDT · TRC20"
-      },
-      {
-        "address": "7pitxN5xECR2NH2qdhFiSRC3fDdMsmVczqFSY4Zz4v5H",
-        "image": "assets/tip-usdt-sol.png",
-        "label": "USDT · Solana"
-      }
-    ],
-    "title": "AI工具与模型HOT",
-    "title_en": "AI Tools & Models HOT",
-    "url": "https://ai-tool-model-hot.pages.dev",
-    "web_analytics_token": "f0bab610a3824b98949f50ac199eb8be",
-    "clarity_id": "zfuk6aju7z"
-  }
 }

@@ -4753,7 +4753,11 @@ def main():
 
     if args.daily:
         def build_period(kind, pool, window_label):
-            pool_sorted = sorted(pool, key=lambda x: x["score"], reverse=True)
+            # 精选门槛：只取评分 >= selected_min 的条目再取前 10。
+            # 2026-11-20 把关：此前无门槛，慢日子里 50–60 分的访谈/演示/
+            # 指南也会凑满 10 条进日报；精选宁缺毋滥，少于 10 条亦可。
+            eligible = [it for it in pool if it["score"] >= sc["selected_min"]]
+            pool_sorted = sorted(eligible, key=lambda x: x["score"], reverse=True)
             items = dedup_topics(pool_sorted)[:sc["daily_top"]]
             per_cat = {}
             for it in items:
@@ -4786,7 +4790,9 @@ def main():
         def build_period_en(kind, pool, window_label_en):
             """build_period 的英文版：同一批条目，英文日期/导读/条目数据。
             导读含本轮池子规模（仅新报告有该数据）。"""
-            pool_sorted = sorted(pool, key=lambda x: x["score"], reverse=True)
+            # 与 build_period 同步：精选门槛 selected_min，见上。
+            eligible = [it for it in pool if it["score"] >= sc["selected_min"]]
+            pool_sorted = sorted(eligible, key=lambda x: x["score"], reverse=True)
             items = dedup_topics(pool_sorted)[:sc["daily_top"]]
             per_cat = {}
             for it in items:
