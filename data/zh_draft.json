@@ -6616,5 +6616,11 @@
   "zh_oneliner": "Devin 与 Databricks 合作，帮助企业更快地从传统数据平台迁移出来，让工程团队把更多时间花在用数据做开发上。",
   "en_title": "Devin for Databricks Migrations: Less time migrating, more time building",
   "en_oneliner": "A new Devin–Databricks collaboration speeds enterprise migrations away from legacy data platforms, so engineers can focus their time on building with data."
+ },
+ "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson": {
+  "zh_title": "Walter Isaacson 谈 AI 时代的好奇心与创造力",
+  "zh_oneliner": "传记作家 Walter Isaacson 做客谷歌访谈，回顾历史上伟大创新者的经验，探讨在 AI 不断发展的时代如何保持创造力、做出人类判断。",
+  "en_title": "Walter Isaacson on curiosity and creativity in the AI age.",
+  "en_oneliner": "Biographer Walter Isaacson joins Google to reflect on lessons from history's great innovators for staying creative and exercising judgment as AI advances."
  }
 }
