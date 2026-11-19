@@ -6556,5 +6556,11 @@
   "zh_oneliner": "OpenAI 通过实测评估编程智能体对 AI 研究的加速作用，发现其能力提升并不均匀，并讨论了这种趋势对研究自我加速的意义。",
   "en_title": "Research acceleration: The jagged frontier",
   "en_oneliner": "OpenAI ran hands-on tests to gauge how much coding agents speed up AI research, finding uneven gains across tasks, and discusses what that trend means for research accelerating itself."
+ },
+ "https://openai.com/business/customer-stories/sumitomo-life": {
+  "zh_title": "住友生命高管带队落地 ChatGPT Enterprise",
+  "zh_oneliner": "住友生命高管率先使用 ChatGPT Enterprise，带动团队用它做保险公司调研、准备提案和编写投资分析代码。",
+  "en_title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+  "en_oneliner": "Sumitomo Life's executives led the rollout of ChatGPT Enterprise, getting teams to use it for insurer research, proposal prep, and investment-analysis code."
  }
 }

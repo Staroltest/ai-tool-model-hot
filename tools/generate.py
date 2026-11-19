@@ -228,28 +228,56 @@ def parse_feed(body, source):
 
 # ---------------------------------------------------------------- 分类与打分
 
-# 模型发布标题优先规则（2026-11-18，GPT-6.2 被分到 agent 的教训）：
+# 模型发布标题优先规则（2026-11-18，GPT-6.2 被分到 agent 的教训；2026-11-19
+# 补：家族名与版本号之间可隔一个变体词，如 Claude Haiku 5.5、Claude Fable 5.2）：
 # 标题里出现“模型家族名 + 版本号”（如 GPT-6.2、Claude Fable 5.2、Gemini 4、Qwen4-Max）
 # 且标题本身不含智能体产品名时，直接归 model，不再看摘要里顺带提到的 Codex/Copilot
 # （模型发布文案常写“available across ChatGPT Work, Codex, and the API”，
 #  摘要里的 agent 词只是可用范围，不是内容本身）。
 _MODEL_RELEASE_RE = re.compile(
-    r"(gpt|claude|gemini|qwen|deepseek|llama|mistral|grok|glm|kimi|phi|command)"
-    r"[\s\-_]*v?\d",
+    r"(gpt|claude|gemini|qwen|deepseek|llama|mistral|grok|glm|kimi|phi|command|genie)"
+    r"[\s\-_]*[a-z]*[\s\-_]*v?\d",
     re.IGNORECASE)
 _AGENT_PRODUCT_NAMES = [
     "claude code", "codex", "copilot", "cursor", "gemini cli", "jules",
     "devin", "manus", "windsurf", "qwen code",
 ]
 
+# 纯版本号标题（如 "2.1.327"、"v0.24.0"）本身就是某产品的版本发布，不含
+# 任何分类信号；此时摘要里的 "Claude"/"model"/"release" 会把智能体版本
+# 误判成 model（2026-11-19 把关发现 8 条 Claude Code/Cline/Agents SDK
+# 版本被错分）。直接信任来源的 category_hint。
+_BARE_VERSION_RE = re.compile(r"^\s*v?\d+(\.\d+)+(-[a-z0-9.]+)?\s*$", re.IGNORECASE)
+_VERSION_IN_TITLE_RE = re.compile(r"v?\d+\.\d+")
+
+# 发布标题加分（2026-11-19 把关：新鲜度+来源分让随笔/教程与发布同分，
+# 日报前 10 常混进非发布内容）：标题带版本号、发布动词、模型名+版本号
+# 或“模型名-参数量”时加分；每夜/每日构建不加（例行构建，不占精选位）。
+_RELEASE_TITLE_RE = re.compile(
+    r"v?\d+\.\d+|introducing|announcing|now live|launch|is here|发布|上线|首发"
+    r"|[a-z][\w-]*-\d+(?:\.\d+)?b\b",
+    re.IGNORECASE)
+_ROUTINE_BUILD_RE = re.compile(r"nightly|daily[-.]|每夜|每日构建", re.IGNORECASE)
+
 
 def classify(item, categories, fallback):
+    if _BARE_VERSION_RE.match(item.get("title") or ""):
+        return fallback
     title_l = (item.get("title") or "").lower()
     if (not any(name in title_l for name in _AGENT_PRODUCT_NAMES)
             and _MODEL_RELEASE_RE.search(item.get("title") or "")):
         for cat in categories:
             if cat["key"] == "model":
                 return "model"
+    # 带版本号的标题（如 "Pydantic AI v2.70.0"、"Release v0.28.0"）是某产品的
+    # 版本发布；只要没触发上面的模型优先规则（即标题无模型家族名，或标题
+    # 里有智能体产品名），摘要里的通用词（model/release）就会误判，直接
+    # 信任来源的 category_hint（2026-11-19 把关：Pydantic AI/Qwen TS SDK
+    # 等 12 条被错分到 model）。
+    if (_VERSION_IN_TITLE_RE.search(item.get("title") or "")
+            and (any(name in title_l for name in _AGENT_PRODUCT_NAMES)
+                 or not _MODEL_RELEASE_RE.search(item.get("title") or ""))):
+        return fallback
     text = (item["title"] + " " + item["summary"]).lower()
     for cat in categories:
         for kw in cat["keywords"]:
@@ -284,6 +312,10 @@ def score(item, cfg, now):
     total += min(dev_hits * sc["dev_keyword_bonus"], sc["dev_keyword_cap"])
     noise_hits = sum(1 for kw in sc["noise_keywords"] if kw.lower() in text)
     total += max(noise_hits * sc["noise_keyword_penalty"], sc["noise_keyword_floor"])
+    title = item.get("title") or ""
+    if (_RELEASE_TITLE_RE.search(title) or _MODEL_RELEASE_RE.search(title)) \
+            and not _ROUTINE_BUILD_RE.search(title):
+        total += sc.get("release_title_bonus", 10)
     return max(0, min(100, total))
 
 
