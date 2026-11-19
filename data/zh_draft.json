@@ -6562,5 +6562,17 @@
   "zh_oneliner": "住友生命高管率先使用 ChatGPT Enterprise，带动团队用它做保险公司调研、准备提案和编写投资分析代码。",
   "en_title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
   "en_oneliner": "Sumitomo Life's executives led the rollout of ChatGPT Enterprise, getting teams to use it for insurer research, proposal prep, and investment-analysis code."
+ },
+ "https://huggingface.co/moonshotai/Kimi-K3.1-Pro": {
+  "zh_title": "Kimi K3.1 Pro 发布",
+  "zh_oneliner": "Kimi 新一代开源多模态模型，11 月 2 日上架，上下文长达 100 万 token，下载量已超 5 万。",
+  "en_title": "moonshotai/Kimi-K3.1-Pro",
+  "en_oneliner": "Kimi's new open-weight multimodal model, listed on November 2, with a context window of one million tokens and over 50,000 downloads."
+ },
+ "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "zh_title": "DeepSeek V4.1-Flash-1017 发布",
+  "zh_oneliner": "DeepSeek V4.1-Flash 的 10 月修订版，推理、编程与智能体任务都有提升，Hugging Face 下载近 50 万次。",
+  "en_title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "en_oneliner": "The October revision of DeepSeek V4.1-Flash, improving reasoning, coding and agent tasks, with nearly 500,000 downloads on Hugging Face."
  }
 }

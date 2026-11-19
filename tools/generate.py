@@ -4265,7 +4265,36 @@ def main():
                 print(f"zh: {applied} items matched from zh_draft.json")
         except (json.JSONDecodeError, AttributeError) as e:
             print("zh_draft.json skipped (%s)" % e, file=sys.stderr)
+    def ingest(raw):
+        """RSS 与 HF 条目共用入库：去重、排除词、建条目、回填派生字段。
+        raw["published"] 可以是 datetime（RSS）或 ISO 字符串（HF 适配器）。"""
+        pub = raw.get("published") or now
+        if isinstance(pub, str):
+            try:
+                pub = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+            except ValueError:
+                pub = now
+        raw["published"] = pub.astimezone(timezone.utc).isoformat()
+        raw["id"] = hashlib.sha1(norm_link(raw["link"]).encode()).hexdigest()
+        if raw["id"] in history:
+            return False  # 已收录：去重
+        if _is_excluded(raw, cfg):
+            return False  # 命中排除词：不进库
+        entry = {
+            "id": raw["id"], "title": raw["title"], "link": raw["link"],
+            "source": raw["source"], "source_id": raw["source_id"],
+            "published": raw["published"], "summary": raw.get("summary", ""),
+            "fetched_at": now.isoformat(),
+        }
+        if raw.get("summary_full"):
+            entry["summary_full"] = raw["summary_full"]
+        enrich_store_item(entry)
+        history[raw["id"]] = entry
+        return True
+
     for src in sources:
+        if src.get("type") == "hf":
+            continue  # Hugging Face 组织页由 tools/hf_adapter.py 轮询，不走 RSS
         try:
             body = fetch(src["url"])
             new_items = parse_feed(body, src)
@@ -4274,28 +4303,34 @@ def main():
             continue
         fetched += len(new_items)
         for it in new_items:
-            pub = it["published"] or now
-            it["published"] = pub.astimezone(timezone.utc).isoformat()
-            it["id"] = hashlib.sha1(norm_link(it["link"]).encode()).hexdigest()
-            if it["id"] in history:
-                continue  # 已收录：去重
-            if _is_excluded(it, cfg):
-                continue  # 命中排除词：不进库
-            entry = {
-                "id": it["id"], "title": it["title"], "link": it["link"],
-                "source": it["source"], "source_id": it["source_id"],
-                "published": it["published"], "summary": it["summary"],
-                "fetched_at": now.isoformat(),
-            }
-            if it.get("summary_full"):
-                entry["summary_full"] = it["summary_full"]
-            enrich_store_item(entry)
-            history[it["id"]] = entry
-    # 淘汰超过 history_days 的旧条目
+            ingest(it)
+    # Hugging Face 组织页（tools/hf_adapter.py 轮询后写入 data/hf_pending.json，
+    # 与 RSS 条目走同一入库路径；条目缺标题或链接时跳过）
+    hf_pending_path = os.path.join(data_dir, "hf_pending.json")
+    hf_pending = []
+    if os.path.exists(hf_pending_path):
+        try:
+            hf_pending = load_json(hf_pending_path) or []
+        except (json.JSONDecodeError, AttributeError):
+            print("hf_pending.json skipped", file=sys.stderr)
+    for it in hf_pending:
+        if not it.get("link") or not it.get("title"):
+            continue
+        ingest(it)
+    # 淘汰超过 history_days 的旧条目（data/hf_exceptions.json 里的破例补回条目除外）
     cutoff_hist = now - timedelta(days=sc["history_days"])
+    hf_exc = set()
+    exc_path = os.path.join(data_dir, "hf_exceptions.json")
+    if os.path.exists(exc_path):
+        try:
+            hf_exc = set(load_json(exc_path) or [])
+        except (json.JSONDecodeError, AttributeError):
+            pass
     history = {k: v for k, v in history.items()
-               if datetime.fromisoformat(v["published"]) >= cutoff_hist}
+               if datetime.fromisoformat(v["published"]) >= cutoff_hist or k in hf_exc}
     save_json(hist_path, {"updated_at": now.isoformat(), "items": list(history.values())})
+    if hf_pending:
+        save_json(hf_pending_path, [])  # 已合入 store，清空待处理
 
     # 分类与打分（在内存里算，不写回历史文件，保持历史干净）
     live = []
@@ -4689,7 +4724,9 @@ def main():
         f.write(build_llms_txt(site, cats, today_iso))
     with open(os.path.join(en_root, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(build_llms_txt(site, cats, today_iso, lang="en"))
-    print(f"fetch: {fetched} items parsed from {len(sources) - len(failed)}/{len(sources)} sources"
+    rss_total = len([s for s in sources if s.get("type") != "hf"])
+    print(f"fetch: {fetched} items parsed from {rss_total - len(failed)}/{rss_total} RSS sources"
+          f" + {len(sources) - rss_total} HF(适配器)"
           + (f"; failed: {failed}" if failed else ""))
     print(f"history: {len(history)} items; 7d: {len(last_7d)}; "
           f"selected: {len(selected)}; hot: {len(hot)}; timeline: {len(timeline)}; "
