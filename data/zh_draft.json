@@ -6646,5 +6646,11 @@
   "zh_oneliner": "2.1.329 版给钩子配置加了两处安全提醒：弹窗会说明钩子是在哪个文件夹声明的，非交互环境下也会提示受管设置中的钩子。",
   "en_title": "2.1.329",
   "en_oneliner": "Version 2.1.329 adds two safety prompts for hook configuration: the dialog now shows which folder a hook is declared in, and non-interactive hosts also flag hooks from managed settings."
+ },
+ "https://devin.ai/blog/gemini-4-neon": {
+  "zh_title": "Gemini 4 Neon 现已登陆 Devin",
+  "zh_oneliner": "Devin 桌面版与命令行版现已支持 Gemini 4 Neon，该模型在 FrontierCode 2.0 基准上取得 46.2% 的成绩，是谷歌模型中的最佳表现，成本约为 Claude Opus 5.5 的三分之一。",
+  "en_title": "Gemini 4 Neon is now available in Devin",
+  "en_oneliner": "Devin's desktop and command-line apps now support Gemini 4 Neon, which posts a 46.2% score on the FrontierCode 2.0 benchmark — the strongest showing yet from a Google model, at roughly a third of Claude Opus 5.5's cost."
  }
 }
