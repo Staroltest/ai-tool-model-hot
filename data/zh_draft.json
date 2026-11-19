@@ -6580,5 +6580,11 @@
   "zh_oneliner": "Claude Code 2.1.328 为 Opus 4.6 与 Sonnet 4.6 在 Bedrock、Google Cloud、Foundry 及应用网关上启用自动模式，免权限交互会话默认进入该模式。",
   "en_title": "2.1.328",
   "en_oneliner": "In Claude Code 2.1.328, Opus 4.6 and Sonnet 4.6 gain an automatic mode across Bedrock, Google Cloud, Foundry, and the apps gateway, and interactive sessions that skip permission prompts now begin there."
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.71.0": {
+  "zh_title": "Pydantic AI v2.71.0 发布",
+  "zh_oneliner": "Pydantic AI 2.71.0 版上线，改动集中在多智能体对等网络的连接方式与接口命名，并接入新的模型服务商 Stav。",
+  "en_title": "v2.71.0 (2026-11-18)",
+  "en_oneliner": "Pydantic AI 2.71.0 is out, with changes to how multi-agent peer networks connect and how their interfaces are named, plus support for a new model provider, Stav."
  }
 }
