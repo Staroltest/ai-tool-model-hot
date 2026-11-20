@@ -107,6 +107,13 @@
             "category_hint": "agent"
         },
         {
+            "id": "opencode-releases",
+            "name": "OpenCode Releases",
+            "url": "https://github.com/sst/opencode/releases.atom",
+            "tier": "T2",
+            "category_hint": "agent"
+        },
+        {
             "id": "hf-qwen",
             "name": "Qwen (Hugging Face)",
             "name_en": "Qwen (Hugging Face)",
