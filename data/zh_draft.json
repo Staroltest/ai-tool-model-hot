@@ -6736,5 +6736,17 @@
   "zh_oneliner": "Kiro 智能体正式上架 VS Code，支持 macOS、Windows 与 Linux，开发者不用离开编辑器就能用上 Kiro。",
   "en_title": "Introducing Kiro for VS Code",
   "en_oneliner": "Kiro has landed in VS Code for macOS, Windows, and Linux, letting developers use the Kiro agent without leaving the editor."
+ },
+ "https://kiro.dev/blog/private-networks": {
+  "zh_title": "Kiro 云端会话现可接入私有网络",
+  "zh_oneliner": "管理员配置好 VPC 后，Kiro 云端会话即可接入企业私有网络，直接使用内部服务与资源，开发不必再把代码迁出内网。",
+  "en_title": "Kiro cloud sessions now reach private networks",
+  "en_oneliner": "Once an admin configures a VPC, Kiro cloud sessions can join a company's private network and use internal services and resources directly, without moving code out of it."
+ },
+ "https://kiro.dev/blog/remote-workspaces": {
+  "zh_title": "远程工作区让 IDE 跟随代码与算力走",
+  "zh_oneliner": "Kiro IDE 现在可以在云端会话、本地开发容器或远程主机里打开工作区，代码与算力在哪里，开发环境就跟到哪里。",
+  "en_title": "Remote workspaces bring the IDE to where your code and compute already live",
+  "en_oneliner": "Kiro IDE can now open a workspace in a cloud session, a local dev container, or on a remote host, so the development environment follows wherever the code and compute already are."
  }
 }
