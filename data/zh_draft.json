@@ -6700,5 +6700,17 @@
   "zh_oneliner": "OpenAI 推出 MedChemBench 基准，考察 AI 模型解读分子结构、依据实验数据推理并挑选早期药物候选化合物的能力。",
   "en_title": "Can AI help scientists identify promising drug candidates?",
   "en_oneliner": "OpenAI introduces MedChemBench, a benchmark that probes whether AI models can read molecular structures, weigh experimental evidence, and shortlist promising compounds for early drug discovery."
+ },
+ "https://openai.com/index/combatting-adversarial-distillation": {
+  "zh_title": "OpenAI 对抗对抗性蒸馏的多层防线",
+  "zh_oneliner": "OpenAI 介绍了防止模型能力被蒸馏窃取的分层做法，从训练、防护、检测到执行多个环节布防。",
+  "en_title": "Combatting adversarial distillation",
+  "en_oneliner": "OpenAI lays out a multi-layered defense against capability theft via distillation, spanning training, protective measures, monitoring, and enforcement."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.1-preview.1": {
+  "zh_title": "Qwen Code v0.28.1-preview.1 发布",
+  "zh_oneliner": "Qwen Code 发布 v0.28.1-preview.1 预览版，修复了验证 PR 的状态守护与容器随机数等问题，并为托管智能体的定时循环补上端到端测试。",
+  "en_title": "Release v0.28.1-preview.1",
+  "en_oneliner": "Qwen Code ships v0.28.1-preview.1, fixing watch-state guards and container nonce handling in PR verification and adding end-to-end coverage for a managed agent's scheduled loop."
  }
 }
