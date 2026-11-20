@@ -6682,5 +6682,11 @@
   "zh_oneliner": "LangChain 认为，管好智能体的前提是先看清它在做什么：可观测性是治理的地基，而不是事后补救的手段。",
   "en_title": "Why agent governance starts with observability",
   "en_oneliner": "LangChain argues that governing agents starts with seeing what they do: observability is the foundation of governance, not an afterthought."
+ },
+ "https://kiro.dev/blog/conductor-mode": {
+  "zh_title": "Kiro Crew 推出 Conductor Mode",
+  "zh_oneliner": "Kiro Crew 的新模式让智能体像指挥一样并行推进功能开发，还能直接操作浏览器窗口，并在聊天中实时查看进度、测试完成的工作。",
+  "en_title": "Introducing conductor mode in Kiro Crew",
+  "en_oneliner": "Kiro Crew's new mode lets an agent orchestrate feature work in parallel, drive a browser window directly, and show live progress and testing inside chat."
  }
 }
