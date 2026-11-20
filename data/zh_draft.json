@@ -6688,5 +6688,11 @@
   "zh_oneliner": "Kiro Crew 的新模式让智能体像指挥一样并行推进功能开发，还能直接操作浏览器窗口，并在聊天中实时查看进度、测试完成的工作。",
   "en_title": "Introducing conductor mode in Kiro Crew",
   "en_oneliner": "Kiro Crew's new mode lets an agent orchestrate feature work in parallel, drive a browser window directly, and show live progress and testing inside chat."
+ },
+ "https://huggingface.co/blog/harness-adapters-at-scale": {
+  "zh_title": "Hugging Face 推出 Harness Adapter：让常用模型适配你的智能体框架，兼顾效果与成本",
+  "zh_oneliner": "Hugging Face 用强化学习为 Qwen3.8-27B 训练了适配 Pi、OpenCode 与 Hermes Agent 的 LoRA 适配器，让模型在目标框架里得分更高、token 更省，还公开了完整复现流程。",
+  "en_title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+  "en_oneliner": "Hugging Face trained RL-based LoRA adapters that tune Qwen3.8-27B for Pi, OpenCode, and Hermes Agent, lifting benchmark scores while cutting token use, and published the full recipe for reproducing it."
  }
 }
