@@ -6712,5 +6712,17 @@
   "zh_oneliner": "Qwen Code 发布 v0.28.1-preview.1 预览版，修复了验证 PR 的状态守护与容器随机数等问题，并为托管智能体的定时循环补上端到端测试。",
   "en_title": "Release v0.28.1-preview.1",
   "en_oneliner": "Qwen Code ships v0.28.1-preview.1, fixing watch-state guards and container nonce handling in PR verification and adding end-to-end coverage for a managed agent's scheduled loop."
+ },
+ "https://huggingface.co/blog/inkling2mini": {
+  "zh_title": "Inkling 2 Mini 发布：为本地部署打造的循环 Transformer 小模型",
+  "zh_oneliner": "Thinking Machines Lab 推出 Inkling 2 Mini：约 260 亿参数、每 token 仅激活 30 亿的循环 Transformer 混合专家模型，支持 100 万 token 上下文与图文输入，专为本地运行设计，实测表现可与 Qwen3.8-27B 一较高下。",
+  "en_title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+  "en_oneliner": "Thinking Machines Lab has released Inkling 2 Mini, a looped-transformer mixture-of-experts model with roughly 26B parameters and only 3B active per token, offering a 1M-token context and image-plus-text input for local setups, with measured performance rivaling Qwen3.8-27B."
+ },
+ "https://openai.com/business/customer-stories/hebbia": {
+  "zh_title": "Hebbia 实测：GPT-6 Astra 在金融研究中表现更出色",
+  "zh_oneliner": "金融研究平台 Hebbia 测试发现，GPT-6 Astra 在引用来源准确度与演示文稿质量两项上均领先同类模型：按要求引用来源的得分高出最佳竞品 13.6 个百分点，引用内容 99.5% 与问题相关，演示稿满足 97.9% 的格式要求。",
+  "en_title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "en_oneliner": "Financial research platform Hebbia found GPT-6 Astra ahead of rival models on both citation accuracy and presentation quality: it scored 13.6 points above the best alternative on citing required sources, 99.5% of its citations were relevant to the question, and its decks met 97.9% of formatting requirements."
  }
 }
