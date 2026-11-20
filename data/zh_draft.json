@@ -6694,5 +6694,11 @@
   "zh_oneliner": "Hugging Face 用强化学习为 Qwen3.8-27B 训练了适配 Pi、OpenCode 与 Hermes Agent 的 LoRA 适配器，让模型在目标框架里得分更高、token 更省，还公开了完整复现流程。",
   "en_title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
   "en_oneliner": "Hugging Face trained RL-based LoRA adapters that tune Qwen3.8-27B for Pi, OpenCode, and Hermes Agent, lifting benchmark scores while cutting token use, and published the full recipe for reproducing it."
+ },
+ "https://openai.com/index/introducing-medchembench": {
+  "zh_title": "MedChemBench：AI 能否帮助科学家筛选有前景的候选药物？",
+  "zh_oneliner": "OpenAI 推出 MedChemBench 基准，考察 AI 模型解读分子结构、依据实验数据推理并挑选早期药物候选化合物的能力。",
+  "en_title": "Can AI help scientists identify promising drug candidates?",
+  "en_oneliner": "OpenAI introduces MedChemBench, a benchmark that probes whether AI models can read molecular structures, weigh experimental evidence, and shortlist promising compounds for early drug discovery."
  }
 }
