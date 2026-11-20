@@ -6748,5 +6748,11 @@
   "zh_oneliner": "Kiro IDE 现在可以在云端会话、本地开发容器或远程主机里打开工作区，代码与算力在哪里，开发环境就跟到哪里。",
   "en_title": "Remote workspaces bring the IDE to where your code and compute already live",
   "en_oneliner": "Kiro IDE can now open a workspace in a cloud session, a local dev container, or on a remote host, so the development environment follows wherever the code and compute already are."
+ },
+ "https://code.claude.com/docs/en/changelog#2-1-330": {
+  "zh_title": "Claude Code 2.1.330",
+  "zh_oneliner": "Claude Code 2.1.330 带来企业管理员控制台登录、内置图表绘制模块 easel、自托管运行器与插件安装的多项改进。",
+  "en_title": "2.1.330",
+  "en_oneliner": "Claude Code 2.1.330 adds enterprise admin console sign-in, a built-in chart-drawing mod called easel, and several self-hosted runner and plugin install improvements."
  }
 }
