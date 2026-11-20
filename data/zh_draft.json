@@ -6670,5 +6670,11 @@
   "zh_oneliner": "OpenAI 演示 Daybreak Blue 的注册与配置过程，帮助新用户快速开始使用。",
   "en_title": "Get started with Daybreak Blue",
   "en_oneliner": "OpenAI walks through signing up for Daybreak Blue and configuring it so new users can start quickly."
+ },
+ "https://openai.com/business/learn/deploying-daybreak-red": {
+  "zh_title": "部署 Daybreak Red：有监督安全调查的参考架构",
+  "zh_oneliner": "OpenAI 介绍 Daybreak Red 参考架构，说明如何搭建一套带安全控制与监控的有监督安全调查流程。",
+  "en_title": "Deploying Daybreak Red",
+  "en_oneliner": "OpenAI presents the Daybreak Red reference architecture, explaining how to build a supervised security investigation workflow with safety controls and monitoring in place."
  }
 }
