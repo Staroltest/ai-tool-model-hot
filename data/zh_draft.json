@@ -6754,5 +6754,65 @@
   "zh_oneliner": "Claude Code 2.1.330 带来企业管理员控制台登录、内置图表绘制模块 easel、自托管运行器与插件安装的多项改进。",
   "en_title": "2.1.330",
   "en_oneliner": "Claude Code 2.1.330 adds enterprise admin console sign-in, a built-in chart-drawing mod called easel, and several self-hosted runner and plugin install improvements."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v2.3.2": {
+  "zh_title": "OpenCode v2.3.2：修复 GPT-6.2 提示词缓存计费问题",
+  "zh_oneliner": "这版把 GPT-6.2 的系统提示改以引导消息发送，使其能被正常缓存，避免每步都按未缓存输入重复计费。",
+  "en_title": "v2.3.2",
+  "en_oneliner": "This release sends GPT-6.2's system prompt as a lead-in message so it caches normally, instead of billing it as uncached input on every step."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v2.3.1": {
+  "zh_title": "OpenCode v2.3.1：超时的 Shell 命令转入后台继续跑",
+  "zh_oneliner": "超时的 Shell 命令不再被直接杀掉，而是转入后台继续执行，耗时较长的构建与测试能跑完并回传结果。",
+  "en_title": "v2.3.1",
+  "en_oneliner": "When a shell command times out, it keeps running in the background rather than being terminated, letting lengthy builds and tests complete and report their results."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v1.19.6": {
+  "zh_title": "OpenCode v1.19.6：桌面端可选择升级到 OpenCode 2.0",
+  "zh_oneliner": "桌面版现在会提示升级到 OpenCode 2.0，新版本在后台下载，安装时机由你决定：立即重启、退出时升级或稍后再说。",
+  "en_title": "v1.19.6",
+  "en_oneliner": "The desktop app now prompts you to move to OpenCode 2.0, which downloads quietly in the background; installation is your call — restart now, upgrade when quitting, or put it off."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.6.0": {
+  "zh_title": "OpenCode process-daemon v0.6.0",
+  "zh_oneliner": "终端组件 opencode-pty 升级到 0.6.0，采用第 9 版协议，已发布到 npm。",
+  "en_title": "process-daemon v0.6.0",
+  "en_oneliner": "The terminal component opencode-pty reaches 0.6.0 on protocol 9, now published to npm."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v2.3.0": {
+  "zh_title": "OpenCode v2.3.0：子智能体默认后台运行",
+  "zh_oneliner": "子智能体现在默认立即返回、在后台继续工作，空闲时再回传结果，你可以边干别的边等它。",
+  "en_title": "v2.3.0",
+  "en_oneliner": "Subagents now return right away and keep working in the background, checking in once they go idle, so the main session stays free for other work meanwhile."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.2": {
+  "zh_title": "OpenCode process-daemon v0.5.2",
+  "zh_oneliner": "终端组件 opencode-pty 升级到 0.5.2，采用第 8 版协议，已发布到 npm。",
+  "en_title": "process-daemon v0.5.2",
+  "en_oneliner": "The terminal component opencode-pty reaches 0.5.2 on protocol 8, now published to npm."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.1": {
+  "zh_title": "OpenCode process-daemon v0.5.1",
+  "zh_oneliner": "一次常规维护发布，终端组件 opencode-pty 升到 0.5.1。",
+  "en_title": "process-daemon v0.5.1",
+  "en_oneliner": "A routine maintenance release taking the terminal component opencode-pty to 0.5.1."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v2.2.7": {
+  "zh_title": "OpenCode v2.2.7：模型选择器支持 GitHub Copilot Auto",
+  "zh_oneliner": "模型选择器新增 Auto 选项，有 Auto 额度的 Copilot 账号可让路由器按会话自动挑模型，并享受 Auto 折扣。",
+  "en_title": "v2.2.7",
+  "en_oneliner": "The model picker gains an Auto option: Copilot accounts with an Auto pool get per-session model routing from Copilot's router, billed at the Auto rate."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v2.2.6": {
+  "zh_title": "OpenCode v2.2.6：MCP 连接可在项目间共享",
+  "zh_oneliner": "开启连接池后，配置相同的项目可以共用一个 MCP 服务器连接，进程更少、启动更快。",
+  "en_title": "v2.2.6",
+  "en_oneliner": "Turn on connection pooling and projects with the same setup share one MCP server connection, cutting the process count and speeding up startup."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.0": {
+  "zh_title": "OpenCode process-daemon v0.5.0",
+  "zh_oneliner": "终端组件 opencode-pty 升级到 0.5.0，采用第 8 版协议，已发布到 npm。",
+  "en_title": "process-daemon v0.5.0",
+  "en_oneliner": "The terminal component opencode-pty reaches 0.5.0 on protocol 8, now published to npm."
  }
 }
