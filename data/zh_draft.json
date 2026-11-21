@@ -6868,5 +6868,11 @@
   "zh_oneliner": "Cline CLI v3.0.75 让一次性运行默认进入 yolo 模式，无人值守时不再等待工具审批，关闭自动审批时仍保留 act 模式。",
   "en_title": "CLI v3.0.75",
   "en_oneliner": "Cline CLI v3.0.75 defaults one-shot runs to yolo mode so unattended runs skip tool approval, while act mode stays on when auto-approve is off."
+ },
+ "https://github.com/cline/cline/releases/tag/v4.1.27": {
+  "zh_title": "Cline v4.1.27 发布",
+  "zh_oneliner": "Cline 发布 v4.1.27，模型目录大更新：新增 94 个供应商、默认模型多改为 Kimi K3.1 Pro 等，并改进 LM Studio 鉴权、MCP 只读标识与文件读取上限。",
+  "en_title": "v4.1.27",
+  "en_oneliner": "Cline ships v4.1.27 with a major model catalog refresh — 94 new providers and new defaults such as Kimi K3.1 Pro — plus LM Studio auth, MCP read-only badges, and fuller file reads."
  }
 }

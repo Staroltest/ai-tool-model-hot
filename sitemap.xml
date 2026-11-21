@@ -35,10 +35,10 @@
 <url><loc>https://ai-tool-model-hot.pages.dev/topics/LLM.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/topics/benchmark.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/topics/multimodal.html</loc><lastmod>2026-11-21</lastmod></url>
-<url><loc>https://ai-tool-model-hot.pages.dev/topics/deploy.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/topics/guide.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/topics/%E5%A4%9A%E6%A8%A1%E6%80%81.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/topics/%E5%9F%BA%E5%87%86.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ai-tool-model-hot.pages.dev/topics/deploy.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/topics/prompt.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/topics/%E6%8E%A8%E7%90%86.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/f26f2a4dfd6b9b957c1544d02f570339b8f668d2.html</loc><lastmod>2026-11-17</lastmod></url>
@@ -122,7 +122,6 @@
 <url><loc>https://ai-tool-model-hot.pages.dev/items/c6099fc8919f3d5469ae1e8bd827167f24b736c0.html</loc><lastmod>2026-10-23</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/15c1f8ef7a582594bf056b85165849e9f70ce0f3.html</loc><lastmod>2026-10-23</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/27825e300358401234fc8ca55cc275b9d4171e9a.html</loc><lastmod>2026-10-23</lastmod></url>
-<url><loc>https://ai-tool-model-hot.pages.dev/items/63c31ca523f91ccfb067ba69d79f874951382164.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/0bc322583e6f07752d6c03547ba463417ace32e3.html</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/ad614f81e42f72e5750a21232c53359027d49437.html</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/cce714811b519a82922e4ba72c95cc2532e1ab7f.html</loc><lastmod>2026-11-12</lastmod></url>
@@ -369,6 +368,7 @@
 <url><loc>https://ai-tool-model-hot.pages.dev/items/71791318bccf685e979c3ac61744ec1893692434.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/708ed0b6204eace36b259137cf50404e9b8fc95b.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/e926f64071ef2421e9a95c01f5add512009f6d5d.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ai-tool-model-hot.pages.dev/items/c5eaec721da94fb36a35a99490be9f17660a9921.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/daily/2026-11-17.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/daily/2026-11-18.html</loc><lastmod>2026-11-18</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/daily/2026-11-19.html</loc><lastmod>2026-11-19</lastmod></url>
@@ -378,6 +378,7 @@
 <url><loc>https://ai-tool-model-hot.pages.dev/monthly/2026-11.html</loc><lastmod>2026-11-01</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/2ed22a61b2f19a0c8004f80b27de018cfecd7ddb.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/354f89a6c7dbf10c9b4005276656d6e23bc0b97a.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ai-tool-model-hot.pages.dev/items/63c31ca523f91ccfb067ba69d79f874951382164.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/items/ba6fa07d677a822106bce5984f77463673ff3072.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/all.html</loc><lastmod>2026-11-21</lastmod></url>
@@ -488,7 +489,6 @@
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/c6099fc8919f3d5469ae1e8bd827167f24b736c0.html</loc><lastmod>2026-10-23</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/15c1f8ef7a582594bf056b85165849e9f70ce0f3.html</loc><lastmod>2026-10-23</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/27825e300358401234fc8ca55cc275b9d4171e9a.html</loc><lastmod>2026-10-23</lastmod></url>
-<url><loc>https://ai-tool-model-hot.pages.dev/en/items/63c31ca523f91ccfb067ba69d79f874951382164.html</loc><lastmod>2026-10-22</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/0bc322583e6f07752d6c03547ba463417ace32e3.html</loc><lastmod>2026-11-16</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/ad614f81e42f72e5750a21232c53359027d49437.html</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/cce714811b519a82922e4ba72c95cc2532e1ab7f.html</loc><lastmod>2026-11-12</lastmod></url>
@@ -735,6 +735,7 @@
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/71791318bccf685e979c3ac61744ec1893692434.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/708ed0b6204eace36b259137cf50404e9b8fc95b.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/e926f64071ef2421e9a95c01f5add512009f6d5d.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ai-tool-model-hot.pages.dev/en/items/c5eaec721da94fb36a35a99490be9f17660a9921.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/daily/2026-11-17.html</loc><lastmod>2026-11-17</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/daily/2026-11-18.html</loc><lastmod>2026-11-18</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/daily/2026-11-19.html</loc><lastmod>2026-11-19</lastmod></url>
@@ -744,5 +745,6 @@
 <url><loc>https://ai-tool-model-hot.pages.dev/en/monthly/2026-11.html</loc><lastmod>2026-11-01</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/2ed22a61b2f19a0c8004f80b27de018cfecd7ddb.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/354f89a6c7dbf10c9b4005276656d6e23bc0b97a.html</loc><lastmod>2026-11-21</lastmod></url>
+<url><loc>https://ai-tool-model-hot.pages.dev/en/items/63c31ca523f91ccfb067ba69d79f874951382164.html</loc><lastmod>2026-11-21</lastmod></url>
 <url><loc>https://ai-tool-model-hot.pages.dev/en/items/ba6fa07d677a822106bce5984f77463673ff3072.html</loc><lastmod>2026-11-21</lastmod></url>
 </urlset>
