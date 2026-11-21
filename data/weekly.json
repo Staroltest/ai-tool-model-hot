@@ -5,8 +5,8 @@
  "date": "2026年11月22日",
  "date_iso": "2026-11-22",
  "issue": 1,
- "generated_at": "2026-11-21T22:10:10.428719+00:00",
- "summary": "过去 7 天共收录 121 条动态，精选 10 条（主流智能体 8 条、模型发布 2 条）。头条：Qwen Code 发布 v0.28.3。",
+ "generated_at": "2026-11-21T23:51:28.549748+00:00",
+ "summary": "过去 7 天共收录 116 条动态，精选 10 条（主流智能体 7 条、模型发布 3 条）。头条：Qwen Code 发布 v0.28.3。",
  "items": [
   {
    "id": "5e23be33fe3e86e9f76f2191c281bda1c257db6c",
@@ -28,9 +28,9 @@
    "reason": "官方来源 · 涉及智能体与发布 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 82.7,
+   "hot_score": 81.4,
    "prev_rank": 1,
-   "prev_hot_score": 83.1
+   "prev_hot_score": 81.9
   },
   {
    "id": "b00f82b6db94c2e5b3b683ce3a1ae5d0e73a5a6b",
@@ -52,33 +52,10 @@
    "score": 95,
    "reason": "官方来源 · 涉及Gemini与工具",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 58.5,
+   "trend": "up",
+   "hot_score": 57.6,
    "prev_rank": 16,
-   "prev_hot_score": 58.8
-  },
-  {
-   "id": "09f46d11e240c0507fedb7663dcd7db148af7cbb",
-   "title": "2.1.330",
-   "link": "https://code.claude.com/docs/en/changelog#2-1-330",
-   "source": "Claude Code Changelog",
-   "source_id": "claude-code-changelog",
-   "published": "2026-11-20T22:38:51+00:00",
-   "zh_title": "Claude Code 2.1.330",
-   "zh_oneliner": "Claude Code 2.1.330 带来企业管理员控制台登录、内置图表绘制模块 easel、自托管运行器与插件安装的多项改进。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "Claude"
-   ],
-   "score": 95,
-   "reason": "官方来源 · 涉及Claude · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 76.3,
-   "prev_rank": 3,
-   "prev_hot_score": 76.7
+   "prev_hot_score": 57.9
   },
   {
    "id": "d15c45643214b444b1cb96cd45e0688c83d72ca2",
@@ -99,10 +76,10 @@
    "score": 90,
    "reason": "官方来源 · 涉及GPT与发布",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 58.6,
+   "trend": "up",
+   "hot_score": 57.7,
    "prev_rank": 15,
-   "prev_hot_score": 58.9
+   "prev_hot_score": 58.0
   },
   {
    "id": "c5eaec721da94fb36a35a99490be9f17660a9921",
@@ -124,9 +101,9 @@
    "reason": "涉及工具与API · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 77.5,
+   "hot_score": 76.3,
    "prev_rank": 2,
-   "prev_hot_score": 77.9
+   "prev_hot_score": 76.7
   },
   {
    "id": "f6cf8ded0e75bec96e1b678b6b93caefa289f4d3",
@@ -149,7 +126,7 @@
    "reason": "官方来源 · 涉及Gemini与智能体",
    "is_new": false,
    "trend": "same",
-   "hot_score": 43.4,
+   "hot_score": 42.7,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -171,10 +148,10 @@
    "score": 85,
    "reason": "官方来源 · 涉及Claude",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 54.5,
+   "trend": "up",
+   "hot_score": 53.6,
    "prev_rank": 20,
-   "prev_hot_score": 54.7
+   "prev_hot_score": 54.0
   },
   {
    "id": "2be590e318f5659a1c10dbcbf95a91a3e3ea571b",
@@ -194,10 +171,33 @@
    "score": 85,
    "reason": "官方来源 · 涉及智能体",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 66.0,
-   "prev_rank": 12,
-   "prev_hot_score": 66.3
+   "trend": "up",
+   "hot_score": 65.0,
+   "prev_rank": 11,
+   "prev_hot_score": 65.4
+  },
+  {
+   "id": "09f46d11e240c0507fedb7663dcd7db148af7cbb",
+   "title": "2.1.330",
+   "link": "https://code.claude.com/docs/en/changelog#2-1-330",
+   "source": "Claude Code Changelog",
+   "source_id": "claude-code-changelog",
+   "published": "2026-11-20T22:38:51+00:00",
+   "zh_title": "Claude Code 2.1.330",
+   "zh_oneliner": "Claude Code 2.1.330 带来企业管理员控制台登录、内置图表绘制模块 easel、自托管运行器与插件安装的多项改进。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T1",
+   "tags": [
+    "Claude"
+   ],
+   "score": 85,
+   "reason": "官方来源 · 涉及Claude",
+   "is_new": false,
+   "trend": "up",
+   "hot_score": 67.2,
+   "prev_rank": 10,
+   "prev_hot_score": 67.6
   },
   {
    "id": "ac43e16b8a1de5ee9ecafa6d46c53b8e1f929c74",
@@ -218,32 +218,33 @@
    "reason": "涉及工具 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 72.7,
-   "prev_rank": 4,
-   "prev_hot_score": 73.0
+   "hot_score": 71.5,
+   "prev_rank": 3,
+   "prev_hot_score": 72.0
   },
   {
-   "id": "6c3ecc4c5f7be097802e0fbedf856bfcc68c367e",
-   "title": "sdk/llms/v0.2.1",
-   "link": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.2.1",
-   "source": "Cline Releases",
-   "source_id": "cline-releases",
-   "published": "2026-11-21T05:19:05+00:00",
-   "zh_title": "Cline SDK 模型接入包 v0.2.1",
-   "zh_oneliner": "Cline SDK 的模型接入包发布 v0.2.1 维护版本。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T2",
+   "id": "549a77347d5e1e5f25e081258d641a2b8758c868",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "OpenAI News",
+   "source_id": "openai-news",
+   "published": "2026-11-17T17:45:00+00:00",
+   "zh_title": "OpenAI 发布 GPT-6.2 Astra 与 Sol",
+   "zh_oneliner": "GPT-6.2 Astra 与 Sol 在专业输出、编程、电脑操作与成本效率上都有提升，已覆盖 ChatGPT Work、Codex 与 API。",
+   "category": "model",
+   "category_label": "模型发布",
+   "tier": "T1",
    "tags": [
-    "大模型"
+    "GPT",
+    "API"
    ],
-   "score": 85,
-   "reason": "涉及大模型 · 24 小时内发布",
+   "score": 80,
+   "reason": "官方来源 · 涉及GPT与API",
    "is_new": false,
    "trend": "same",
-   "hot_score": 72.7,
-   "prev_rank": 5,
-   "prev_hot_score": 73.0
+   "hot_score": 31.0,
+   "prev_rank": null,
+   "prev_hot_score": null
   }
  ]
 }
