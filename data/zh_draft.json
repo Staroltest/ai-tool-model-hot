@@ -6874,5 +6874,11 @@
   "zh_oneliner": "Cline 发布 v4.1.27，模型目录大更新：新增 94 个供应商、默认模型多改为 Kimi K3.1 Pro 等，并改进 LM Studio 鉴权、MCP 只读标识与文件读取上限。",
   "en_title": "v4.1.27",
   "en_oneliner": "Cline ships v4.1.27 with a major model catalog refresh — 94 new providers and new defaults such as Kimi K3.1 Pro — plus LM Studio auth, MCP read-only badges, and fuller file reads."
+ },
+ "https://www.langchain.com/blog/knowledge-factory": {
+  "zh_title": "如何为 AI 智能体搭建知识工厂",
+  "zh_oneliner": "LangChain 分享了一套让智能体知识持续更新的做法：智能体发现知识缺口后，由策展智能体在后台补齐。",
+  "en_title": "How to build a knowledge factory for AI agents",
+  "en_oneliner": "LangChain shares a setup that keeps an agent's knowledge fresh: agents spot the gaps, and a curator agent fills them in the background."
  }
 }
