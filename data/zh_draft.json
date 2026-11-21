@@ -6814,5 +6814,11 @@
   "zh_oneliner": "终端组件 opencode-pty 升级到 0.5.0，采用第 8 版协议，已发布到 npm。",
   "en_title": "process-daemon v0.5.0",
   "en_oneliner": "The terminal component opencode-pty reaches 0.5.0 on protocol 8, now published to npm."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3": {
+  "zh_title": "Qwen Code 发布 v0.28.3",
+  "zh_oneliner": "Qwen Code 推出 v0.28.3 版本，主要加固了定时循环任务的端到端验证与 PR 校验的状态守卫，并完善容器与虚拟机相关的细节。",
+  "en_title": "Release v0.28.3",
+  "en_oneliner": "Qwen Code ships v0.28.3, hardening end-to-end verification for scheduled loop tasks and the state guards in PR checks, along with container and VM refinements."
  }
 }
