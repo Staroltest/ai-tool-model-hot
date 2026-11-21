@@ -6820,5 +6820,53 @@
   "zh_oneliner": "Qwen Code 推出 v0.28.3 版本，主要加固了定时循环任务的端到端验证与 PR 校验的状态守卫，并完善容器与虚拟机相关的细节。",
   "en_title": "Release v0.28.3",
   "en_oneliner": "Qwen Code ships v0.28.3, hardening end-to-end verification for scheduled loop tasks and the state guards in PR checks, along with container and VM refinements."
+ },
+ "https://github.com/cline/cline/releases/tag/sdk%2Fui%2Fv0.2.1": {
+  "zh_title": "Cline SDK UI 组件 v0.2.1",
+  "zh_oneliner": "Cline SDK 的 UI 组件包发布 v0.2.1 维护版本。",
+  "en_title": "sdk/ui/v0.2.1",
+  "en_oneliner": "Cline SDK's UI component package ships maintenance release v0.2.1."
+ },
+ "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.2.1": {
+  "zh_title": "Cline SDK 共享包 v0.2.1",
+  "zh_oneliner": "Cline SDK 的共享代码包发布 v0.2.1 维护版本。",
+  "en_title": "sdk/shared/v0.2.1",
+  "en_oneliner": "Cline SDK's shared code package ships maintenance release v0.2.1."
+ },
+ "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.1": {
+  "zh_title": "Cline SDK v0.2.1",
+  "zh_oneliner": "Cline SDK v0.2.1 让文件读取结果不再被截断到 8k 上限，改用 50k 的文件内容上限，完整内容直达模型。",
+  "en_title": "SDK v0.2.1",
+  "en_oneliner": "Cline SDK v0.2.1 stops trimming file-read results to the 8k cap and passes them through at the 50k file-content limit, so models see the full content."
+ },
+ "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.2.1": {
+  "zh_title": "Cline SDK 模型接入包 v0.2.1",
+  "zh_oneliner": "Cline SDK 的模型接入包发布 v0.2.1 维护版本。",
+  "en_title": "sdk/llms/v0.2.1",
+  "en_oneliner": "Cline SDK's model-integration package ships maintenance release v0.2.1."
+ },
+ "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.2.1": {
+  "zh_title": "Cline SDK 核心包 v0.2.1",
+  "zh_oneliner": "Cline SDK 的核心包发布 v0.2.1 维护版本。",
+  "en_title": "sdk/core/v0.2.1",
+  "en_oneliner": "Cline SDK's core package ships maintenance release v0.2.1."
+ },
+ "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.2.1": {
+  "zh_title": "Cline SDK 智能体包 v0.2.1",
+  "zh_oneliner": "Cline SDK 的智能体包发布 v0.2.1 维护版本。",
+  "en_title": "sdk/agents/v0.2.1",
+  "en_oneliner": "Cline SDK's agent package ships maintenance release v0.2.1."
+ },
+ "https://github.com/cline/cline/releases/tag/desktop-v0.0.50": {
+  "zh_title": "Cline 桌面版 v0.0.50",
+  "zh_oneliner": "Cline 桌面应用发布 v0.0.50 维护版本。",
+  "en_title": "desktop-v0.0.50",
+  "en_oneliner": "Cline's desktop app ships maintenance release v0.0.50."
+ },
+ "https://github.com/cline/cline/releases/tag/cli-v3.0.75": {
+  "zh_title": "Cline CLI v3.0.75",
+  "zh_oneliner": "Cline CLI v3.0.75 让一次性运行默认进入 yolo 模式，无人值守时不再等待工具审批，关闭自动审批时仍保留 act 模式。",
+  "en_title": "CLI v3.0.75",
+  "en_oneliner": "Cline CLI v3.0.75 defaults one-shot runs to yolo mode so unattended runs skip tool approval, while act mode stays on when auto-approve is off."
  }
 }
