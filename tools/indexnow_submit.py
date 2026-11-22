@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""IndexNow incremental submit for ai-tool-model-hot (DRAFT - not yet in repo).
+"""IndexNow incremental submit for ai-tool-model-hot.
 
 Reads the queue written by tools/generate.py (data/indexnow_queue.json),
 POSTs new-item URLs to the IndexNow endpoint, and clears the queue on success.
@@ -11,13 +11,14 @@ POSTs new-item URLs to the IndexNow endpoint, and clears the queue on success.
   and is NOT confirmed by the response code.
 - On any other status / network error: exit non-zero, queue file is left
   intact so the next half-hourly round retries it.
-- stdlib only. No secrets on the command line: key comes from config.json.
+- POST goes through a curl subprocess: urllib is unreliable through this
+  VM's egress proxy (same reason tools/hf_adapter.py uses curl).
+  No secrets on the command line: key comes from config.json.
 """
 import json
 import os
+import subprocess
 import sys
-import urllib.request
-import urllib.error
 
 REPO = os.path.expanduser("~/workspace/ai-tool-model-hot")
 ENDPOINT = os.environ.get("INDEXNOW_ENDPOINT", "https://api.indexnow.org/indexnow")
@@ -48,17 +49,26 @@ def main():
         "keyLocation": f"https://{host}/{key}.txt",
         "urlList": urls,
     }).encode("utf-8")
-    req = urllib.request.Request(ENDPOINT, data=body,
-                                 headers={"Content-Type": "application/json; charset=utf-8"},
-                                 method="POST")
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            status = resp.status
-    except urllib.error.HTTPError as e:
-        print(f"indexnow: HTTP {e.code} for {len(urls)} urls, queue kept", file=sys.stderr)
-        return 1
-    except Exception as e:  # network error etc.
+        proc = subprocess.run(
+            ["curl", "-sS", "-o", "/dev/null", "-w", "%{http_code}",
+             "--max-time", "60",
+             "-X", "POST", ENDPOINT,
+             "-H", "Content-Type: application/json; charset=utf-8",
+             "--data-binary", "@-"],
+            input=body, capture_output=True, timeout=90)
+    except Exception as e:  # curl spawn / timeout etc.
         print(f"indexnow: {e}, queue kept", file=sys.stderr)
+        return 1
+    if proc.returncode != 0:
+        print(f"indexnow: curl failed ({proc.returncode}): "
+              f"{proc.stderr.decode(errors='replace').strip()}, queue kept",
+              file=sys.stderr)
+        return 1
+    try:
+        status = int(proc.stdout.decode().strip())
+    except ValueError:
+        print("indexnow: no HTTP status from curl, queue kept", file=sys.stderr)
         return 1
     print(f"indexnow: HTTP {status} for {len(urls)} urls")
     if status in (200, 202):
