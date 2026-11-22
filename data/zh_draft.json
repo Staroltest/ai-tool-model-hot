@@ -6844,5 +6844,47 @@
   "zh_oneliner": "OpenAI 阐释困惑度如何度量模型进展，并为开发者评估模型新能力提供一套可共享的思路。",
   "en_title": "Perplexity and Intelligence",
   "en_oneliner": "OpenAI explains how perplexity measures model progress and gives developers a shared way to evaluate emerging capabilities."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-preview.0": {
+  "zh_title": "Gemini CLI v0.71.0 预览版发布",
+  "zh_oneliner": "Gemini CLI 发布 v0.71.0 预览版，PowerShell 命令改走异步解析以防界面转圈卡住，开发构建的推送流程也有调整。",
+  "en_title": "Release v0.71.0-preview.0",
+  "en_oneliner": "Gemini CLI ships v0.71.0-preview.0, parsing PowerShell commands asynchronously so the UI spinner no longer freezes, alongside tweaks to the development build pipeline."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0": {
+  "zh_title": "Gemini CLI v0.70.0 发布",
+  "zh_oneliner": "Gemini CLI 发布 v0.70.0，修复会话预览的 Unicode 显示、工作区恢复与 token 上限统计等多处细节，变量默认值语法也得到补齐。",
+  "en_title": "Release v0.70.0",
+  "en_oneliner": "Gemini CLI ships v0.70.0, fixing Unicode display in session previews, workspace recovery after resume, and token-limit reporting, plus support for default values in variable syntax."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0-preview.0": {
+  "zh_title": "Gemini CLI v0.70.0 预览版发布",
+  "zh_oneliner": "Gemini CLI 发布 v0.70.0 预览版，与正式版同批修复会话预览、工作区恢复与 token 统计问题，适合想提前试用的用户。",
+  "en_title": "Release v0.70.0-preview.0",
+  "en_oneliner": "Gemini CLI ships v0.70.0-preview.0, the preview cut of the same fixes for session previews, workspace recovery, and token reporting — for users who want the changes early."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0": {
+  "zh_title": "Gemini CLI v0.69.0 发布",
+  "zh_oneliner": "Gemini CLI 发布 v0.69.0，新增 /stats 热力图查看每日 token 用量，并修复模板占位符、PowerShell 替换与输入流处理的问题。",
+  "en_title": "Release v0.69.0",
+  "en_oneliner": "Gemini CLI ships v0.69.0 with a new /stats heatmap showing daily token usage, plus fixes for template placeholders, PowerShell substitution, and piped-input handling."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0-preview.0": {
+  "zh_title": "Gemini CLI v0.69.0 预览版发布",
+  "zh_oneliner": "Gemini CLI 发布 v0.69.0 预览版，提前带来 /stats 每日 token 热力图与模板、PowerShell 相关修复。",
+  "en_title": "Release v0.69.0-preview.0",
+  "en_oneliner": "Gemini CLI ships v0.69.0-preview.0, the early cut with the new /stats daily token heatmap and the template and PowerShell fixes."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0": {
+  "zh_title": "Gemini CLI v0.68.0 发布",
+  "zh_oneliner": "Gemini CLI 发布 v0.68.0，新增扩展校验命令并支持识别 Gemini 3 系列模型，文档也同步澄清了工具的定位与边界。",
+  "en_title": "Release v0.68.0",
+  "en_oneliner": "Gemini CLI ships v0.68.0, adding an extension validation command and recognition for Gemini 3 models, with the docs updated to clarify the tool's scope and limits."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0-preview.0": {
+  "zh_title": "Gemini CLI v0.68.0 预览版发布",
+  "zh_oneliner": "Gemini CLI 发布 v0.68.0 预览版，提前带来扩展校验命令与 Gemini 3 模型识别，文档同步说明工具定位。",
+  "en_title": "Release v0.68.0-preview.0",
+  "en_oneliner": "Gemini CLI ships v0.68.0-preview.0, the early cut with the extension validation command and Gemini 3 model recognition."
  }
 }

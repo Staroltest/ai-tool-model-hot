@@ -114,6 +114,13 @@
             "category_hint": "agent"
         },
         {
+            "id": "gemini-cli-releases",
+            "name": "Gemini CLI Releases",
+            "url": "https://github.com/google-gemini/gemini-cli/releases.atom",
+            "tier": "T2",
+            "category_hint": "agent"
+        },
+        {
             "id": "hf-qwen",
             "name": "Qwen (Hugging Face)",
             "name_en": "Qwen (Hugging Face)",

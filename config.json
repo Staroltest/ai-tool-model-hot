@@ -194,8 +194,10 @@
             "reseller",
             "resellers",
             "广告",
-            "nightly",
             "sdk/"
+        ],
+        "exclude_title_keywords": [
+            "nightly"
         ]
     },
     "site": {

@@ -5,7 +5,7 @@
  "date": "2026年11月23日",
  "date_iso": "2026-11-23",
  "issue": 7,
- "generated_at": "2026-11-22T22:10:23.466935+00:00",
+ "generated_at": "2026-11-22T23:48:56.811130+00:00",
  "summary": "过去 24 小时共收录 3 条动态，精选 2 条（主流智能体 2 条）。头条：Qwen Code Desktop v0.28.4。",
  "items": [
   {
@@ -27,9 +27,9 @@
    "reason": "官方来源 · 涉及智能体 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 87.1,
+   "hot_score": 85.8,
    "prev_rank": 1,
-   "prev_hot_score": 88.0
+   "prev_hot_score": 85.8
   },
   {
    "id": "97caf31a500809a1f3f8dfc26030e212100be7c3",
@@ -51,9 +51,9 @@
    "reason": "官方来源 · 涉及智能体与发布 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 81.9,
+   "hot_score": 80.7,
    "prev_rank": 2,
-   "prev_hot_score": 82.7
+   "prev_hot_score": 80.7
   }
  ]
 }

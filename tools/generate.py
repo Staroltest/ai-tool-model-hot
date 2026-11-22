@@ -290,12 +290,24 @@ def _is_excluded(item, cfg):
     """硬排除：标题/摘要命中 scoring.exclude_keywords 的条目不进库。
     与 noise_keywords 的降权不同——命中即丢弃，下一轮也不会再收录。
     （2026-11-18：广告业务动态用此机制，降权拦不住——源站 feed 里一直有，
-    只降权的话删库后下一轮又会重新收进来。）"""
-    terms = cfg.get("scoring", {}).get("exclude_keywords") or []
-    if not terms:
-        return False
-    text = ((item.get("title") or "") + " " + (item.get("summary") or "")).lower()
-    return any(t.lower() in text for t in terms)
+    只降权的话删库后下一轮又会重新收进来。）
+    另有 scoring.exclude_title_keywords：只查标题。2026-11-23：nightly
+    从正文排除改为仅标题排除——Gemini CLI 的自动发布说明会在摘要里提及
+    旧 nightly 版本号（bump version to x-nightly…），正文排除会把 v0.70.0
+    等稳定版也拦住；各源 nightly 构建的标题本身都带 nightly（Qwen Code、
+    Cline 均已验证），只查标题仍能拦住它们。"""
+    sc = cfg.get("scoring", {})
+    title = (item.get("title") or "").lower()
+    terms = sc.get("exclude_keywords") or []
+    if terms:
+        text = title + " " + (item.get("summary") or "").lower()
+        if any(t.lower() in text for t in terms):
+            return True
+    title_terms = sc.get("exclude_title_keywords") or []
+    if title_terms:
+        if any(t.lower() in title for t in title_terms):
+            return True
+    return False
 
 
 def score(item, cfg, now):

@@ -5,7 +5,7 @@
  "date": "November 23, 2026",
  "date_iso": "2026-11-23",
  "issue": 7,
- "generated_at": "2026-11-22T22:10:23.466935+00:00",
+ "generated_at": "2026-11-22T23:48:56.811130+00:00",
  "summary": "3 items collected in the past 24 hours, 2 picks (Leading agents 2). Headline: Qwen Code Desktop v0.28.4.",
  "items": [
   {
@@ -27,9 +27,9 @@
    "reason": "Official source · Covers Agent · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 87.1,
+   "hot_score": 85.8,
    "prev_rank": 1,
-   "prev_hot_score": 88.0
+   "prev_hot_score": 85.8
   },
   {
    "id": "97caf31a500809a1f3f8dfc26030e212100be7c3",
@@ -51,9 +51,9 @@
    "reason": "Official source · Covers Agent and release · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 81.9,
+   "hot_score": 80.7,
    "prev_rank": 2,
-   "prev_hot_score": 82.7
+   "prev_hot_score": 80.7
   }
  ]
 }
