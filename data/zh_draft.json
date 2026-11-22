@@ -6820,5 +6820,11 @@
   "zh_oneliner": "LangChain 分享了一套让智能体知识持续更新的做法：智能体发现知识缺口后，由策展智能体在后台补齐。",
   "en_title": "How to build a knowledge factory for AI agents",
   "en_oneliner": "LangChain shares a setup that keeps an agent's knowledge fresh: agents spot the gaps, and a curator agent fills them in the background."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.4": {
+  "zh_title": "Qwen Code v0.28.4 发布",
+  "zh_oneliner": "Qwen Code 发布 v0.28.4 小版本更新，围绕 CI 与托管智能体服务做稳定性打磨，人工复审流程也有调整，适合日常使用的开发者随手升级。",
+  "en_title": "Release v0.28.4",
+  "en_oneliner": "Qwen Code ships v0.28.4, a small maintenance release polishing CI and the managed-agent service, including changes to the manual re-review flow — a quick upgrade for everyday users."
  }
 }
