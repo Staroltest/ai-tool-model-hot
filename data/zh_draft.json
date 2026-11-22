@@ -6838,5 +6838,11 @@
   "zh_oneliner": "Qwen Code 桌面版迎来 v0.28.4，补强了定时循环的端到端测试与 PR 核查的状态校验。",
   "en_title": "Qwen Code Desktop v0.28.4",
   "en_oneliner": "Qwen Code Desktop ships v0.28.4, strengthening end-to-end tests for scheduled loops and state checks in PR verification."
+ },
+ "https://openai.com/index/perplexity-and-intelligence": {
+  "zh_title": "困惑度与智能",
+  "zh_oneliner": "OpenAI 阐释困惑度如何度量模型进展，并为开发者评估模型新能力提供一套可共享的思路。",
+  "en_title": "Perplexity and Intelligence",
+  "en_oneliner": "OpenAI explains how perplexity measures model progress and gives developers a shared way to evaluate emerging capabilities."
  }
 }
