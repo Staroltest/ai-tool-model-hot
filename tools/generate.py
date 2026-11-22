@@ -4252,6 +4252,7 @@ def main():
         _it["tier"] = src_by_id.get(_it.get("source_id", ""), {}).get("tier", "T2")
 
     fetched, failed = 0, []
+    new_ids = []  # IndexNow：本轮新入库条目 id（写提交队列用）
     # 中文翻译（data/zh_draft.json，按规范化链接匹配；每日精选把关时更新草稿，
     # 下一轮生成自动合入并写回 store.json，Actions 重生成也不会丢）
     zh_map = {}
@@ -4315,7 +4316,8 @@ def main():
             continue
         fetched += len(new_items)
         for it in new_items:
-            ingest(it)
+            if ingest(it):
+                new_ids.append(it["id"])
     # Hugging Face 组织页（tools/hf_adapter.py 轮询后写入 data/hf_pending.json，
     # 与 RSS 条目走同一入库路径；条目缺标题或链接时跳过）
     hf_pending_path = os.path.join(data_dir, "hf_pending.json")
@@ -4328,7 +4330,8 @@ def main():
     for it in hf_pending:
         if not it.get("link") or not it.get("title"):
             continue
-        ingest(it)
+        if ingest(it):
+            new_ids.append(it["id"])
     # 淘汰超过 history_days 的旧条目（data/hf_exceptions.json 里的破例补回条目除外）
     cutoff_hist = now - timedelta(days=sc["history_days"])
     hf_exc = set()
@@ -4738,6 +4741,33 @@ def main():
     sm.append("</urlset>")
     with open(os.path.join(root, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(sm) + "\n")
+    # IndexNow 试点（2026-11-22，用户批准）：写密钥文件 + 本轮新条目提交队列
+    _ix_key = (cfg.get("indexnow_key") or "").strip()
+    if _ix_key:
+        with open(os.path.join(root, f"{_ix_key}.txt"), "w", encoding="utf-8") as f:
+            f.write(_ix_key)
+    if new_ids:
+        # 只推真正留存的新条目：ingest() 对 feed 回吐的超窗旧条目也会返回 True，
+        # 但它们随即被 30 天淘汰规则清掉、没有详情页；以最终 history 为准过滤，
+        # 否则队列里会混入死链（2026-11-22 首轮实测：2685 个 True 里仅 2 条留存）。
+        _ix_new = [_id for _id in new_ids if _id in history]
+        _ix_urls = []
+        for _id in _ix_new[:20]:
+            _ix_urls.append(f"{site_url}/items/{_id}.html")
+            _ix_urls.append(f"{site_url}/en/items/{_id}.html")
+        _ix_queue_path = os.path.join(data_dir, "indexnow_queue.json")
+        _ix_existing = []
+        if os.path.exists(_ix_queue_path):
+            try:
+                _ix_existing = load_json(_ix_queue_path) or []
+            except (json.JSONDecodeError, AttributeError):
+                _ix_existing = []
+        _ix_merged = []
+        for _u in list(_ix_existing) + _ix_urls:
+            if _u not in _ix_merged:
+                _ix_merged.append(_u)
+        save_json(_ix_queue_path, _ix_merged[:40])
+        print(f"indexnow: queue {len(_ix_merged[:40])} urls ({len(_ix_new)} new items)")
     # llms.txt：每轮重写，给 AI 客户端的站点说明 + 机器可读入口
     with open(os.path.join(root, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(build_llms_txt(site, cats, today_iso))

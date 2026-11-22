@@ -6826,5 +6826,11 @@
   "zh_oneliner": "Qwen Code 发布 v0.28.4 小版本更新，围绕 CI 与托管智能体服务做稳定性打磨，人工复审流程也有调整，适合日常使用的开发者随手升级。",
   "en_title": "Release v0.28.4",
   "en_oneliner": "Qwen Code ships v0.28.4, a small maintenance release polishing CI and the managed-agent service, including changes to the manual re-review flow — a quick upgrade for everyday users."
+ },
+ "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1": {
+  "zh_title": "阿里发布旗舰模型 Qwen4-Max",
+  "zh_oneliner": "阿里推出新一代旗舰 Qwen4-Max，总参数 2.4 万亿、每次激活 710 亿，支持 100 万 token 上下文与图文视频输入，现已通过 QwenCloud 上线。",
+  "en_title": "Alibaba releases flagship Qwen4-Max",
+  "en_oneliner": "Alibaba launched Qwen4-Max, its new flagship with 2.4 trillion parameters and 71 billion active per token, a one-million-token context, and text, image and video input, now live on QwenCloud."
  }
 }
