@@ -6832,5 +6832,11 @@
   "zh_oneliner": "阿里推出新一代旗舰 Qwen4-Max，总参数 2.4 万亿、每次激活 710 亿，支持 100 万 token 上下文与图文视频输入，现已通过 QwenCloud 上线。",
   "en_title": "Alibaba releases flagship Qwen4-Max",
   "en_oneliner": "Alibaba launched Qwen4-Max, its new flagship with 2.4 trillion parameters and 71 billion active per token, a one-million-token context, and text, image and video input, now live on QwenCloud."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4": {
+  "zh_title": "Qwen Code Desktop v0.28.4",
+  "zh_oneliner": "Qwen Code 桌面版迎来 v0.28.4，补强了定时循环的端到端测试与 PR 核查的状态校验。",
+  "en_title": "Qwen Code Desktop v0.28.4",
+  "en_oneliner": "Qwen Code Desktop ships v0.28.4, strengthening end-to-end tests for scheduled loops and state checks in PR verification."
  }
 }
