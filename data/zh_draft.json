@@ -6922,5 +6922,11 @@
   "zh_oneliner": "AllenAI 发布 RoboTrack 评测与 1500 万条仿真点轨迹数据，并推出两个点追踪模型，帮助机器人在抓取、移液等操作中更稳地跟住目标点。",
   "en_title": "RoboTrack: Point tracking for real-world robotic manipulation",
   "en_oneliner": "AllenAI releases the RoboTrack benchmark and 15 million simulated point tracks, plus two point-tracking models that help robots keep following target points during grasping, pipetting, and other manipulation tasks."
+ },
+ "https://openai.com/business/learn/connected-intelligence-for-in-house-legal": {
+  "zh_title": "互联智能，赋能企业内部法务",
+  "zh_oneliner": "OpenAI 邀请法务与咨询界人士，展示 AI 如何帮助企业法务团队串联业务背景、复用成熟的工作流程。",
+  "en_title": "Connected intelligence for in-house legal",
+  "en_oneliner": "OpenAI brings together legal and consulting voices to show how AI can help corporate legal teams link business context and reuse proven workflows."
  }
 }
