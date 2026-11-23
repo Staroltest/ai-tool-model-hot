@@ -6916,5 +6916,11 @@
   "zh_oneliner": "Google Search 推出 Personal Intelligence，结合 Gmail、Drive、相册等应用信息，给出更贴合个人的搜索结果。",
   "en_title": "A more tailored Google Search that's uniquely yours",
   "en_oneliner": "Google Search's Personal Intelligence draws on Gmail, Drive and Photos to tailor results to each user."
+ },
+ "https://huggingface.co/blog/allenai/robotrack": {
+  "zh_title": "RoboTrack：面向真实机器人操作的点追踪",
+  "zh_oneliner": "AllenAI 发布 RoboTrack 评测与 1500 万条仿真点轨迹数据，并推出两个点追踪模型，帮助机器人在抓取、移液等操作中更稳地跟住目标点。",
+  "en_title": "RoboTrack: Point tracking for real-world robotic manipulation",
+  "en_oneliner": "AllenAI releases the RoboTrack benchmark and 15 million simulated point tracks, plus two point-tracking models that help robots keep following target points during grasping, pipetting, and other manipulation tasks."
  }
 }
