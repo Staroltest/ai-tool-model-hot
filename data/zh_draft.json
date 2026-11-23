@@ -6898,5 +6898,11 @@
   "zh_oneliner": "Hugging Face 分享了一套搭建与持续维护智能体评估体系的方法，帮开发者更可靠地衡量智能体的实际表现。",
   "en_title": "How to build and maintain an agentic evaluation",
   "en_oneliner": "Hugging Face shares a practical method for building and maintaining an evaluation system for agents, helping developers measure real agent performance more reliably."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v2.4.1": {
+  "zh_title": "OpenCode v2.4.1",
+  "zh_oneliner": "开源终端智能体 OpenCode 发布 v2.4.1，本次未附详细更新说明。",
+  "en_title": "v2.4.1",
+  "en_oneliner": "Open-source terminal agent OpenCode ships v2.4.1, with no detailed release notes attached this time."
  }
 }
