@@ -6928,5 +6928,11 @@
   "zh_oneliner": "OpenAI 邀请法务与咨询界人士，展示 AI 如何帮助企业法务团队串联业务背景、复用成熟的工作流程。",
   "en_title": "Connected intelligence for in-house legal",
   "en_oneliner": "OpenAI brings together legal and consulting voices to show how AI can help corporate legal teams link business context and reuse proven workflows."
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2": {
+  "zh_title": "OpenAI Agents SDK v1.0.0-alpha.2 发布",
+  "zh_oneliner": "OpenAI Agents SDK 推出 v1.0.0-alpha.2 预览版，继续为 1.0 正式版打磨智能体开发工具链。",
+  "en_title": "v1.0.0-alpha.2",
+  "en_oneliner": "OpenAI Agents SDK ships v1.0.0-alpha.2, a preview release that keeps refining the agent-building toolkit ahead of the 1.0 launch."
  }
 }
