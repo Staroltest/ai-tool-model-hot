@@ -6886,5 +6886,11 @@
   "zh_oneliner": "Gemini CLI 发布 v0.68.0 预览版，提前带来扩展校验命令与 Gemini 3 模型识别，文档同步说明工具定位。",
   "en_title": "Release v0.68.0-preview.0",
   "en_oneliner": "Gemini CLI ships v0.68.0-preview.0, the early cut with the extension validation command and Gemini 3 model recognition."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v2.4.0": {
+  "zh_title": "OpenCode v2.4.0",
+  "zh_oneliner": "OpenCode 发布 v2.4.0，发布说明未列出具体改动，属于常规版本推进。",
+  "en_title": "v2.4.0",
+  "en_oneliner": "OpenCode ships v2.4.0; the release notes list no specific changes, so this is a routine version bump."
  }
 }
