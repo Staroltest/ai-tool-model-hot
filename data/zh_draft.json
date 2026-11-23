@@ -6946,5 +6946,11 @@
   "zh_oneliner": "Claude Code 2.1.331 把 Code Mode 扩展到四大云平台的终端会话（Bedrock、谷歌云、Foundry 与 AWS 上的 Claude），同时应用网关新增了 OIDC 用户组配置。",
   "en_title": "2.1.331",
   "en_oneliner": "Claude Code 2.1.331 extends Code Mode to terminal sessions across four cloud platforms — Bedrock, Google Cloud, Foundry, and Claude on AWS — while the apps gateway gains a new OIDC group setting."
+ },
+ "https://openai.com/index/introducing-shirudo": {
+  "zh_title": "OpenAI 与 Cisco 推出 Shirudo",
+  "zh_oneliner": "OpenAI 与 Cisco 联合发布开源 Linux 运行时 Shirudo，帮助团队在滚动部署补丁期间依然守住正在运行的系统。",
+  "en_title": "OpenAI and Cisco introduce Shirudo",
+  "en_oneliner": "OpenAI and Cisco launch Shirudo, an open-source Linux runtime that helps teams keep running systems protected while patches roll out."
  }
 }
