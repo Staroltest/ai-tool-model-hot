@@ -6952,5 +6952,11 @@
   "zh_oneliner": "OpenAI 与 Cisco 联合发布开源 Linux 运行时 Shirudo，帮助团队在滚动部署补丁期间依然守住正在运行的系统。",
   "en_title": "OpenAI and Cisco introduce Shirudo",
   "en_oneliner": "OpenAI and Cisco launch Shirudo, an open-source Linux runtime that helps teams keep running systems protected while patches roll out."
+ },
+ "https://kiro.dev/blog/agents-run-for-days": {
+  "zh_title": "智能体连续跑几天：Kiro CLI 如今跟得上",
+  "zh_oneliner": "Kiro CLI 强化了长时任务能力，让智能体可以连续多日稳定运行而不掉线。",
+  "en_title": "Your agents run for days: now Kiro CLI keeps up",
+  "en_oneliner": "Kiro CLI now handles long-running tasks, letting agents work steadily for days without dropping off."
  }
 }
