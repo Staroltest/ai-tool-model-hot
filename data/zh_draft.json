@@ -6892,5 +6892,11 @@
   "zh_oneliner": "OpenCode 发布 v2.4.0，发布说明未列出具体改动，属于常规版本推进。",
   "en_title": "v2.4.0",
   "en_oneliner": "OpenCode ships v2.4.0; the release notes list no specific changes, so this is a routine version bump."
+ },
+ "https://huggingface.co/blog/agentic-evals": {
+  "zh_title": "如何构建并维护智能体评估",
+  "zh_oneliner": "Hugging Face 分享了一套搭建与持续维护智能体评估体系的方法，帮开发者更可靠地衡量智能体的实际表现。",
+  "en_title": "How to build and maintain an agentic evaluation",
+  "en_oneliner": "Hugging Face shares a practical method for building and maintaining an evaluation system for agents, helping developers measure real agent performance more reliably."
  }
 }
