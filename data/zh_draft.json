@@ -6934,5 +6934,11 @@
   "zh_oneliner": "OpenAI Agents SDK 推出 v1.0.0-alpha.2 预览版，继续为 1.0 正式版打磨智能体开发工具链。",
   "en_title": "v1.0.0-alpha.2",
   "en_oneliner": "OpenAI Agents SDK ships v1.0.0-alpha.2, a preview release that keeps refining the agent-building toolkit ahead of the 1.0 launch."
+ },
+ "https://openai.com/business/customer-stories/richpanel-ai-customer-support": {
+  "zh_title": "Richpanel 借助 AI 客服在 30 天内实现 50% 工单自动化",
+  "zh_oneliner": "Richpanel 把 GPT-6 系列模型接入客服流程，让 AI 客服代理在 30 天内接手了一半的人工支持工作。",
+  "en_title": "Richpanel helps companies automate 50% of support in 30 days",
+  "en_oneliner": "Richpanel wired GPT-6 models into its support workflow, letting AI agents take over half of human support work within 30 days."
  }
 }
