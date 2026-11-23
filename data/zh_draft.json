@@ -6904,5 +6904,17 @@
   "zh_oneliner": "开源终端智能体 OpenCode 发布 v2.4.1，本次未附详细更新说明。",
   "en_title": "v2.4.1",
   "en_oneliner": "Open-source terminal agent OpenCode ships v2.4.1, with no detailed release notes attached this time."
+ },
+ "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification": {
+  "zh_title": "用智能体团队与形式化验证寻找更快的量子算法",
+  "zh_oneliner": "DeepMind 用多智能体协作加形式化验证，为聚变与化学问题找到更快的量子算法。",
+  "en_title": "Finding faster quantum algorithms with agents and formal verification",
+  "en_oneliner": "DeepMind pairs multi-agent teams with formal verification to find faster quantum algorithms for fusion and chemistry."
+ },
+ "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps": {
+  "zh_title": "更懂你的 Google Search：专属个性化搜索来了",
+  "zh_oneliner": "Google Search 推出 Personal Intelligence，结合 Gmail、Drive、相册等应用信息，给出更贴合个人的搜索结果。",
+  "en_title": "A more tailored Google Search that's uniquely yours",
+  "en_oneliner": "Google Search's Personal Intelligence draws on Gmail, Drive and Photos to tailor results to each user."
  }
 }
