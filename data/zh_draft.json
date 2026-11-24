@@ -7042,5 +7042,17 @@
   "zh_oneliner": "Amp 正式发布 Android 应用，手机上也能用 Amp。",
   "en_title": "Amp on Android",
   "en_oneliner": "Amp now has an Android app, so you can use Amp from your phone."
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.72.0": {
+  "zh_title": "Pydantic AI v2.72.0 发布",
+  "zh_oneliner": "Pydantic AI 发布 2.72.0，调用已被 Anthropic 或 OpenAI 下线的模型时会发出弃用警告，同时补齐 Agent 指令覆盖、实时语音指令与工具参数别名等更新。",
+  "en_title": "v2.72.0 (2026-11-23)",
+  "en_oneliner": "Pydantic AI 2.72.0 flags requests aimed at models Anthropic or OpenAI have already retired, and adds agent instruction overrides, realtime voice instructions, and aliased tool arguments."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.72.0-preview.0": {
+  "zh_title": "Gemini CLI v0.72.0 预览版发布",
+  "zh_oneliner": "Gemini CLI 发布 v0.72.0 预览版，修复嵌套 .gitignore 规则与 Windows 家目录路径处理，会话恢复改为回到最近活跃的会话，A2A 服务器也加上鉴权与输入校验。",
+  "en_title": "Release v0.72.0-preview.0",
+  "en_oneliner": "Gemini CLI ships v0.72.0-preview.0, fixing nested .gitignore handling and Windows home paths, resuming the most recently active session, and adding authentication and input checks to the A2A server."
  }
 }
