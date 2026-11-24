@@ -7060,5 +7060,11 @@
   "zh_oneliner": "Gemini CLI 推出 v0.71.0 版本，带来新一轮功能更新与改进。",
   "en_title": "Release v0.71.0",
   "en_oneliner": "Gemini CLI ships v0.71.0 with its latest round of updates and improvements."
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v0.26.0": {
+  "zh_title": "OpenAI Agents SDK v0.26.0",
+  "zh_oneliner": "Agents SDK 发布 0.26.0，把 GPT-Live 演示升级到 1.1，并修了外部服务商示例的版本兼容与 Docker 资源限制问题。",
+  "en_title": "v0.26.0",
+  "en_oneliner": "Agents SDK 0.26.0 brings the GPT-Live demo up to version 1.1 and fixes version compatibility in the external provider example plus a Docker resource limit."
  }
 }
