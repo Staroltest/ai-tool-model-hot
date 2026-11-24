@@ -5,8 +5,8 @@
  "date": "2026年11月25日",
  "date_iso": "2026-11-25",
  "issue": 9,
- "generated_at": "2026-11-24T22:10:11.461546+00:00",
- "summary": "过去 24 小时共收录 15 条动态，精选 10 条（主流智能体 8 条、模型发布 2 条）。头条：OpenAI Agents SDK v0.26.0。",
+ "generated_at": "2026-11-24T23:51:20.397321+00:00",
+ "summary": "过去 24 小时共收录 15 条动态，精选 7 条（主流智能体 6 条、模型发布 1 条）。头条：OpenAI Agents SDK v0.26.0。",
  "items": [
   {
    "id": "0d1de3d8faa044560b468666d65806f6d0906d89",
@@ -27,9 +27,9 @@
    "reason": "官方来源 · 涉及GPT · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 79.8,
-   "prev_rank": 5,
-   "prev_hot_score": 80.1
+   "hot_score": 78.5,
+   "prev_rank": 4,
+   "prev_hot_score": 78.6
   },
   {
    "id": "56d5c7c32a87562e6a0670aedfac0013cca21586",
@@ -51,9 +51,9 @@
    "reason": "涉及Gemini与发布 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 75.9,
-   "prev_rank": 6,
-   "prev_hot_score": 76.2
+   "hot_score": 74.7,
+   "prev_rank": 5,
+   "prev_hot_score": 74.8
   },
   {
    "id": "3c6728c1bfd198791155e7911f8c578086a9a218",
@@ -75,9 +75,9 @@
    "reason": "官方来源 · 涉及模型与GPT · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 82.6,
+   "hot_score": 81.4,
    "prev_rank": 3,
-   "prev_hot_score": 83.0
+   "prev_hot_score": 81.4
   },
   {
    "id": "0f7a3c43cc177f44de084d995ed5d535246a68af",
@@ -98,30 +98,9 @@
    "reason": "涉及工具 · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 89.4,
+   "hot_score": 88.0,
    "prev_rank": 1,
-   "prev_hot_score": 89.8
-  },
-  {
-   "id": "16565a3f5dc091b0864725078fd4c4547458c83f",
-   "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-   "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-   "source": "Hugging Face Blog",
-   "source_id": "huggingface-blog",
-   "published": "2026-11-24T16:34:13+00:00",
-   "zh_title": "Microduck 避障：用 Isaac Lab 与 Newton 实现从仿真到真机的避障流程",
-   "zh_oneliner": "这篇实操教程用 ToF 传感器数据在 Isaac Lab 里为 Microduck 小机器人训练避障控制器，仿真中练好后可直接部署到真机上跑。",
-   "category": "model",
-   "category_label": "模型发布",
-   "tier": "T1",
-   "tags": [],
-   "score": 85,
-   "reason": "官方来源 · 6 小时内发布",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 80.7,
-   "prev_rank": 4,
-   "prev_hot_score": 81.1
+   "prev_hot_score": 88.0
   },
   {
    "id": "031724e287b2f316c2a726ed5cc4936da663b1ef",
@@ -140,9 +119,9 @@
    "reason": "6 小时内发布 · 与本主题相关",
    "is_new": true,
    "trend": "same",
-   "hot_score": 84.4,
+   "hot_score": 83.1,
    "prev_rank": 2,
-   "prev_hot_score": 84.8
+   "prev_hot_score": 83.1
   },
   {
    "id": "970c98f4c81a818c502eb1df9c664b31ce7189e3",
@@ -164,78 +143,33 @@
    "reason": "涉及Gemini与发布 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 65.4,
-   "prev_rank": 9,
-   "prev_hot_score": 65.7
+   "hot_score": 64.4,
+   "prev_rank": 8,
+   "prev_hot_score": 64.5
   },
   {
-   "id": "461d865018fda0d1bb56ffa7054375160734c62a",
-   "title": "v2.72.0 (2026-11-23)",
-   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.72.0",
-   "source": "Pydantic AI Releases",
-   "source_id": "pydantic-ai-releases",
-   "published": "2026-11-24T00:38:11+00:00",
-   "zh_title": "Pydantic AI v2.72.0 发布",
-   "zh_oneliner": "Pydantic AI 发布 2.72.0，调用已被 Anthropic 或 OpenAI 下线的模型时会发出弃用警告，同时补齐 Agent 指令覆盖、实时语音指令与工具参数别名等更新。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T2",
-   "tags": [
-    "模型"
-   ],
-   "score": 75,
-   "reason": "涉及模型 · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 61.4,
-   "prev_rank": 13,
-   "prev_hot_score": 61.7
-  },
-  {
-   "id": "1465ceb18ab850ed1dc47cfda3361d31ad23cf86",
-   "title": "v2.73.0 (2026-11-23)",
-   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.73.0",
-   "source": "Pydantic AI Releases",
-   "source_id": "pydantic-ai-releases",
-   "published": "2026-11-24T03:53:12+00:00",
-   "zh_title": "Pydantic AI v2.73.0 发布",
-   "zh_oneliner": "新版为调用已被 Anthropic 或 OpenAI 弃用的模型时加上弃用警告，并改进 OpenAI Responses 的输入缓存处理。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T2",
-   "tags": [
-    "模型"
-   ],
-   "score": 75,
-   "reason": "涉及模型 · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 63.3,
-   "prev_rank": 11,
-   "prev_hot_score": 63.6
-  },
-  {
-   "id": "71996d97862bb6c2f7db40e72a8d3e1ced73171e",
-   "title": "How iFood scales coding agents across 15,000 repositories",
-   "link": "https://openai.com/index/ifood",
+   "id": "99b93f3e10984935a6ab283857e5b97c678a706d",
+   "title": "Clay helps sales teams win with Codex and ChatGPT",
+   "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
    "source": "OpenAI News",
    "source_id": "openai-news",
    "published": "2026-11-24T00:00:00+00:00",
-   "zh_title": "iFood 如何在 1.5 万个代码库中规模化落地编程智能体",
-   "zh_oneliner": "巴西外卖平台 iFood 分享了把编程智能体推广到 1.5 万个代码库的实践经验。",
+   "zh_title": "Clay 借助 Codex 与 ChatGPT 帮销售团队赢单",
+   "zh_oneliner": "Clay 把 Codex 与 ChatGPT 接入销售工作流，帮用户调研客户、把数据变成可落地的获客打法，背后的推理交给 GPT-6 模型。",
    "category": "agent",
    "category_label": "主流智能体",
    "tier": "T1",
    "tags": [
-    "智能体"
+    "模型",
+    "GPT"
    ],
-   "score": 75,
-   "reason": "官方来源 · 涉及智能体 · 24 小时内发布",
+   "score": 80,
+   "reason": "官方来源 · 涉及模型与GPT · 24 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 61.0,
-   "prev_rank": 14,
-   "prev_hot_score": 61.3
+   "hot_score": 64.1,
+   "prev_rank": 9,
+   "prev_hot_score": 64.1
   }
  ]
 }

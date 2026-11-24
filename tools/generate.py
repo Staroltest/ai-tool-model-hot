@@ -297,7 +297,10 @@ def _is_excluded(item, cfg):
     等稳定版也拦住；各源 nightly 构建的标题本身都带 nightly（Qwen Code、
     Cline 均已验证），只查标题仍能拦住它们。2026-11-24：加 "how to"——
     库内 8 条标题含 how to 的全是教程（LangChain/HF），只查标题不影响
-    摘要里含 how to 的正当条目；本站不收教程。"""
+    摘要里含 how to 的正当条目；本站不收教程。2026-11-25：加 "workflow"——
+    30 天库内标题含 workflow 的 2 条全是定位外内容（HF 实操教程 Microduck、
+    OpenAI×ServiceNow 合作），只查标题不影响摘要里含 workflow 的正当条目。
+    """
     sc = cfg.get("scoring", {})
     title = (item.get("title") or "").lower()
     terms = sc.get("exclude_keywords") or []
@@ -2732,6 +2735,24 @@ def dedup_topics(items):
     return kept
 
 
+def cap_per_source(items, cap):
+    """同一来源在榜单里最多占 cap 条（2026-11-25 把关新增）：近乎日更的
+    源（如 Pydantic AI）一次能连占日报 4 席、热点 4 席，榜单成了它的
+    版本流水账。按分数顺序取前 cap 条，其余顺延给下一来源；cap 为 0
+    或缺省时不限。调用前须已按分数排好序，调用后仍需再取前 N。"""
+    if not cap:
+        return items
+    counts = {}
+    kept = []
+    for it in items:
+        sid = it.get("source_id", "")
+        if counts.get(sid, 0) >= cap:
+            continue
+        counts[sid] = counts.get(sid, 0) + 1
+        kept.append(it)
+    return kept
+
+
 def timeline_slot(it, sel_ids, base="", lang="zh"):
     pub = it["_pub"].astimezone(CST)
     badge = it["id"] in sel_ids
@@ -4402,13 +4423,15 @@ def main():
     recent_48h = [it for it in live if (now - it["_pub"]) <= timedelta(hours=sc["selected_hours"])]
     selected = [it for it in recent_48h if it["score"] >= sc["selected_min"]]
     selected.sort(key=lambda x: x["score"], reverse=True)
-    selected = dedup_topics(selected)[:sc["daily_top"]]
+    selected = cap_per_source(dedup_topics(selected),
+                              sc.get("daily_source_cap", 0))[:sc["daily_top"]]
 
     last_7d = [it for it in live if (now - it["_pub"]) <= timedelta(days=sc["hot_days"])]
     for it in last_7d:
         age_days = (now - it["_pub"]).total_seconds() / 86400.0
         it["hot_score"] = round(it["score"] * (sc["decay_base"] ** age_days), 1)
-    hot = dedup_topics(sorted(last_7d, key=lambda x: x["hot_score"], reverse=True))[:sc["hot_top"]]
+    hot = cap_per_source(dedup_topics(sorted(last_7d, key=lambda x: x["hot_score"], reverse=True)),
+                         sc.get("hot_source_cap", 0))[:sc["hot_top"]]
     timeline = sorted(last_7d, key=lambda x: x["_pub"], reverse=True)[:sc["timeline_max"]]
 
     # 趋势：对照上一轮已发布的榜单名次与热度（读旧 data/hot.json，写新文件之前）
@@ -4807,7 +4830,8 @@ def main():
             eligible = [it for it in pool if it["score"] >= sc["selected_min"]
                         and it.get("zh_title")]
             pool_sorted = sorted(eligible, key=lambda x: x["score"], reverse=True)
-            items = dedup_topics(pool_sorted)[:sc["daily_top"]]
+            items = cap_per_source(dedup_topics(pool_sorted),
+                                   sc.get("daily_source_cap", 0))[:sc["daily_top"]]
             per_cat = {}
             for it in items:
                 per_cat[it["category_label"]] = per_cat.get(it["category_label"], 0) + 1
@@ -4844,7 +4868,8 @@ def main():
             eligible = [it for it in pool if it["score"] >= sc["selected_min"]
                         and it.get("en_title")]
             pool_sorted = sorted(eligible, key=lambda x: x["score"], reverse=True)
-            items = dedup_topics(pool_sorted)[:sc["daily_top"]]
+            items = cap_per_source(dedup_topics(pool_sorted),
+                                   sc.get("daily_source_cap", 0))[:sc["daily_top"]]
             per_cat = {}
             for it in items:
                 lab = it.get("category_label_en") or it["category"]

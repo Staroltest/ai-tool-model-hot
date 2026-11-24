@@ -63,6 +63,8 @@
         "base": 50,
         "daily_hours": 24,
         "daily_top": 10,
+        "daily_source_cap": 2,
+        "hot_source_cap": 3,
         "decay_base": 0.8,
         "dev_keyword_bonus": 5,
         "dev_keyword_cap": 25,
@@ -154,6 +156,7 @@
             "估值",
             "learn how",
             "walkthrough",
+            "workflow",
             "watch a",
             "in action",
             "get started",
@@ -198,7 +201,8 @@
         ],
         "exclude_title_keywords": [
             "nightly",
-            "how to"
+            "how to",
+            "workflow"
         ]
     },
     "site": {
@@ -249,8 +253,8 @@
         "audience": "关注 AI 工具与新模型的开发者与使用者",
         "audience_en": "developers and users following new AI tools and models",
         "crawler_name": "ai-tool-model-hotBot/1.0",
-        "description": "每天从 20 个信源（17 个 RSS + 3 个 Hugging Face 组织页）收 AI 模型发布与主流智能体更新，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
-        "description_en": "Daily AI model releases and leading agent updates, scored by rules from 20 sources (17 RSS feeds + 3 Hugging Face org pages). Titles, one-line summaries and links only — no full text republished.",
+        "description": "每天从 21 个信源（18 个 RSS + 3 个 Hugging Face 组织页）收 AI 模型发布与主流智能体更新，按规则打分精选，只显示标题、一句简介与原文链接，不转载全文。",
+        "description_en": "Daily AI model releases and leading agent updates, scored by rules from 21 sources (18 RSS feeds + 3 Hugging Face org pages). Titles, one-line summaries and links only — no full text republished.",
         "edition_time_cst": "06:00",
         "footer_note": "本站由 HOT 流水线模板生成，代码按 MIT 协议开源。",
         "footer_note_en": "Built with the HOT pipeline template; code is open source under the MIT License.",

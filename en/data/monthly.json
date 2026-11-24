@@ -5,8 +5,8 @@
  "date": "November 25, 2026",
  "date_iso": "2026-11-25",
  "issue": 1,
- "generated_at": "2026-11-24T22:10:11.461546+00:00",
- "summary": "349 items collected in the past 30 days, 10 picks (Leading agents 7, Model releases 3). Headline: v0.26.0.",
+ "generated_at": "2026-11-24T23:51:20.397321+00:00",
+ "summary": "348 items collected in the past 30 days, 10 picks (Leading agents 8, Model releases 2). Headline: v0.26.0.",
  "items": [
   {
    "id": "0d1de3d8faa044560b468666d65806f6d0906d89",
@@ -27,9 +27,9 @@
    "reason": "Official source · Covers GPT · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 79.8,
-   "prev_rank": 5,
-   "prev_hot_score": 80.1
+   "hot_score": 78.5,
+   "prev_rank": 4,
+   "prev_hot_score": 78.6
   },
   {
    "id": "56d5c7c32a87562e6a0670aedfac0013cca21586",
@@ -51,9 +51,9 @@
    "reason": "Covers Gemini and release · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 75.9,
-   "prev_rank": 6,
-   "prev_hot_score": 76.2
+   "hot_score": 74.7,
+   "prev_rank": 5,
+   "prev_hot_score": 74.8
   },
   {
    "id": "3c6728c1bfd198791155e7911f8c578086a9a218",
@@ -75,9 +75,9 @@
    "reason": "Official source · Covers model and GPT · Published within 24 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 82.6,
+   "hot_score": 81.4,
    "prev_rank": 3,
-   "prev_hot_score": 83.0
+   "prev_hot_score": 81.4
   },
   {
    "id": "0f7a3c43cc177f44de084d995ed5d535246a68af",
@@ -98,9 +98,9 @@
    "reason": "Covers Tools · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 89.4,
+   "hot_score": 88.0,
    "prev_rank": 1,
-   "prev_hot_score": 89.8
+   "prev_hot_score": 88.0
   },
   {
    "id": "f6cf8ded0e75bec96e1b678b6b93caefa289f4d3",
@@ -123,7 +123,7 @@
    "reason": "Official source · Covers Gemini and Agent",
    "is_new": false,
    "trend": "same",
-   "hot_score": 22.2,
+   "hot_score": 21.9,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -148,7 +148,7 @@
    "reason": "Official source · Covers Gemini and Tools",
    "is_new": false,
    "trend": "same",
-   "hot_score": 26.8,
+   "hot_score": 26.4,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -170,8 +170,8 @@
    "score": 85,
    "reason": "Official source · Covers Agent",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 49.9,
+   "trend": "new",
+   "hot_score": 49.1,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -194,9 +194,9 @@
    "reason": "Official source · Covers Agent",
    "is_new": false,
    "trend": "same",
-   "hot_score": 66.7,
-   "prev_rank": 7,
-   "prev_hot_score": 67.0
+   "hot_score": 65.6,
+   "prev_rank": 6,
+   "prev_hot_score": 65.7
   },
   {
    "id": "680b35173b971311b4b8603cf638c317fd3576b6",
@@ -219,30 +219,30 @@
    "reason": "Official source · Covers GPT and Agent",
    "is_new": false,
    "trend": "same",
-   "hot_score": 59.6,
-   "prev_rank": 15,
-   "prev_hot_score": 59.9
+   "hot_score": 58.7,
+   "prev_rank": null,
+   "prev_hot_score": null
   },
   {
-   "id": "16565a3f5dc091b0864725078fd4c4547458c83f",
-   "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-   "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-   "source": "Hugging Face Blog",
-   "source_id": "huggingface-blog",
-   "published": "2026-11-24T16:34:13+00:00",
-   "en_title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-   "en_oneliner": "This hands-on walkthrough trains an obstacle-avoidance controller for the Microduck robot in Isaac Lab using ToF sensor data, then deploys the finished policy onto the real machine.",
-   "category": "model",
-   "category_label": "Model releases",
-   "tier": "T1",
+   "id": "031724e287b2f316c2a726ed5cc4936da663b1ef",
+   "title": "v1.107.11 (2026-11-24)",
+   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.11",
+   "source": "Pydantic AI Releases",
+   "source_id": "pydantic-ai-releases",
+   "published": "2026-11-24T21:24:35+00:00",
+   "en_title": "v1.107.11 (2026-11-24)",
+   "en_oneliner": "A small patch update on the Pydantic AI 1.x line, focused on routine fixes.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T2",
    "tags": [],
    "score": 85,
-   "reason": "Official source · Published within 6 hours",
+   "reason": "Published within 6 hours · Relevant to this topic",
    "is_new": true,
    "trend": "same",
-   "hot_score": 80.7,
-   "prev_rank": 4,
-   "prev_hot_score": 81.1
+   "hot_score": 83.1,
+   "prev_rank": 2,
+   "prev_hot_score": 83.1
   }
  ]
 }
