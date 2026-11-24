@@ -7066,5 +7066,17 @@
   "zh_oneliner": "Agents SDK 发布 0.26.0，把 GPT-Live 演示升级到 1.1，并修了外部服务商示例的版本兼容与 Docker 资源限制问题。",
   "en_title": "v0.26.0",
   "en_oneliner": "Agents SDK 0.26.0 brings the GPT-Live demo up to version 1.1 and fixes version compatibility in the external provider example plus a Docker resource limit."
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.73.0": {
+  "zh_title": "Pydantic AI v2.73.0 发布",
+  "zh_oneliner": "新版为调用已被 Anthropic 或 OpenAI 弃用的模型时加上弃用警告，并改进 OpenAI Responses 的输入缓存处理。",
+  "en_title": "v2.73.0 (2026-11-23)",
+  "en_oneliner": "Version 2.73.0 warns developers if they call a model that Anthropic or OpenAI has phased out, and refines how cached inputs are handled for OpenAI Responses."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1": {
+  "zh_title": "Gemini CLI v0.71.1 发布",
+  "zh_oneliner": "这是一次补丁版本，将一处修复合入 v0.71.0 发布线，解决该版本的问题。",
+  "en_title": "Release v0.71.1",
+  "en_oneliner": "A patch release that backports a fix into the v0.71.0 line to address an issue in that version."
  }
 }
