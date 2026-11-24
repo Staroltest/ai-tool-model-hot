@@ -7132,5 +7132,11 @@
   "zh_oneliner": "Pydantic AI 1.x 分支迎来小版本更新，以常规修复为主。",
   "en_title": "v1.107.11 (2026-11-24)",
   "en_oneliner": "A small patch update on the Pydantic AI 1.x line, focused on routine fixes."
+ },
+ "https://openai.com/business/customer-stories/clay-plugins-openai": {
+  "zh_title": "Clay 借助 Codex 与 ChatGPT 帮销售团队赢单",
+  "zh_oneliner": "Clay 把 Codex 与 ChatGPT 接入销售工作流，帮用户调研客户、把数据变成可落地的获客打法，背后的推理交给 GPT-6 模型。",
+  "en_title": "Clay helps sales teams win with Codex and ChatGPT",
+  "en_oneliner": "Clay wires Codex and ChatGPT into the sales process so teams can dig into prospects and convert raw data into outreach plans, leaning on GPT-6 models for the heavy reasoning."
  }
 }
