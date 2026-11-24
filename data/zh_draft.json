@@ -7054,5 +7054,11 @@
   "zh_oneliner": "Gemini CLI 发布 v0.72.0 预览版，修复嵌套 .gitignore 规则与 Windows 家目录路径处理，会话恢复改为回到最近活跃的会话，A2A 服务器也加上鉴权与输入校验。",
   "en_title": "Release v0.72.0-preview.0",
   "en_oneliner": "Gemini CLI ships v0.72.0-preview.0, fixing nested .gitignore handling and Windows home paths, resuming the most recently active session, and adding authentication and input checks to the A2A server."
+ },
+ "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0": {
+  "zh_title": "Gemini CLI v0.71.0 发布",
+  "zh_oneliner": "Gemini CLI 推出 v0.71.0 版本，带来新一轮功能更新与改进。",
+  "en_title": "Release v0.71.0",
+  "en_oneliner": "Gemini CLI ships v0.71.0 with its latest round of updates and improvements."
  }
 }
