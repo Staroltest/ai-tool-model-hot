@@ -6958,5 +6958,89 @@
   "zh_oneliner": "Kiro CLI 强化了长时任务能力，让智能体可以连续多日稳定运行而不掉线。",
   "en_title": "Your agents run for days: now Kiro CLI keeps up",
   "en_oneliner": "Kiro CLI now handles long-running tasks, letting agents work steadily for days without dropping off."
+ },
+ "https://ampcode.com/news/puck-in-the-car": {
+  "zh_title": "车里也能用 Puck 对话",
+  "zh_oneliner": "Amp 的语音助手 Puck 现在可以在车里用，开车时不用看屏幕也能继续工作，偶尔需要看的内容会以大号字体显示。",
+  "en_title": "Puck in the Car",
+  "en_oneliner": "Amp's voice assistant Puck now works in the car, so you can keep working while driving without looking at a screen, and anything you do need to see is shown extra large."
+ },
+ "https://ampcode.com/news/amp-for-windows": {
+  "zh_title": "Amp 推出 Windows 应用",
+  "zh_oneliner": "Amp 正式发布 Windows 原生应用，Windows 开发者也能直接在桌面上用 Amp。",
+  "en_title": "Amp for Windows",
+  "en_oneliner": "Amp now has a native Windows app, so developers on Windows can use Amp right from the desktop."
+ },
+ "https://ampcode.com/news/bye-bye-dial": {
+  "zh_title": "再见 Dial：Amp 改用模型选择器",
+  "zh_oneliner": "Amp 取消了 Dial 的四档模式，改成模型选择器，每个对话线程都能自选模型与推理力度。",
+  "en_title": "Bye Bye, Dial",
+  "en_oneliner": "Amp retires Dial and its four modes in favor of a model selector, letting each thread pick its own model and effort level."
+ },
+ "https://ampcode.com/news/boxes": {
+  "zh_title": "Amp 推出 Boxes 常驻云端电脑",
+  "zh_oneliner": "Amp 推出 Boxes，一台常驻在线的小型云端电脑，可以把用 Amp 搭好的东西直接部署上去跑。",
+  "en_title": "Boxes",
+  "en_oneliner": "Amp introduces Boxes, an always-on cloud computer where you can deploy the things you've built with Amp."
+ },
+ "https://ampcode.com/news/runner-portals": {
+  "zh_title": "Portals 登陆本地 Runner",
+  "zh_oneliner": "Amp 的 Portals 功能从云端 Orb 扩展到本地机器，开发服务器或网站可以在本地启动后直接从对话里打开预览。",
+  "en_title": "Portals on Your Runner",
+  "en_oneliner": "Portals, previously available in orbs, now work on your local machine too, so a dev server or website Amp starts locally can be opened straight from the thread."
+ },
+ "https://ampcode.com/news/close-the-loop": {
+  "zh_title": "Amp 网站可直接向产品团队反馈",
+  "zh_oneliner": "Amp 给网站加了反馈入口，访客在网址后加 ?amp 就能直接把意见发给 Amp 团队。",
+  "en_title": "Close the Loop",
+  "en_oneliner": "Amp adds a feedback widget for websites, letting visitors send feedback straight to the team by visiting the site with ?amp appended."
+ },
+ "https://ampcode.com/news/spaces": {
+  "zh_title": "Amp 推出 Spaces 多智能体协作空间",
+  "zh_oneliner": "Amp 推出 Spaces，一个智能体负责召集和协调其他智能体，与团队成员一起推进任务的新协作方式。",
+  "en_title": "Spaces",
+  "en_oneliner": "Amp launches Spaces, a new way to work with agents and your team, where one agent spawns and coordinates others on your behalf."
+ },
+ "https://ampcode.com/news/gitlab": {
+  "zh_title": "Amp 接入 GitLab",
+  "zh_oneliner": "Amp 现在支持 GitLab，gitlab.com 与自建实例都能接，从 GitLab 仓库直接开项目，Orb 会自动同步代码。",
+  "en_title": "GitLab Integration",
+  "en_oneliner": "GitLab support lands in Amp: connect an account on gitlab.com or a self-hosted instance and kick off projects from your repositories, with orbs keeping code in sync."
+ },
+ "https://ampcode.com/news/service-accounts": {
+  "zh_title": "Amp 推出 Service Accounts",
+  "zh_oneliner": "Amp 推出 Service Accounts：归工作区所有、不绑定个人的账号，自带 API 密钥与第三方凭证，适合团队共用的自动化与 CI 任务。",
+  "en_title": "Service Accounts",
+  "en_oneliner": "Amp introduces Service Accounts, workspace-owned accounts that aren't tied to any one person, with their own API keys and credentials for team-shared automation and CI work."
+ },
+ "https://ampcode.com/news/artifacts": {
+  "zh_title": "Amp 推出 Artifacts 协作文档",
+  "zh_oneliner": "Amp 推出 Artifacts，智能体、你和队友可以在同一个对话专属文档里一起编辑内容。",
+  "en_title": "Artifacts",
+  "en_oneliner": "Amp launches Artifacts, shared documents that live inside one thread, editable by the agent, you, and your teammates alike."
+ },
+ "https://ampcode.com/news/macos-satellites": {
+  "zh_title": "Amp 登陆 Mac：可开发 iOS 与 Mac 应用",
+  "zh_oneliner": "Amp 现在有了 Mac 卫星机，能直接帮你开发、构建和运行 iOS 或 Mac 应用，并在设备中心里查看真机效果。",
+  "en_title": "macOS Satellites",
+  "en_oneliner": "Amp gains a Mac satellite, so it can build, test, and run your iOS or Mac app for you, with the device shown live in DeviceHub."
+ },
+ "https://ampcode.com/news/visualize-this": {
+  "zh_title": "Amp 会在对话里直接画图",
+  "zh_oneliner": "现在可以直接让 Amp 在对话里可视化或搭建东西，图表、时间线、示意图和可点击原型都能当场生成。",
+  "en_title": "Visualize This",
+  "en_oneliner": "Amp can now turn a request into visuals inside the thread, from charts and timelines to diagrams and interactive mockups."
+ },
+ "https://ampcode.com/news/personal-self-hosted-orbs": {
+  "zh_title": "个人也能自托管 Orb",
+  "zh_oneliner": "自托管 Orb 不再仅限工作区管理员，个人用户也可以在设置里添加自己的 Orb 服务商。",
+  "en_title": "Your Own Self-Hosted Orbs",
+  "en_oneliner": "Self-hosted orbs are no longer limited to workspace admins: anyone can now add a provider from personal Settings."
+ },
+ "https://ampcode.com/news/amp-on-android": {
+  "zh_title": "Amp 推出 Android 应用",
+  "zh_oneliner": "Amp 正式发布 Android 应用，手机上也能用 Amp。",
+  "en_title": "Amp on Android",
+  "en_oneliner": "Amp now has an Android app, so you can use Amp from your phone."
  }
 }

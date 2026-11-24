@@ -295,7 +295,9 @@ def _is_excluded(item, cfg):
     从正文排除改为仅标题排除——Gemini CLI 的自动发布说明会在摘要里提及
     旧 nightly 版本号（bump version to x-nightly…），正文排除会把 v0.70.0
     等稳定版也拦住；各源 nightly 构建的标题本身都带 nightly（Qwen Code、
-    Cline 均已验证），只查标题仍能拦住它们。"""
+    Cline 均已验证），只查标题仍能拦住它们。2026-11-24：加 "how to"——
+    库内 8 条标题含 how to 的全是教程（LangChain/HF），只查标题不影响
+    摘要里含 how to 的正当条目；本站不收教程。"""
     sc = cfg.get("scoring", {})
     title = (item.get("title") or "").lower()
     terms = sc.get("exclude_keywords") or []
@@ -4798,7 +4800,12 @@ def main():
             # 精选门槛：只取评分 >= selected_min 的条目再取前 10。
             # 2026-11-20 把关：此前无门槛，慢日子里 50–60 分的访谈/演示/
             # 指南也会凑满 10 条进日报；精选宁缺毋滥，少于 10 条亦可。
-            eligible = [it for it in pool if it["score"] >= sc["selected_min"]]
+            # 2026-11-24 把关：只收已有中文翻译的条目。本轮新入库的条目在
+            # --daily 生成时还没有翻译（翻译在 generate 之后跑），不加这个
+            # 过滤会让日报出现裸标题/无简介（如 2026-11-24 Claude Code
+            # 2.1.331）；这类条目由热点榜与全部页在翻译后呈现，日报宁缺毋滥。
+            eligible = [it for it in pool if it["score"] >= sc["selected_min"]
+                        and it.get("zh_title")]
             pool_sorted = sorted(eligible, key=lambda x: x["score"], reverse=True)
             items = dedup_topics(pool_sorted)[:sc["daily_top"]]
             per_cat = {}
@@ -4832,8 +4839,10 @@ def main():
         def build_period_en(kind, pool, window_label_en):
             """build_period 的英文版：同一批条目，英文日期/导读/条目数据。
             导读含本轮池子规模（仅新报告有该数据）。"""
-            # 与 build_period 同步：精选门槛 selected_min，见上。
-            eligible = [it for it in pool if it["score"] >= sc["selected_min"]]
+            # 与 build_period 同步：精选门槛 selected_min，见上；同理只收
+            # 已有英文翻译的条目（2026-11-24 把关，防日报裸标题/无简介）。
+            eligible = [it for it in pool if it["score"] >= sc["selected_min"]
+                        and it.get("en_title")]
             pool_sorted = sorted(eligible, key=lambda x: x["score"], reverse=True)
             items = dedup_topics(pool_sorted)[:sc["daily_top"]]
             per_cat = {}

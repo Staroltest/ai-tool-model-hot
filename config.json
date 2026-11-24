@@ -197,7 +197,8 @@
             "sdk/"
         ],
         "exclude_title_keywords": [
-            "nightly"
+            "nightly",
+            "how to"
         ]
     },
     "site": {
