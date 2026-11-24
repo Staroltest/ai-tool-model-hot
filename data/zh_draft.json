@@ -7114,5 +7114,23 @@
   "zh_oneliner": "巴西外卖平台 iFood 分享了把编程智能体推广到 1.5 万个代码库的实践经验。",
   "en_title": "How iFood scales coding agents across 15,000 repositories",
   "en_oneliner": "Brazilian food-delivery platform iFood shares how it rolled out coding agents across 15,000 repositories."
+ },
+ "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": {
+  "zh_title": "GPT-6 模型展现出内在的蛋白质设计能力",
+  "zh_oneliner": "GPT-6 仅凭推理与代码就能设计蛋白质结构与序列，实验室测试在五个靶点上都观察到了结合迹象。",
+  "en_title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "en_oneliner": "GPT-6 can design protein structures and sequences through reasoning and code alone, with lab tests showing signs of binding across five targets."
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.74.0": {
+  "zh_title": "Pydantic AI v2.74.0 发布",
+  "zh_oneliner": "Pydantic AI 2.74.0 在核心中加入计算机操作工具契约，智能体可以直接调用 ComputerTool 完成电脑操作。",
+  "en_title": "v2.74.0 (2026-11-24)",
+  "en_oneliner": "Pydantic AI 2.74.0 adds a computer-use tool contract to the core, letting agents call ComputerTool directly to operate a computer."
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.11": {
+  "zh_title": "Pydantic AI v1.107.11 发布",
+  "zh_oneliner": "Pydantic AI 1.x 分支迎来小版本更新，以常规修复为主。",
+  "en_title": "v1.107.11 (2026-11-24)",
+  "en_oneliner": "A small patch update on the Pydantic AI 1.x line, focused on routine fixes."
  }
 }
