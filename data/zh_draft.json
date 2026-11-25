@@ -7186,5 +7186,11 @@
   "zh_oneliner": "科学家们讨论 AI 智能体在科研中可以走多远、哪些红线不能碰，为智能体的自主权划出一条参考边界。",
   "en_title": "Where scientists draw the line on AI agents",
   "en_oneliner": "Scientists discuss how far AI agents should go in research and which lines must not be crossed, drawing a reference boundary for agent autonomy."
+ },
+ "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization": {
+  "zh_title": "Copilot 代码审查计费将默认由组织承担",
+  "zh_oneliner": "还没给持证成员的 Copilot 代码审查选定计费方式的话，从 2026 年 12 月 30 日起这笔费用将自动记到组织账上。",
+  "en_title": "Copilot code review billing will default to the organization",
+  "en_oneliner": "If you haven't picked a billing method for Copilot code review for licensed members, the cost will automatically be charged to your organization from December 30, 2026."
  }
 }
