@@ -7174,5 +7174,11 @@
   "zh_oneliner": "通过爬坡调优，让 Inkling 2 Mini 在单块 RTX PRO 6000 上的推理跑得更快。",
   "en_title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
   "en_oneliner": "Hill-climbing tuning squeezes faster Inkling 2 Mini inference out of a single RTX PRO 6000."
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.75.0": {
+  "zh_title": "Pydantic AI v2.75.0 发布",
+  "zh_oneliner": "新版收紧了工作区文件的指令权限，RepoContext、Skills 与 Memory 中的内容不再高于 operator 权限，并新增 lowest_authority_under 配置项。",
+  "en_title": "v2.75.0 (2026-11-25)",
+  "en_oneliner": "This release tightens instruction authority for workspace files, keeping RepoContext, Skills and Memory content below operator level, and adds a lowest_authority_under setting."
  }
 }
