@@ -7180,5 +7180,11 @@
   "zh_oneliner": "新版收紧了工作区文件的指令权限，RepoContext、Skills 与 Memory 中的内容不再高于 operator 权限，并新增 lowest_authority_under 配置项。",
   "en_title": "v2.75.0 (2026-11-25)",
   "en_oneliner": "This release tightens instruction authority for workspace files, keeping RepoContext, Skills and Memory content below operator level, and adds a lowest_authority_under setting."
+ },
+ "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents": {
+  "zh_title": "科学家为 AI 智能体划出界线",
+  "zh_oneliner": "科学家们讨论 AI 智能体在科研中可以走多远、哪些红线不能碰，为智能体的自主权划出一条参考边界。",
+  "en_title": "Where scientists draw the line on AI agents",
+  "en_oneliner": "Scientists discuss how far AI agents should go in research and which lines must not be crossed, drawing a reference boundary for agent autonomy."
  }
 }
