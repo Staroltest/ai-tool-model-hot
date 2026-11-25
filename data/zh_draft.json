@@ -7126,5 +7126,11 @@
   "zh_oneliner": "Clay 把 Codex 与 ChatGPT 接入销售工作流，帮用户调研客户、把数据变成可落地的获客打法，背后的推理交给 GPT-6 模型。",
   "en_title": "Clay helps sales teams win with Codex and ChatGPT",
   "en_oneliner": "Clay wires Codex and ChatGPT into the sales process so teams can dig into prospects and convert raw data into outreach plans, leaning on GPT-6 models for the heavy reasoning."
+ },
+ "https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith": {
+  "zh_title": "LangChain 如何借助 LangSmith 通过 ISO 42001 认证",
+  "zh_oneliner": "LangChain 凭借 LangSmith 拿下 AI 管理体系国际标准 ISO/IEC 42001 认证，并分享了合规落地的具体做法。",
+  "en_title": "How We Achieved ISO 42001 with LangSmith",
+  "en_oneliner": "LangSmith helped LangChain secure ISO/IEC 42001 certification for its AI management system, and the team explains the process behind it."
  }
 }
