@@ -5,7 +5,8 @@ Reads the queue written by tools/generate.py (data/indexnow_queue.json),
 POSTs new-item URLs to the IndexNow endpoint, and clears the queue on success.
 
 - Only submits URLs on the canonical host ai-tool-model-hot.pages.dev.
-- Queue is capped at 40 URLs by generate.py (20 new items x zh + en).
+- Queue is capped at 1000 URLs by generate.py (retention buffer while
+  submission is blocked; the IndexNow protocol allows 10000 per submit).
 - 200 = accepted, 202 = accepted while the key file is being verified.
   Either way the submission was received; indexing itself takes 1-2 weeks
   and is NOT confirmed by the response code.

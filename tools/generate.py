@@ -4803,8 +4803,10 @@ def main():
         for _u in list(_ix_existing) + _ix_urls:
             if _u not in _ix_merged:
                 _ix_merged.append(_u)
-        save_json(_ix_queue_path, _ix_merged[:40])
-        print(f"indexnow: queue {len(_ix_merged[:40])} urls ({len(_ix_new)} new items)")
+        # IndexNow 协议单次提交上限 10000 条；1000 只是提交受阻期间的保留余量，
+        # 不是批量目标（按当前速度约够一个月），避免队列满了丢新链接。
+        save_json(_ix_queue_path, _ix_merged[:1000])
+        print(f"indexnow: queue {len(_ix_merged[:1000])} urls ({len(_ix_new)} new items)")
     # llms.txt：每轮重写，给 AI 客户端的站点说明 + 机器可读入口
     with open(os.path.join(root, "llms.txt"), "w", encoding="utf-8") as f:
         f.write(build_llms_txt(site, cats, today_iso))
