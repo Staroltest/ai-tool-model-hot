@@ -7150,5 +7150,11 @@
   "zh_oneliner": "Qwen Code 发布 v1.0.0-preview.2：订阅目录新增 Qwen4-Max（百万上下文，支持图片与视频输入），额度用尽时显示重置倒计时，并新增 /upgrade 命令直达订阅页。",
   "en_title": "Release v1.0.0-preview.2",
   "en_oneliner": "Qwen Code v1.0.0-preview.2 adds Qwen4-Max to the subscription catalog (1M context, image and video input), shows a reset countdown when credits run out, and adds an /upgrade command that opens the plans page."
+ },
+ "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga": {
+  "zh_title": "用 CUGA 打造印度语语音智能体",
+  "zh_oneliner": "IBM Research 用开源智能体框架 CUGA 做了一个面向印度农民的语音助手：用本地语言口头提问，它检索英文农业手册后用同种语言语音作答，关键在于用多语言嵌入模型解决跨语言检索。",
+  "en_title": "An Indic Voice Agent with CUGA",
+  "en_oneliner": "IBM Research built a voice assistant for Indian farmers on the open-source CUGA agent harness: ask aloud in a local language and it searches an English farming handbook, then answers by voice in that same language, with multilingual embeddings solving the cross-lingual retrieval problem."
  }
 }
