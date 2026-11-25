@@ -7162,5 +7162,17 @@
   "zh_oneliner": "JetBrains 推出 Mellum2.1 的轻量同门版本，面向子智能体、工具调用循环与对话场景，响应速度更快。",
   "en_title": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
   "en_oneliner": "JetBrains releases a lighter sibling of Mellum2.1, aimed at sub-agents, tool-call loops, and chat, with quicker responses."
+ },
+ "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity": {
+  "zh_title": "从谱图到结构：用 Google Antigravity 的 Mass Spec Skills 鉴定分子",
+  "zh_oneliner": "Google Antigravity 新增 Mass Spec Skills，帮助科学家解读串联质谱数据、从谱图推断分子结构。",
+  "en_title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+  "en_oneliner": "Google Antigravity gains Mass Spec Skills, helping scientists read tandem mass spectra and work out molecular structures from the data."
+ },
+ "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb": {
+  "zh_title": "在一块 RTX PRO 6000 上爬坡优化 Inkling 2 Mini 推理",
+  "zh_oneliner": "通过爬坡调优，让 Inkling 2 Mini 在单块 RTX PRO 6000 上的推理跑得更快。",
+  "en_title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+  "en_oneliner": "Hill-climbing tuning squeezes faster Inkling 2 Mini inference out of a single RTX PRO 6000."
  }
 }
