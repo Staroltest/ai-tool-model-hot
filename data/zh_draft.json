@@ -7192,5 +7192,17 @@
   "zh_oneliner": "还没给持证成员的 Copilot 代码审查选定计费方式的话，从 2026 年 12 月 30 日起这笔费用将自动记到组织账上。",
   "en_title": "Copilot code review billing will default to the organization",
   "en_oneliner": "If you haven't picked a billing method for Copilot code review for licensed members, the cost will automatically be charged to your organization from December 30, 2026."
+ },
+ "https://kiro.dev/blog/software-factory-human-attention": {
+  "zh_title": "围绕人类注意力打造软件工厂",
+  "zh_oneliner": "Kiro 团队分享一年实践：让智能体自主跑完从需求发现到上线监控的完整开发流程，并把这套操作手册开源出来，人只在真正需要决策的地方介入。",
+  "en_title": "Building a software factory around human attention",
+  "en_oneliner": "The Kiro team shares a year of practice: agents run the full development cycle from discovery to release and monitoring on their own, with people stepping in only where a real decision is needed."
+ },
+ "https://github.com/anomalyco/opencode/releases/tag/v2.4.2": {
+  "zh_title": "OpenCode v2.4.2",
+  "zh_oneliner": "开源 AI 编程智能体 OpenCode 发布 v2.4.2 维护版本，本次未附详细更新说明。",
+  "en_title": "v2.4.2",
+  "en_oneliner": "Open source AI coding agent OpenCode ships maintenance release v2.4.2, with no detailed changelog published this time."
  }
 }
