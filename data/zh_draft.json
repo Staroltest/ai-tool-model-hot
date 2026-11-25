@@ -7144,5 +7144,11 @@
   "zh_oneliner": "Claude Code 2.1.332 支持从 MCP 服务器加载技能（测试版），并新增 PreSkillShellCommand 钩子，可在执行前拦截技能或命令的内联脚本。",
   "en_title": "2.1.332",
   "en_oneliner": "Claude Code 2.1.332 brings in beta support for skills served by MCP servers, plus a PreSkillShellCommand hook that can refuse inline scripts before a skill or command runs."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview.2": {
+  "zh_title": "Qwen Code v1.0.0-preview.2 发布",
+  "zh_oneliner": "Qwen Code 发布 v1.0.0-preview.2：订阅目录新增 Qwen4-Max（百万上下文，支持图片与视频输入），额度用尽时显示重置倒计时，并新增 /upgrade 命令直达订阅页。",
+  "en_title": "Release v1.0.0-preview.2",
+  "en_oneliner": "Qwen Code v1.0.0-preview.2 adds Qwen4-Max to the subscription catalog (1M context, image and video input), shows a reset countdown when credits run out, and adds an /upgrade command that opens the plans page."
  }
 }
