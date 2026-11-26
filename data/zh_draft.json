@@ -7402,5 +7402,11 @@
   "zh_oneliner": "Qwen Code 的 TypeScript SDK 发布 v0.1.36，内置 CLI 0.28.6，方便开发者直接在项目里调用 Qwen Code 的能力。",
   "en_title": "SDK TypeScript Release v0.1.36",
   "en_oneliner": "Qwen Code's TypeScript SDK reaches v0.1.36, bundling CLI 0.28.6 so developers can call on Qwen Code's capabilities directly from their projects."
+ },
+ "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.2": {
+  "zh_title": "SDK v0.2.2",
+  "zh_oneliner": "Cline SDK v0.2.2 发布，清理内部遥测代码，精简相关导出与依赖。",
+  "en_title": "SDK v0.2.2",
+  "en_oneliner": "Cline SDK v0.2.2 cleans up internal telemetry, trimming related exports and dependencies."
  }
 }
