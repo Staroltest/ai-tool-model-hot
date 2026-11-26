@@ -7414,5 +7414,11 @@
   "zh_oneliner": "Cline CLI v3.0.76 在 npm 包根目录统一附带一份覆盖全部平台二进制文件的第三方声明，内置模型目录同步刷新，OpenAI 选择器不再显示上游已下架的模型。",
   "en_title": "CLI v3.0.76",
   "en_oneliner": "Cline CLI v3.0.76 bundles a single third-party notice at the npm package root covering every platform binary, refreshes the built-in model catalog, and drops upstream-removed models from the OpenAI picker."
+ },
+ "https://github.com/cline/cline/releases/tag/desktop-v0.0.51": {
+  "zh_title": "Cline 桌面版 v0.0.51",
+  "zh_oneliner": "Cline 桌面应用发布 v0.0.51 维护版本。",
+  "en_title": "desktop-v0.0.51",
+  "en_oneliner": "Cline's desktop app ships maintenance release v0.0.51."
  }
 }
