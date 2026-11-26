@@ -7438,5 +7438,11 @@
   "zh_oneliner": "JetBrains 把 Kotlin 基准升级到 2.0 版，用更贴近真实仓库的任务和闭源代码，测一测 AI 编程智能体到底能走多远。",
   "en_title": "Kotlin Benchmark 2.0: How AI Coding Agents Handle Harder Tasks and Closed-Source Code",
   "en_oneliner": "JetBrains has upgraded its Kotlin Benchmark to 2.0, using tasks closer to real repositories and closed-source code to see how far AI coding agents can really go."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.7": {
+  "zh_title": "Qwen Code v0.28.7 发布",
+  "zh_oneliner": "Qwen Code CLI 登陆 Harness 内核，用量统计默认关闭，重复工具调用被拒时会给出更清楚的说明。",
+  "en_title": "Release v0.28.7",
+  "en_oneliner": "Qwen Code CLI lands on the Harness kernel, usage statistics stay off unless you opt in, and repeated tool-call rejections now come with clearer explanations."
  }
 }
