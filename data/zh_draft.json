@@ -7378,5 +7378,11 @@
   "zh_oneliner": "一份指南，讲如何在谷歌云上管理 Claude Code 的成本并量化回报。",
   "en_title": "Manage costs and demonstrate ROI for Claude Code on Google Cloud",
   "en_oneliner": "A guide to managing Claude Code costs and showing ROI on Google Cloud."
+ },
+ "https://kiro.dev/blog/kirobench": {
+  "zh_title": "用开发者交给 Kiro 的真实工作评测编程智能体",
+  "zh_oneliner": "Kiro 公开了内部评测集 KiroBench：300 多道任务取自亚马逊工程师的真实开发工作，覆盖功能开发、修 Bug、重构等多轮场景，用可运行环境加验证器打分，以避开公开基准的题目泄露与覆盖面过窄问题。",
+  "en_title": "Benchmarking coding agents on the work developers bring to Kiro",
+  "en_oneliner": "Kiro has unveiled its internal benchmark KiroBench: more than 300 tasks drawn from real development work by Amazon engineers, spanning feature work, bug fixing, refactoring and other multi-turn scenarios, scored in runnable environments with verifiers to sidestep the leakage and narrow coverage of public benchmarks."
  }
 }
