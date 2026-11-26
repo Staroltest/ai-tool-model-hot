@@ -7384,5 +7384,11 @@
   "zh_oneliner": "Kiro 公开了内部评测集 KiroBench：300 多道任务取自亚马逊工程师的真实开发工作，覆盖功能开发、修 Bug、重构等多轮场景，用可运行环境加验证器打分，以避开公开基准的题目泄露与覆盖面过窄问题。",
   "en_title": "Benchmarking coding agents on the work developers bring to Kiro",
   "en_oneliner": "Kiro has unveiled its internal benchmark KiroBench: more than 300 tasks drawn from real development work by Amazon engineers, spanning feature work, bug fixing, refactoring and other multi-turn scenarios, scored in runnable environments with verifiers to sidestep the leakage and narrow coverage of public benchmarks."
+ },
+ "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": {
+  "zh_title": "基于 Nemotron 3.5 Parse 构建：开放数据、微调与更快推理",
+  "zh_oneliner": "英伟达文档解析模型 Nemotron 3.5 Parse 的实战分享：公开训练数据、微调方法与推理加速，帮开发者把文档解析接到自己的流程里。",
+  "en_title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+  "en_oneliner": "A hands-on guide to NVIDIA's document-parsing model Nemotron 3.5 Parse, covering open training data, fine-tuning, and faster inference to help developers wire document parsing into their own workflows."
  }
 }
