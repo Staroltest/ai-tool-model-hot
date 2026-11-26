@@ -7420,5 +7420,11 @@
   "zh_oneliner": "Cline 桌面应用发布 v0.0.51 维护版本。",
   "en_title": "desktop-v0.0.51",
   "en_oneliner": "Cline's desktop app ships maintenance release v0.0.51."
+ },
+ "https://github.com/cline/cline/releases/tag/v4.1.28": {
+  "zh_title": "Cline v4.1.28 发布",
+  "zh_oneliner": "Cline 发布 v4.1.28，刷新模型目录，OpenAI 供应商不再列出上游已标记废弃的模型编号。",
+  "en_title": "v4.1.28",
+  "en_oneliner": "Cline ships v4.1.28, refreshing its model list so the OpenAI provider drops IDs the upstream catalog has marked deprecated."
  }
 }
