@@ -7390,5 +7390,11 @@
   "zh_oneliner": "英伟达文档解析模型 Nemotron 3.5 Parse 的实战分享：公开训练数据、微调方法与推理加速，帮开发者把文档解析接到自己的流程里。",
   "en_title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
   "en_oneliner": "A hands-on guide to NVIDIA's document-parsing model Nemotron 3.5 Parse, covering open training data, fine-tuning, and faster inference to help developers wire document parsing into their own workflows."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6": {
+  "zh_title": "Qwen Code v0.28.6 发布",
+  "zh_oneliner": "托管会话现在可在等待工具审批、提问或 Hooks/MCP 决策时挂起，即使 Harness 重启也能通过冷恢复继续执行。",
+  "en_title": "Release v0.28.6",
+  "en_oneliner": "Managed sessions can now pause while waiting on tool approvals, questions, or Hooks and MCP decisions, and pick up again after a Harness restart through cold recovery."
  }
 }
