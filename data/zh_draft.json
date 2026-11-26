@@ -7426,5 +7426,11 @@
   "zh_oneliner": "Cline 发布 v4.1.28，刷新模型目录，OpenAI 供应商不再列出上游已标记废弃的模型编号。",
   "en_title": "v4.1.28",
   "en_oneliner": "Cline ships v4.1.28, refreshing its model list so the OpenAI provider drops IDs the upstream catalog has marked deprecated."
+ },
+ "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": {
+  "zh_title": "llama.cpp 基准看板上线，覆盖 AMD Ryzen 与 Radeon",
+  "zh_oneliner": "Hugging Face 上线公开看板，可按硬件、模型与量化方式对比 llama.cpp 在 AMD Ryzen 和 Radeon 上的提示处理与生成速度，并追踪各版本的性能变化。",
+  "en_title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+  "en_oneliner": "Hugging Face launched a public dashboard to compare llama.cpp prompt processing and generation speed across hardware, models, and quantization settings on AMD Ryzen and Radeon, and to track performance changes across builds."
  }
 }
