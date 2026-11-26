@@ -7396,5 +7396,11 @@
   "zh_oneliner": "托管会话现在可在等待工具审批、提问或 Hooks/MCP 决策时挂起，即使 Harness 重启也能通过冷恢复继续执行。",
   "en_title": "Release v0.28.6",
   "en_oneliner": "Managed sessions can now pause while waiting on tool approvals, questions, or Hooks and MCP decisions, and pick up again after a Harness restart through cold recovery."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.36": {
+  "zh_title": "Qwen Code SDK TypeScript v0.1.36 发布",
+  "zh_oneliner": "Qwen Code 的 TypeScript SDK 发布 v0.1.36，内置 CLI 0.28.6，方便开发者直接在项目里调用 Qwen Code 的能力。",
+  "en_title": "SDK TypeScript Release v0.1.36",
+  "en_oneliner": "Qwen Code's TypeScript SDK reaches v0.1.36, bundling CLI 0.28.6 so developers can call on Qwen Code's capabilities directly from their projects."
  }
 }
