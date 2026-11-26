@@ -7432,5 +7432,11 @@
   "zh_oneliner": "Hugging Face 上线公开看板，可按硬件、模型与量化方式对比 llama.cpp 在 AMD Ryzen 和 Radeon 上的提示处理与生成速度，并追踪各版本的性能变化。",
   "en_title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
   "en_oneliner": "Hugging Face launched a public dashboard to compare llama.cpp prompt processing and generation speed across hardware, models, and quantization settings on AMD Ryzen and Radeon, and to track performance changes across builds."
+ },
+ "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code": {
+  "zh_title": "Kotlin Benchmark 2.0：AI 编程智能体如何应对更难任务与闭源代码",
+  "zh_oneliner": "JetBrains 把 Kotlin 基准升级到 2.0 版，用更贴近真实仓库的任务和闭源代码，测一测 AI 编程智能体到底能走多远。",
+  "en_title": "Kotlin Benchmark 2.0: How AI Coding Agents Handle Harder Tasks and Closed-Source Code",
+  "en_oneliner": "JetBrains has upgraded its Kotlin Benchmark to 2.0, using tasks closer to real repositories and closed-source code to see how far AI coding agents can really go."
  }
 }
