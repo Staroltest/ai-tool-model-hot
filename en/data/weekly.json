@@ -5,8 +5,8 @@
  "date": "November 26, 2026",
  "date_iso": "2026-11-26",
  "issue": 2,
- "generated_at": "2026-11-25T22:10:53.599900+00:00",
- "summary": "75 items collected in the past 7 days, 10 picks (Leading agents 8, Model releases 2). Headline: Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents.",
+ "generated_at": "2026-11-26T00:01:50.876877+00:00",
+ "summary": "80 items collected in the past 7 days, 10 picks (Leading agents 9, Model releases 1). Headline: Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents.",
  "items": [
   {
    "id": "7dbdf429413629f189eae2b42d601ea3a4884729",
@@ -29,9 +29,9 @@
    "reason": "Covers model and Agent · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 81.1,
-   "prev_rank": 3,
-   "prev_hot_score": 81.5
+   "hot_score": 79.7,
+   "prev_rank": 5,
+   "prev_hot_score": 79.8
   },
   {
    "id": "37b5c9ba932667510c47b67a8eaf7e479db38e02",
@@ -52,9 +52,55 @@
    "reason": "Official source · Covers Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 87.3,
+   "hot_score": 85.8,
+   "prev_rank": 3,
+   "prev_hot_score": 85.9
+  },
+  {
+   "id": "a7511ef2aa17d4634e8e6488463693d6f521b4cb",
+   "title": "Building a software factory around human attention",
+   "link": "https://kiro.dev/blog/software-factory-human-attention",
+   "source": "Kiro Blog",
+   "source_id": "kiro-blog",
+   "published": "2026-11-25T20:01:00+00:00",
+   "en_title": "Building a software factory around human attention",
+   "en_oneliner": "The Kiro team shares a year of practice: agents run the full development cycle from discovery to release and monitoring on their own, with people stepping in only where a real decision is needed.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T1",
+   "tags": [
+    "Agent"
+   ],
+   "score": 90,
+   "reason": "Official source · Covers Agent · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 86.7,
+   "prev_rank": 2,
+   "prev_hot_score": 86.8
+  },
+  {
+   "id": "0c5213ef953e1b494d249e22f829c22fb597f78e",
+   "title": "v2.4.2",
+   "link": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
+   "source": "OpenCode Releases",
+   "source_id": "opencode-releases",
+   "published": "2026-11-25T23:37:19+00:00",
+   "en_title": "v2.4.2",
+   "en_oneliner": "Open source AI coding agent OpenCode ships maintenance release v2.4.2, with no detailed changelog published this time.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T2",
+   "tags": [
+    "release"
+   ],
+   "score": 90,
+   "reason": "Covers release · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 89.7,
    "prev_rank": 1,
-   "prev_hot_score": 87.7
+   "prev_hot_score": 89.8
   },
   {
    "id": "b00f82b6db94c2e5b3b683ce3a1ae5d0e73a5a6b",
@@ -77,7 +123,7 @@
    "reason": "Official source · Covers Gemini and Tools",
    "is_new": false,
    "trend": "same",
-   "hot_score": 21.4,
+   "hot_score": 21.1,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -100,9 +146,9 @@
    "reason": "Official source · Covers Agent",
    "is_new": false,
    "trend": "same",
-   "hot_score": 53.3,
-   "prev_rank": 14,
-   "prev_hot_score": 53.6
+   "hot_score": 52.4,
+   "prev_rank": 17,
+   "prev_hot_score": 52.5
   },
   {
    "id": "680b35173b971311b4b8603cf638c317fd3576b6",
@@ -125,9 +171,9 @@
    "reason": "Official source · Covers GPT and Agent",
    "is_new": false,
    "trend": "same",
-   "hot_score": 47.7,
-   "prev_rank": 18,
-   "prev_hot_score": 47.9
+   "hot_score": 46.9,
+   "prev_rank": null,
+   "prev_hot_score": null
   },
   {
    "id": "0d1de3d8faa044560b468666d65806f6d0906d89",
@@ -148,9 +194,9 @@
    "reason": "Official source · Covers GPT",
    "is_new": false,
    "trend": "same",
-   "hot_score": 57.1,
-   "prev_rank": 11,
-   "prev_hot_score": 57.4
+   "hot_score": 56.1,
+   "prev_rank": 13,
+   "prev_hot_score": 56.2
   },
   {
    "id": "d0a3a7f662b58965bac4af6309f496652b034a9c",
@@ -171,9 +217,9 @@
    "reason": "Official source · Covers Agent · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 76.2,
-   "prev_rank": 4,
-   "prev_hot_score": 76.5
+   "hot_score": 74.9,
+   "prev_rank": 6,
+   "prev_hot_score": 75.0
   },
   {
    "id": "13285c6d2bd71e1c132078ffbdb3130712c854ed",
@@ -192,57 +238,9 @@
    "reason": "Published within 6 hours · Relevant to this topic",
    "is_new": true,
    "trend": "same",
-   "hot_score": 82.0,
-   "prev_rank": 2,
-   "prev_hot_score": 82.4
-  },
-  {
-   "id": "d15c45643214b444b1cb96cd45e0688c83d72ca2",
-   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-   "link": "https://openai.com/business/customer-stories/hebbia",
-   "source": "OpenAI News",
-   "source_id": "openai-news",
-   "published": "2026-11-20T00:00:00+00:00",
-   "en_title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-   "en_oneliner": "Financial research platform Hebbia found GPT-6 Astra ahead of rival models on both citation accuracy and presentation quality: it scored 13.6 points above the best alternative on citing required sources, 99.5% of its citations were relevant to the question, and its decks met 97.9% of formatting requirements.",
-   "category": "model",
-   "category_label": "Model releases",
-   "tier": "T1",
-   "tags": [
-    "GPT",
-    "release"
-   ],
-   "score": 80,
-   "reason": "Official source · Covers GPT and release",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 21.3,
-   "prev_rank": null,
-   "prev_hot_score": null
-  },
-  {
-   "id": "5e23be33fe3e86e9f76f2191c281bda1c257db6c",
-   "title": "Release v0.28.3",
-   "link": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3",
-   "source": "Qwen Code Releases",
-   "source_id": "qwen-code-releases",
-   "published": "2026-11-21T01:45:48+00:00",
-   "en_title": "Release v0.28.3",
-   "en_oneliner": "Qwen Code ships v0.28.3, hardening end-to-end verification for scheduled loop tasks and the state guards in PR checks, along with container and VM refinements.",
-   "category": "agent",
-   "category_label": "Leading agents",
-   "tier": "T1",
-   "tags": [
-    "Agent",
-    "release"
-   ],
-   "score": 80,
-   "reason": "Official source · Covers Agent and release",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 27.1,
-   "prev_rank": null,
-   "prev_hot_score": null
+   "hot_score": 80.6,
+   "prev_rank": 4,
+   "prev_hot_score": 80.7
   }
  ]
 }

@@ -7204,5 +7204,179 @@
   "zh_oneliner": "开源 AI 编程智能体 OpenCode 发布 v2.4.2 维护版本，本次未附详细更新说明。",
   "en_title": "v2.4.2",
   "en_oneliner": "Open source AI coding agent OpenCode ships maintenance release v2.4.2, with no detailed changelog published this time."
+ },
+ "https://claude.com/resources/articles/install-as-app": {
+  "zh_title": "Claude 成品可一键转成 Mac 与 Windows 应用",
+  "zh_oneliner": "Claude 里做的成品现在能直接打包成 Mac 和 Windows 桌面应用，不用再套壳。",
+  "en_title": "Turn artifacts into Mac and Windows apps",
+  "en_oneliner": "Artifacts built in Claude can now be packaged as native Mac and Windows desktop apps."
+ },
+ "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more": {
+  "zh_title": "MCP 服务器现可向 Claude 提供技能、执行任务",
+  "zh_oneliner": "MCP 服务器新增技能下发与任务执行能力，Claude 能直接调用服务器提供的技能完成多步任务。",
+  "en_title": "MCP servers can now ship skills, run tasks, and more with Claude",
+  "en_oneliner": "MCP servers can now deliver skills to Claude and run tasks on its behalf, extending what connected tools can do."
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.172.0": {
+  "zh_title": "Codex 0.172.0 发布",
+  "zh_oneliner": "新版支持从搜索结果与对话记录跟随话题链接打开已保存会话及嵌套智能体，并可用 Tab 补全斜杠命令参数。",
+  "en_title": "0.172.0",
+  "en_oneliner": "Thread links in search results and transcripts now reopen saved chats and nested agents, and Tab completes slash-command arguments."
+ },
+ "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards": {
+  "zh_title": "企业前沿保障零数据留存功能进入测试",
+  "zh_oneliner": "企业版前沿保障新增零数据留存选项并进入测试，提示词与输出不再被留存。",
+  "en_title": "Zero data retention with Enterprise Frontier Safeguards is now in beta",
+  "en_oneliner": "Enterprise Frontier Safeguards now offers a zero-data-retention beta, so prompts and outputs are no longer stored."
+ },
+ "https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data": {
+  "zh_title": "毕马威 Todd Lohr 谈客户数据场景下的 AI 应用",
+  "zh_oneliner": "毕马威的 Todd Lohr 分享在数据同时属于客户时，如何落地 AI。",
+  "en_title": "KPMG's Todd Lohr on AI when your data is also your clients' data",
+  "en_oneliner": "KPMG's Todd Lohr discusses deploying AI when the data you work with also belongs to your clients."
+ },
+ "https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents": {
+  "zh_title": "企业级编程智能体安全指南",
+  "zh_oneliner": "一份面向企业的指南，讲如何给编程智能体划定权限与安全边界。",
+  "en_title": "The enterprise guide to securing coding agents",
+  "en_oneliner": "A practical guide for enterprises on locking down coding agents with proper permissions and guardrails."
+ },
+ "https://claude.com/resources/articles/introducing-claude-ship": {
+  "zh_title": "Claude Ship 发布",
+  "zh_oneliner": "Anthropic 推出 Claude Ship，帮助用户把想法快速做成可交付的产品。",
+  "en_title": "Introducing Claude Ship",
+  "en_oneliner": "Anthropic launches Claude Ship, a tool for turning ideas into finished, shippable products fast."
+ },
+ "https://claude.com/resources/articles/linked-billing-on-claude-platform": {
+  "zh_title": "Claude 平台支持关联计费",
+  "zh_oneliner": "Claude 平台上线关联计费，多个组织可在同一账单下统一结算。",
+  "en_title": "Linked billing on the Claude Platform",
+  "en_oneliner": "The Claude Platform adds linked billing, letting multiple organizations settle under one bill."
+ },
+ "https://claude.com/resources/articles/claude-tag-guide-for-startups": {
+  "zh_title": "面向初创公司的 Claude Tag 指南",
+  "zh_oneliner": "一份面向初创公司的指南，介绍如何用 Claude Tag 标注与管理内容。",
+  "en_title": "The Claude Tag guide for startups",
+  "en_oneliner": "A guide for startups on using Claude Tag to label and manage content."
+ },
+ "https://claude.com/resources/articles/building-always-on-agents": {
+  "zh_title": "打造全天候在线智能体",
+  "zh_oneliner": "分享如何构建持续运行、随时待命的智能体。",
+  "en_title": "Building always-on agents",
+  "en_oneliner": "Notes on building agents that stay on, watch for work, and act whenever needed."
+ },
+ "https://claude.com/resources/articles/self-hosted-claude-managed-agents": {
+  "zh_title": "在自有安全边界内运行 Claude 托管智能体",
+  "zh_oneliner": "Claude 托管智能体现可在企业自己的安全边界内运行，数据不出内网。",
+  "en_title": "Operate Claude Managed Agents inside your security perimeter",
+  "en_oneliner": "Claude Managed Agents can now run inside your own security perimeter, keeping data in-house."
+ },
+ "https://claude.com/resources/articles/j-crew-style-advisor-with-claude": {
+  "zh_title": "J. Crew 用 Claude 打造造型顾问",
+  "zh_oneliner": "服装品牌 J. Crew 用 Claude 做了造型顾问，把品牌搭配风格带给顾客。",
+  "en_title": "J. Crew brings its signature approach to styling to life with Claude",
+  "en_oneliner": "J. Crew built a style advisor with Claude, bringing its signature styling to shoppers."
+ },
+ "https://claude.com/resources/articles/claude-for-manufacturing": {
+  "zh_title": "Claude for Manufacturing 发布",
+  "zh_oneliner": "Anthropic 推出面向制造业的 Claude 版本，覆盖生产流程中的知识工作。",
+  "en_title": "Introducing Claude for Manufacturing",
+  "en_oneliner": "Anthropic launches Claude for Manufacturing, aimed at knowledge work across factory operations."
+ },
+ "https://claude.com/resources/articles/claude-meetings": {
+  "zh_title": "Claude Meetings 发布",
+  "zh_oneliner": "Anthropic 推出 Claude Meetings，让 Claude 参与会议记录与跟进。",
+  "en_title": "Introducing Claude Meetings",
+  "en_oneliner": "Anthropic introduces Claude Meetings, bringing Claude into meeting notes and follow-ups."
+ },
+ "https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work": {
+  "zh_title": "用 Claude Opus 5.5 处理日常知识工作",
+  "zh_oneliner": "一篇实战分享：把 Claude Opus 5.5 当作日常知识工作的主力模型。",
+  "en_title": "Using Claude Opus 5.5 as your daily driver for knowledge work",
+  "en_oneliner": "A hands-on account of using Claude Opus 5.5 as the go-to model for everyday knowledge work."
+ },
+ "https://claude.com/resources/articles/interactive-connectors-full-tool": {
+  "zh_title": "应用现可在 Claude 内打开，Claude 也能在其中工作",
+  "zh_oneliner": "第三方应用现在能直接在 Claude 里打开，Claude 还能在应用内直接操作。",
+  "en_title": "Your apps can now open in Claude, and Claude can work in them",
+  "en_oneliner": "Third-party apps can now open inside Claude, and Claude can work directly within them."
+ },
+ "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude": {
+  "zh_title": "Curative 如何用 Claude 智能体搭建全国医疗服务网络",
+  "zh_oneliner": "医疗公司 Curative 分享用 Claude 智能体搭建全国医疗服务网络的做法。",
+  "en_title": "How Curative is building a national provider network with agents on Claude",
+  "en_oneliner": "Curative shares how it is building a national provider network with agents running on Claude."
+ },
+ "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors": {
+  "zh_title": "Claude 新增表格、白板与交互连接器",
+  "zh_oneliner": "Claude 上线表格、白板与交互连接器三种新工作方式。",
+  "en_title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+  "en_oneliner": "Claude gains Sheets, Whiteboards, and Interactive Connectors as new ways to get work done."
+ },
+ "https://claude.com/resources/articles/sheets-whiteboards-data": {
+  "zh_title": "Claude 白板、表格与数据功能发布",
+  "zh_oneliner": "Anthropic 推出 Claude 白板、表格与数据三个新功能，扩展 Claude 的办公能力。",
+  "en_title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+  "en_oneliner": "Anthropic launches Claude Whiteboards, Sheets, and Data, expanding Claude's workspace abilities."
+ },
+ "https://claude.com/resources/articles/jpmorganchase-expands-claude-code": {
+  "zh_title": "摩根大通在全公司扩大 Claude Code 使用范围",
+  "zh_oneliner": "摩根大通把 Claude Code 推广给更多员工使用。",
+  "en_title": "JPMorganChase expands Claude Code to more employees across the firm",
+  "en_oneliner": "JPMorganChase is rolling Claude Code out to more employees across the firm."
+ },
+ "https://claude.com/resources/articles/introducing-personal-finance-in-claude": {
+  "zh_title": "Claude 个人理财功能发布",
+  "zh_oneliner": "Anthropic 在 Claude 中推出个人理财功能。",
+  "en_title": "Introducing Personal Finance in Claude",
+  "en_oneliner": "Anthropic adds personal finance features inside Claude."
+ },
+ "https://claude.com/resources/articles/claude-enterprise-security-updates": {
+  "zh_title": "Claude 企业版为安全团队提供更多可见性与管控",
+  "zh_oneliner": "Claude 企业版新增面向安全团队的可见性与管控能力。",
+  "en_title": "More visibility and control over Claude Enterprise for security teams",
+  "en_oneliner": "Claude Enterprise gives security teams more visibility and control."
+ },
+ "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace": {
+  "zh_title": "Claude Marketplace 上新一批安全、效率与创意类智能体",
+  "zh_oneliner": "Claude Marketplace 上架一批新智能体与产品，覆盖安全、效率与创意工作。",
+  "en_title": "New agents and products for security, productivity, and creative work on Claude Marketplace",
+  "en_oneliner": "Claude Marketplace adds new agents and products for security, productivity, and creative work."
+ },
+ "https://claude.com/resources/articles/message-threads": {
+  "zh_title": "用消息线程加速长时运行的智能体",
+  "zh_oneliner": "长时运行的智能体现在可用消息线程提速，减少等待。",
+  "en_title": "Make long-running agents faster with message threads",
+  "en_oneliner": "Long-running agents get faster with message threads that cut down waiting."
+ },
+ "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets": {
+  "zh_title": "Claude 企业版新增智能报告、调研与团队预算池",
+  "zh_oneliner": "Claude 企业版上线智能报告、调研与多人共用的预算池功能。",
+  "en_title": "Smart reports, surveys, and pooled group budgets for Claude Enterprise",
+  "en_oneliner": "Claude Enterprise adds smart reports, surveys, and pooled budgets for groups."
+ },
+ "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company": {
+  "zh_title": "IDC 将 Quanta 接入 Claude 并在全公司推广",
+  "zh_oneliner": "研究机构 IDC 把旗下 Quanta 接入 Claude，同时在全公司推广使用。",
+  "en_title": "IDC brings Quanta into Claude and adopts Claude across the company",
+  "en_oneliner": "IDC plugs its Quanta offering into Claude and adopts Claude company-wide."
+ },
+ "https://claude.com/resources/articles/introducing-artifacts-for-legal-work": {
+  "zh_title": "面向法律工作的成品功能发布",
+  "zh_oneliner": "Anthropic 推出面向法律工作的成品功能，辅助法律文档处理。",
+  "en_title": "Introducing artifacts for legal work",
+  "en_oneliner": "Anthropic introduces artifacts built for legal work, helping with legal documents."
+ },
+ "https://claude.com/resources/articles/claude-for-financial-advisors": {
+  "zh_title": "面向理财顾问的 Claude 版本",
+  "zh_oneliner": "Anthropic 推出面向理财顾问的 Claude 版本。",
+  "en_title": "Claude for Financial Advisors",
+  "en_oneliner": "Anthropic rolls out a Claude edition tailored for financial advisors."
+ },
+ "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud": {
+  "zh_title": "在谷歌云上管控 Claude Code 成本并证明回报",
+  "zh_oneliner": "一份指南，讲如何在谷歌云上管理 Claude Code 的成本并量化回报。",
+  "en_title": "Manage costs and demonstrate ROI for Claude Code on Google Cloud",
+  "en_oneliner": "A guide to managing Claude Code costs and showing ROI on Google Cloud."
  }
 }

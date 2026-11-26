@@ -5,8 +5,8 @@
  "date": "2026年11月26日",
  "date_iso": "2026-11-26",
  "issue": 2,
- "generated_at": "2026-11-25T22:10:53.599900+00:00",
- "summary": "过去 7 天共收录 75 条动态，精选 10 条（主流智能体 8 条、模型发布 2 条）。头条：Mellum2.1 Instruct 发布，为编程智能体带来更快响应。",
+ "generated_at": "2026-11-26T00:01:50.876877+00:00",
+ "summary": "过去 7 天共收录 80 条动态，精选 10 条（主流智能体 9 条、模型发布 1 条）。头条：Mellum2.1 Instruct 发布，为编程智能体带来更快响应。",
  "items": [
   {
    "id": "7dbdf429413629f189eae2b42d601ea3a4884729",
@@ -29,9 +29,9 @@
    "reason": "涉及模型与智能体 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 81.1,
-   "prev_rank": 3,
-   "prev_hot_score": 81.5
+   "hot_score": 79.7,
+   "prev_rank": 5,
+   "prev_hot_score": 79.8
   },
   {
    "id": "37b5c9ba932667510c47b67a8eaf7e479db38e02",
@@ -52,9 +52,55 @@
    "reason": "官方来源 · 涉及智能体 · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 87.3,
+   "hot_score": 85.8,
+   "prev_rank": 3,
+   "prev_hot_score": 85.9
+  },
+  {
+   "id": "a7511ef2aa17d4634e8e6488463693d6f521b4cb",
+   "title": "Building a software factory around human attention",
+   "link": "https://kiro.dev/blog/software-factory-human-attention",
+   "source": "Kiro Blog",
+   "source_id": "kiro-blog",
+   "published": "2026-11-25T20:01:00+00:00",
+   "zh_title": "围绕人类注意力打造软件工厂",
+   "zh_oneliner": "Kiro 团队分享一年实践：让智能体自主跑完从需求发现到上线监控的完整开发流程，并把这套操作手册开源出来，人只在真正需要决策的地方介入。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T1",
+   "tags": [
+    "智能体"
+   ],
+   "score": 90,
+   "reason": "官方来源 · 涉及智能体 · 6 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 86.7,
+   "prev_rank": 2,
+   "prev_hot_score": 86.8
+  },
+  {
+   "id": "0c5213ef953e1b494d249e22f829c22fb597f78e",
+   "title": "v2.4.2",
+   "link": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
+   "source": "OpenCode Releases",
+   "source_id": "opencode-releases",
+   "published": "2026-11-25T23:37:19+00:00",
+   "zh_title": "OpenCode v2.4.2",
+   "zh_oneliner": "开源 AI 编程智能体 OpenCode 发布 v2.4.2 维护版本，本次未附详细更新说明。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T2",
+   "tags": [
+    "发布"
+   ],
+   "score": 90,
+   "reason": "涉及发布 · 6 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 89.7,
    "prev_rank": 1,
-   "prev_hot_score": 87.7
+   "prev_hot_score": 89.8
   },
   {
    "id": "b00f82b6db94c2e5b3b683ce3a1ae5d0e73a5a6b",
@@ -77,7 +123,7 @@
    "reason": "官方来源 · 涉及Gemini与工具",
    "is_new": false,
    "trend": "same",
-   "hot_score": 21.4,
+   "hot_score": 21.1,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -100,9 +146,9 @@
    "reason": "官方来源 · 涉及智能体",
    "is_new": false,
    "trend": "same",
-   "hot_score": 53.3,
-   "prev_rank": 14,
-   "prev_hot_score": 53.6
+   "hot_score": 52.4,
+   "prev_rank": 17,
+   "prev_hot_score": 52.5
   },
   {
    "id": "680b35173b971311b4b8603cf638c317fd3576b6",
@@ -125,9 +171,9 @@
    "reason": "官方来源 · 涉及GPT与智能体",
    "is_new": false,
    "trend": "same",
-   "hot_score": 47.7,
-   "prev_rank": 18,
-   "prev_hot_score": 47.9
+   "hot_score": 46.9,
+   "prev_rank": null,
+   "prev_hot_score": null
   },
   {
    "id": "0d1de3d8faa044560b468666d65806f6d0906d89",
@@ -148,9 +194,9 @@
    "reason": "官方来源 · 涉及GPT",
    "is_new": false,
    "trend": "same",
-   "hot_score": 57.1,
-   "prev_rank": 11,
-   "prev_hot_score": 57.4
+   "hot_score": 56.1,
+   "prev_rank": 13,
+   "prev_hot_score": 56.2
   },
   {
    "id": "d0a3a7f662b58965bac4af6309f496652b034a9c",
@@ -171,9 +217,9 @@
    "reason": "官方来源 · 涉及智能体 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 76.2,
-   "prev_rank": 4,
-   "prev_hot_score": 76.5
+   "hot_score": 74.9,
+   "prev_rank": 6,
+   "prev_hot_score": 75.0
   },
   {
    "id": "13285c6d2bd71e1c132078ffbdb3130712c854ed",
@@ -192,57 +238,9 @@
    "reason": "6 小时内发布 · 与本主题相关",
    "is_new": true,
    "trend": "same",
-   "hot_score": 82.0,
-   "prev_rank": 2,
-   "prev_hot_score": 82.4
-  },
-  {
-   "id": "d15c45643214b444b1cb96cd45e0688c83d72ca2",
-   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-   "link": "https://openai.com/business/customer-stories/hebbia",
-   "source": "OpenAI News",
-   "source_id": "openai-news",
-   "published": "2026-11-20T00:00:00+00:00",
-   "zh_title": "Hebbia 实测：GPT-6 Astra 在金融研究中表现更出色",
-   "zh_oneliner": "金融研究平台 Hebbia 测试发现，GPT-6 Astra 在引用来源准确度与演示文稿质量两项上均领先同类模型：按要求引用来源的得分高出最佳竞品 13.6 个百分点，引用内容 99.5% 与问题相关，演示稿满足 97.9% 的格式要求。",
-   "category": "model",
-   "category_label": "模型发布",
-   "tier": "T1",
-   "tags": [
-    "GPT",
-    "发布"
-   ],
-   "score": 80,
-   "reason": "官方来源 · 涉及GPT与发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 21.3,
-   "prev_rank": null,
-   "prev_hot_score": null
-  },
-  {
-   "id": "5e23be33fe3e86e9f76f2191c281bda1c257db6c",
-   "title": "Release v0.28.3",
-   "link": "https://github.com/QwenLM/qwen-code/releases/tag/v0.28.3",
-   "source": "Qwen Code Releases",
-   "source_id": "qwen-code-releases",
-   "published": "2026-11-21T01:45:48+00:00",
-   "zh_title": "Qwen Code 发布 v0.28.3",
-   "zh_oneliner": "Qwen Code 推出 v0.28.3 版本，主要加固了定时循环任务的端到端验证与 PR 校验的状态守卫，并完善容器与虚拟机相关的细节。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "智能体",
-    "发布"
-   ],
-   "score": 80,
-   "reason": "官方来源 · 涉及智能体与发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 27.1,
-   "prev_rank": null,
-   "prev_hot_score": null
+   "hot_score": 80.6,
+   "prev_rank": 4,
+   "prev_hot_score": 80.7
   }
  ]
 }

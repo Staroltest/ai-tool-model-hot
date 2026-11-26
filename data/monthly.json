@@ -5,8 +5,8 @@
  "date": "2026年11月26日",
  "date_iso": "2026-11-26",
  "issue": 1,
- "generated_at": "2026-11-25T22:10:53.599900+00:00",
- "summary": "过去 30 天共收录 343 条动态，精选 10 条（主流智能体 9 条、模型发布 1 条）。头条：Mellum2.1 Instruct 发布，为编程智能体带来更快响应。",
+ "generated_at": "2026-11-26T00:01:50.876877+00:00",
+ "summary": "过去 30 天共收录 372 条动态，精选 10 条（主流智能体 9 条、模型发布 1 条）。头条：Mellum2.1 Instruct 发布，为编程智能体带来更快响应。",
  "items": [
   {
    "id": "7dbdf429413629f189eae2b42d601ea3a4884729",
@@ -29,9 +29,9 @@
    "reason": "涉及模型与智能体 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 81.1,
-   "prev_rank": 3,
-   "prev_hot_score": 81.5
+   "hot_score": 79.7,
+   "prev_rank": 5,
+   "prev_hot_score": 79.8
   },
   {
    "id": "37b5c9ba932667510c47b67a8eaf7e479db38e02",
@@ -52,9 +52,55 @@
    "reason": "官方来源 · 涉及智能体 · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 87.3,
+   "hot_score": 85.8,
+   "prev_rank": 3,
+   "prev_hot_score": 85.9
+  },
+  {
+   "id": "a7511ef2aa17d4634e8e6488463693d6f521b4cb",
+   "title": "Building a software factory around human attention",
+   "link": "https://kiro.dev/blog/software-factory-human-attention",
+   "source": "Kiro Blog",
+   "source_id": "kiro-blog",
+   "published": "2026-11-25T20:01:00+00:00",
+   "zh_title": "围绕人类注意力打造软件工厂",
+   "zh_oneliner": "Kiro 团队分享一年实践：让智能体自主跑完从需求发现到上线监控的完整开发流程，并把这套操作手册开源出来，人只在真正需要决策的地方介入。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T1",
+   "tags": [
+    "智能体"
+   ],
+   "score": 90,
+   "reason": "官方来源 · 涉及智能体 · 6 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 86.7,
+   "prev_rank": 2,
+   "prev_hot_score": 86.8
+  },
+  {
+   "id": "0c5213ef953e1b494d249e22f829c22fb597f78e",
+   "title": "v2.4.2",
+   "link": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
+   "source": "OpenCode Releases",
+   "source_id": "opencode-releases",
+   "published": "2026-11-25T23:37:19+00:00",
+   "zh_title": "OpenCode v2.4.2",
+   "zh_oneliner": "开源 AI 编程智能体 OpenCode 发布 v2.4.2 维护版本，本次未附详细更新说明。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T2",
+   "tags": [
+    "发布"
+   ],
+   "score": 90,
+   "reason": "涉及发布 · 6 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 89.7,
    "prev_rank": 1,
-   "prev_hot_score": 87.7
+   "prev_hot_score": 89.8
   },
   {
    "id": "f6cf8ded0e75bec96e1b678b6b93caefa289f4d3",
@@ -102,7 +148,7 @@
    "reason": "官方来源 · 涉及Gemini与工具",
    "is_new": false,
    "trend": "same",
-   "hot_score": 21.4,
+   "hot_score": 21.1,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -125,9 +171,9 @@
    "reason": "官方来源 · 涉及智能体",
    "is_new": false,
    "trend": "same",
-   "hot_score": 53.3,
-   "prev_rank": 14,
-   "prev_hot_score": 53.6
+   "hot_score": 52.4,
+   "prev_rank": 17,
+   "prev_hot_score": 52.5
   },
   {
    "id": "680b35173b971311b4b8603cf638c317fd3576b6",
@@ -150,9 +196,9 @@
    "reason": "官方来源 · 涉及GPT与智能体",
    "is_new": false,
    "trend": "same",
-   "hot_score": 47.7,
-   "prev_rank": 18,
-   "prev_hot_score": 47.9
+   "hot_score": 46.9,
+   "prev_rank": null,
+   "prev_hot_score": null
   },
   {
    "id": "0d1de3d8faa044560b468666d65806f6d0906d89",
@@ -173,9 +219,9 @@
    "reason": "官方来源 · 涉及GPT",
    "is_new": false,
    "trend": "same",
-   "hot_score": 57.1,
-   "prev_rank": 11,
-   "prev_hot_score": 57.4
+   "hot_score": 56.1,
+   "prev_rank": 13,
+   "prev_hot_score": 56.2
   },
   {
    "id": "d0a3a7f662b58965bac4af6309f496652b034a9c",
@@ -196,54 +242,9 @@
    "reason": "官方来源 · 涉及智能体 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 76.2,
-   "prev_rank": 4,
-   "prev_hot_score": 76.5
-  },
-  {
-   "id": "13285c6d2bd71e1c132078ffbdb3130712c854ed",
-   "title": "v2.75.0 (2026-11-25)",
-   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.75.0",
-   "source": "Pydantic AI Releases",
-   "source_id": "pydantic-ai-releases",
-   "published": "2026-11-25T18:21:00+00:00",
-   "zh_title": "Pydantic AI v2.75.0 发布",
-   "zh_oneliner": "新版收紧了工作区文件的指令权限，RepoContext、Skills 与 Memory 中的内容不再高于 operator 权限，并新增 lowest_authority_under 配置项。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T2",
-   "tags": [],
-   "score": 85,
-   "reason": "6 小时内发布 · 与本主题相关",
-   "is_new": true,
-   "trend": "same",
-   "hot_score": 82.0,
-   "prev_rank": 2,
-   "prev_hot_score": 82.4
-  },
-  {
-   "id": "5bf4951adbe9698dd9e45df17c29fd95e4f30a2d",
-   "title": "Introducing ChatGPT Wallet",
-   "link": "https://openai.com/index/introducing-chatgpt-wallet",
-   "source": "OpenAI News",
-   "source_id": "openai-news",
-   "published": "2026-11-13T15:00:00+00:00",
-   "zh_title": "OpenAI 推出 ChatGPT Wallet",
-   "zh_oneliner": "ChatGPT Wallet 让 ChatGPT Work、Codex 和 dots 里的智能体在用户授权下完成购买，银行卡原有的保护不变。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "GPT",
-    "Agent"
-   ],
-   "score": 80,
-   "reason": "官方来源 · 涉及GPT与智能体",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 80,
-   "prev_rank": null,
-   "prev_hot_score": null
+   "hot_score": 74.9,
+   "prev_rank": 6,
+   "prev_hot_score": 75.0
   }
  ]
 }

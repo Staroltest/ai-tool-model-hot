@@ -286,7 +286,7 @@ def classify(item, categories, fallback):
     return fallback
 
 
-def _is_excluded(item, cfg):
+def _is_excluded(item, cfg, src=None):
     """硬排除：标题/摘要命中 scoring.exclude_keywords 的条目不进库。
     与 noise_keywords 的降权不同——命中即丢弃，下一轮也不会再收录。
     （2026-11-18：广告业务动态用此机制，降权拦不住——源站 feed 里一直有，
@@ -300,6 +300,8 @@ def _is_excluded(item, cfg):
     摘要里含 how to 的正当条目；本站不收教程。2026-11-25：加 "workflow"——
     30 天库内标题含 workflow 的 2 条全是定位外内容（HF 实操教程 Microduck、
     OpenAI×ServiceNow 合作），只查标题不影响摘要里含 workflow 的正当条目。
+    单源排除见 src 参数：2026-11-26 起 sources.json 某源可自带
+    exclude_keywords / exclude_title_keywords，只对该源生效。
     """
     sc = cfg.get("scoring", {})
     title = (item.get("title") or "").lower()
@@ -312,6 +314,19 @@ def _is_excluded(item, cfg):
     if title_terms:
         if any(t.lower() in title for t in title_terms):
             return True
+    if src:
+        # 单源排除（2026-11-26）：全局词误伤时的出路——如 Codex 的 alpha
+        # 构建：全局 "alpha" 会误杀 DeepMind AlphaGenome/AlphaProof 与
+        # Agents SDK 的 alpha 版，故只对 Codex 源标题生效。
+        src_terms = src.get("exclude_keywords") or []
+        if src_terms:
+            text = title + " " + (item.get("summary") or "").lower()
+            if any(t.lower() in text for t in src_terms):
+                return True
+        src_title_terms = src.get("exclude_title_keywords") or []
+        if src_title_terms:
+            if any(t.lower() in title for t in src_title_terms):
+                return True
     return False
 
 
@@ -4326,7 +4341,7 @@ def main():
         raw["id"] = hashlib.sha1(norm_link(raw["link"]).encode()).hexdigest()
         if raw["id"] in history:
             return False  # 已收录：去重
-        if _is_excluded(raw, cfg):
+        if _is_excluded(raw, cfg, src_by_id.get(raw.get("source_id"))):
             return False  # 命中排除词：不进库
         entry = {
             "id": raw["id"], "title": raw["title"], "link": raw["link"],

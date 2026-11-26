@@ -5,8 +5,8 @@
  "date": "November 26, 2026",
  "date_iso": "2026-11-26",
  "issue": 10,
- "generated_at": "2026-11-25T22:10:53.599900+00:00",
- "summary": "9 items collected in the past 24 hours, 7 picks (Leading agents 7). Headline: Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents.",
+ "generated_at": "2026-11-26T00:01:50.876877+00:00",
+ "summary": "11 items collected in the past 24 hours, 9 picks (Leading agents 9). Headline: Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents.",
  "items": [
   {
    "id": "7dbdf429413629f189eae2b42d601ea3a4884729",
@@ -29,9 +29,9 @@
    "reason": "Covers model and Agent · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 81.1,
-   "prev_rank": 3,
-   "prev_hot_score": 81.5
+   "hot_score": 79.7,
+   "prev_rank": 5,
+   "prev_hot_score": 79.8
   },
   {
    "id": "37b5c9ba932667510c47b67a8eaf7e479db38e02",
@@ -52,9 +52,55 @@
    "reason": "Official source · Covers Agent · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 87.3,
+   "hot_score": 85.8,
+   "prev_rank": 3,
+   "prev_hot_score": 85.9
+  },
+  {
+   "id": "a7511ef2aa17d4634e8e6488463693d6f521b4cb",
+   "title": "Building a software factory around human attention",
+   "link": "https://kiro.dev/blog/software-factory-human-attention",
+   "source": "Kiro Blog",
+   "source_id": "kiro-blog",
+   "published": "2026-11-25T20:01:00+00:00",
+   "en_title": "Building a software factory around human attention",
+   "en_oneliner": "The Kiro team shares a year of practice: agents run the full development cycle from discovery to release and monitoring on their own, with people stepping in only where a real decision is needed.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T1",
+   "tags": [
+    "Agent"
+   ],
+   "score": 90,
+   "reason": "Official source · Covers Agent · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 86.7,
+   "prev_rank": 2,
+   "prev_hot_score": 86.8
+  },
+  {
+   "id": "0c5213ef953e1b494d249e22f829c22fb597f78e",
+   "title": "v2.4.2",
+   "link": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
+   "source": "OpenCode Releases",
+   "source_id": "opencode-releases",
+   "published": "2026-11-25T23:37:19+00:00",
+   "en_title": "v2.4.2",
+   "en_oneliner": "Open source AI coding agent OpenCode ships maintenance release v2.4.2, with no detailed changelog published this time.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T2",
+   "tags": [
+    "release"
+   ],
+   "score": 90,
+   "reason": "Covers release · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 89.7,
    "prev_rank": 1,
-   "prev_hot_score": 87.7
+   "prev_hot_score": 89.8
   },
   {
    "id": "d0a3a7f662b58965bac4af6309f496652b034a9c",
@@ -75,9 +121,9 @@
    "reason": "Official source · Covers Agent · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 76.2,
-   "prev_rank": 4,
-   "prev_hot_score": 76.5
+   "hot_score": 74.9,
+   "prev_rank": 6,
+   "prev_hot_score": 75.0
   },
   {
    "id": "13285c6d2bd71e1c132078ffbdb3130712c854ed",
@@ -96,9 +142,9 @@
    "reason": "Published within 6 hours · Relevant to this topic",
    "is_new": true,
    "trend": "same",
-   "hot_score": 82.0,
-   "prev_rank": 2,
-   "prev_hot_score": 82.4
+   "hot_score": 80.6,
+   "prev_rank": 4,
+   "prev_hot_score": 80.7
   },
   {
    "id": "330d71ac80d9c0c0a46667c296959a0a855a7907",
@@ -117,9 +163,9 @@
    "reason": "Official source · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 66.1,
-   "prev_rank": 6,
-   "prev_hot_score": 66.4
+   "hot_score": 65.0,
+   "prev_rank": 8,
+   "prev_hot_score": 65.1
   },
   {
    "id": "1413cdfc6eb60a484af064e283b759c6661db392",
@@ -142,9 +188,9 @@
    "reason": "Official source · Covers model and fine-tune · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 61.9,
-   "prev_rank": 8,
-   "prev_hot_score": 62.2
+   "hot_score": 60.8,
+   "prev_rank": 10,
+   "prev_hot_score": 60.9
   },
   {
    "id": "95160328cc4fe2ad2ae00ff0a82416b4fbf35e81",
@@ -165,9 +211,9 @@
    "reason": "Official source · Covers release · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 64.9,
-   "prev_rank": 7,
-   "prev_hot_score": 65.2
+   "hot_score": 63.8,
+   "prev_rank": 9,
+   "prev_hot_score": 63.9
   }
  ]
 }
