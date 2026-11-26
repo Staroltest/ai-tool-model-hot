@@ -7444,5 +7444,11 @@
   "zh_oneliner": "Qwen Code CLI 登陆 Harness 内核，用量统计默认关闭，重复工具调用被拒时会给出更清楚的说明。",
   "en_title": "Release v0.28.7",
   "en_oneliner": "Qwen Code CLI lands on the Harness kernel, usage statistics stay off unless you opt in, and repeated tool-call rejections now come with clearer explanations."
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0": {
+  "zh_title": "Pydantic AI v2.76.0 发布",
+  "zh_oneliner": "实时会话可在进行中向模型揭示新工具，Gemini 2.5 Pro/Flash 开始报弃用警告，Pax 新增电脑操作桌面沙箱。",
+  "en_title": "v2.76.0 (2026-11-26)",
+  "en_oneliner": "Realtime sessions can now reveal tools mid-conversation, requests to Gemini 2.5 Pro and Flash trigger deprecation warnings, and Pax adds computer-use desktop sandboxes."
  }
 }

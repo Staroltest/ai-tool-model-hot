@@ -5,8 +5,8 @@
  "date": "2026年11月27日",
  "date_iso": "2026-11-27",
  "issue": 11,
- "generated_at": "2026-11-26T22:10:41.531434+00:00",
- "summary": "过去 24 小时共收录 12 条动态，精选 8 条（主流智能体 6 条、模型发布 2 条）。头条：Qwen Code v0.28.6 发布。",
+ "generated_at": "2026-11-26T23:53:25.884861+00:00",
+ "summary": "过去 24 小时共收录 11 条动态，精选 6 条（主流智能体 6 条）。头条：Qwen Code v0.28.6 发布。",
  "items": [
   {
    "id": "b3a5ecb86fe232470585f10d3f85236c4726ca44",
@@ -28,9 +28,9 @@
    "reason": "官方来源 · 涉及发布与工具 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 86.0,
+   "hot_score": 84.6,
    "prev_rank": 3,
-   "prev_hot_score": 86.4
+   "prev_hot_score": 84.6
   },
   {
    "id": "a1411dc283e3ca5ac44554c0991e7e0b2e266426",
@@ -52,102 +52,9 @@
    "reason": "官方来源 · 涉及发布与工具 · 6 小时内发布",
    "is_new": true,
    "trend": "same",
-   "hot_score": 96.3,
+   "hot_score": 94.8,
    "prev_rank": 1,
-   "prev_hot_score": 96.8
-  },
-  {
-   "id": "d3aa48daa62df5852a1b067eacae1265bc9a1872",
-   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-   "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-   "source": "Hugging Face Blog",
-   "source_id": "huggingface-blog",
-   "published": "2026-11-26T05:05:36+00:00",
-   "zh_title": "基于 Nemotron 3.5 Parse 构建：开放数据、微调与更快推理",
-   "zh_oneliner": "英伟达文档解析模型 Nemotron 3.5 Parse 的实战分享：公开训练数据、微调方法与推理加速，帮开发者把文档解析接到自己的流程里。",
-   "category": "model",
-   "category_label": "模型发布",
-   "tier": "T1",
-   "tags": [
-    "推理"
-   ],
-   "score": 95,
-   "reason": "官方来源 · 涉及推理 · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 81.0,
-   "prev_rank": 5,
-   "prev_hot_score": 81.4
-  },
-  {
-   "id": "02a088434703556c0ebb46d05bae744860572362",
-   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-   "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-   "source": "Hugging Face Blog",
-   "source_id": "huggingface-blog",
-   "published": "2026-11-26T11:37:17+00:00",
-   "zh_title": "llama.cpp 基准看板上线，覆盖 AMD Ryzen 与 Radeon",
-   "zh_oneliner": "Hugging Face 上线公开看板，可按硬件、模型与量化方式对比 llama.cpp 在 AMD Ryzen 和 Radeon 上的提示处理与生成速度，并追踪各版本的性能变化。",
-   "category": "model",
-   "category_label": "模型发布",
-   "tier": "T1",
-   "tags": [
-    "基准"
-   ],
-   "score": 95,
-   "reason": "官方来源 · 涉及基准 · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 86.1,
-   "prev_rank": 2,
-   "prev_hot_score": 86.5
-  },
-  {
-   "id": "3e370caedb76941d16ca9046cae2261c291d1dba",
-   "title": "Benchmarking coding agents on the work developers bring to Kiro",
-   "link": "https://kiro.dev/blog/kirobench",
-   "source": "Kiro Blog",
-   "source_id": "kiro-blog",
-   "published": "2026-11-26T02:30:00+00:00",
-   "zh_title": "用开发者交给 Kiro 的真实工作评测编程智能体",
-   "zh_oneliner": "Kiro 公开了内部评测集 KiroBench：300 多道任务取自亚马逊工程师的真实开发工作，覆盖功能开发、修 Bug、重构等多轮场景，用可运行环境加验证器打分，以避开公开基准的题目泄露与覆盖面过窄问题。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "智能体",
-    "基准"
-   ],
-   "score": 90,
-   "reason": "官方来源 · 涉及智能体与基准 · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 75.0,
-   "prev_rank": 6,
-   "prev_hot_score": 75.3
-  },
-  {
-   "id": "0c5213ef953e1b494d249e22f829c22fb597f78e",
-   "title": "v2.4.2",
-   "link": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
-   "source": "OpenCode Releases",
-   "source_id": "opencode-releases",
-   "published": "2026-11-25T23:37:19+00:00",
-   "zh_title": "OpenCode v2.4.2 发布",
-   "zh_oneliner": "开源 AI 编程智能体 OpenCode 发布 v2.4.2 维护版本，本次未附详细更新说明。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T2",
-   "tags": [
-    "发布"
-   ],
-   "score": 85,
-   "reason": "涉及发布 · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 68.9,
-   "prev_rank": 10,
-   "prev_hot_score": 69.2
+   "prev_hot_score": 94.8
   },
   {
    "id": "bc0403b660896832134ba9c9fcbe482244d6a315",
@@ -168,9 +75,33 @@
    "reason": "涉及大模型 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 75.0,
-   "prev_rank": 7,
-   "prev_hot_score": 75.3
+   "hot_score": 73.8,
+   "prev_rank": 5,
+   "prev_hot_score": 73.8
+  },
+  {
+   "id": "55838b19d9bbb27a48a2a9fbd363fe9b945fd432",
+   "title": "v2.76.0 (2026-11-26)",
+   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0",
+   "source": "Pydantic AI Releases",
+   "source_id": "pydantic-ai-releases",
+   "published": "2026-11-26T23:49:06+00:00",
+   "zh_title": "Pydantic AI v2.76.0 发布",
+   "zh_oneliner": "实时会话可在进行中向模型揭示新工具，Gemini 2.5 Pro/Flash 开始报弃用警告，Pax 新增电脑操作桌面沙箱。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T2",
+   "tags": [
+    "模型",
+    "工具"
+   ],
+   "score": 85,
+   "reason": "涉及模型与工具 · 6 小时内发布",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 84.9,
+   "prev_rank": 2,
+   "prev_hot_score": 85.0
   },
   {
    "id": "ffe2cb9ed2c316c594497776defd7b5b9a31c734",
@@ -189,9 +120,33 @@
    "reason": "24 小时内发布 · 与本主题相关",
    "is_new": false,
    "trend": "same",
-   "hot_score": 71.2,
-   "prev_rank": 9,
-   "prev_hot_score": 71.5
+   "hot_score": 70.0,
+   "prev_rank": 7,
+   "prev_hot_score": 70.1
+  },
+  {
+   "id": "3e370caedb76941d16ca9046cae2261c291d1dba",
+   "title": "Benchmarking coding agents on the work developers bring to Kiro",
+   "link": "https://kiro.dev/blog/kirobench",
+   "source": "Kiro Blog",
+   "source_id": "kiro-blog",
+   "published": "2026-11-26T02:30:00+00:00",
+   "zh_title": "用开发者交给 Kiro 的真实工作评测编程智能体",
+   "zh_oneliner": "Kiro 公开了内部评测集 KiroBench：300 多道任务取自亚马逊工程师的真实开发工作，覆盖功能开发、修 Bug、重构等多轮场景，用可运行环境加验证器打分，以避开公开基准的题目泄露与覆盖面过窄问题。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T2",
+   "tags": [
+    "智能体",
+    "基准"
+   ],
+   "score": 70,
+   "reason": "涉及智能体与基准 · 24 小时内发布",
+   "is_new": false,
+   "trend": "same",
+   "hot_score": 57.4,
+   "prev_rank": 10,
+   "prev_hot_score": 57.4
   }
  ]
 }

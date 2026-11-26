@@ -25,7 +25,7 @@
   {
    "id": "huggingface-blog",
    "name": "Hugging Face Blog",
-   "tier": "T1",
+   "tier": "T2",
    "url": "https://huggingface.co/blog/feed.xml",
    "category_hint": "model"
   },
@@ -106,7 +106,7 @@
    "id": "kiro-blog",
    "name": "Kiro Blog",
    "url": "https://kiro.dev/blog/feed.rss",
-   "tier": "T1",
+   "tier": "T2",
    "category_hint": "agent"
   },
   {

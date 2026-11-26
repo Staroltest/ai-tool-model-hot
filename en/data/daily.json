@@ -5,8 +5,8 @@
  "date": "November 27, 2026",
  "date_iso": "2026-11-27",
  "issue": 11,
- "generated_at": "2026-11-26T22:10:41.531434+00:00",
- "summary": "12 items collected in the past 24 hours, 8 picks (Leading agents 6, Model releases 2). Headline: Release v0.28.6.",
+ "generated_at": "2026-11-26T23:53:25.884861+00:00",
+ "summary": "11 items collected in the past 24 hours, 6 picks (Leading agents 6). Headline: Release v0.28.6.",
  "items": [
   {
    "id": "b3a5ecb86fe232470585f10d3f85236c4726ca44",
@@ -28,9 +28,9 @@
    "reason": "Official source · Covers release and Tools · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 86.0,
+   "hot_score": 84.6,
    "prev_rank": 3,
-   "prev_hot_score": 86.4
+   "prev_hot_score": 84.6
   },
   {
    "id": "a1411dc283e3ca5ac44554c0991e7e0b2e266426",
@@ -52,102 +52,9 @@
    "reason": "Official source · Covers release and Tools · Published within 6 hours",
    "is_new": true,
    "trend": "same",
-   "hot_score": 96.3,
+   "hot_score": 94.8,
    "prev_rank": 1,
-   "prev_hot_score": 96.8
-  },
-  {
-   "id": "d3aa48daa62df5852a1b067eacae1265bc9a1872",
-   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-   "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-   "source": "Hugging Face Blog",
-   "source_id": "huggingface-blog",
-   "published": "2026-11-26T05:05:36+00:00",
-   "en_title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-   "en_oneliner": "A hands-on guide to NVIDIA's document-parsing model Nemotron 3.5 Parse, covering open training data, fine-tuning, and faster inference to help developers wire document parsing into their own workflows.",
-   "category": "model",
-   "category_label": "Model releases",
-   "tier": "T1",
-   "tags": [
-    "inference"
-   ],
-   "score": 95,
-   "reason": "Official source · Covers inference · Published within 24 hours",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 81.0,
-   "prev_rank": 5,
-   "prev_hot_score": 81.4
-  },
-  {
-   "id": "02a088434703556c0ebb46d05bae744860572362",
-   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-   "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-   "source": "Hugging Face Blog",
-   "source_id": "huggingface-blog",
-   "published": "2026-11-26T11:37:17+00:00",
-   "en_title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-   "en_oneliner": "Hugging Face launched a public dashboard to compare llama.cpp prompt processing and generation speed across hardware, models, and quantization settings on AMD Ryzen and Radeon, and to track performance changes across builds.",
-   "category": "model",
-   "category_label": "Model releases",
-   "tier": "T1",
-   "tags": [
-    "benchmark"
-   ],
-   "score": 95,
-   "reason": "Official source · Covers benchmark · Published within 24 hours",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 86.1,
-   "prev_rank": 2,
-   "prev_hot_score": 86.5
-  },
-  {
-   "id": "3e370caedb76941d16ca9046cae2261c291d1dba",
-   "title": "Benchmarking coding agents on the work developers bring to Kiro",
-   "link": "https://kiro.dev/blog/kirobench",
-   "source": "Kiro Blog",
-   "source_id": "kiro-blog",
-   "published": "2026-11-26T02:30:00+00:00",
-   "en_title": "Benchmarking coding agents on the work developers bring to Kiro",
-   "en_oneliner": "Kiro has unveiled its internal benchmark KiroBench: more than 300 tasks drawn from real development work by Amazon engineers, spanning feature work, bug fixing, refactoring and other multi-turn scenarios, scored in runnable environments with verifiers to sidestep the leakage and narrow coverage of public benchmarks.",
-   "category": "agent",
-   "category_label": "Leading agents",
-   "tier": "T1",
-   "tags": [
-    "Agent",
-    "benchmark"
-   ],
-   "score": 90,
-   "reason": "Official source · Covers Agent and benchmark · Published within 24 hours",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 75.0,
-   "prev_rank": 6,
-   "prev_hot_score": 75.3
-  },
-  {
-   "id": "0c5213ef953e1b494d249e22f829c22fb597f78e",
-   "title": "v2.4.2",
-   "link": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
-   "source": "OpenCode Releases",
-   "source_id": "opencode-releases",
-   "published": "2026-11-25T23:37:19+00:00",
-   "en_title": "v2.4.2",
-   "en_oneliner": "Open source AI coding agent OpenCode ships maintenance release v2.4.2, with no detailed changelog published this time.",
-   "category": "agent",
-   "category_label": "Leading agents",
-   "tier": "T2",
-   "tags": [
-    "release"
-   ],
-   "score": 85,
-   "reason": "Covers release · Published within 24 hours",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 68.9,
-   "prev_rank": 10,
-   "prev_hot_score": 69.2
+   "prev_hot_score": 94.8
   },
   {
    "id": "bc0403b660896832134ba9c9fcbe482244d6a315",
@@ -168,9 +75,33 @@
    "reason": "Covers LLM · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 75.0,
-   "prev_rank": 7,
-   "prev_hot_score": 75.3
+   "hot_score": 73.8,
+   "prev_rank": 5,
+   "prev_hot_score": 73.8
+  },
+  {
+   "id": "55838b19d9bbb27a48a2a9fbd363fe9b945fd432",
+   "title": "v2.76.0 (2026-11-26)",
+   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0",
+   "source": "Pydantic AI Releases",
+   "source_id": "pydantic-ai-releases",
+   "published": "2026-11-26T23:49:06+00:00",
+   "en_title": "v2.76.0 (2026-11-26)",
+   "en_oneliner": "Realtime sessions can now reveal tools mid-conversation, requests to Gemini 2.5 Pro and Flash trigger deprecation warnings, and Pax adds computer-use desktop sandboxes.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T2",
+   "tags": [
+    "model",
+    "Tools"
+   ],
+   "score": 85,
+   "reason": "Covers model and Tools · Published within 6 hours",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 84.9,
+   "prev_rank": 2,
+   "prev_hot_score": 85.0
   },
   {
    "id": "ffe2cb9ed2c316c594497776defd7b5b9a31c734",
@@ -189,9 +120,33 @@
    "reason": "Published within 24 hours · Relevant to this topic",
    "is_new": false,
    "trend": "same",
-   "hot_score": 71.2,
-   "prev_rank": 9,
-   "prev_hot_score": 71.5
+   "hot_score": 70.0,
+   "prev_rank": 7,
+   "prev_hot_score": 70.1
+  },
+  {
+   "id": "3e370caedb76941d16ca9046cae2261c291d1dba",
+   "title": "Benchmarking coding agents on the work developers bring to Kiro",
+   "link": "https://kiro.dev/blog/kirobench",
+   "source": "Kiro Blog",
+   "source_id": "kiro-blog",
+   "published": "2026-11-26T02:30:00+00:00",
+   "en_title": "Benchmarking coding agents on the work developers bring to Kiro",
+   "en_oneliner": "Kiro has unveiled its internal benchmark KiroBench: more than 300 tasks drawn from real development work by Amazon engineers, spanning feature work, bug fixing, refactoring and other multi-turn scenarios, scored in runnable environments with verifiers to sidestep the leakage and narrow coverage of public benchmarks.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T2",
+   "tags": [
+    "Agent",
+    "benchmark"
+   ],
+   "score": 70,
+   "reason": "Covers Agent and benchmark · Published within 24 hours",
+   "is_new": false,
+   "trend": "same",
+   "hot_score": 57.4,
+   "prev_rank": 10,
+   "prev_hot_score": 57.4
   }
  ]
 }
