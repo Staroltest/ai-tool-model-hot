@@ -7408,5 +7408,11 @@
   "zh_oneliner": "Cline SDK v0.2.2 发布，清理内部遥测代码，精简相关导出与依赖。",
   "en_title": "SDK v0.2.2",
   "en_oneliner": "Cline SDK v0.2.2 cleans up internal telemetry, trimming related exports and dependencies."
+ },
+ "https://github.com/cline/cline/releases/tag/cli-v3.0.76": {
+  "zh_title": "Cline CLI v3.0.76",
+  "zh_oneliner": "Cline CLI v3.0.76 在 npm 包根目录统一附带一份覆盖全部平台二进制文件的第三方声明，内置模型目录同步刷新，OpenAI 选择器不再显示上游已下架的模型。",
+  "en_title": "CLI v3.0.76",
+  "en_oneliner": "Cline CLI v3.0.76 bundles a single third-party notice at the npm package root covering every platform binary, refreshes the built-in model catalog, and drops upstream-removed models from the OpenAI picker."
  }
 }
