@@ -235,7 +235,7 @@ def parse_feed(body, source):
 # （模型发布文案常写“available across ChatGPT Work, Codex, and the API”，
 #  摘要里的 agent 词只是可用范围，不是内容本身）。
 _MODEL_RELEASE_RE = re.compile(
-    r"(gpt|claude|gemini|qwen|deepseek|llama|mistral|grok|glm|kimi|phi|command|genie)"
+    r"(gpt|claude|gemini|qwen|deepseek|llama|mistral|grok|glm|kimi|phi|command|genie|mellum|nemotron)"
     r"[\s\-_]*[a-z]*[\s\-_]*v?\d",
     re.IGNORECASE)
 _AGENT_PRODUCT_NAMES = [
@@ -4445,7 +4445,11 @@ def main():
     for it in last_7d:
         age_days = (now - it["_pub"]).total_seconds() / 86400.0
         it["hot_score"] = round(it["score"] * (sc["decay_base"] ** age_days), 1)
-    hot = cap_per_source(dedup_topics(sorted(last_7d, key=lambda x: x["hot_score"], reverse=True)),
+    # 热点榜只收评分 >= hot_min 的条目（2026-11-28 把关：之前无门槛，
+    # 新鲜度一顶就把 55 分的评测/随笔/基准看板顶进榜；门槛取 65，低于
+    # 日报 selected_min=70，7 天窗内的真发布不被误伤）
+    hot_pool = [it for it in last_7d if it["score"] >= sc.get("hot_min", 0)]
+    hot = cap_per_source(dedup_topics(sorted(hot_pool, key=lambda x: x["hot_score"], reverse=True)),
                          sc.get("hot_source_cap", 0))[:sc["hot_top"]]
     timeline = sorted(last_7d, key=lambda x: x["_pub"], reverse=True)[:sc["timeline_max"]]
 

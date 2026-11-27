@@ -5,8 +5,8 @@
  "date": "November 28, 2026",
  "date_iso": "2026-11-28",
  "issue": 2,
- "generated_at": "2026-11-27T22:10:17.957977+00:00",
- "summary": "70 items collected in the past 7 days, 10 picks (Leading agents 9, Model releases 1). Headline: SDK TypeScript Release sdk-typescript-v0.1.39.",
+ "generated_at": "2026-11-27T23:49:18.073762+00:00",
+ "summary": "70 items collected in the past 7 days, 10 picks (Leading agents 8, Model releases 2). Headline: SDK TypeScript Release sdk-typescript-v0.1.39.",
  "items": [
   {
    "id": "4525f9a7e8d835d35133a2a64ef23f7cd4964220",
@@ -27,9 +27,9 @@
    "reason": "Official source · Covers release · Published within 24 hours",
    "is_new": false,
    "trend": "same",
-   "hot_score": 83.4,
-   "prev_rank": 1,
-   "prev_hot_score": 83.7
+   "hot_score": 82.1,
+   "prev_rank": 2,
+   "prev_hot_score": 82.2
   },
   {
    "id": "b3a5ecb86fe232470585f10d3f85236c4726ca44",
@@ -51,9 +51,30 @@
    "reason": "Official source · Covers release and Tools",
    "is_new": false,
    "trend": "same",
-   "hot_score": 61.9,
-   "prev_rank": 5,
-   "prev_hot_score": 62.2
+   "hot_score": 61.0,
+   "prev_rank": 6,
+   "prev_hot_score": 61.0
+  },
+  {
+   "id": "e56c2efea2ec2edeed272fe66a8bfaf8fb269ea6",
+   "title": "v2.77.0 (2026-11-27)",
+   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.77.0",
+   "source": "Pydantic AI Releases",
+   "source_id": "pydantic-ai-releases",
+   "published": "2026-11-27T23:32:31+00:00",
+   "en_title": "v2.77.0 (2026-11-27)",
+   "en_oneliner": "Pydantic AI 2.77.0 adds SQLite, Postgres and MongoDB backends for conversation storage, renames the session store, skips missing skill libraries by default with advice, and makes cross-provider thinking summaries easier to read.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T2",
+   "tags": [],
+   "score": 85,
+   "reason": "Published within 6 hours · Relevant to this topic",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 84.8,
+   "prev_rank": 1,
+   "prev_hot_score": 84.9
   },
   {
    "id": "7dbdf429413629f189eae2b42d601ea3a4884729",
@@ -64,8 +85,8 @@
    "published": "2026-11-25T11:00:00+00:00",
    "en_title": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
    "en_oneliner": "JetBrains releases a lighter sibling of Mellum2.1, aimed at sub-agents, tool-call loops, and chat, with quicker responses.",
-   "category": "agent",
-   "category_label": "Leading agents",
+   "category": "model",
+   "category_label": "Model releases",
    "tier": "T2",
    "tags": [
     "model",
@@ -76,33 +97,9 @@
    "reason": "Covers model and Agent · Relevant to this topic",
    "is_new": false,
    "trend": "same",
-   "hot_score": 46.1,
-   "prev_rank": 10,
-   "prev_hot_score": 46.4
-  },
-  {
-   "id": "55838b19d9bbb27a48a2a9fbd363fe9b945fd432",
-   "title": "v2.76.0 (2026-11-26)",
-   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0",
-   "source": "Pydantic AI Releases",
-   "source_id": "pydantic-ai-releases",
-   "published": "2026-11-26T23:49:06+00:00",
-   "en_title": "v2.76.0 (2026-11-26)",
-   "en_oneliner": "Realtime sessions can now reveal tools mid-conversation, requests to Gemini 2.5 Pro and Flash trigger deprecation warnings, and Pax adds computer-use desktop sandboxes.",
-   "category": "agent",
-   "category_label": "Leading agents",
-   "tier": "T2",
-   "tags": [
-    "model",
-    "Tools"
-   ],
-   "score": 80,
-   "reason": "Covers model and Tools · Published within 24 hours",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 65.0,
-   "prev_rank": 4,
-   "prev_hot_score": 65.3
+   "hot_score": 45.4,
+   "prev_rank": 11,
+   "prev_hot_score": 45.5
   },
   {
    "id": "2d7f8b4f8454af3138b975bc7f8d7a019ddb5d13",
@@ -121,32 +118,9 @@
    "reason": "Published within 24 hours · Relevant to this topic",
    "is_new": false,
    "trend": "same",
-   "hot_score": 65.1,
-   "prev_rank": 3,
-   "prev_hot_score": 65.4
-  },
-  {
-   "id": "09f46d11e240c0507fedb7663dcd7db148af7cbb",
-   "title": "2.1.330",
-   "link": "https://code.claude.com/docs/en/changelog#2-1-330",
-   "source": "Claude Code Changelog",
-   "source_id": "claude-code-changelog",
-   "published": "2026-11-20T22:38:51+00:00",
-   "en_title": "2.1.330",
-   "en_oneliner": "Claude Code 2.1.330 adds enterprise admin console sign-in, a built-in chart-drawing mod called easel, and several self-hosted runner and plugin install improvements.",
-   "category": "agent",
-   "category_label": "Leading agents",
-   "tier": "T1",
-   "tags": [
-    "Claude"
-   ],
-   "score": 75,
-   "reason": "Official source · Covers Claude",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 15.8,
-   "prev_rank": null,
-   "prev_hot_score": null
+   "hot_score": 64.1,
+   "prev_rank": 4,
+   "prev_hot_score": 64.2
   },
   {
    "id": "33a235a91126265f95e28d3e243eeb06a69dcb5f",
@@ -166,8 +140,8 @@
    "score": 75,
    "reason": "Official source · Covers Agent",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 30.1,
+   "trend": "new",
+   "hot_score": 29.7,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -192,7 +166,7 @@
    "reason": "Official source · Covers GPT and Agent",
    "is_new": false,
    "trend": "same",
-   "hot_score": 26.9,
+   "hot_score": 26.5,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -214,10 +188,10 @@
    "score": 75,
    "reason": "Official source · Covers GPT",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 32.2,
+   "trend": "up",
+   "hot_score": 31.8,
    "prev_rank": 20,
-   "prev_hot_score": 32.4
+   "prev_hot_score": 31.8
   },
   {
    "id": "0c5213ef953e1b494d249e22f829c22fb597f78e",
@@ -238,9 +212,32 @@
    "reason": "Covers release · Relevant to this topic",
    "is_new": false,
    "trend": "same",
-   "hot_score": 48.7,
-   "prev_rank": 9,
-   "prev_hot_score": 48.9
+   "hot_score": 47.9,
+   "prev_rank": 10,
+   "prev_hot_score": 48.0
+  },
+  {
+   "id": "bc0403b660896832134ba9c9fcbe482244d6a315",
+   "title": "SDK v0.2.2",
+   "link": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.2",
+   "source": "Cline Releases",
+   "source_id": "cline-releases",
+   "published": "2026-11-26T08:40:10+00:00",
+   "en_title": "SDK v0.2.2",
+   "en_oneliner": "Cline SDK v0.2.2 cleans up internal telemetry, trimming related exports and dependencies.",
+   "category": "agent",
+   "category_label": "Leading agents",
+   "tier": "T2",
+   "tags": [
+    "LLM"
+   ],
+   "score": 75,
+   "reason": "Covers LLM · Relevant to this topic",
+   "is_new": false,
+   "trend": "same",
+   "hot_score": 52.1,
+   "prev_rank": 7,
+   "prev_hot_score": 52.2
   }
  ]
 }

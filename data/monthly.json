@@ -5,8 +5,8 @@
  "date": "2026年11月28日",
  "date_iso": "2026-11-28",
  "issue": 1,
- "generated_at": "2026-11-27T22:10:17.957977+00:00",
- "summary": "过去 30 天共收录 367 条动态，精选 10 条（主流智能体 8 条、模型发布 2 条）。头条：Qwen Code SDK TypeScript 版 v0.1.39 发布。",
+ "generated_at": "2026-11-27T23:49:18.073762+00:00",
+ "summary": "过去 30 天共收录 368 条动态，精选 10 条（主流智能体 8 条、模型发布 2 条）。头条：Qwen Code SDK TypeScript 版 v0.1.39 发布。",
  "items": [
   {
    "id": "4525f9a7e8d835d35133a2a64ef23f7cd4964220",
@@ -27,9 +27,9 @@
    "reason": "官方来源 · 涉及发布 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 83.4,
-   "prev_rank": 1,
-   "prev_hot_score": 83.7
+   "hot_score": 82.1,
+   "prev_rank": 2,
+   "prev_hot_score": 82.2
   },
   {
    "id": "b3a5ecb86fe232470585f10d3f85236c4726ca44",
@@ -51,9 +51,9 @@
    "reason": "官方来源 · 涉及发布与工具",
    "is_new": false,
    "trend": "same",
-   "hot_score": 61.9,
-   "prev_rank": 5,
-   "prev_hot_score": 62.2
+   "hot_score": 61.0,
+   "prev_rank": 6,
+   "prev_hot_score": 61.0
   },
   {
    "id": "f6cf8ded0e75bec96e1b678b6b93caefa289f4d3",
@@ -104,6 +104,27 @@
    "hot_score": 85,
    "prev_rank": null,
    "prev_hot_score": null
+  },
+  {
+   "id": "e56c2efea2ec2edeed272fe66a8bfaf8fb269ea6",
+   "title": "v2.77.0 (2026-11-27)",
+   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.77.0",
+   "source": "Pydantic AI Releases",
+   "source_id": "pydantic-ai-releases",
+   "published": "2026-11-27T23:32:31+00:00",
+   "zh_title": "Pydantic AI v2.77.0",
+   "zh_oneliner": "Pydantic AI 发布 2.77.0，对话存储新增 SQLite、Postgres 与 MongoDB 后端并改名会话存储，技能库缺失时默认跳过并给出建议，跨厂商思考摘要更易读。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T2",
+   "tags": [],
+   "score": 85,
+   "reason": "6 小时内发布 · 与本主题相关",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 84.8,
+   "prev_rank": 1,
+   "prev_hot_score": 84.9
   },
   {
    "id": "5bf4951adbe9698dd9e45df17c29fd95e4f30a2d",
@@ -224,31 +245,6 @@
    "hot_score": 80,
    "prev_rank": null,
    "prev_hot_score": null
-  },
-  {
-   "id": "7dbdf429413629f189eae2b42d601ea3a4884729",
-   "title": "Mellum2.1 Instruct Is Out, Bringing Faster Answers for Coding Agents",
-   "link": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents",
-   "source": "JetBrains AI Blog",
-   "source_id": "jetbrains-ai-blog",
-   "published": "2026-11-25T11:00:00+00:00",
-   "zh_title": "Mellum2.1 Instruct 发布，为编程智能体带来更快响应",
-   "zh_oneliner": "JetBrains 推出 Mellum2.1 的轻量同门版本，面向子智能体、工具调用循环与对话场景，响应速度更快。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T2",
-   "tags": [
-    "模型",
-    "智能体",
-    "发布"
-   ],
-   "score": 80,
-   "reason": "涉及模型与智能体 · 与本主题相关",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 46.1,
-   "prev_rank": 10,
-   "prev_hot_score": 46.4
   }
  ]
 }

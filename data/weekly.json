@@ -5,8 +5,8 @@
  "date": "2026年11月28日",
  "date_iso": "2026-11-28",
  "issue": 2,
- "generated_at": "2026-11-27T22:10:17.957977+00:00",
- "summary": "过去 7 天共收录 70 条动态，精选 10 条（主流智能体 9 条、模型发布 1 条）。头条：Qwen Code SDK TypeScript 版 v0.1.39 发布。",
+ "generated_at": "2026-11-27T23:49:18.073762+00:00",
+ "summary": "过去 7 天共收录 70 条动态，精选 10 条（主流智能体 8 条、模型发布 2 条）。头条：Qwen Code SDK TypeScript 版 v0.1.39 发布。",
  "items": [
   {
    "id": "4525f9a7e8d835d35133a2a64ef23f7cd4964220",
@@ -27,9 +27,9 @@
    "reason": "官方来源 · 涉及发布 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 83.4,
-   "prev_rank": 1,
-   "prev_hot_score": 83.7
+   "hot_score": 82.1,
+   "prev_rank": 2,
+   "prev_hot_score": 82.2
   },
   {
    "id": "b3a5ecb86fe232470585f10d3f85236c4726ca44",
@@ -51,9 +51,30 @@
    "reason": "官方来源 · 涉及发布与工具",
    "is_new": false,
    "trend": "same",
-   "hot_score": 61.9,
-   "prev_rank": 5,
-   "prev_hot_score": 62.2
+   "hot_score": 61.0,
+   "prev_rank": 6,
+   "prev_hot_score": 61.0
+  },
+  {
+   "id": "e56c2efea2ec2edeed272fe66a8bfaf8fb269ea6",
+   "title": "v2.77.0 (2026-11-27)",
+   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.77.0",
+   "source": "Pydantic AI Releases",
+   "source_id": "pydantic-ai-releases",
+   "published": "2026-11-27T23:32:31+00:00",
+   "zh_title": "Pydantic AI v2.77.0",
+   "zh_oneliner": "Pydantic AI 发布 2.77.0，对话存储新增 SQLite、Postgres 与 MongoDB 后端并改名会话存储，技能库缺失时默认跳过并给出建议，跨厂商思考摘要更易读。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T2",
+   "tags": [],
+   "score": 85,
+   "reason": "6 小时内发布 · 与本主题相关",
+   "is_new": true,
+   "trend": "same",
+   "hot_score": 84.8,
+   "prev_rank": 1,
+   "prev_hot_score": 84.9
   },
   {
    "id": "7dbdf429413629f189eae2b42d601ea3a4884729",
@@ -64,8 +85,8 @@
    "published": "2026-11-25T11:00:00+00:00",
    "zh_title": "Mellum2.1 Instruct 发布，为编程智能体带来更快响应",
    "zh_oneliner": "JetBrains 推出 Mellum2.1 的轻量同门版本，面向子智能体、工具调用循环与对话场景，响应速度更快。",
-   "category": "agent",
-   "category_label": "主流智能体",
+   "category": "model",
+   "category_label": "模型发布",
    "tier": "T2",
    "tags": [
     "模型",
@@ -76,33 +97,9 @@
    "reason": "涉及模型与智能体 · 与本主题相关",
    "is_new": false,
    "trend": "same",
-   "hot_score": 46.1,
-   "prev_rank": 10,
-   "prev_hot_score": 46.4
-  },
-  {
-   "id": "55838b19d9bbb27a48a2a9fbd363fe9b945fd432",
-   "title": "v2.76.0 (2026-11-26)",
-   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0",
-   "source": "Pydantic AI Releases",
-   "source_id": "pydantic-ai-releases",
-   "published": "2026-11-26T23:49:06+00:00",
-   "zh_title": "Pydantic AI v2.76.0 发布",
-   "zh_oneliner": "实时会话可在进行中向模型揭示新工具，Gemini 2.5 Pro/Flash 开始报弃用警告，Pax 新增电脑操作桌面沙箱。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T2",
-   "tags": [
-    "模型",
-    "工具"
-   ],
-   "score": 80,
-   "reason": "涉及模型与工具 · 24 小时内发布",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 65.0,
-   "prev_rank": 4,
-   "prev_hot_score": 65.3
+   "hot_score": 45.4,
+   "prev_rank": 11,
+   "prev_hot_score": 45.5
   },
   {
    "id": "2d7f8b4f8454af3138b975bc7f8d7a019ddb5d13",
@@ -121,32 +118,9 @@
    "reason": "24 小时内发布 · 与本主题相关",
    "is_new": false,
    "trend": "same",
-   "hot_score": 65.1,
-   "prev_rank": 3,
-   "prev_hot_score": 65.4
-  },
-  {
-   "id": "09f46d11e240c0507fedb7663dcd7db148af7cbb",
-   "title": "2.1.330",
-   "link": "https://code.claude.com/docs/en/changelog#2-1-330",
-   "source": "Claude Code Changelog",
-   "source_id": "claude-code-changelog",
-   "published": "2026-11-20T22:38:51+00:00",
-   "zh_title": "Claude Code 2.1.330",
-   "zh_oneliner": "Claude Code 2.1.330 带来企业管理员控制台登录、内置图表绘制模块 easel、自托管运行器与插件安装的多项改进。",
-   "category": "agent",
-   "category_label": "主流智能体",
-   "tier": "T1",
-   "tags": [
-    "Claude"
-   ],
-   "score": 75,
-   "reason": "官方来源 · 涉及Claude",
-   "is_new": false,
-   "trend": "same",
-   "hot_score": 15.8,
-   "prev_rank": null,
-   "prev_hot_score": null
+   "hot_score": 64.1,
+   "prev_rank": 4,
+   "prev_hot_score": 64.2
   },
   {
    "id": "33a235a91126265f95e28d3e243eeb06a69dcb5f",
@@ -166,8 +140,8 @@
    "score": 75,
    "reason": "官方来源 · 涉及智能体",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 30.1,
+   "trend": "new",
+   "hot_score": 29.7,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -192,7 +166,7 @@
    "reason": "官方来源 · 涉及GPT与智能体",
    "is_new": false,
    "trend": "same",
-   "hot_score": 26.9,
+   "hot_score": 26.5,
    "prev_rank": null,
    "prev_hot_score": null
   },
@@ -214,10 +188,10 @@
    "score": 75,
    "reason": "官方来源 · 涉及GPT",
    "is_new": false,
-   "trend": "same",
-   "hot_score": 32.2,
+   "trend": "up",
+   "hot_score": 31.8,
    "prev_rank": 20,
-   "prev_hot_score": 32.4
+   "prev_hot_score": 31.8
   },
   {
    "id": "0c5213ef953e1b494d249e22f829c22fb597f78e",
@@ -238,9 +212,32 @@
    "reason": "涉及发布 · 与本主题相关",
    "is_new": false,
    "trend": "same",
-   "hot_score": 48.7,
-   "prev_rank": 9,
-   "prev_hot_score": 48.9
+   "hot_score": 47.9,
+   "prev_rank": 10,
+   "prev_hot_score": 48.0
+  },
+  {
+   "id": "bc0403b660896832134ba9c9fcbe482244d6a315",
+   "title": "SDK v0.2.2",
+   "link": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.2",
+   "source": "Cline Releases",
+   "source_id": "cline-releases",
+   "published": "2026-11-26T08:40:10+00:00",
+   "zh_title": "SDK v0.2.2",
+   "zh_oneliner": "Cline SDK v0.2.2 发布，清理内部遥测代码，精简相关导出与依赖。",
+   "category": "agent",
+   "category_label": "主流智能体",
+   "tier": "T2",
+   "tags": [
+    "大模型"
+   ],
+   "score": 75,
+   "reason": "涉及大模型 · 与本主题相关",
+   "is_new": false,
+   "trend": "same",
+   "hot_score": 52.1,
+   "prev_rank": 7,
+   "prev_hot_score": 52.2
   }
  ]
 }

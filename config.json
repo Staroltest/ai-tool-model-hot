@@ -97,6 +97,7 @@
   ],
   "history_days": 30,
   "hot_days": 7,
+  "hot_min": 65,
   "hot_top": 20,
   "noise_keyword_floor": -30,
   "noise_keyword_penalty": -10,

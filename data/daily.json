@@ -5,7 +5,7 @@
  "date": "2026年11月28日",
  "date_iso": "2026-11-28",
  "issue": 12,
- "generated_at": "2026-11-27T22:10:17.957977+00:00",
+ "generated_at": "2026-11-27T23:49:18.073762+00:00",
  "summary": "过去 24 小时共收录 3 条动态，精选 3 条（主流智能体 2 条、模型发布 1 条）。头条：Qwen Code SDK TypeScript 版 v0.1.39 发布。",
  "items": [
   {
@@ -27,33 +27,30 @@
    "reason": "官方来源 · 涉及发布 · 24 小时内发布",
    "is_new": false,
    "trend": "same",
-   "hot_score": 83.4,
-   "prev_rank": 1,
-   "prev_hot_score": 83.7
+   "hot_score": 82.1,
+   "prev_rank": 2,
+   "prev_hot_score": 82.2
   },
   {
-   "id": "55838b19d9bbb27a48a2a9fbd363fe9b945fd432",
-   "title": "v2.76.0 (2026-11-26)",
-   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0",
+   "id": "e56c2efea2ec2edeed272fe66a8bfaf8fb269ea6",
+   "title": "v2.77.0 (2026-11-27)",
+   "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.77.0",
    "source": "Pydantic AI Releases",
    "source_id": "pydantic-ai-releases",
-   "published": "2026-11-26T23:49:06+00:00",
-   "zh_title": "Pydantic AI v2.76.0 发布",
-   "zh_oneliner": "实时会话可在进行中向模型揭示新工具，Gemini 2.5 Pro/Flash 开始报弃用警告，Pax 新增电脑操作桌面沙箱。",
+   "published": "2026-11-27T23:32:31+00:00",
+   "zh_title": "Pydantic AI v2.77.0",
+   "zh_oneliner": "Pydantic AI 发布 2.77.0，对话存储新增 SQLite、Postgres 与 MongoDB 后端并改名会话存储，技能库缺失时默认跳过并给出建议，跨厂商思考摘要更易读。",
    "category": "agent",
    "category_label": "主流智能体",
    "tier": "T2",
-   "tags": [
-    "模型",
-    "工具"
-   ],
-   "score": 80,
-   "reason": "涉及模型与工具 · 24 小时内发布",
-   "is_new": false,
+   "tags": [],
+   "score": 85,
+   "reason": "6 小时内发布 · 与本主题相关",
+   "is_new": true,
    "trend": "same",
-   "hot_score": 65.0,
-   "prev_rank": 4,
-   "prev_hot_score": 65.3
+   "hot_score": 84.8,
+   "prev_rank": 1,
+   "prev_hot_score": 84.9
   },
   {
    "id": "2d7f8b4f8454af3138b975bc7f8d7a019ddb5d13",
@@ -72,9 +69,9 @@
    "reason": "24 小时内发布 · 与本主题相关",
    "is_new": false,
    "trend": "same",
-   "hot_score": 65.1,
-   "prev_rank": 3,
-   "prev_hot_score": 65.4
+   "hot_score": 64.1,
+   "prev_rank": 4,
+   "prev_hot_score": 64.2
   }
  ]
 }
