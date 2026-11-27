@@ -7456,5 +7456,11 @@
   "zh_oneliner": "Qwen Code 的 TypeScript SDK 发布 v0.1.39，一次打包了 0.28.7 与 0.28.6 两个 CLI 版本，方便开发者直接以 SDK 方式集成调用。",
   "en_title": "SDK TypeScript Release sdk-typescript-v0.1.39",
   "en_oneliner": "Qwen Code's TypeScript SDK ships v0.1.39, bundling CLI versions 0.28.7 and 0.28.6 so developers can integrate it directly through the SDK."
+ },
+ "https://huggingface.co/blog/video-trainium3": {
+  "zh_title": "Hugging Face 在 AWS Trainium3 上跑通 LTX-2.5 视频生成，10 秒成片约 22 秒",
+  "zh_oneliner": "Hugging Face 用张量并行加序列并行把 LTX-2.5 搬上 AWS Trainium3，半台机器 22 秒左右就能生成一段 10 秒、带声音的 2048×1024 视频，速度追平官方付费 API，还顺手搭了一套按分镜串联短片的工作流。",
+  "en_title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+  "en_oneliner": "Hugging Face moved LTX-2.5 onto AWS Trainium3 with tensor and sequence parallelism, generating a 10-second 2048x1024 clip with sound in about 22 seconds on half the machine, matching the paid API, and built a shot-chaining workflow for drafting short films along the way."
  }
 }
