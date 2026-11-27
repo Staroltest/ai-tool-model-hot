@@ -7462,5 +7462,11 @@
   "zh_oneliner": "Hugging Face 用张量并行加序列并行把 LTX-2.5 搬上 AWS Trainium3，半台机器 22 秒左右就能生成一段 10 秒、带声音的 2048×1024 视频，速度追平官方付费 API，还顺手搭了一套按分镜串联短片的工作流。",
   "en_title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
   "en_oneliner": "Hugging Face moved LTX-2.5 onto AWS Trainium3 with tensor and sequence parallelism, generating a 10-second 2048x1024 clip with sound in about 22 seconds on half the machine, matching the paid API, and built a shot-chaining workflow for drafting short films along the way."
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.77.0": {
+  "zh_title": "Pydantic AI v2.77.0",
+  "zh_oneliner": "Pydantic AI 发布 2.77.0，对话存储新增 SQLite、Postgres 与 MongoDB 后端并改名会话存储，技能库缺失时默认跳过并给出建议，跨厂商思考摘要更易读。",
+  "en_title": "v2.77.0 (2026-11-27)",
+  "en_oneliner": "Pydantic AI 2.77.0 adds SQLite, Postgres and MongoDB backends for conversation storage, renames the session store, skips missing skill libraries by default with advice, and makes cross-provider thinking summaries easier to read."
  }
 }
