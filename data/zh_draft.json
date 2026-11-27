@@ -7450,5 +7450,11 @@
   "zh_oneliner": "实时会话可在进行中向模型揭示新工具，Gemini 2.5 Pro/Flash 开始报弃用警告，Pax 新增电脑操作桌面沙箱。",
   "en_title": "v2.76.0 (2026-11-26)",
   "en_oneliner": "Realtime sessions can now reveal tools mid-conversation, requests to Gemini 2.5 Pro and Flash trigger deprecation warnings, and Pax adds computer-use desktop sandboxes."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.39": {
+  "zh_title": "Qwen Code SDK TypeScript 版 v0.1.39 发布",
+  "zh_oneliner": "Qwen Code 的 TypeScript SDK 发布 v0.1.39，一次打包了 0.28.7 与 0.28.6 两个 CLI 版本，方便开发者直接以 SDK 方式集成调用。",
+  "en_title": "SDK TypeScript Release sdk-typescript-v0.1.39",
+  "en_oneliner": "Qwen Code's TypeScript SDK ships v0.1.39, bundling CLI versions 0.28.7 and 0.28.6 so developers can integrate it directly through the SDK."
  }
 }
