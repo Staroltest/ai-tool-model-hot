@@ -7468,5 +7468,11 @@
   "zh_oneliner": "Pydantic AI 发布 2.77.0，对话存储新增 SQLite、Postgres 与 MongoDB 后端并改名会话存储，技能库缺失时默认跳过并给出建议，跨厂商思考摘要更易读。",
   "en_title": "v2.77.0 (2026-11-27)",
   "en_oneliner": "Pydantic AI 2.77.0 adds SQLite, Postgres and MongoDB backends for conversation storage, renames the session store, skips missing skill libraries by default with advice, and makes cross-provider thinking summaries easier to read."
+ },
+ "https://github.com/QwenLM/qwen-code/releases/tag/v0.29.0-preview.0": {
+  "zh_title": "Qwen Code v0.29.0-preview.0 发布",
+  "zh_oneliner": "新预览版主要修补托管智能体的会话恢复与技能准入，托管 Harness 支持双成员池，并把网页端会话列表切到共享聊天界面。",
+  "en_title": "Release v0.29.0-preview.0",
+  "en_oneliner": "This preview release mainly fixes session recovery and skill admission for managed agents, adds a two-member pool for hosted harnesses, and moves the web session list onto a shared chat surface."
  }
 }
